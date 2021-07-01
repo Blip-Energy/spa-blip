@@ -4,6 +4,7 @@ import { BootstrapVue, BootstrapVueIcons } from 'bootstrap-vue'
 import 'bootstrap/dist/css/bootstrap.css'
 import 'bootstrap-vue/dist/bootstrap-vue.css'
 import 'vue-material-design-icons/styles.css'
+import VueLazyload from 'vue-lazyload'
 
 import { library } from '@fortawesome/fontawesome-svg-core'
 import { faPlus, faArrowRight, faCoffee, faMapMarkerAlt, faMapMarker, faSearch, faLink, faBolt, faInfoCircle, faEllipsisH, faEllipsisV, } from '@fortawesome/free-solid-svg-icons'
@@ -14,7 +15,6 @@ import VueWow from "vue-wow";
 
 import VueFormWizard from 'vue-form-wizard'
 import 'vue-form-wizard/dist/vue-form-wizard.min.css'
-
 
 import router from '../src/app/router';
 
@@ -27,6 +27,7 @@ import VTooltip from 'v-tooltip'
 
 import vuescroll from 'vuescroll';
 import "vuescroll/dist/vuescroll.css";
+import VueAnalytics from 'vue-analytics';
 
 library.add(
     faPlus, faArrowRight, faCoffee, faMapMarkerAlt, faMapMarker, faSearch, faLink, faBolt, faInfoCircle, faEllipsisH, faEllipsisV,
@@ -48,6 +49,7 @@ Vue.use(VueGoogleMaps, {
 });
 Vue.use(VTooltip)
 Vue.use(vuescroll)
+Vue.use(VueLazyload)
 
 new Vue({
   router,               // Add this line
@@ -60,6 +62,10 @@ Vue.use(vuescroll, {
     // The global config
   },
   name: 'myScroll' // customize component name, default -> vueScroll
+});
+Vue.use(VueAnalytics, {
+  id: 'G-XDRZ9PMXCC',
+  router
 });
 
 /**

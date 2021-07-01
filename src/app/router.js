@@ -5,6 +5,7 @@ import login from './shared/components/login.vue'
 import home from './shared/components/home.vue'
 import about from './website/about.vue'
 import product from './website/product.vue'
+import faqs from './website/faqs.vue'
 import contactUs from './website/contact-us.vue'
 import calculator from './calculator/calculator.vue'
 import utilities from './website/utilities.vue'
@@ -38,7 +39,13 @@ export default new Router({
       name: 'product',
       component: product
     },
-    
+
+    {
+      path: '/faqs',
+      name: 'faqs',
+      component: faqs
+    },
+
     {
       path: '/calculator',
       name: 'calculator',

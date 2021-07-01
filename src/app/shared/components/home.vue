@@ -30,7 +30,7 @@
       <section class="AboutBlip b-FFFFFF i-a-c">
         <b-row class="w-80p insider">
           <b-col  xs="12" sm="12" md="5" lg="5" xl="5" class ="leftImg">
-            <img src="../../../assets/blip-mockup-updateForHome.png" alt="" class="w-100p">
+            <img v-lazy="image2" alt="" class="w-100p">
           </b-col>
           <b-col  xs="12" sm="12" md="7" lg="7" xl="7" class ="rightText t-left">
             <h2 class="c-254B77 m-l-0 p-l-0">About blip</h2>
@@ -98,35 +98,50 @@
               </p>
             </b-col>
             <b-col xs="12" sm="12" md="6" lg="6" xl="6" class="oneHalf i-a-c">
-              <img src="../../../assets/alain_duchateau_QvZj7r3efC4_unsplash_lighterblue_Copy.jpg" alt="">
+              <img v-lazy="image" alt="">
             </b-col>
           </b-row>
         </b-row>
       </section>
       <!--end: blip helps the planet too-->
 
+<!--      <p>-->
+<!--        Click <a href="#" @click.prevent="disableTracking">here</a>,-->
+<!--        to disable the tracking through Google Analytics.-->
+<!--      </p>-->
       <Footer></Footer>
     </div>
   </div>
 </template>
 
 <script>
-import banner from "./banner.vue";
+// import banner from "./banner.vue";
 import transparentBanner from "@/app/shared/components/transparentBanner";
-import Footer from "./Footer.vue";
+import Footer from "./FooterII.vue";
+// import Footer from "./Footer.vue";
+import image from "../../../assets/alain_duchateau_QvZj7r3efC4_unsplash_lighterblue_Copy.jpg"
+import image2 from "../../../assets/blip-mockup-updateForHome.png"
 
 export default {
   name: "home",
   data() {
     return {
+      image: image,
+      image2: image2
     };
   },
   mounted() {
-
+    this.$ga.page('/home');
   },
 
   methods: {
-
+    disableTracking: function() {
+      this.$ga.disable();
+      alert('Tracking disabled');
+    },
+    click: function() {
+      this.$ga.event('category', 'action', 'label', 123)
+    }
   },
   computed: {
   },

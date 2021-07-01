@@ -24,8 +24,10 @@ section{
 
 .one83B56{color: #183B56;}
 .two54B77{color: #254B77;}
+.c-254B77{color: #254B77;}
 .c-FFFFFF{color: #FFFFFF}
 .c-B0E7FF{color: #B0E7FF;}
+.c-4F9BC1{color: #4F9BC1;}
 
 .t-center{text-align: center;}
 .t-left{text-align: left;}
@@ -95,6 +97,15 @@ p.p1{
   font-size: 32px;
   line-height: 125%;
   /* or 40px */
+}
+p.p1point5{
+  //font-family: FF Mark Pro;
+  font-family: 'Montserrat', Avenir;
+  font-style: normal;
+  font-weight: 300;
+  font-size: 28px;
+  line-height: 30px;
+  margin: 20px;
 }
 p.p2{
   //font-family: FF Mark Pro;
@@ -199,6 +210,34 @@ button.btn.btn-outline-B0E7FF:hover {
   //color: white;
 }
 
+button.btn.btn-B0E7FF{
+  font-family: 'Montserrat', Avenir;
+  width: 215px;
+  height: 44px;
+  //left: 608px;
+  //top: 263px;
+
+  //border: 2px solid #B0E7FF;
+  //box-sizing: border-box;
+  //border-radius: 24px;
+  border: none;
+  border-radius: 30px;
+
+  text-align: center;
+  background-color: #B0E7FF;
+
+  font-family: 'Montserrat', Avenir;;
+  font-style: normal;
+  font-weight: 300;
+  font-size: 18px;
+  line-height: 20px;
+  color: #254B77;
+}
+button.btn.btn-B0E7FF:hover {
+  background-color: #254B77;
+  color: #B0E7FF;
+}
+
 input{
   //width: ;
   height: 49px;
@@ -288,9 +327,9 @@ input{
   //background: #F2607B;
 }
 .topline{
-  border-top: 2px solid #FFFFFF;
+  border-top: 2px solid #254B77;
   margin-top: 50px;
-  padding-top: 17px;
+  padding-top: 50px;
   //text-align: left;
   //background: #;
   p{
