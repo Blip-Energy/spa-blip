@@ -64,7 +64,7 @@ Vue.use(vuescroll, {
   name: 'myScroll' // customize component name, default -> vueScroll
 });
 Vue.use(VueAnalytics, {
-  id: 'G-XDRZ9PMXCC',
+  id: 'UA-197594070-1',
   router
 });
 

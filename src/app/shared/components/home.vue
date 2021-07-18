@@ -131,6 +131,7 @@ export default {
     };
   },
   mounted() {
+    this.$ga.page('/');
     this.$ga.page('/home');
   },
 

@@ -47,11 +47,11 @@
 <!--                <img src="../../assets/blip_logo.png"/>-->
 <!--              </router-link>-->
               <!--          <h4 class="blip-area">{{pickedUtility.utilities.utility_name}}</h4>-->
-              <p class="blip-area p4 t-center c-FFFFFF w-100p">Your savings with blip</p>
+              <p class="blip-area p1point8 t-center c-FFFFFF w-100p">Your savings with blip</p>
               <p v-if="savePerYear === 0" class = "savePerYear t-center c-B0E7FF w-100p">$0</p>
               <p v-else class = "savePerYear t-center c-B0E7FF w-100p">${{ninetyPercent}}-{{oneHundredAndTenPercent}}</p>
               <p class = "perYear t-center c-B0E7FF w-100p">per year*</p>
-              <p class = "p4 C-4F9BC1 t-center about">
+              <p class = "p5 c-B0E7FF t-center about">
                 * estimated savings when pairing our device with an energy dense appliance
                 <span id="tooltip-target-2" class="infoMark" v-b-tooltip.hover.bottomright="{variant: 'light', customClass: 'myTooltipClass'}"
                       title="Savings estimated based on utility specific rate plan information and average monthly consumption of 800kWh"
@@ -59,17 +59,17 @@
               </p>
             </b-row>
 
-            <b-row class="congrs">
-              <p class = "p3 c-254B77 t-center" v-if="this.model == 'A'">
+            <b-row class="congrs" style="font-weight: 200;">
+              <p class = "p2 c-254B77 t-center" v-if="this.model == 'A'">
                 Congratulations! With your time of use plan, you are on track to having the biggest savings.
               </p>
-              <p class = "p3 c-254B77 t-center hoverUnderlined" v-if="this.model == 'C'" v-on:click="sendSwitchTOU()">
+              <p class = "p2 c-254B77 t-center hoverUnderlined" v-if="this.model == 'C'" v-on:click="sendSwitchTOU()">
                 You’re already saving big, but switching to a time of use plan would allow for maximum savings.
               </p>
-              <p class = "p3 c-254B77 t-center hoverUnderlined" v-if="this.model == 'D'" v-on:click="sendSwitchTOU()">
+              <p class = "p2 c-254B77 t-center hoverUnderlined" v-if="this.model == 'D'" v-on:click="sendSwitchTOU()">
                 Switching to a time of use plan would allow for maximum savings.
               </p>
-              <p class = "p3 c-254B77 t-center" v-if="this.model == 'E'">
+              <p class = "p2 c-254B77 t-center" v-if="this.model == 'E'">
                 These are the savings you can expect if you are on a Time Of Use plan.
               </p>
             </b-row>
@@ -154,18 +154,6 @@
         </b-container>
 
         <b-container v-show="checkMaxSaving || askWhy">
-<!--          <b-row class="savingsDifYears">-->
-<!--            <b-col xs="12" sm="12" md="6" lg="6" xl="6" class = "left">-->
-<!--              <p class = "p3 c-254B77 t-center">Savings after 3 years</p>-->
-<!--              <h4 class = "c-4F9BC1 t-center">${{ (savePerYear * 3).toFixed(2)}}</h4>-->
-<!--            </b-col>-->
-
-<!--            <b-col xs="12" sm="12" md="6" lg="6" xl="6" class = "right">-->
-<!--              <p class = "p3 c-254B77 t-center">Savings after 5 years</p>-->
-<!--              <h4 class = "p3 c-4F9BC1 t-center">${{ (savePerYear * 5).toFixed(2)}}</h4>-->
-<!--            </b-col>-->
-<!--          </b-row>-->
-
           <b-row class="graph w-100p t-center">
             <b-row class="graphButton w-100p t-center p-0">
               <b-col xs="6" sm="6" md="6" lg="6" xl="6" class="m-l-0 m-t-0 p-0">
@@ -191,48 +179,23 @@
             </b-row>
           </b-row>
         </b-container>
-
-<!--        <b-row-->
-<!--            class="outage t-center"-->
-<!--            v-if="pickedUtility.outage.saifi !== 0 || pickedUtility.outage.caidi !== 0 || pickedUtility.outage.saifi5 !== 0"-->
-<!--        >-->
-<!--          <b-col xs="1" sm="1" md="1" lg="1" xl="1" class="bolt c-FFFFFF i-a-c">-->
-<!--            <font-awesome-icon icon="bolt"/>-->
-<!--          </b-col>-->
-<!--          <b-col style="padding-left: 8px">-->
-<!--            <div class="outageTimes c-FFFFFF t-left w-100p m-tb-a">-->
-<!--              <p v-if="pickedUtility.outage.saifi !== 0" class="outageTimes c-FFFFFF t-left w-100p m-tb-a">-->
-<!--                This utility has had <u>{{pickedUtility.outage.saifi}}</u> power outages in the past year, each outage lasted on average <u>{{pickedUtility.outage.caidi}}</u> minutes.-->
-<!--              </p>-->
-<!--              <p v-if="pickedUtility.outage.saifi5 !== 0" class="outageTimes c-FFFFFF t-left w-100p m-tb-a">-->
-<!--                Over the past 5 years, this utility has had <u>{{pickedUtility.outage.saifi5}}</u> power outages-->
-<!--              </p>-->
-<!--            </div>-->
-<!--          </b-col>-->
-<!--        </b-row>-->
       </b-container>
 
       <b-container v-else class="shadow b-254B77 t-center w-100p">
 
-        <h4 class="ourDevice c-FFFFFF w-90p t-center m-lr-a">
-          Our device provides 2.2 kWh of backup power, enough to power your fridge for a day or charge your phone for weeks
-          <span id="tooltip-target-3" class="infoMarkI c-D3D3D3" v-b-tooltip.hover.bottomright="{variant: 'light', customClass: 'myTooltipClass'}"
-                title="U.S. Energy Information Administration, Annual Electric Power Industry Report"
+        <h4 class="ourDevice c-FFFFFF w-75p t-center m-lr-a">
+          Our device provides 2.2 kWh of backup power, enough to power your fridge for 1-2 days, or run your WiFi router for weeks
+          <span id="tooltip-target-3" class="infoMarkI c-D3D3D3" v-b-tooltip.hover.bottom="{variant: 'light', customClass: 'myTooltipClass', color: '#254B77'}"
+                title="Based on U.S. Energy Information Administration, Annual Electric Power Industry Report (2019 data. Only outages > 5 minutes are included)"
           ><font-awesome-icon icon="info-circle"/></span>
         </h4>
         <b-row class="outage t-center">
-<!--          <b-col xs="1" sm="1" md="1" lg="1" xl="1" class="bolt c-FFFFFF i-a-c">-->
-<!--            <font-awesome-icon icon="bolt"/>-->
-<!--          </b-col>-->
-<!--          <b-col style="padding-left: 8px">-->
-<!--          <div class="boltSign c-FFFFFF t-center w-100p m-tb-a"><font-awesome-icon icon="bolt"/></div>-->
           <div class="outageTimes c-FFFFFF t-center w-100p m-tb-a">
             <!--              <p class="outageTimes c-FFFFFF t-left w-100p m-tb-a">-->
             <p class="p1point5">{{pickedUtility.utilityName}} users in your area lost</p>
             <p class = "lostToBlackouts">{{computeHours(pickedUtility.outage.saidi)}}</p>
             <p class="p1point5">of power to blackouts this year</p>
           </div>
-<!--          </b-col>-->
           <div class="outageTimes c-FFFFFF t-center w-100p m-tb-a">
             <p class="p1point5">This provider has had an average of</p>
             <p class = "emf c-B0E7FF">{{pickedUtility.outage.saifi}} blackouts</p>
@@ -244,36 +207,19 @@
             <p class = "emf c-B0E7FF">{{computeHours(pickedUtility.outage.caidi)}}</p>
             <p class="p1point5">on average</p>
           </div>
-
-<!--          <div class="iSymbol p4 c-D3D3D3 w-100p"-->
-<!--              id="tooltip-target-4" v-b-tooltip.hover.bottom="{variant: 'light', customClass: 'myTooltipClass'}"-->
-<!--                title="Source: U.S. Energy Information Administration, Annual Electric Power Industry Report"-->
-<!--          ><font-awesome-icon icon="info-circle"/>-->
-<!--          </div>-->
-
         </b-row>
-
-<!--        <b-row class="outage t-center">-->
-<!--          <div class="outageTimes c-FFFFFF t-center w-100p m-tb-a">-->
-<!--            <p class="p1">This utility has had an average of</p>-->
-<!--            <p class = "emf">{{pickedUtility.outage.saifi}} blackouts</p>-->
-<!--            <p class="p1">this year</p>-->
-<!--          </div>-->
-<!--        </b-row>-->
-
-<!--        <b-row class="outage t-center">-->
-<!--          <div class="outageTimes c-FFFFFF t-center w-100p m-tb-a">-->
-<!--            <p class="p1">Each blackout lasted</p>-->
-<!--            <p class = "emf">{{computeHours(pickedUtility.outage.caidi)}}</p>-->
-<!--            <p class="p1">on average</p>-->
-<!--          </div>-->
-<!--        </b-row>-->
 
       </b-container>
 
-      <b-row class="signUpForUpdates w-100p t-center">
+      <b-row v-if="dollarSign" class="signUpForUpdates w-100p t-center">
         <b-button class="submit" variant="outline-primary" @click="sendSubscription()">
           <a ref="">Get notified when we launch</a>
+        </b-button>
+      </b-row>
+
+      <b-row v-else class="signUpForUpdates w-100p t-center">
+        <b-button class="submit outline" variant="outline-primary" onclick="window.location.href='../product'" style="width: 223px">
+          <a ref="">Learn more</a>
         </b-button>
       </b-row>
 
