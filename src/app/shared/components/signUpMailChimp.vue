@@ -402,7 +402,7 @@ input::placeholder{
 
 .launching{
   height: 100%;
-  width: 100%;
+  width: 94%;
   display: flex;
   align-items: center;
   padding: 0% 0%;

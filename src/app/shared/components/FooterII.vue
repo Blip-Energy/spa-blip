@@ -1,6 +1,6 @@
 <template>
   <div class="navbar-nav" style="background: #FFFFFF;">
-    <section class="DEF5FF launching"  id="sign-upI">
+    <section class="DEF5FF launching"  id="sign-up">
       <div class="hero">
         <div class="container">
           <div class="row">
@@ -169,7 +169,7 @@
                       <p class="h5 two54B77 m-l-0 title ">Company</p>
                       <p class="h5 two54B77" onclick="window.location.href='../about'">About</p>
                       <p class="h5 two54B77" onclick="window.location.href='../contact-us'">Contact us</p>
-<!--                      <p class="h5 two54B77" onclick="window.location.href='../faqs'">FAQs</p>-->
+                      <p class="h5 two54B77" onclick="window.location.href='../faqs'">FAQs</p>
                     </b-col>
                     <b-col xs="4" sm="4" md="4" lg="4" xl="4" class = "txtIn t-left">
                       <p class="h5 two54B77 title ">Product</p>
