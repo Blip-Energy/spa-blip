@@ -286,11 +286,19 @@ export default {
     return {
     };
   },
-  mounted() {
-
-
+  head() {
+      return {
+        title: 'About Page',
+        meta: [
+          // hid is used as unique identifier. Do not use `vmid` for it as it will not work
+          {
+            hid: 'about',
+            name: 'about',
+            content: 'Everyone deserves access to energy storage, so we’re building blipOne - the world’s most accessible smart home battery. Compact, portable and affordable with a modern design.'
+          }
+       ]
+    }
   },
-
   methods: {
     handleScroll: function (evt, el) {
       if (window.scrollY > 50) {

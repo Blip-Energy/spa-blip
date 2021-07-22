@@ -96,10 +96,19 @@ export default {
       // immediate: true
     },
   },
-
-  mounted() {
+  head() {
+      return {
+        title: 'Savings Calculator',
+        meta: [
+          // hid is used as unique identifier. Do not use `vmid` for it as it will not work
+          {
+            hid: 'savings_calculator',
+            name: 'savings calculator',
+            content: 'Calculate your potential bill savings and see historic outage data'
+          }
+       ]
+    }
   },
-
   methods: {
     displaySavings(value) {
       // console.log('waht', value);
@@ -140,9 +149,6 @@ export default {
       if (this.savePerYear < 39){
         this.ac = false
       }
-      // console.log('AAAAACCCCCC in parent', this.ac)
-      // console.log(this.numOfGraphLoaded)
-      // this.numOfGraphLoaded = this.numOfGraphLoaded + 1
     },
     getSwitch(swi){
       // alert(this.switchTOU)
@@ -173,7 +179,6 @@ export default {
     savings,
     graph,
     signUp,
-    noneInputFooter,
   }
 };
 </script>

@@ -206,15 +206,19 @@ export default {
       chartTwo: null
     };
   },
-  mounted() {
-    this.$nextTick(function() {
-      this.drawChartOne('chartOne')
-    })
-    this.$nextTick(function() {
-      this.drawChartTwo('chartTwo')
-    })
+  head() {
+      return {
+        title: 'Product Page',
+        meta: [
+          // hid is used as unique identifier. Do not use `vmid` for it as it will not work
+          {
+            hid: 'product',
+            name: 'product',
+            content: 'The most accessible smart battery that works for anyone, anywhere. 2.2KWh capacity - blipOne can power a fridge for 1-2 days and the Wi-Fi for weeks.	'
+          }
+       ]
+    }
   },
-
   methods: {
     drawChartOne(id){
       this.charts = echarts.init(document.getElementById(id))

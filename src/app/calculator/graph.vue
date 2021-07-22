@@ -229,7 +229,6 @@
 
 <script>
 import echarts from "echarts";
-// import axios from 'axios';
 require('echarts/theme/shine');
 
 export default {
