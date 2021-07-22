@@ -1,0 +1,329 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@100;200;300;400;500&display=swap');
+
+.all{font-family: 'Montserrat', Avenir;}
+
+section{
+  //font-family: 'Montserrat', sans-serif;
+  width: 100%;
+  //display: flex;
+  //align-items: center;
+  //background: #3cb582;
+  //background: url("/src/assets/images/logo.png");
+}
+//.h-536{height: 536px;}
+
+//.E5E5E5{background: #E5E5E5;}
+.b-FFFFFF{background: #FFFFFF;}
+.b-DEF5FF{background: #DEF5FF;}
+.b-1D3755{background: #1D3755;}
+.b-F9F9F9{background: #F9F9F9;}
+.b-254B77{background: #254B77;}
+.b-EEF9FE{background: #EEF9FE;}
+
+.c-183B56{color: #183B56;}
+.c-254B77{color: #254B77;}
+.c-FFFFFF{color: #FFFFFF;}
+.c-DEF5FF{color: #DEF5FF;}
+.c-B0E7FF{color: #B0E7FF;}
+.c-000000{color: #000000;}
+.c-FF0000{color: #FF0000;}
+.c-4F9BC1{color: #4F9BC1;}
+.c-0B45DC{color: #0B45DC;}
+.c-D3D3D3{color: #D3D3D3;}
+
+.f-weight-100{font-weight: 100}
+.f-weight-200{font-weight: 200}
+.f-weight-300{font-weight: 300}
+.f-weight-400{font-weight: 400}
+.f-weight-500{font-weight: 500}
+
+h1{
+  //font-family: Avenir;
+  font-family: 'Montserrat', Avenir;
+  font-style: normal;
+  font-weight: 300;
+  font-size: 64px;
+  line-height: 76px;
+  /* or 119% */
+}
+.h1point5{
+  //font-family: Avenir;
+  font-family: 'Montserrat', Avenir;
+  font-style: normal;
+  font-weight: 200;
+  font-size: 54px;
+  line-height: 119%;
+}
+h2{
+  font-family: 'Montserrat', Avenir;
+  font-style: normal;
+  font-weight: 200;
+  font-size: 48px;
+  line-height: 62px;
+  margin: 20px;
+  /* identical to box height, or 129% */
+}
+.h2point5{
+  font-family: 'Montserrat', Avenir;
+  font-style: normal;
+  font-weight: 200;
+  font-size: 42px;
+  line-height: 128%;
+  //margin: 20px;
+  /* identical to box height, or 129% */
+}
+.h2point8{
+  font-family: 'Montserrat', Avenir;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 38px;
+  line-height: 46px;
+  /* identical to box height */
+}
+h3{
+  font-family: 'Montserrat', Avenir;
+  font-style: normal;
+  font-weight: 200;
+  font-size: 36px;
+  line-height: 48px;
+  /* identical to box height */
+}
+h4{
+  font-family: 'Montserrat', Avenir;
+  font-style: normal;
+  font-weight: 300;
+  font-size: 24px;
+  line-height: 33px;
+  /* identical to box height */
+}
+
+p.p1{
+  //font-family: FF Mark Pro;
+  font-family: 'Montserrat', Avenir;
+  font-style: normal;
+  font-weight: 300;
+  font-size: 32px;
+  line-height: 125%;
+  /* or 40px */
+}
+p.p1point5{
+  //font-family: FF Mark Pro;
+  font-family: 'Montserrat', Avenir;
+  font-style: normal;
+  //font-weight: 300;
+  font-size: 28px;
+  line-height: 125%;
+  /* or 40px */
+}
+p.p1point8{
+  //font-family: FF Mark Pro;
+  font-family: 'Montserrat', Avenir;
+  font-style: normal;
+  font-weight: 300;
+  font-size: 25px;
+  line-height: 20px;
+  //line-height: 125%;
+  ///* or 40px */
+}
+p.p2{
+  //font-family: FF Mark Pro;
+  font-family: 'Montserrat', Avenir;
+  font-style: normal;
+  font-weight: 300;
+  font-size: 24px;
+  line-height: 30px;
+  margin: 20px;
+}
+p.p2point5{
+  //font-family: FF Mark Pro;
+  font-family: 'Montserrat', Avenir;
+  font-style: normal;
+  font-weight: 300;
+  font-size: 22px;
+  line-height: 30px;
+  margin: 20px;
+}
+p.p3{
+  //font-family: FF Mark Pro;
+  font-family: 'Montserrat', Avenir;
+  font-style: normal;
+  font-weight: 300;
+  font-size: 18px;
+  line-height: 30px;
+  /* identical to box height, or 111% */
+}
+p.p4{
+  font-family: 'Montserrat', Avenir;
+  font-style: normal;
+  font-weight: 300;
+  font-size: 16px;
+  line-height: 20px;
+  /* or 125% */
+}
+p.p5{
+  font-family: 'Montserrat', Avenir;
+  font-style: normal;
+  font-weight: 300;
+  font-size: 13px;
+  line-height: 125%;
+  /* or  */
+}
+//img{background: #C4C4C4;}
+
+.t-center{text-align: center;}
+.t-left{text-align: left;}
+.t-right{text-align: right;}
+.text-center{text-align: center};
+
+.width-100percent{width: 100%;}
+.w-100p{width: 100%;}
+.w-90p{width: 90%;}
+.w-80p{width: 80%;}
+.w-75p{width: 75%;}
+.w-70p{width: 70%;}
+.h-100p{height: 100%;}
+
+.m-lr-a{
+  margin-left: auto;
+  margin-right: auto;
+}
+.m-l-0{margin-left: 0px;}
+.m-r-0{margin-right: 0px;}
+.m-t-0{margin-top: 0px;}
+.m-b-0{margin-bottom: 0px;}
+.m-lr-a{
+  margin-left: auto;
+  margin-right: auto;
+}
+.m-tb-a{
+  margin-top: auto;
+  margin-bottom: auto;
+}
+.m-t-50{margin-top: 50px;}
+.m-b-30{margin-bottom: 30px;}
+.m-b-50{margin-bottom: 50px;}
+
+.p-0{padding: 0px;}
+.p-l-0{padding-left: 0px;}
+.p-t-0{padding-top: 0px;}
+.p-tb-a {
+  padding-top: 0px;
+  padding-bottom: 0px;
+}
+.i-a-c{
+  display: flex;
+  align-items: center;
+}
+.absolute-mid{
+  position: absolute;
+  top: 50%;
+  transform: translate(0, -50%);
+}
+
+
+button.submit{
+  background: #B0E7FF;
+  border-radius: 30px;
+  border: none;
+
+  //font-family: FF Mark Pro;
+  font-family: 'Montserrat', Avenir;
+  font-style: normal;
+  font-weight: 300;
+  color: #254B77;
+}
+button.submit:hover {
+  background: #254B77;
+  color: #FFFFFF;
+}
+
+button.submit.transparent.c-4F9BC1{
+  background: transparent;
+  border: none;
+  padding-left: 0;
+  padding-right: 0;
+
+  //font-family: FF Mark Pro;
+  font-family: 'Montserrat', Avenir;
+  font-style: normal;
+  font-weight: 400;
+  color: #4F9BC1;
+}
+button.submit.transparent:hover {
+  color: #254B77;
+}
+
+button.btn.btn-outline-FFFFFF{
+  height: 59px;
+  padding-left: 35px;
+  padding-right: 35px;
+
+  border: 2px solid #FFFFFF;
+  box-sizing: border-box;
+  border-radius: 50px;
+
+  text-align: center;
+  background-color:transparent;
+
+  //font-family: "MarkPro-TestFont";
+  font-family: 'Montserrat', Avenir;
+  font-style: normal;
+  font-weight: 300;
+  color: #FFFFFF;
+}
+button.btn.btn-outline-FFFFFF:hover {
+  background: #FFFFFF;
+  border: 2px solid #254B77;
+  color: #254B77;
+  //color: white;
+}
+
+button.btn.btn-outline-254B77{
+  //width: 356px;
+  height: 59px;
+  padding-left: 35px;
+  padding-right: 35px;
+
+  border: 2px solid #254B77;
+  box-sizing: border-box;
+  border-radius: 50px;
+
+  text-align: center;
+  background-color:transparent;
+
+  //font-family: "MarkPro-TestFont";
+  font-family: 'Montserrat', Avenir;
+  font-style: normal;
+  font-weight: 300;
+  font-size: 21px;
+  line-height: 30px;
+  color: #254B77;
+}
+button.btn.btn-outline-254B77:hover {
+  background-color: #254B77;
+  color: #DEF5FF;
+}
+
+.main{
+  width: 100%;
+  //background: #4F9BC1;
+  text-align: center;
+  height: 100%;
+}
+
+.container{
+  //background: #F2607B;
+  text-align: center;
+  margin-left: auto;
+  margin-right: auto;
+  //display: flex;
+  //align-items: center;
+  padding: 0px;
+}
+.row{
+  //background: #3cb582;
+  //width: 100%;
+  text-align: center;
+  margin-left: auto;
+  margin-right: auto;
+}
