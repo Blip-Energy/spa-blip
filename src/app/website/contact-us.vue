@@ -119,6 +119,19 @@ export default {
       errorMsg: "",
     };
   },
+   head() {
+      return {
+        title: 'Contact Us Page',
+        meta: [
+          // hid is used as unique identifier. Do not use `vmid` for it as it will not work
+          {
+            hid: 'contact',
+            name: 'about',
+            content: 'Contact us hello@blipenergy.com'
+          }
+       ]
+    }
+  },
   computed: {
     // submitButton: function (){
     //   if (this.firstName !== "" && this.lastName !== "" && this.email !== "" && this.validEmail(this.email) && this.messages !== ""){

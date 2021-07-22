@@ -39,16 +39,20 @@ export default {
     return {
     };
   },
-  mounted() {
-    let externalScript = document.createElement('script')
-    externalScript.setAttribute('src', '' + 'src/app/website/medium.js')
-    // 'https://www.twilik.com/assets/retainable/rss-embed/retainable-rss-embed.js')
-    // 'https://www.retainable.io/assets/retainable/rss-embed/retainable-rss-embed.js')
-    document.head.appendChild(externalScript)
+head() {
+      return {
+        title: 'Articles Page',
+        meta: [
+          // hid is used as unique identifier. Do not use `vmid` for it as it will not work
+          {
+            hid: 'articles',
+            name: 'articles',
+            content: 'Everyone deserves access to energy storage, so we’re building blipOne - the world’s most accessible smart home battery. Compact, portable and affordable with a modern design.'
+          }
+       ]
+    }
   },
 
-  methods: {
-  },
   components: {
     banner,
     Footer//added

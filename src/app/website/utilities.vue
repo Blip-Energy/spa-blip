@@ -82,10 +82,18 @@ export default {
     return {
     };
   },
-  mounted() {
-  },
-
-  methods: {
+   head() {
+      return {
+        title: 'Utilities Page',
+        meta: [
+          // hid is used as unique identifier. Do not use `vmid` for it as it will not work
+          {
+            hid: 'utilities',
+            name: 'utilities',
+            content: 'The most accessible smart battery and Demand Response resource that works for any customer in any home.'
+          }
+       ]
+    }
   },
   components: {
     banner,
