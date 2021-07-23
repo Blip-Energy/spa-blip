@@ -75,13 +75,15 @@ export default {
 </script>
 
 <style lang="scss" scoped>
-@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@100;200;300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@100;200;300;400;500&display=swap');
 
 .navbar {
   font-family: 'Montserrat', Avenir;
 
   background-color: #ffffff;
-  height: 4em !important;
+  height:
+      //100px;
+      4em !important;
   box-shadow: 0px 2px 50px -5px rgba(0, 0, 0, 0.09);
   //box-shadow: 0px 1px 4px rgba(0,0,0,0.3);, 0px 0px 20px rgba(0,0,0,0.1) inset;
   .bene-logo {
@@ -104,20 +106,39 @@ export default {
   }
   .router-link-active{
     color: #254B77;
-    text-decoration: underline;
+    //text-decoration: underline;
+    //text-underline-offset: 3px;
+    padding-bottom: 3px;
+    font-weight: 500;
     //div{border-bottom: 1px solid #254B77;}
+  }
+  a:hover{
+    //text-decoration: underline;
+    //text-underline-offset: 3px;
+    text-decoration: none;
+    font-weight: 500;
   }
   .button{
     width: 200px;
+    //height: 40px;
     margin-left: 10px;
     margin-right: 0px;
-
-    border: 1px solid #254B77;
-    box-sizing: border-box;
-    border-radius: 25px;
-
+    //border: 1px solid #254B77;
+    //box-sizing: border-box;
+    //border-radius: 25px;
+    ///////////////////////////////////////////////////////////////////////////////new-start
+    background: #B0E7FF;
+    border-radius: 30px;
+    //border: 1px solid #B0E7FF;
+    ///////////////////////////////////////////////////////////////////////////////new-end
     color: #254B77;
   }
+  /////////////////////////////////////////////////////////////////////////////////new-start
+  .button:hover{
+    border: 1px solid #254B77;
+    //text-decoration:
+  }
+  /////////////////////////////////////////////////////////////////////////////////new-end
   .typewriter {
     font-family: 'Montserrat', Avenir;
     margin: 1em 0 0 0;

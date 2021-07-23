@@ -117,7 +117,7 @@
 <script>
 // import banner from "./banner.vue";
 import transparentBanner from "@/app/shared/components/transparentBanner";
-import Footer from "./FooterII.vue";
+import Footer from "./Footer.vue";
 // import Footer from "./Footer.vue";
 import image from "../../../assets/alain_duchateau_QvZj7r3efC4_unsplash_lighterblue_Copy.jpg"
 import image2 from "../../../assets/blip-mockup-updateForHome.png"
@@ -129,6 +129,19 @@ export default {
       image: image,
       image2: image2
     };
+  },
+  head() {
+      return {
+        title: 'Home Page',
+        meta: [
+          // hid is used as unique identifier. Do not use `vmid` for it as it will not work
+          {
+            hid: 'home',
+            name: 'home',
+            content: 'Everyone deserves access to energy storage, so we’re building blipOne - the world’s most accessible smart home battery. Compact, portable and affordable with a modern design.'
+          }
+       ]
+    }
   },
   mounted() {
     this.$ga.page('/');
