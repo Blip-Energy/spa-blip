@@ -5,7 +5,7 @@
       <!--start: Energy storage for anyone, anywhere-->
       <section class="SavingRentersMoney b-DEF5FF">
         <div class="innerFog">
-          <img src="../../../assets/webPages/landing/LandingPageHeroImage.png" class="hero">
+<!--          <img src="../../../assets/webPages/landing/LandingPageHeroImage.png" class="hero">-->
           <b-row class="insider m-tb-a t-left">
             <h1 class="c-254B77 t-left">Energy storage for anyone, anywhere</h1>
             <b-row class="m-l-0 p-l-0 aSustainable">
@@ -17,13 +17,23 @@
                 Learn more
               </button>
             </b-row>
+<!--            <b-row class="buttonImg">-->
+<!--              <b-col  xs="12" sm="12" md="3" lg="3" xl="3" class="leftButton t-left">-->
+<!--                <button type="button" class="btn submit" onclick="window.location.href='../product'">-->
+<!--                  Learn more-->
+<!--                </button>-->
+<!--              </b-col>-->
+<!--              <b-col  xs="12" sm="12" md="9" lg="9" xl="9" class="rightImg t-left b-F9F9F9">-->
+<!--                <img src="../../../assets/webPages/landing/LandingPageHeroImage.png" class="hero">-->
+<!--              </b-col>-->
+<!--            </b-row>-->
           </b-row>
         </div>
       </section>
       <!--end: Energy storage for anyone, anywhere-->
 
       <!--start: Pioneering a new era of energy storage-->
-      <section class="AboutBlip b-FFFFFF i-a-c">
+      <section class="Pioneering b-FFFFFF i-a-c">
         <b-row class="w-90p insider">
           <b-col  xs="12" sm="12" md="7" lg="7" xl="7" class="leftImg p-l-0">
             <img src="../../../assets/webPages/landing/BlipEnvironment-03.png" alt="" class="w-100p">
@@ -36,16 +46,20 @@
               <br><br>
               blipOne is an affordable smart battery that makes it easier than ever for anyone to access energy storage, at a cost that can pay for itself in savings and without the hassle of professional installation.
             </p>
-            <button type="button" class="btn submit transparent c-4F9BC1" onclick="window.location.href='../product'">
-              Learn More about blipOne <font-awesome-icon icon="arrow-right" style="font-size: 16px"/>
-            </button>
+<!--            <button type="button" class="btn submit transparent c-4F9BC1" onclick="window.location.href='../product'">-->
+<!--              Learn More about blipOne <font-awesome-icon icon="arrow-right" style="font-size: 16px"/>-->
+<!--            </button>-->
+<!--            <img src="../../../assets/webPages/landing/arrow-right.png">-->
+            <router-link :to="{path: '/product'}" class="c-4F9BC1 routerLink">
+              Learn More about blipOne <font-awesome-icon icon="arrow-right" style="font-size: 16px; margin-bottom: -1px;"/>
+            </router-link>
           </b-col>
         </b-row>
       </section>
       <!--end: Pioneering a new era of energy storage-->
 
       <!--start: Stop paying for expensive electricity-->
-      <section class="cleanEnergy b-EEF9FE i-a-c t-center">
+      <section class="stopPaying b-EEF9FE i-a-c t-center">
         <b-row class="w-90p insider t-center">
           <b-col  xs="12" sm="12" md="5" lg="5" xl="5" class="leftText t-left">
             <p class="p1point5 c-4F9BC1" style="margin-bottom: 12px">SAVE, EFFORTLESSLY</p>
@@ -67,7 +81,7 @@
       <!--end: Stop paying for expensive electricity-->
 
       <!--start: Fight climate change from your couch-->
-      <section class="blipHelps b-254B77 i-a-c">
+      <section class="fightClimate b-254B77 i-a-c">
         <b-row class="w-90p insider">
           <b-col  xs="12" sm="12" md="7" lg="7" xl="7" class="leftImg p-l-0">
             <img src="../../../assets/webPages/landing/earth.png" alt="" class="w-90p">
@@ -90,6 +104,29 @@
       </section>
       <!--end: Fight climate change from your couch-->
 
+      <!--start: Food for thought-->
+      <section class="foodFor b-FFFFFF i-a-c">
+        <b-row class="w-90p insider">
+          <b-col  xs="12" sm="12" md="5" lg="5" xl="5" class="leftText t-left">
+            <p class="p1point5 c-4F9BC1" style="margin-bottom: 12px">BLOG</p>
+            <h2 class="h2point8 c-254B77 f-weight-400 m-l-0 p-l-0" style="margin-bottom: 50px">Food for thought</h2>
+            <p class="p3 c-183B56 m-l-0 p-l-0">
+              Want to learn more about how clean energy works and how we became so passionate about it? Check out our blog for educational articles and more!
+            </p>
+<!--            <button type="button" class="btn submit transparent c-4F9BC1" onclick="window.location.href='../articles'">-->
+<!--              blip Blog <font-awesome-icon icon="arrow-right" style="font-size: 16px"/>-->
+<!--            </button>-->
+            <router-link :to="{path: '/articles'}" class="c-4F9BC1 routerLink">
+              blip Blog <font-awesome-icon icon="arrow-right" style="font-size: 16px; margin-bottom: -1px;"/>
+            </router-link>
+          </b-col>
+          <b-col  xs="12" sm="12" md="7" lg="7" xl="7" class="rightImg">
+            <img src="../../../assets/webPages/landing/electrical-engineering_v02.png" alt="" class="w-100p">
+          </b-col>
+        </b-row>
+      </section>
+      <!--end: Food for thought-->
+
 <!--      <p>-->
 <!--        Click <a href="#" @click.prevent="disableTracking">here</a>,-->
 <!--        to disable the tracking through Google Analytics.-->
@@ -101,7 +138,7 @@
 
 <script>
 import banner from "./banner.vue";
-import transparentBanner from "@/app/shared/components/transparentBanner";
+// import transparentBanner from "@/app/shared/components/transparentBanner";
 import Footer from "./FooterII.vue";
 // import Footer from "./Footer.vue";
 import image from "../../../assets/alain_duchateau_QvZj7r3efC4_unsplash_lighterblue_Copy.jpg"

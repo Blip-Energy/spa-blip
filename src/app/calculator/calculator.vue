@@ -60,7 +60,7 @@
 <script>
 import banner from "../shared/components/banner.vue";
 import savings from "../savings.vue";
-import graph from "./graphI.vue";
+import graph from "./graph.vue";
 import signUp from "@/app/shared/components/signUp.vue";
 import utility from "./utility.vue"
 import noneInputFooter from "@/app/shared/components/noneInputFooter";
