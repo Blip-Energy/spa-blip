@@ -36,6 +36,7 @@ export default new Router({
 
     {
       path: '/product',
+      alias: ['/blipOne'],
       name: 'product',
       component: product
     },
