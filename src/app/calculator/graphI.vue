@@ -187,7 +187,7 @@
             </b-row>
 
             <b-row class="graphSaving">
-              <div v-if="planClickd" id="chartOne" class="chart" style="width: 520px; height: 423px;"></div>
+              <div v-if="planClickd" id="chartOne" class="chart" style="width: 98%; height: 423px;"></div>
             </b-row>
           </b-row>
         </b-container>
