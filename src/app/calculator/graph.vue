@@ -175,7 +175,7 @@
             </b-row>
 
             <b-row class="graphSaving">
-              <div v-if="planClickd" id="chartOne" class="chart" style="width: 520px; height: 423px;"></div>
+              <div v-if="planClickd" id="chartOne" class="chart" style="width: 98%; height: 459px;"></div>
             </b-row>
           </b-row>
         </b-container>
@@ -190,22 +190,28 @@
           ><font-awesome-icon icon="info-circle"/></span>
         </h4>
         <b-row class="outage t-center">
-          <div class="outageTimes c-FFFFFF t-center w-100p m-tb-a">
-            <!--              <p class="outageTimes c-FFFFFF t-left w-100p m-tb-a">-->
-            <p class="p1point5">{{pickedUtility.utilityName}} users in your area lost</p>
-            <p class = "lostToBlackouts">{{computeHours(pickedUtility.outage.saidi)}}</p>
-            <p class="p1point5">of power to blackouts this year</p>
+<!--          <div class="outageTimes c-FFFFFF t-center w-100p m-tb-a">-->
+<!--            &lt;!&ndash;              <p class="outageTimes c-FFFFFF t-left w-100p m-tb-a">&ndash;&gt;-->
+<!--            <p class="p1point5">{{pickedUtility.utilityName}} users in your area lost</p>-->
+<!--            <p class = "lostToBlackouts">{{computeHours(pickedUtility.outage.saidi)}}</p>-->
+<!--            <p class="p1point5">of power to blackouts this year</p>-->
+<!--          </div>-->
+
+          <div v-if="this.pickedUtility.outage.saifi >= 1" class="outageTimes c-FFFFFF t-center w-100p m-tb-a">
+            <p class="p1point8">{{pickedUtility.utilityName}} users in your area experienced</p>
+            <p class = "emf c-B0E7FF">{{pickedUtility.outage.saifi}} power outages</p>
+            <p class="p1point8">on average last year</p>
           </div>
-          <div class="outageTimes c-FFFFFF t-center w-100p m-tb-a">
-            <p class="p1point5">This provider has had an average of</p>
-            <p class = "emf c-B0E7FF">{{pickedUtility.outage.saifi}} blackouts</p>
-            <p class="p1point5">this year</p>
+          <div v-else class="outageTimes c-FFFFFF t-center w-100p m-tb-a">
+            <p class="p1point8">In your area,</p>
+            <p class = "emf c-B0E7FF">{{100 * pickedUtility.outage.saifi}}% of {{pickedUtility.utilityName}} Users</p>
+            <p class="p1point8">experienced a power outage last year</p>
           </div>
 
           <div class="outageTimesLast c-FFFFFF t-center w-100p m-tb-a">
-            <p class="p1point5">Each blackout lasted</p>
+            <p class="p1point8">Each power outage lasted</p>
             <p class = "emf c-B0E7FF">{{computeHours(pickedUtility.outage.caidi)}}</p>
-            <p class="p1point5">on average</p>
+            <p class="p1point8">on average</p>
           </div>
         </b-row>
 

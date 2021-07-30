@@ -152,63 +152,6 @@
 <!--      </div>-->
 <!--    </section>-->
     <!--end:blip is launching soon-->
-
-    <!--start:Contact-->
-    <div class="hero" style="">
-<!--      <div class="container" style="height: 536px;background: #7A7979;width: 100%">-->
-        <div class="row">
-          <div class="col-sm-12 col-md-12 col-lg-12 offset-lg-12 col-xl-12" >
-            <div class="content text-center">
-              <b-row class="onLine" style="">
-                <b-col xs="4" sm="5" md="6" lg="7" xl="7" class="t-left logoOnLeft" style="padding-left: 0px;">
-                  <img src="../../../assets/blip_logo.png" onclick="window.location.href='../'" class="logo"/>
-                </b-col>
-                <b-col xs="8" sm="7" md="6" lg="5" xl="5" class = "textOnRight" style="padding-right: 0px">
-                  <b-row class="txt">
-                    <b-col xs="4" sm="4" md="4" lg="4" xl="4" class = "txtIn t-left p-l-0">
-                      <p class="h5 two54B77 m-l-0 title ">Company</p>
-                      <router-link class="h5 two54B77 link" :to="'../about'">About</router-link><br>
-                      <router-link class="h5 two54B77 link" :to="'../contact-us'">Contact us</router-link><br>
-                      <router-link class="h5 two54B77 link" :to="'../faqs'">FAQs</router-link><br>
-                    </b-col>
-                    <b-col xs="4" sm="4" md="4" lg="4" xl="4" class = "txtIn t-left">
-                      <p class="h5 two54B77 title ">Product</p>
-<!--                      <router-link class="h5 two54B77 link" :to="'../blip-one'">blip One</router-link><br>-->
-                      <router-link class="h5 two54B77 link" :to="'../product'">blip One</router-link><br>
-                      <router-link class="h5 two54B77 link" :to="'../utilities'">Utilities</router-link><br>
-                    </b-col>
-                    <b-col xs="4" sm="4" md="4" lg="4" xl="4" class = "txtIn t-left">
-                      <p class="h5 two54B77 title">Legal</p>
-                      <router-link class="h5 two54B77 link" :to="'privacy-policy'">Privacy Policy</router-link><br>
-                    </b-col>
-                  </b-row>
-                </b-col>
-              </b-row>
-              <b-row class="underLine">
-                <b-col xs="5" sm="6" md="7" lg="8" xl="8" class="t-left rightsOnLeft" style="padding-left: 0px;">
-                  <p class="h5 two54B77 t-left p-l-0 m-l-0"><strong>© blip, LLC. 2021</strong></p>
-                </b-col>
-                <b-col xs="7" sm="6" md="5" lg="4" xl="4" class = "logoOnRight">
-                  <b-row style="padding: 0 0 0 0;">
-                    <b-col xs="4" sm="4" md="4" lg="4" xl="4" class="FFFFFF">
-                      <p class="h5 two54B77 t-left p-l-0 m-l-0 title">Follow us:</p>
-                    </b-col>
-
-                    <b-col xs="8" sm="8" md="8" lg="8" xl="8" class="FFFFFF t-right logosOnRight" style="padding: 0px; margin-right:0;">
-                      <a href="https://twitter.com/BlipEnergy" target="_blank"><img src="../../../assets/LogoinFooter/twitter.png" class="logos"/></a>
-                      <a href="https://www.facebook.com/blipenergy/" target="_blank"><img src="../../../assets/LogoinFooter/facebook.png" class="logos mar"/></a>
-                      <a href="https://www.linkedin.com/company/blip-energy" target="_blank"><img src="../../../assets/LogoinFooter/linkedin.png" class="logos mar"/></a>
-                      <a href="https://www.instagram.com/blipenergy/" target="_blank"><img src="../../../assets/LogoinFooter/instagram.png" class="logos mar"/></a>
-                    </b-col>
-                  </b-row>
-                </b-col>
-              </b-row>
-            </div>
-          </div>
-        </div>
-      </div>
-<!--    </div>-->
-    <!--end:Contact-->
   </div>
 </template>
 <!--&lt;!&ndash;Gallery , New, Account &ndash;&gt;-->
@@ -219,7 +162,7 @@
 import axios from "axios";
 
 export default {
-  name: "footer",
+  name: "footerSignUpMailChimp",
   data() {
     return {
     };
@@ -600,99 +543,6 @@ input::placeholder{
 #submitMsg{
   margin-top: -40px;
 }
-
-//.logo{
-//  background: url(../../../assets/blip_logo.png);
-//}
-
-.onLine{
-  //background: #faad13;
-  width: 82%;
-  height: 172px;
-  left: 130px;
-  top: 292px;
-
-  border-bottom: 1px solid #D3D3D3;
-
-  .logoOnLeft{
-    height: 100%;
-    .logo{
-      height: 55px;
-      width: 88px;
-      //left: 129px;
-      //top: 105px;
-      margin-left: 0px;
-      border-radius: 0px;
-    }
-  }
-  .textOnRight{
-    height: 100%;
-    .txt{
-      height: 100%;
-      .txtIn{
-        //margin-top: 0px;
-        padding: 0;
-        .title{
-          margin-bottom: 16px;
-          font-weight: 500;
-        }
-        .link:hover{
-          font-weight: 400;
-        }
-        a:hover{
-          text-decoration: none;
-        }
-      }
-    }
-  }
-}
-.underLine{
-  padding-top: 43px;
-  .rightsOnLeft{
-  }
-  .logoOnRight{
-    //background: #7A7979;
-    padding: 0 0 0 0;
-    margin-right: 0;
-    text-align: right;
-    .title{font-weight: 500}
-    .logosOnRight{
-      text-align: right;
-      margin-right: 0px;
-      .logos{
-        height: 20px;
-        //background: #FFFFFF;
-      }
-      .mar{
-        margin-left: 30px;
-        margin-right: 0;
-      }
-    }
-  }
-}
-
-.copyright{
-  position: absolute;
-  height: 22px;
-  //left: 45.35%;
-  //right: 45.35%;
-  left: 40%;
-  right: 40%;
-  top: calc(50% - 22px/2 + 150px);
-  margin-top:-12px;
-      //20px;
-  text-align: center;
-
-  font-family: 'Montserrat', Avenir;;
-  font-style: normal;
-  font-weight: 300;
-  font-size: 16px;
-  line-height: 22px;
-  /* identical to box height */
-  color: #5A7184;
-}
-
-
 
 .navbar-nav{
   justify-content: center;

@@ -141,15 +141,11 @@ import banner from "./banner.vue";
 // import transparentBanner from "@/app/shared/components/transparentBanner";
 import Footer from "./FooterII.vue";
 // import Footer from "./Footer.vue";
-import image from "../../../assets/alain_duchateau_QvZj7r3efC4_unsplash_lighterblue_Copy.jpg"
-import image2 from "../../../assets/blip-mockup-updateForHome.png"
 
 export default {
   name: "home",
   data() {
     return {
-      image: image,
-      image2: image2
     };
   },
   mounted() {
