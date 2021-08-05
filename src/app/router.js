@@ -4,7 +4,7 @@ import Router from 'vue-router'
 import login from './shared/components/login.vue'
 import home from './shared/components/homeII.vue'
 import about from './website/about.vue'
-import product from './website/product.vue'
+import product from './website/productII.vue'
 import faqs from './website/faqs.vue'
 import contactUs from './website/contact-us.vue'
 import calculator from './calculator/calculator.vue'
@@ -36,6 +36,7 @@ export default new Router({
 
     {
       path: '/product',
+      alias: ['/blipOne'],
       name: 'product',
       component: product
     },

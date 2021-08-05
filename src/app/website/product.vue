@@ -206,6 +206,14 @@ export default {
       chartTwo: null
     };
   },
+  mounted() {
+    this.$nextTick(function() {
+      this.drawChartOne('chartOne')
+    })
+    this.$nextTick(function() {
+      this.drawChartTwo('chartTwo')
+    })
+  },
   head() {
       return {
         title: 'Product Page',
@@ -276,6 +284,7 @@ export default {
             type: 'none',
           }
         },
+        textStyle:{fontFamily: 'Montserrat'}
       })
 
     },
@@ -343,7 +352,8 @@ export default {
               }
             }
           }
-        ]
+        ],
+        textStyle:{fontFamily: 'Montserrat'}
       })
     }
 
