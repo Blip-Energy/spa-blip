@@ -46,6 +46,14 @@ h1{
   line-height: 76px;
   /* or 119% */
 }
+.h1point3{
+  //font-family: Avenir;
+  font-family: 'Montserrat', Avenir;
+  font-style: normal;
+  font-weight: 300;
+  font-size: 58px;
+  line-height: 70.7px;
+}
 .h1point5{
   //font-family: Avenir;
   font-family: 'Montserrat', Avenir;
@@ -178,6 +186,7 @@ p.p5{
 .width-100percent{width: 100%;}
 .w-100p{width: 100%;}
 .w-90p{width: 90%;}
+.w-85p{width: 85%;}
 .w-80p{width: 80%;}
 .w-75p{width: 75%;}
 .w-70p{width: 70%;}
@@ -234,7 +243,7 @@ button.submit{
 }
 button.submit:hover {
   background: #254B77;
-  color: #FFFFFF;
+  color: #B0E7FF;
 }
 
 button.submit.transparent.c-4F9BC1{

@@ -971,7 +971,7 @@ button.submit:hover {
         width: 80%;
         height: 49.55px;
         margin-top: 20px;
-        margin-bottom: -30px;
+        margin-bottom: -40px;
         margin-left: 10%;
         margin-right: 10%;
         border: 2px solid #254B77;
@@ -1028,7 +1028,7 @@ button.submit:hover {
       //height: 128px;
       //left: 44px;
       //top: 1393px;
-      padding: 45px 30px;
+      padding: 61px 30px 45px;
       margin-top: 40px;
       margin-bottom: 30px;
 
@@ -1062,7 +1062,7 @@ button.submit:hover {
 
       .outageTimes{
         //background: #C4C4C4;
-        padding-bottom: 30px;
+        padding-bottom: 46px;
         margin-bottom: 40px;
         border-bottom: 2px solid #4F9BC1;
         //border-bottom-height: 390px;
@@ -1089,8 +1089,8 @@ button.submit:hover {
         .emf{
           font-family: 'Montserrat', Avenir;
           font-style: normal;
-          font-weight: 300;
-          font-size: 42px;
+          font-weight: 200;
+          font-size: 44px;
           line-height: 76px;
           /* or 169% */
 
@@ -1099,6 +1099,7 @@ button.submit:hover {
         }
       }
       .outageTimesLast{
+        padding-top: 16px;
         padding-bottom: 0px;
         margin-bottom: 0px;
         //border-bottom: 2px solid #4F9BC1;
@@ -1114,8 +1115,8 @@ button.submit:hover {
         .emf{
           font-family: 'Montserrat', Avenir;
           font-style: normal;
-          font-weight: 300;
-          font-size: 42px;
+          font-weight: 200;
+          font-size: 44px;
           line-height: 76px;
           /* or 169% */
 
