@@ -27,8 +27,12 @@
       <!--start: Designed with you in mind-->
       <section class="designed b-FFFFFF i-a-c">
         <b-row class="w-85p insider">
-          <p class="p1point5 c-4F9BC1" style="margin-bottom: 12px">SUSTAINABILITY</p>
-          <h2 class="h2point8 c-254B77 f-weight-400 t-left m-l-0 p-l-0 w-100p" style="margin-bottom: 50px">Designed with you in mind</h2>
+          <b-col  xs="12" sm="12" md="6" lg="6" xl="6" class="leftText t-left">
+            <p class="p1point5 c-4F9BC1" style="margin-bottom: 12px">SUSTAINABILITY</p>
+            <h2 class="h2point8 c-254B77 f-weight-400 t-left m-l-0 p-l-0 w-100p" style="margin-bottom: 50px">Designed with you in mind</h2>
+          </b-col>
+          <b-col  xs="12" sm="12" md="6" lg="6" xl="6" class="rightBlc t-left">
+          </b-col>
 <!--          <b-row class="pic w-100p">-->
 <!--            <b-col xs="3" sm="3" md="3" lg="3" xl="3" class="t-center oneQuarter" style="padding-top: 2%">-->
 <!--              <img src="../../assets/webPages/product/Vector1.png" style="width: 16%;">-->
@@ -194,12 +198,12 @@
               <br><br>
               Plug your energy dense appliances, like a window AC unit, into blipOne and you could save you hundreds of dollars - blipOne would pay for itself!
             </p>
-            <button type="button" class="btn submit" onclick="window.location.href='../product'">
+            <button type="button" class="btn submit" onclick="window.location.href='../calculator'">
               See Your Savings
             </button>
           </b-col>
           <b-col  xs="12" sm="12" md="7" lg="7" xl="7" class="rightChart p-l-0">
-            <div id="chartTwo" class="chart" style="width: 97%; height: 100%"></div>
+            <div id="chartTwo" class="chart" style="width: 100%; height: 100%"></div>
           </b-col>
         </b-row>
       </section>
@@ -260,25 +264,25 @@
       <section class="designedFor b-254B77 i-a-c">
         <b-row class="w-85p insider">
           <b-row class="whole w-100p">
-            <b-col xs="12" sm="12" md="4" lg="4" xl="4" class="t-center oneQuarter">
+            <b-col xs="12" sm="12" md="12" lg="4" xl="4" class="t-center oneThird">
               <img src="../../assets/webPages/product/SpaceConscious.png" style="width: 76px; margin-left: -38px">
-              <p class="p1point5 c-DEF5FF t-center" style="">No installation</p>
+              <p class="p1point5 c-DEF5FF t-center" style="">Space-conscious</p>
               <p class="p3 c-FFFFFF m-l-0 p-l-0">
-                blipOne plugs right into a wall outlet. No electricians necessary.
+                Our compact design occupies less than one square foot
               </p>
             </b-col>
-            <b-col xs="12" sm="12" md="4" lg="4" xl="4" class="t-center oneQuarter">
+            <b-col xs="12" sm="12" md="12" lg="4" xl="4" class="t-center oneThird">
               <img src="../../assets/webPages/product/Frame.png" style="width: 72px; margin-left: -36px">
-              <p class="p1point5 c-DEF5FF t-center" style="">Backup power</p>
+              <p class="p1point5 c-DEF5FF t-center" style="">Ergonomic + portable</p>
               <p class="p3 c-FFFFFF m-l-0 p-l-0">
-                blipOne has 2.2KWh of backup power in case of an outage. Peace of mind doesn’t have to cost an arm and a leg.
+                blipOne’s ergonomic handle, wheels and lightweight design makes it easy to transport, so you can bring its benefits with you whenever you move
               </p>
             </b-col>
-            <b-col xs="12" sm="12" md="4" lg="4" xl="4" class="t-center oneQuarter">
+            <b-col xs="12" sm="12" md="12" lg="4" xl="4" class="t-center oneThird">
               <img src="../../assets/webPages/product/ModernDesign.png" style="width: 50px; margin-left: -25px">
-              <p class="p1point5 c-DEF5FF t-center" style="">Cost savings</p>
+              <p class="p1point5 c-DEF5FF t-center" style="">Modern design</p>
               <p class="p3 c-FFFFFF m-l-0 p-l-0">
-                blipOne uses price arbitrage (the fancy term for “buy low, sell high”) to save you money on your electric bill. On some rate plans, blip pays for itself in as little as 2 years.
+                Integrate blipOne into your home with its sleek design and color options to fit your style
               </p>
             </b-col>
           </b-row>
@@ -318,7 +322,6 @@
 
 <script>
 import banner from "./../shared/components/banner.vue";
-// import transparentBanner from "@/app/shared/components/transparentBanner";
 import Footer from "./../shared/components/FooterII.vue";
 // import Footer from "./Footer.vue";
 import echarts from "echarts";

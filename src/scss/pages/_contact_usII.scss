@@ -1,0 +1,65 @@
+.insider{
+  margin-left: 5%;
+  margin-right: 5%;
+  .left{
+    margin-left: 0;
+    margin-right: 0;
+    padding: 0;
+  }
+  .right{
+    padding: 0 3%;
+    .we{
+      //width: 636px;
+      margin-left: auto;
+      margin-right: auto;
+      margin-bottom: 150px;
+      //212px;
+      .wed{
+        //background: #3cb582;
+        //width: 636px;
+        margin-top: 134px;
+        margin-bottom: 63px;
+        margin-left: 0;
+      }
+      .names{
+        margin-bottom: 18px;
+        .p4{
+          font-weight: 400;
+        }
+        input{margin-top: 0}
+      }
+      .email{
+        margin-bottom: 18px;
+        .p4{
+          font-weight: 400;
+        }
+      }
+      .message{
+        margin-bottom: 36px;
+        .p4{
+          font-weight: 400;
+        }
+      }
+      .buttonLine{
+        padding-left: calc((100% - 183px)/2);
+        padding-right: calc((100% - 183px)/2);
+        .submit{
+          width: 183px;
+          height: 48px;
+          margin-left: auto;
+          margin-right: auto;
+        }
+      }
+      .error{
+        //padding-right: 15px;
+        .errorMsg{
+          width: calc(100% - 15px);
+          margin-left: auto;
+          margin-right: auto;
+          //height: 59px;
+        }
+      }
+    }
+  }
+}
+

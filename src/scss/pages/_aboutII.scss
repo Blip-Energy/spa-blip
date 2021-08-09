@@ -1,0 +1,139 @@
+.blipAims{
+  .left{
+    padding: 130px 3% 150px 7%;
+    .insider{
+      //margin-left: 0;
+    }
+  }
+  .right{
+    padding: 130px 6% 0 4%;
+    .insider{
+      //margin-left: 0;
+    }
+  }
+}
+
+.weCare{
+  padding-top: 100px;
+  padding-bottom: 100px;
+  //display: flex;
+  //align-items: center;
+  .insider{
+    display: flex;
+    align-items: center;
+    .leftImg{
+      //display: flex;
+      //align-items: center;
+      //padding-left: 3%;
+      img{
+        width: 80%;
+      }
+    }
+    .rightText{
+      padding-left: 6%;
+    }
+  }
+}
+
+.weVe{
+  //height: 847px;
+  padding-top: 122px;
+  padding-bottom: 40px;
+          //display: flex;
+  //align-items: center;
+}
+.weVeBeen{
+  padding-bottom: 122px;
+  .topline{
+    //height: 15%;
+    border-top: 1px solid #4F9BC1;
+    //margin-top: 50px;
+    margin: 0;
+    //padding-left: 0px;
+    //text-align: left;
+    //background: #;
+    .leftImg{
+      display: flex;
+      align-items: center;
+      img{
+        //height: 10%;
+        margin-left: auto;
+        margin-right: auto;
+        margin-bottom: 18px;
+        display: flex;
+        align-items: center;
+      }
+    }
+    .rightTxt{
+      padding: 50px 0;
+      .p1point5{margin-bottom: 0}
+      .p3{
+        margin-left: 0;
+        margin-bottom: 0;
+        text-transform: uppercase;
+      }
+    }
+  }
+
+  .bottomLine{
+    border-bottom: 1px solid #4F9BC1;
+  }
+}
+
+.meet{
+  padding-top: 110px;
+  padding-bottom: 0;
+  .insider{
+    .leftText{
+      padding-left: 0;
+      .p2{
+        margin-left: 0;
+        font-weight: 200;
+      }
+    }
+  }
+}
+.meetThe{
+  padding-top: 60px;
+  padding-bottom: 110px;
+  .insider{
+    .content{
+      //.col-lg-3.col-md-6.col-sm-12{
+      //  background: #3cb582;
+      //}
+      text-align: center;
+      margin-bottom: 40px;
+      .row{
+        margin-left: auto;
+        margin-right: auto;
+      }
+      //h4{width:240px;}
+      .card-f-heading{
+        width: 259px;
+        height: 259px;
+        padding: 0px 0px;
+        margin-left: auto;
+        margin-right: auto;
+        margin-bottom: 45px;
+        .members{
+          height: 259px;
+        }
+      }
+      .card-f-body{
+        margin-top: 0;
+        p{
+          margin-left: auto;
+          margin-right: auto;
+          margin-bottom: 13px;
+        }
+      }
+    }
+  }
+  button{
+    width: 216px;
+    height: 48px;
+    margin-top: 50px;
+    font-size: 18px;
+    line-height: 20px;
+  }
+}

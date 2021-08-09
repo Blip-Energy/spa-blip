@@ -127,9 +127,9 @@ export default {
     //box-sizing: border-box;
     //border-radius: 25px;
     ///////////////////////////////////////////////////////////////////////////////new-start
-    background: #B0E7FF;
+    background: #FFFFFF;
     border-radius: 30px;
-    //border: 1px solid #B0E7FF;
+    border: 1px solid #254B77;
     ///////////////////////////////////////////////////////////////////////////////new-end
     color: #254B77;
   }
@@ -138,10 +138,6 @@ export default {
     background: #FFFFFF;
     border: 1px solid #254B77;
     //text-decoration:
-  }
-  .router-link-active.button{
-    background: #FFFFFF;
-    border: 1px solid #254B77;
   }
   /////////////////////////////////////////////////////////////////////////////////new-end
   .typewriter {
