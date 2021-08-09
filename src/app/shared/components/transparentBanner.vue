@@ -107,7 +107,7 @@ export default {
   }
   .navigation div:hover{
     color: #FFFFFF;
-    text-decoration: underline;
+    //text-decoration: underline;
   }
   .router-link-active{
     color: #FFFFFF;
