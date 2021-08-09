@@ -107,21 +107,21 @@ export default {
   }
   .navigation div:hover{
     color: #FFFFFF;
-    //text-decoration: underline;
+    text-decoration: underline;
   }
   .router-link-active{
     color: #FFFFFF;
-    //text-decoration: underline;
+    text-decoration: underline;
     //div{border-bottom: 1px solid #254B77;}
   }
 
   ////////////////////////////////////////////////Added-start
-  a:hover{
-    //text-decoration: underline;
-    //text-underline-offset: 3px;
-    text-decoration: none;
-    font-weight: 500;
-  }
+  //a:hover{
+  //  //text-decoration: underline;
+  //  //text-underline-offset: 3px;
+  //  text-decoration: none;
+  //  font-weight: 500;
+  //}
   ////////////////////////////////////////////////Added-end
 
   .button{

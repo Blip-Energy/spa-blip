@@ -106,19 +106,19 @@ export default {
   }
   .router-link-active{
     color: #254B77;
-    //text-decoration: underline;
+    text-decoration: underline;
     //text-underline-offset: 3px;
     padding-bottom: 3px;
-    font-weight: 500;
+    //font-weight: 500;
     //div{border-bottom: 1px solid #254B77;}
   }
   ///////////////////////////////////////////////////////////////////////////////new-start
-  a:hover{
-    //text-decoration: underline;
-    //text-underline-offset: 3px;
-    text-decoration: none;
-    font-weight: 500;
-  }
+  //a:hover{
+  //  //text-decoration: underline;
+  //  //text-underline-offset: 3px;
+  //  text-decoration: none;
+  //  font-weight: 500;
+  //}
   ///////////////////////////////////////////////////////////////////////////////new-end
   .button{
     width: 200px;
@@ -129,17 +129,17 @@ export default {
     //box-sizing: border-box;
     //border-radius: 25px;
     ///////////////////////////////////////////////////////////////////////////////new-start
-    background: #B0E7FF;
-    border-radius: 30px;
-    //border: 1px solid #B0E7FF;
+    //background: #B0E7FF;
+    //border-radius: 30px;
+    ////border: 1px solid #B0E7FF;
     ///////////////////////////////////////////////////////////////////////////////new-end
     color: #254B77;
   }
   /////////////////////////////////////////////////////////////////////////////////new-start
-  .button:hover{
-    border: 1px solid #254B77;
-    //text-decoration:
-  }
+  //.button:hover{
+  //  border: 1px solid #254B77;
+  //  //text-decoration:
+  //}
   /////////////////////////////////////////////////////////////////////////////////new-end
   .typewriter {
     font-family: 'Montserrat', Avenir;
