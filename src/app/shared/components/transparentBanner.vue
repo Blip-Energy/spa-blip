@@ -111,7 +111,7 @@ export default {
   }
   .router-link-active{
     color: #FFFFFF;
-    text-decoration: underline;
+    //text-decoration: underline;
     //div{border-bottom: 1px solid #254B77;}
   }
 
