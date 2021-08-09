@@ -115,6 +115,15 @@ export default {
     //div{border-bottom: 1px solid #254B77;}
   }
 
+  ////////////////////////////////////////////////Added-start
+  a:hover{
+    //text-decoration: underline;
+    //text-underline-offset: 3px;
+    text-decoration: none;
+    font-weight: 500;
+  }
+  ////////////////////////////////////////////////Added-end
+
   .button{
     width: 200px;
     margin-left: 10px;
