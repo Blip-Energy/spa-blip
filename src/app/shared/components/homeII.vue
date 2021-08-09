@@ -36,7 +36,7 @@
       <section class="Pioneering b-FFFFFF i-a-c">
         <b-row class="w-90p insider">
           <b-col  xs="12" sm="12" md="7" lg="7" xl="7" class="leftImg p-l-0">
-            <img src="../../../assets/webPages/landing/BlipEnvironment-03.png" alt="" class="w-100p">
+            <img src="../../../assets/webPages/Landing/BlipEnvironment-03.png" alt="" class="w-100p">
           </b-col>
           <b-col  xs="12" sm="12" md="5" lg="5" xl="5" class="rightText t-left">
             <p class="p1point5 c-4F9BC1" style="margin-bottom: 12px">A NEW KIND OF BATTERY</p>
@@ -74,7 +74,7 @@
             </button>
           </b-col>
           <b-col  xs="12" sm="12" md="7" lg="7" xl="7" class="rightImg p-l-0">
-            <img src="../../../assets/webPages/landing/Time-of-Use-Rate-Plans_v02.png" alt="" class="w-100p">
+            <img src="../../../assets/webPages/Landing/Time-of-Use-Rate-Plans_v02.png" alt="" class="w-100p">
           </b-col>
         </b-row>
       </section>
@@ -84,7 +84,7 @@
       <section class="fightClimate b-254B77 i-a-c">
         <b-row class="w-90p insider">
           <b-col  xs="12" sm="12" md="7" lg="7" xl="7" class="leftImg p-l-0">
-            <img src="../../../assets/webPages/landing/earth.png" alt="" class="w-90p">
+            <img src="../../../assets/webPages/Landing/earth.png" alt="" class="w-90p">
           </b-col>
           <b-col  xs="12" sm="12" md="5" lg="5" xl="5" class="rightText t-left">
             <p class="p1point5 c-DEF5FF" style="margin-bottom: 12px">SUSTAINABILITY</p>
@@ -121,7 +121,7 @@
             </router-link>
           </b-col>
           <b-col  xs="12" sm="12" md="7" lg="7" xl="7" class="rightImg">
-            <img src="../../../assets/webPages/landing/electrical-engineering_v02.png" alt="" class="w-100p">
+            <img src="../../../assets/webPages/Landing/electrical-engineering_v02.png" alt="" class="w-100p">
           </b-col>
         </b-row>
       </section>
