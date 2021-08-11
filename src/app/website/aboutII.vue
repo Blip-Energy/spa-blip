@@ -60,7 +60,7 @@
       <section class="weVeBeen b-FFFFFF i-a-c">
         <b-row class="w-85p insider">
           <b-row class="topline" style="width: 100%">
-            <b-col xs="4" sm="4" md="4" lg="4" xl="4" class="leftImg t-center" style="background: url(src/assets/webPages/about/websiteTraction/ASUio.jpg) no-repeat center;">
+            <b-col xs="4" sm="4" md="4" lg="4" xl="4" class="leftImg t-center ASUio" style="">
 <!--              <img src="../../assets/webPages/about/websiteTraction/ASUio.jpg" alt="" style="width: 30%">-->
             </b-col>
             <b-col xs="8" sm="8" md="8" lg="8" xl="8" class="rightTxt t-left">
@@ -71,7 +71,7 @@
             </b-col>
           </b-row>
           <b-row class="topline" style="width: 100%">
-            <b-col xs="4" sm="4" md="4" lg="4" xl="4" class="leftImg t-center" style="background: url(src/assets/webPages/about/websiteTraction/Venturecat.png) no-repeat center;background-size: 75%">
+            <b-col xs="4" sm="4" md="4" lg="4" xl="4" class="leftImg t-center VentureCat" style="">
 <!--              <img src="../../assets/webPages/about/websiteTraction/Venturecat.png" alt="" style="width: 80%; height: auto">-->
             </b-col>
             <b-col xs="8" sm="8" md="8" lg="8" xl="8" class="rightTxt t-left">
@@ -82,7 +82,7 @@
             </b-col>
           </b-row>
           <b-row class="topline" style="width: 100%">
-            <b-col xs="4" sm="4" md="4" lg="4" xl="4" class="leftImg t-center" style="background: url(src/assets/webPages/about/websiteTraction/RBPC.jpg) no-repeat center;background-size: 60%">
+            <b-col xs="4" sm="4" md="4" lg="4" xl="4" class="leftImg t-center Rice" style="">
 <!--              <img src="../../assets/webPages/about/websiteTraction/RBPC.jpg" alt="" style="width: 70%;">-->
             </b-col>
             <b-col xs="8" sm="8" md="8" lg="8" xl="8" class="rightTxt t-left">
@@ -93,7 +93,7 @@
             </b-col>
           </b-row>
           <b-row class="topline" style="width: 100%">
-            <b-col xs="4" sm="4" md="4" lg="4" xl="4" class="leftImg t-center" style="background: url(src/assets/webPages/about/websiteTraction/AWS.png) no-repeat center;background-size: 30%">
+            <b-col xs="4" sm="4" md="4" lg="4" xl="4" class="leftImg t-center Amazon" style="">
 <!--              <img src="../../assets/webPages/about/websiteTraction/AWS.png" alt="" style="width: 50%;">-->
             </b-col>
             <b-col xs="8" sm="8" md="8" lg="8" xl="8" class="rightTxt t-left">
@@ -104,7 +104,7 @@
             </b-col>
           </b-row>
           <b-row class="topline" style="width: 100%">
-            <b-col xs="4" sm="4" md="4" lg="4" xl="4" class="leftImg t-center" style="background: url(src/assets/webPages/about/websiteTraction/Baylor.png) no-repeat center;background-size: 60%">
+            <b-col xs="4" sm="4" md="4" lg="4" xl="4" class="leftImg t-center Baylor" style="">
 <!--              <img src="../../assets/webPages/about/websiteTraction/Baylor.png" alt="" style="width: 70%;">-->
             </b-col>
             <b-col xs="8" sm="8" md="8" lg="8" xl="8" class="rightTxt t-left">
@@ -115,7 +115,7 @@
             </b-col>
           </b-row>
           <b-row class="topline" style="width: 100%">
-            <b-col xs="4" sm="4" md="4" lg="4" xl="4" class="leftImg t-center" style="background: url(src/assets/webPages/about/websiteTraction/CSW.png) no-repeat center;background-size: 60%">
+            <b-col xs="4" sm="4" md="4" lg="4" xl="4" class="leftImg t-center Chicago" style="">
 <!--              <img src="../../assets/webPages/about/websiteTraction/CSW.png" alt="" style="width: 70%;">-->
             </b-col>
             <b-col xs="8" sm="8" md="8" lg="8" xl="8" class="rightTxt t-left">
@@ -126,7 +126,7 @@
             </b-col>
           </b-row>
           <b-row class="topline" style="width: 100%">
-            <b-col xs="4" sm="4" md="4" lg="4" xl="4" class="leftImg t-center" style="background: url(src/assets/webPages/about/websiteTraction/AlphaLab_HardwareCup.png) no-repeat center;background-size: 70%">
+            <b-col xs="4" sm="4" md="4" lg="4" xl="4" class="leftImg t-center Alphagear" style="">
 <!--              <img src="../../assets/webPages/about/websiteTraction/AlphaLab_HardwareCup.png" alt="" style="width: 70%;">-->
             </b-col>
             <b-col xs="8" sm="8" md="8" lg="8" xl="8" class="rightTxt t-left">
@@ -137,7 +137,7 @@
             </b-col>
           </b-row>
           <b-row class="topline bottomLine" style="width: 100%">
-            <b-col xs="4" sm="4" md="4" lg="4" xl="4" class="leftImg t-center" style="background: url(src/assets/webPages/about/websiteTraction/KelloggVentureChallenge.png) no-repeat center;background-size: 40%">
+            <b-col xs="4" sm="4" md="4" lg="4" xl="4" class="leftImg t-center KelloggV" style="">
 <!--              <img src="../../assets/webPages/about/websiteTraction/KelloggVentureChallenge.png" alt="" style="width: 60%;">-->
             </b-col>
             <b-col xs="8" sm="8" md="8" lg="8" xl="8" class="rightTxt t-left">
