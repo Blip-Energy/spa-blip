@@ -122,7 +122,7 @@
 <!--            <router-link :to="{path: '/articles'}" class="c-4F9BC1 routerLink f-weight-400">-->
 <!--              blip Blog <font-awesome-icon icon="arrow-right" style="font-size: 16px; margin-bottom: -1px;"/>-->
 <!--            </router-link>-->
-            <button type="button" class="btn submit" onclick="window.location.href='../product'">
+            <button type="button" class="btn submit" onclick="window.open('https://blipenergy.medium.com/')">
               blip Blog
             </button>
           </b-col>

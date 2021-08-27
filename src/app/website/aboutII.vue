@@ -35,6 +35,39 @@
       </section>
       <!--end: We believe everyone deserves access to energy storage-->
 
+      <!--start: We believe everyone deserves access to energy storage-->
+      <section class="weBelieve">
+        <b-row class="w-100p t-left">
+          <b-col xs="12" sm="12" md="6" lg="6" xl="6" class="left t-left b-DEF5FF">
+            <b-row class="w-90p insider t-left">
+              <p class="p1point5 c-4F9BC1 t-left" style="margin-bottom: 12px">OUR MISSION</p>
+              <h2 class="h2point8 c-254B77 f-weight-400 m-l-0 p-l-0 t-left" style="margin-bottom: 50px">We believe everyone deserves access to energy storage</h2>
+              <p class="p3 c-183B56 m-l-0 p-l-0 t-left">
+                Energy storage is a powerful tool for resilience, savings, and control over energy usage. Until now, battery systems were designed for permanent installation at homes and businesses, but that leaves renters and residents of multi-unit buildings without options. Our mission is to change that.
+              </p>
+<!--              <button type="button" class="btn submit" onclick="window.location.href='../product'">-->
+<!--                Learn more-->
+<!--              </button>-->
+                            <router-link :to="{path: '/product'}" class="c-4F9BC1 routerLink t-right">
+                              Learn More <font-awesome-icon icon="arrow-right" style="font-size: 16px; margin-bottom: -1px;"/>
+                            </router-link>
+            </b-row>
+          </b-col>
+          <b-col xs="12" sm="12" md="6" lg="6" xl="6" class="right t-left b-254B77">
+            <b-row class="w-90p insider t-left">
+              <p class="p1point5 c-B0E7FF t-left" style="margin-bottom: 12px">OUR GOAL</p>
+              <h2 class="h2point8 c-FFFFFF f-weight-400 m-l-0 p-l-0 t-left" style="margin-bottom: 50px">To provide more accessible energy savings</h2>
+              <p class="p3 c-FFFFFF m-l-0 p-l-0 t-left">
+                blip gives you access to electricity bill savings by storing energy when it is cheap. Other energy storage systems require professional installation, are designed only for homeowners, and cost five times more than blip.
+                <br><br>
+                With blip, those concerned about energy savings can finally access them, no matter where you live.
+              </p>
+            </b-row>
+          </b-col>
+        </b-row>
+      </section>
+      <!--end: We believe everyone deserves access to energy storage-->
+
       <!--start: We care deeply about our environment-->
       <section class="weCare b-FFFFFF i-a-c">
         <b-row class="insider w-90p">

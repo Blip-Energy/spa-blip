@@ -303,7 +303,7 @@
             <p class="p1point5 c-4F9BC1" style="margin-bottom: 12px">USER DASHBOARD</p>
             <h2 class="h2point8 c-254B77 f-weight-400 m-l-0 p-l-0" style="margin-bottom: 50px">Control your blipOne from anywhere</h2>
             <p class="p3 c-183B56 m-l-0 p-l-0">
-              Our seamless IoT integration allows you to update your device settings, view your savings and TKTKTKTK from anywhere.
+              Our seamless IoT integration allows you to update your device settings, view your savings and update energy storage preferences from anywhere.
             </p>
             <button type="button" class="btn submit" onclick="window.location.href='/coming-soon'">
               Go to Dashboard
