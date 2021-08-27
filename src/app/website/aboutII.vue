@@ -265,6 +265,81 @@
       </section>
       <!--end: Meet the team-->
 
+      <!--start: Meet the team-->
+      <section class="meet b-254B77 i-a-c t-center">
+        <b-row class="w-85p insider t-center">
+          <b-col  xs="12" sm="12" md="5" lg="5" xl="5" class="leftText t-left">
+            <p class="p1point5 c-B0E7FF" style="margin-bottom: 12px">WHO WE ARE</p>
+            <h2 class="h2point8 c-FFFFFF f-weight-400 m-l-0 p-l-0" style="margin-bottom: 50px">Meet the team</h2>
+            <p class="p2 c-FFFFFF m-l-0 p-l-0">
+              We are passionate about limiting our collective impact on the environment.
+            </p>
+          </b-col>
+          <b-col  xs="12" sm="12" md="7" lg="7" xl="7" class="rightblc p-l-0">
+          </b-col>
+        </b-row>
+      </section>
+      <section class="meetThe b-254B77 i-a-c t-center">
+        <b-row class="w-90p insider t-center">
+          <div class="content w-100p">
+            <div class="row" style="width: 100%">
+              <div class="col-lg-3 col-md-6 col-sm-12">
+                <div class="card-f flex text-center wow fadeInUp">
+                  <div class="card-f-heading">
+                    <img src="../../assets/webPages/about/team/Sophia.png" alt="" class="members">
+                  </div>
+                  <div class="card-f-body t-center">
+                    <p class="p2 c-FFFFFF t-center">Sophia Wennstedt</p>
+                    <p class="p3 c-FFFFFF t-center">Co-Founder & CEO</p>
+                  </div>
+                </div>
+              </div>
+              <div class="col-lg-3 col-md-6 col-sm-12">
+                <div class="card-f flex text-center wow fadeInUp">
+                  <div class="card-f-heading">
+                    <img src="../../assets/webPages/about/team/ChanceNew1.png" alt="" class="members">
+                  </div>
+                  <div class="card-f-body">
+                    <p class="p2 c-FFFFFF t-center">Chance Cobb</p>
+                    <p class="p3 c-FFFFFF t-center">Co-Founder & COO</p>
+                  </div>
+                </div>
+              </div>
+              <div class="col-lg-3 col-md-6 col-sm-12">
+                <div class="card-f flex text-center wow fadeInUp">
+                  <div class="card-f-heading">
+                    <img src="../../assets/webPages/about/team/Dennis.png" alt="" class="members">
+                  </div>
+                  <div class="card-f-body">
+                    <p class="p2 c-FFFFFF t-center">Dennis Kontorovich</p>
+                    <p class="p3 c-FFFFFF t-center">Co-Founder & CFO</p>
+                  </div>
+                </div>
+              </div>
+              <div class="col-lg-3 col-md-6 col-sm-12">
+                <div class="card-f flex text-center wow fadeInUp">
+                  <div class="card-f-heading">
+                    <img src="../../assets/webPages/about/team/Thibaut.png" alt="" class="members">
+                  </div>
+                  <div class="card-f-body">
+                    <p class="p2 c-FFFFFF t-center">Thibaut Feremans</p>
+                    <p class="p3 c-FFFFFF t-center">Co-Founder & CTO</p>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <b-row class="t-center">
+            <button type="button" class="button btn btn-outline-FFFFFF" onclick="window.location.href='../contact-us'">
+              <!--                      <a href="./contact-us" class="btn btn-primary">-->
+              Contact Us
+              <!--                        </a>-->
+            </button>
+          </b-row>
+        </b-row>
+      </section>
+      <!--end: Meet the team-->
+
 <!--      <p>-->
 <!--        Click <a href="#" @click.prevent="disableTracking">here</a>,-->
 <!--        to disable the tracking through Google Analytics.-->
