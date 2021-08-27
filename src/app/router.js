@@ -12,6 +12,8 @@ import utilities from './website/utilitiesII.vue'
 import articles from './website/articles'
 import myBlip from './onboarding/my-blip.vue'
 import privacyPolicy from './website/privacy-policy.vue'
+import coming from './onboarding/comingSoon.vue'
+
 
 Vue.use(Router)
 
@@ -77,6 +79,11 @@ export default new Router({
       path: '/my-blip',
       name: 'my-blip',
       component: myBlip
+    },
+    {
+      path: '/coming-soon',
+      name: 'coming-soon',
+      component: coming
     },
     {
       path: '/privacy-policy',
