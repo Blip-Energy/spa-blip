@@ -1,8 +1,24 @@
-.blipAims{
+.weBelieve{
   .left{
     padding: 130px 3% 150px 7%;
     .insider{
       //margin-left: 0;
+      button{
+        //position: absolute;
+        //right: 0;
+        height: 48px;
+        padding-left: 58px;
+        padding-right: 58px;
+        margin-top: 30px;
+      }
+      .routerLink{
+        position: absolute;
+        bottom: 110px;
+        right: 12%;
+        margin-top: 40px;
+        font-weight: 400;
+      }
+      .routerLink:hover{color: #254B77;text-decoration: none;}
     }
   }
   .right{

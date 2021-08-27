@@ -177,6 +177,10 @@ p.p5{
   line-height: 125%;
   /* or  */
 }
+a{
+  font-family: 'Montserrat', Avenir;
+  font-style: normal;
+}
 //img{background: #C4C4C4;}
 
 .t-center{text-align: center;}
@@ -276,6 +280,7 @@ button.submit.b-4F9BC1{
   font-style: normal;
   font-weight: 300;
   color: #FFFFFF;
+
 }
 button.submit.b-4F9BC1:hover {
   background: #FFFFFF;
@@ -283,9 +288,9 @@ button.submit.b-4F9BC1:hover {
 }
 
 button.btn.btn-outline-FFFFFF{
-  height: 59px;
-  padding-left: 35px;
-  padding-right: 35px;
+  //height: 59px;
+  //padding-left: 35px;
+  //padding-right: 35px;
 
   border: 2px solid #FFFFFF;
   box-sizing: border-box;

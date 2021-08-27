@@ -95,8 +95,11 @@ export default {
     }
   }
   img {
-    height: 60%;
-    width: 50%;
+    //height: 60%;
+    width:
+        80px;
+    //50%;
+    margin-top: 3px;
   }
   .navigation div {
     font-family: 'Montserrat', Avenir;

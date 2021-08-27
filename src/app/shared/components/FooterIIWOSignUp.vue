@@ -19,9 +19,9 @@
                       <router-link class="h5 two54B77 link" :to="'../faqs'">FAQs</router-link><br>
                     </b-col>
                     <b-col xs="4" sm="4" md="4" lg="4" xl="4" class = "txtIn t-left">
-                      <p class="h5 two54B77 title ">Product</p>
+                      <p class="h5 two54B77 title ">blipOne</p>
 <!--                      <router-link class="h5 two54B77 link" :to="'../blip-one'">blip One</router-link><br>-->
-                      <router-link class="h5 two54B77 link" :to="'../product'">blip One</router-link><br>
+                      <router-link class="h5 two54B77 link" :to="'../product'">Product</router-link><br>
                       <router-link class="h5 two54B77 link" :to="'../utilities'">Utilities</router-link><br>
                     </b-col>
                     <b-col xs="4" sm="4" md="4" lg="4" xl="4" class = "txtIn t-left">
