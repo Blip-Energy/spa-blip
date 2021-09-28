@@ -12,13 +12,13 @@ section{
 }
 //.h-536{height: 536px;}
 
-//.E5E5E5{background: #E5E5E5;}
 .b-FFFFFF{background: #FFFFFF;}
 .b-DEF5FF{background: #DEF5FF;}
 .b-1D3755{background: #1D3755;}
 .b-F9F9F9{background: #F9F9F9;}
 .b-254B77{background: #254B77;}
 .b-EEF9FE{background: #EEF9FE;}
+.b-E5E5E5{background: #E5E5E5;}
 
 .c-183B56{color: #183B56;}
 .c-254B77{color: #254B77;}
@@ -30,6 +30,7 @@ section{
 .c-4F9BC1{color: #4F9BC1;}
 .c-0B45DC{color: #0B45DC;}
 .c-D3D3D3{color: #D3D3D3;}
+.c-1F4065{color: #1F4065;}
 
 .f-weight-100{font-weight: 100}
 .f-weight-200{font-weight: 200}
@@ -176,6 +177,10 @@ p.p5{
   line-height: 125%;
   /* or  */
 }
+a{
+  font-family: 'Montserrat', Avenir;
+  font-style: normal;
+}
 //img{background: #C4C4C4;}
 
 .t-center{text-align: center;}
@@ -190,12 +195,15 @@ p.p5{
 .w-80p{width: 80%;}
 .w-75p{width: 75%;}
 .w-70p{width: 70%;}
+.w-60p{width: 60%;}
+.w-50p{width: 50%;}
+.w-40p{width: 40%;}
+.w-30p{width: 30%;}
+.w-25p{width: 25%;}
+.w-20p{width: 20%;}
+.w-10p{width: 10%;}
 .h-100p{height: 100%;}
 
-.m-lr-a{
-  margin-left: auto;
-  margin-right: auto;
-}
 .m-l-0{margin-left: 0px;}
 .m-r-0{margin-right: 0px;}
 .m-t-0{margin-top: 0px;}
@@ -262,10 +270,27 @@ button.submit.transparent:hover {
   color: #254B77;
 }
 
+button.submit.b-4F9BC1{
+  background: #4F9BC1;
+  border-radius: 30px;
+  border: none;
+
+  //font-family: FF Mark Pro;
+  font-family: 'Montserrat', Avenir;
+  font-style: normal;
+  font-weight: 300;
+  color: #FFFFFF;
+
+}
+button.submit.b-4F9BC1:hover {
+  background: #FFFFFF;
+  color: #4F9BC1;
+}
+
 button.btn.btn-outline-FFFFFF{
-  height: 59px;
-  padding-left: 35px;
-  padding-right: 35px;
+  //height: 59px;
+  //padding-left: 35px;
+  //padding-right: 35px;
 
   border: 2px solid #FFFFFF;
   box-sizing: border-box;
@@ -312,6 +337,15 @@ button.btn.btn-outline-254B77:hover {
   background-color: #254B77;
   color: #DEF5FF;
 }
+
+.input{
+  height: 44px;
+  background: #FFFFFF;
+  border: 2px solid #D3D3D3;
+  box-sizing: border-box;
+  border-radius: 10px;
+}
+
 
 .main{
   width: 100%;

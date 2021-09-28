@@ -105,7 +105,7 @@
   }
 }
 
-.setIt{
+.always{
   padding-top: 110px;
   padding-bottom: 0;
   .insider{
@@ -114,12 +114,13 @@
     }
   }
 }
-.setItPic{
+.alwaysPic{
   padding-top: 0;
   padding-bottom: 10px;
   .insider{
     img{
       width: 100%;
+      height: 100%;
       margin-top: 54px;
     }
   }
@@ -178,6 +179,14 @@
         margin-top: 40px;
       }
       .routerLink:hover{color: #254B77;text-decoration: none;}
+      button{
+        //position: absolute;
+        //right: 0;
+        height: 48px;
+        padding-left: 58px;
+        padding-right: 58px;
+        margin-top: 30px;
+      }
     }
   }
 }
@@ -217,8 +226,8 @@
   //display: flex;
   //align-items: center;
   .whole{
-    .oneQuarter{
-      padding: 100px 5% 50px;
+    .oneThird{
+      padding: 100px 4% 50px;
       img{
         position: absolute;
         bottom: 77%;
@@ -227,7 +236,9 @@
         height: 60px;
         margin-top: 30px;
       }
-      .p3{}
+      .p3{
+        padding: 0 4%;
+      }
     }
   }
 }

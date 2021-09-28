@@ -3,7 +3,7 @@
   //height: -webkit-calc(100% + 100px);
   //height:    -moz-calc(100% + 100px);
   //height: calc(100% + 100px);
-  padding: 0 0 4%;
+  padding: 60px 0 4%;
 
   .innerFog{
     //position: absolute;
@@ -13,8 +13,11 @@
     padding: 6% 0 25%;
     //display: flex;
     //align-items: center;
-    background: url("../../../assets/webPages/landing/LandingPageHeroImage.png") right bottom no-repeat;
-    background-size: 75%;
+    background: url("../../../assets/webPages/Landing/LandingPageHeroImage.png") right bottom no-repeat;
+    background-size:
+            //1200px;
+            //1641px;
+            75%;
 
     .insider{
       //background: #D3D3D3;
@@ -118,10 +121,20 @@
       padding-top: 55px;
       padding-bottom: 55px;
       .p2{margin-left: 0px}
+      button{
+        //position: absolute;
+        //right: 0;
+        height: 48px;
+        padding-left: 58px;
+        padding-right: 58px;
+        margin-top: 30px;
+      }
       .routerLink{
         position: absolute;
         right: 0;
         margin-top: 40px;
+        font-weight: 400;
+
         img{
           width: 24px;
           margin-top: -3px;
@@ -187,10 +200,19 @@
       //  right: 0;
       //  margin-top: 30px;
       //}
+      button{
+        //position: absolute;
+        //right: 0;
+        height: 48px;
+        padding-left: 58px;
+        padding-right: 58px;
+        margin-top: 30px;
+      }
       .routerLink{
         position: absolute;
         right: 0;
         margin-top: 40px;
+        font-weight: 400;
       }
       .routerLink:hover{color: #254B77;text-decoration: none;}
     }

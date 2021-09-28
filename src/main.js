@@ -77,6 +77,10 @@ Vue.prototype.$vuescrollConfig = {
   }
 };
 
+router.afterEach((to, from, next) =>{
+  window.scrollTo(0,0);
+})
+
 
 
 //https://binarcode.github.io/vue-form-wizard/#/ --> documentation on how to use the wizard
