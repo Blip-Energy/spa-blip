@@ -118,12 +118,14 @@ export default {
     font-weight: 500;
     //div{border-bottom: 1px solid #254B77;}
   }
+  ///////////////////////////////////////////////////////////////////////////////new-start
   a:hover{
     //text-decoration: underline;
     //text-underline-offset: 3px;
     text-decoration: none;
     font-weight: 500;
   }
+  ///////////////////////////////////////////////////////////////////////////////new-end
   .button{
     width: 200px;
     //height: 40px;
@@ -140,6 +142,10 @@ export default {
     color: #254B77;
   }
   /////////////////////////////////////////////////////////////////////////////////new-start
+  //.button:hover{
+  //  border: 1px solid #254B77;
+  //  //text-decoration:
+  //}
   .button:hover{
     background: #FFFFFF;
     border: 1px solid #254B77;
