@@ -12,39 +12,6 @@
               <p class="p3 c-183B56 m-l-0 p-l-0 t-left">
                 Energy storage is a powerful tool for resilience, savings, and control over energy usage. Until now, battery systems were designed for permanent installation at homes and businesses, but that leaves renters and residents of multi-unit buildings without options. Our mission is to change that.
               </p>
-              <button type="button" class="btn submit" onclick="window.location.href='../product'">
-                Learn more
-              </button>
-<!--              <router-link :to="{path: '/product'}" class="c-4F9BC1 routerLink t-right">-->
-<!--                Learn More <font-awesome-icon icon="arrow-right" style="font-size: 16px; margin-bottom: -1px;"/>-->
-<!--              </router-link>-->
-            </b-row>
-          </b-col>
-          <b-col xs="12" sm="12" md="6" lg="6" xl="6" class="right t-left b-254B77">
-            <b-row class="w-90p insider t-left">
-              <p class="p1point5 c-B0E7FF t-left" style="margin-bottom: 12px">OUR GOAL</p>
-              <h2 class="h2point8 c-FFFFFF f-weight-400 m-l-0 p-l-0 t-left" style="margin-bottom: 50px">To provide more accessible energy savings</h2>
-              <p class="p3 c-FFFFFF m-l-0 p-l-0 t-left">
-                blip gives you access to electricity bill savings by storing energy when it is cheap. Other energy storage systems require professional installation, are designed only for homeowners, and cost five times more than blip.
-                <br><br>
-                With blip, those concerned about energy savings can finally access them, no matter where you live.
-              </p>
-            </b-row>
-          </b-col>
-        </b-row>
-      </section>
-      <!--end: We believe everyone deserves access to energy storage-->
-
-      <!--start: We believe everyone deserves access to energy storage-->
-      <section class="weBelieve">
-        <b-row class="w-100p t-left">
-          <b-col xs="12" sm="12" md="6" lg="6" xl="6" class="left t-left b-DEF5FF">
-            <b-row class="w-90p insider t-left">
-              <p class="p1point5 c-4F9BC1 t-left" style="margin-bottom: 12px">OUR MISSION</p>
-              <h2 class="h2point8 c-254B77 f-weight-400 m-l-0 p-l-0 t-left" style="margin-bottom: 50px">We believe everyone deserves access to energy storage</h2>
-              <p class="p3 c-183B56 m-l-0 p-l-0 t-left">
-                Energy storage is a powerful tool for resilience, savings, and control over energy usage. Until now, battery systems were designed for permanent installation at homes and businesses, but that leaves renters and residents of multi-unit buildings without options. Our mission is to change that.
-              </p>
 <!--              <button type="button" class="btn submit" onclick="window.location.href='../product'">-->
 <!--                Learn more-->
 <!--              </button>-->
@@ -237,7 +204,7 @@
                   </div>
                   <div class="card-f-body">
                     <p class="p2 c-FFFFFF t-center">Dennis Kontorovich</p>
-                    <p class="p3 c-FFFFFF t-center">Co-Founder & CFO</p>
+                    <p class="p3 c-FFFFFF t-center">Co-Founder & Advisor</p>
                   </div>
                 </div>
               </div>
@@ -248,82 +215,7 @@
                   </div>
                   <div class="card-f-body">
                     <p class="p2 c-FFFFFF t-center">Thibaut Feremans</p>
-                    <p class="p3 c-FFFFFF t-center">Co-Founder & CTO</p>
-                  </div>
-                </div>
-              </div>
-            </div>
-          </div>
-          <b-row class="t-center">
-            <button type="button" class="button submit b-4F9BC1" onclick="window.location.href='../contact-us'">
-              <!--                      <a href="./contact-us" class="btn btn-primary">-->
-              Contact Us
-              <!--                        </a>-->
-            </button>
-          </b-row>
-        </b-row>
-      </section>
-      <!--end: Meet the team-->
-
-      <!--start: Meet the team-->
-      <section class="meet b-254B77 i-a-c t-center">
-        <b-row class="w-85p insider t-center">
-          <b-col  xs="12" sm="12" md="5" lg="5" xl="5" class="leftText t-left">
-            <p class="p1point5 c-B0E7FF" style="margin-bottom: 12px">WHO WE ARE</p>
-            <h2 class="h2point8 c-FFFFFF f-weight-400 m-l-0 p-l-0" style="margin-bottom: 50px">Meet the team</h2>
-            <p class="p2 c-FFFFFF m-l-0 p-l-0">
-              We are passionate about limiting our collective impact on the environment.
-            </p>
-          </b-col>
-          <b-col  xs="12" sm="12" md="7" lg="7" xl="7" class="rightblc p-l-0">
-          </b-col>
-        </b-row>
-      </section>
-      <section class="meetThe b-254B77 i-a-c t-center">
-        <b-row class="w-90p insider t-center">
-          <div class="content w-100p">
-            <div class="row" style="width: 100%">
-              <div class="col-lg-3 col-md-6 col-sm-12">
-                <div class="card-f flex text-center wow fadeInUp">
-                  <div class="card-f-heading">
-                    <img src="../../assets/webPages/about/team/Sophia.png" alt="" class="members">
-                  </div>
-                  <div class="card-f-body t-center">
-                    <p class="p2 c-FFFFFF t-center">Sophia Wennstedt</p>
-                    <p class="p3 c-FFFFFF t-center">Co-Founder & CEO</p>
-                  </div>
-                </div>
-              </div>
-              <div class="col-lg-3 col-md-6 col-sm-12">
-                <div class="card-f flex text-center wow fadeInUp">
-                  <div class="card-f-heading">
-                    <img src="../../assets/webPages/about/team/ChanceNew1.png" alt="" class="members">
-                  </div>
-                  <div class="card-f-body">
-                    <p class="p2 c-FFFFFF t-center">Chance Cobb</p>
-                    <p class="p3 c-FFFFFF t-center">Co-Founder & COO</p>
-                  </div>
-                </div>
-              </div>
-              <div class="col-lg-3 col-md-6 col-sm-12">
-                <div class="card-f flex text-center wow fadeInUp">
-                  <div class="card-f-heading">
-                    <img src="../../assets/webPages/about/team/Dennis.png" alt="" class="members">
-                  </div>
-                  <div class="card-f-body">
-                    <p class="p2 c-FFFFFF t-center">Dennis Kontorovich</p>
-                    <p class="p3 c-FFFFFF t-center">Co-Founder & CFO</p>
-                  </div>
-                </div>
-              </div>
-              <div class="col-lg-3 col-md-6 col-sm-12">
-                <div class="card-f flex text-center wow fadeInUp">
-                  <div class="card-f-heading">
-                    <img src="../../assets/webPages/about/team/Thibaut.png" alt="" class="members">
-                  </div>
-                  <div class="card-f-body">
-                    <p class="p2 c-FFFFFF t-center">Thibaut Feremans</p>
-                    <p class="p3 c-FFFFFF t-center">Co-Founder & CTO</p>
+                    <p class="p3 c-FFFFFF t-center">Co-Founder & Advisor</p>
                   </div>
                 </div>
               </div>
