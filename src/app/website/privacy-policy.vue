@@ -7,7 +7,7 @@
       </h2>
       <p class="p3 c-4F9BC1 t-left">Last Updated: March 01, 2021</p><br><br>
       <p class="p3 c-000000 t-left">
-        Thank you for choosing to be part of our community at Blip LLC ("Company", "we", "us", "our"). We are committed to protecting your personal information and your right to privacy. If you have any questions or concerns about this privacy notice, or our practices with regards to your personal information, please contact us at hello@blipenergy.com.
+        Thank you for choosing to be part of our community at Blip LLC ("Company", "we", "us", "our"). We are committed to protecting your personal information and your right to privacy. If you have any questions or concerns about this privacy notice, or our practices with regards to your personal information, please contact us at <a href="mailto:hello@blipenergy.com" target="_blank">hello@blipenergy.com</a>.
         <br><br>
         When you visit our website <a href="http://www.blipenergy.com/">http://www.blipenergy.com/</a> (the "Website"), and more generally, use any of our services (the "Services", which include theWebsite), we appreciate that you are trusting us with your personal information. We take your privacy very seriously. In this privacy notice, we seek to explain to you in the clearest way possible what information we collect, how we use it and what rights you have in relation to it. We hope you take some time to read through it carefully, as it isimportant. If there are any terms in this privacy notice that you do not agree with, please discontinue use of our Services immediately.
         <br><br>
@@ -65,7 +65,7 @@
         <br><br>
         We use the information we collect or receive:
         <br>•	To facilitate account creation and logon process. If you choose to link your account with us to a third-party account (such as your Google or Facebook account), we use the information you allowed us to collect from those third parties to facilitate account creation and logon process for the performance of the contract.
-        <br>•	To post testimonials. We post testimonials on our Website that may contain personal information. Prior to posting a testimonial, we will obtain your consent to use your name and the content of the testimonial. If you wish to update, or delete your testimonial, please contact us at hello@blipenergy.com and be sure to include your name, testimonial location, and contact information.
+        <br>•	To post testimonials. We post testimonials on our Website that may contain personal information. Prior to posting a testimonial, we will obtain your consent to use your name and the content of the testimonial. If you wish to update, or delete your testimonial, please contact us at <a href="mailto:hello@blipenergy.com" target="_blank">hello@blipenergy.com</a> and be sure to include your name, testimonial location, and contact information.
         <br>•	Request feedback. We may use your information to request feedback and to contact you about your use of our Website.
         <br>•	To enable user-to-user communications. We may use your information in order to enable user-to-user communications with each user's consent.
         <br>•	To manage user accounts. We may use your information for the purposes of managing our account and keeping it in working order.
@@ -132,7 +132,7 @@
         <br><br>
         <i>In Short:  We do not knowingly collect data from or market to children under 18 years of age.</i>
         <br><br>
-        We do not knowingly solicit data from or market to children under 18 years of age. By using the Website, you represent that you are at least 18 or that you are the parent or guardian of such a minor and consent to such minor dependent’s use of the Website. If we learn that personal information from users less than 18 years of age has been collected, we will deactivate the account and take reasonable measures to promptly delete such data from our records. If you become aware of any data we may have collected from children under age 18, please contact us at hello@blipenergy.com.
+        We do not knowingly solicit data from or market to children under 18 years of age. By using the Website, you represent that you are at least 18 or that you are the parent or guardian of such a minor and consent to such minor dependent’s use of the Website. If we learn that personal information from users less than 18 years of age has been collected, we will deactivate the account and take reasonable measures to promptly delete such data from our records. If you become aware of any data we may have collected from children under age 18, please contact us at <a href="mailto:hello@blipenergy.com" target="_blank">hello@blipenergy.com</a>.
         <br><br>
         9. WHAT ARE YOUR PRIVACY RIGHTS?
         <br><br>
@@ -142,7 +142,7 @@
         <br><br>
         If you are a resident in Switzerland, the contact details for the data protection authorities are available here: <a href="https://www.edoeb.admin.ch/edoeb/en/home.html">https://www.edoeb.admin.ch/edoeb/en/home.html</a>.
         <br><br>
-        If you have questions or comments about your privacy rights, you may email us at hello@blipenergy.com.
+        If you have questions or comments about your privacy rights, you may email us at <a href="mailto:hello@blipenergy.com" target="_blank">hello@blipenergy.com</a>.
         <br><br>
         Account Information
         <br><br>
@@ -249,14 +249,14 @@
         We may also collect other personal information outside of these categories instances where you interact with us in-person, online, or by phone or mail in the context of:
         <br>•	Receiving help through our customer support channels;
         <br>•	Participation in customer surveys or contests; and
-        <br> •	Facilitation in the delivery of our Services and to respond to your inquiries.
+        <br>•	Facilitation in the delivery of our Services and to respond to your inquiries.
         <br>How do we use and share your personal information?
         <br><br>
         Blip LLC collects and shares your personal information through:
         <br>•	Targeting cookies/Marketing cookies
         <br>More information about our data collection and sharing practices can be found in this privacy notice.
         <br><br>
-        You may contact us by email at hello@blipenergy.com.
+        You may contact us by email at <a href="mailto:hello@blipenergy.com" target="_blank">hello@blipenergy.com</a>.
         <br><br>
         If you are using an authorized agent to exercise your right to opt-out we may deny a request if the authorized agent does not submit proof that they have been validly authorized to act on your behalf.
         <br><br>
@@ -305,7 +305,7 @@
         <br>•	you may request correction of your personal data if it is incorrect or no longer relevant, or ask to restrict the processing of the data
         <br>•	you can designate an authorized agent to make a request under the CCPA on your behalf. We may deny a request from an authorized agent that does not submit proof that they have been validly authorized to act on your behalf in accordance with the CCPA.
         <br>•	you may request to opt-out from future selling of your personal information to third parties. Upon receiving a request to opt-out, we will act upon the request as soon as feasibly possible, but no later than 15 days from the date of the request submission.
-        <br>To exercise these rights, you can contact us by email at hello@blipenergy.com, or by referring to the contact details at the bottom of this document. If you have a complaint about how we handle your data, we would like to hear from you.
+        <br>To exercise these rights, you can contact us by email at <a href="mailto:hello@blipenergy.com" target="_blank">hello@blipenergy.com</a>, or by referring to the contact details at the bottom of this document. If you have a complaint about how we handle your data, we would like to hear from you.
         <br><br>
         12. DO WE MAKE UPDATES TO THIS NOTICE?
         <br><br>
@@ -315,7 +315,7 @@
         <br><br>
         13. HOW CAN YOU CONTACT US ABOUT THIS NOTICE?
         <br><br>
-        If you have questions or comments about this notice, you may email us at hello@blipenergy.com or by post to:
+        If you have questions or comments about this notice, you may email us at <a href="mailto:hello@blipenergy.com" target="_blank">hello@blipenergy.com</a> or by post to:
         <br><br>
         Blip LLC
         <br>1915 Sherman Ave
@@ -325,7 +325,7 @@
         <br><br>
         14. HOW CAN YOU REVIEW, UPDATE, OR DELETE THE DATA WE COLLECT FROM YOU?
         <br><br>
-        Based on the applicable laws of your country, you may have the right to request access to the personal information we collect from you, change that information, or delete it in some circumstances. To request to review, update, or delete your personal information, please email us at hello@blipenergy.com. We will respond to your request within 30 days.
+        Based on the applicable laws of your country, you may have the right to request access to the personal information we collect from you, change that information, or delete it in some circumstances. To request to review, update, or delete your personal information, please email us at <a href="mailto:hello@blipenergy.com" target="_blank">hello@blipenergy.com</a>. We will respond to your request within 30 days.
       </p>
 
     </b-container>
@@ -336,10 +336,10 @@
 <script>
 import banner from "../shared/components/banner.vue";
 import Footer from "../shared/components/Footer.vue";
-import NoneInputFooter from "@/app/shared/components/noneInputFooter";
+import NoneInputFooter from "@/app/shared/components/FooterIIWOSignUp";
 
 export default {
-  name: "articles",
+  name: "privacy-policy",
   data() {
     return {
     };
@@ -361,7 +361,7 @@ export default {
 //@import "src/scss/animate";
 
 
-@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@100;200;300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@100;200;300;400&display=swap');
 
 //@font-face {
 //  font-family: "Montserrat";
@@ -469,7 +469,7 @@ p.p3{
   font-style: normal;
   font-weight: 300;
   font-size: 18px;
-  line-height: 20px;
+  line-height: 24px;
   /* identical to box height, or 111% */
 }
 p.p4{
@@ -568,6 +568,7 @@ button.submit:hover {
 
 a{
   color: #4F9BC1;}
+th{font-weight: 400}
 </style>
 
 

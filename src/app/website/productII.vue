@@ -27,8 +27,12 @@
       <!--start: Designed with you in mind-->
       <section class="designed b-FFFFFF i-a-c">
         <b-row class="w-85p insider">
-          <p class="p1point5 c-4F9BC1" style="margin-bottom: 12px">SUSTAINABILITY</p>
-          <h2 class="h2point8 c-254B77 f-weight-400 t-left m-l-0 p-l-0 w-100p" style="margin-bottom: 50px">Designed with you in mind</h2>
+          <b-col  xs="12" sm="12" md="6" lg="6" xl="6" class="leftText t-left p-l-0">
+            <p class="p1point5 c-4F9BC1" style="margin-bottom: 12px">WHY CHOOSE BLIP?</p>
+            <h2 class="h2point8 c-254B77 f-weight-400 t-left m-l-0 p-l-0 w-100p" style="margin-bottom: 50px">Designed with you in mind</h2>
+          </b-col>
+          <b-col  xs="12" sm="12" md="6" lg="6" xl="6" class="rightBlc t-left">
+          </b-col>
 <!--          <b-row class="pic w-100p">-->
 <!--            <b-col xs="3" sm="3" md="3" lg="3" xl="3" class="t-center oneQuarter" style="padding-top: 2%">-->
 <!--              <img src="../../assets/webPages/product/Vector1.png" style="width: 16%;">-->
@@ -161,14 +165,14 @@
       </section>
       <!--end: Three easy steps to saving you money, and saving the planet-->
 
-      <!--start: Set it and forget it-->
-      <section class="setIt b-254B77 i-a-c t-center">
+      <!--start: Always have a back-up plan-->
+      <section class="always b-254B77 i-a-c t-center">
         <b-row class="w-85p insider t-center">
           <b-col  xs="12" sm="12" md="5" lg="5" xl="5" class="leftText t-left">
-            <p class="p1point5 c-B0E7FF" style="margin-bottom: 12px">SMART BATTERY</p>
-            <h2 class="h2point8 c-FFFFFF f-weight-400 m-l-0 p-l-0" style="margin-bottom: 50px">Set it and forget it</h2>
+            <p class="p1point5 c-B0E7FF" style="margin-bottom: 12px">Outage Protection</p>
+            <h2 class="h2point8 c-FFFFFF f-weight-400 m-l-0 p-l-0" style="margin-bottom: 50px">Always have a back-up plan</h2>
             <p class="p3 c-FFFFFF m-l-0 p-l-0">
-              blipOne uses our algorithm to intelligently charge up its batteries and power your devices to optimize your savings. If bad weather or a planned outage is coming, we’ll make sure you have enough power stored up to weather the storm.
+              Be prepared for the next blackout with blipOne. blipOne’s outage protection detects a power outage and provides power to your highest priority devices. When power is restored, blipOne reverts to Smart Mode to maximize savings.
             </p>
           </b-col>
           <b-col  xs="12" sm="12" md="7" lg="7" xl="7" class="rightblc p-l-0">
@@ -176,30 +180,30 @@
 <!--          <img src="../../assets/webPages/product/LivingRoomOutline.png">-->
         </b-row>
       </section>
-      <section class="setItPic b-254B77 i-a-c t-center">
+      <section class="alwaysPic b-254B77 i-a-c t-center">
         <b-row class="w-100p insider t-center">
           <img src="../../assets/webPages/product/LivingRoomOutline.png">
         </b-row>
       </section>
-      <!--end: Set it and forget it-->
+      <!--end: Always have a back-up plan-->
 
       <!--start: Save money on your electricity bills-->
       <section class="saveMoney b-EEF9FE i-a-c t-center">
         <b-row class="w-85p insider t-center">
           <b-col  xs="12" sm="12" md="5" lg="5" xl="5" class="leftText t-left">
             <p class="p1point5 c-4F9BC1" style="margin-bottom: 12px">COST SAVINGS</p>
-            <h2 class="h2point8 c-254B77 f-weight-400 m-l-0 p-l-0" style="margin-bottom: 50px">Save money on your electricity bills</h2>
+            <h2 class="h2point8 c-254B77 f-weight-400 m-l-0 p-l-0" style="margin-bottom: 50px">Save money on your electric bills</h2>
             <p class="p3 c-183B56 m-l-0 p-l-0">
               blipOne automatically stores energy when electricity is cheap during “off peak” hours and discharges when electricity is expensive during “peak” hours.
               <br><br>
               Plug your energy dense appliances, like a window AC unit, into blipOne and you could save you hundreds of dollars - blipOne would pay for itself!
             </p>
-            <button type="button" class="btn submit" onclick="window.location.href='../product'">
+            <button type="button" class="btn submit" onclick="window.location.href='../calculator'">
               See Your Savings
             </button>
           </b-col>
           <b-col  xs="12" sm="12" md="7" lg="7" xl="7" class="rightChart p-l-0">
-            <div id="chartTwo" class="chart" style="width: 97%; height: 100%"></div>
+            <div id="chartTwo" class="chart" style="width: 100%; height: 100%"></div>
           </b-col>
         </b-row>
       </section>
@@ -218,9 +222,12 @@
             <p class="p3 c-183B56 m-l-0 p-l-0">
               blipOne uses an algorithm that tells it when to charge and discharge to optimize your savings.
             </p>
-            <router-link :to="{path: '/about'}" class="c-4F9BC1 routerLink">
-              Learn More <font-awesome-icon icon="arrow-right" style="font-size: 16px; margin-bottom: -1px;"/>
-            </router-link>
+<!--            <router-link :to="{path: '/about'}" class="c-4F9BC1 routerLink">-->
+<!--              Learn More <font-awesome-icon icon="arrow-right" style="font-size: 16px; margin-bottom: -1px;"/>-->
+<!--            </router-link>-->
+<!--            <button type="button" class="btn submit" onclick="window.location.href='../about'">-->
+<!--              Learn more-->
+<!--            </button>-->
           </b-col>
         </b-row>
       </section>
@@ -244,13 +251,13 @@
       <!--end: Effortlessly help take peaker plants offline-->
 
       <!--start: Designed for you and your home-->
-      <section class="setIt b-254B77 i-a-c t-center">
+      <section class="always b-254B77 i-a-c t-center">
         <b-row class="w-85p insider t-center">
           <b-col xs="12" sm="12" md="5" lg="5" xl="5" class="leftText t-left">
             <p class="p1point5 c-B0E7FF" style="margin-bottom: 12px">PRODUCT DETAILS</p>
             <h2 class="h2point8 c-FFFFFF f-weight-400 m-l-0 p-l-0" style="margin-bottom: 50px">Designed for you and your home</h2>
             <p class="p3 c-FFFFFF m-l-0 p-l-0">
-              Energy storage solutions can be an eye sore, so we made sure that the blipOne was thoughtfully designed to be not only functional but also aesthetically pleasing.
+              Energy storage solutions can be an eyesore, so we made sure that the blipOne was thoughtfully designed to be not only functional but also aesthetically pleasing.
             </p>
           </b-col>
           <b-col xs="12" sm="12" md="7" lg="7" xl="7" class="rightblc p-l-0">
@@ -260,25 +267,25 @@
       <section class="designedFor b-254B77 i-a-c">
         <b-row class="w-85p insider">
           <b-row class="whole w-100p">
-            <b-col xs="12" sm="12" md="4" lg="4" xl="4" class="t-center oneQuarter">
+            <b-col xs="12" sm="12" md="12" lg="4" xl="4" class="t-center oneThird">
               <img src="../../assets/webPages/product/SpaceConscious.png" style="width: 76px; margin-left: -38px">
-              <p class="p1point5 c-DEF5FF t-center" style="">No installation</p>
+              <p class="p1point5 c-DEF5FF t-center" style="">Space-conscious</p>
               <p class="p3 c-FFFFFF m-l-0 p-l-0">
-                blipOne plugs right into a wall outlet. No electricians necessary.
+                Our compact design occupies less than one square foot
               </p>
             </b-col>
-            <b-col xs="12" sm="12" md="4" lg="4" xl="4" class="t-center oneQuarter">
+            <b-col xs="12" sm="12" md="12" lg="4" xl="4" class="t-center oneThird">
               <img src="../../assets/webPages/product/Frame.png" style="width: 72px; margin-left: -36px">
-              <p class="p1point5 c-DEF5FF t-center" style="">Backup power</p>
+              <p class="p1point5 c-DEF5FF t-center" style="">Ergonomic + portable</p>
               <p class="p3 c-FFFFFF m-l-0 p-l-0">
-                blipOne has 2.2KWh of backup power in case of an outage. Peace of mind doesn’t have to cost an arm and a leg.
+                blipOne’s ergonomic handle, wheels and lightweight design makes it easy to transport, so you can bring its benefits with you whenever you move
               </p>
             </b-col>
-            <b-col xs="12" sm="12" md="4" lg="4" xl="4" class="t-center oneQuarter">
+            <b-col xs="12" sm="12" md="12" lg="4" xl="4" class="t-center oneThird">
               <img src="../../assets/webPages/product/ModernDesign.png" style="width: 50px; margin-left: -25px">
-              <p class="p1point5 c-DEF5FF t-center" style="">Cost savings</p>
+              <p class="p1point5 c-DEF5FF t-center" style="">Modern design</p>
               <p class="p3 c-FFFFFF m-l-0 p-l-0">
-                blipOne uses price arbitrage (the fancy term for “buy low, sell high”) to save you money on your electric bill. On some rate plans, blip pays for itself in as little as 2 years.
+                Integrate blipOne into your home with its sleek design and color options to fit your style
               </p>
             </b-col>
           </b-row>
@@ -296,16 +303,15 @@
             <p class="p1point5 c-4F9BC1" style="margin-bottom: 12px">USER DASHBOARD</p>
             <h2 class="h2point8 c-254B77 f-weight-400 m-l-0 p-l-0" style="margin-bottom: 50px">Control your blipOne from anywhere</h2>
             <p class="p3 c-183B56 m-l-0 p-l-0">
-              Our seamless IoT integration allows you to update your device settings, view your savings and TKTKTKTK from anywhere.
+              Our seamless IoT integration allows you to update your device settings, view your savings and update energy storage preferences from anywhere.
             </p>
-            <button type="button" class="btn submit" onclick="window.location.href='/my-blip'">
+            <button type="button" class="btn submit" onclick="window.location.href='/coming-soon'">
               Go to Dashboard
             </button>
           </b-col>
         </b-row>
       </section>
       <!--end: Control your blipOne from anywhere-->
-
 
 <!--      <p>-->
 <!--        Click <a href="#" @click.prevent="disableTracking">here</a>,-->
@@ -318,7 +324,6 @@
 
 <script>
 import banner from "./../shared/components/banner.vue";
-// import transparentBanner from "@/app/shared/components/transparentBanner";
 import Footer from "./../shared/components/FooterII.vue";
 // import Footer from "./Footer.vue";
 import echarts from "echarts";

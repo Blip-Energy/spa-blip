@@ -36,7 +36,7 @@
       <section class="Pioneering b-FFFFFF i-a-c">
         <b-row class="w-90p insider">
           <b-col  xs="12" sm="12" md="7" lg="7" xl="7" class="leftImg p-l-0">
-            <img src="../../../assets/webPages/landing/BlipEnvironment-03.png" alt="" class="w-100p">
+            <img src="../../../assets/webPages/Landing/BlipEnvironment-03.png" alt="" class="w-100p">
           </b-col>
           <b-col  xs="12" sm="12" md="5" lg="5" xl="5" class="rightText t-left">
             <p class="p1point5 c-4F9BC1" style="margin-bottom: 12px">A NEW KIND OF BATTERY</p>
@@ -46,13 +46,16 @@
               <br><br>
               blipOne is an affordable smart battery that makes it easier than ever for anyone to access energy storage, at a cost that can pay for itself in savings and without the hassle of professional installation.
             </p>
-<!--            <button type="button" class="btn submit transparent c-4F9BC1" onclick="window.location.href='../product'">-->
+<!--            <button type="button" class="btn submit transparent c-4F9BC1 t-right b-F9F9F9" onclick="window.location.href='../product'">-->
 <!--              Learn More about blipOne <font-awesome-icon icon="arrow-right" style="font-size: 16px"/>-->
 <!--            </button>-->
 <!--            <img src="../../../assets/webPages/landing/arrow-right.png">-->
-            <router-link :to="{path: '/product'}" class="c-4F9BC1 routerLink">
-              Learn More about blipOne <font-awesome-icon icon="arrow-right" style="font-size: 16px; margin-bottom: -1px;"/>
-            </router-link>
+<!--            <router-link :to="{path: '/product'}" class="c-4F9BC1 routerLink">-->
+<!--              Learn More about blipOne <font-awesome-icon icon="arrow-right" style="font-size: 16px; margin-bottom: -1px;"/>-->
+<!--            </router-link>-->
+            <button type="button" class="btn submit" onclick="window.location.href='../product'">
+              Learn More about blipOne
+            </button>
           </b-col>
         </b-row>
       </section>
@@ -63,7 +66,7 @@
         <b-row class="w-90p insider t-center">
           <b-col  xs="12" sm="12" md="5" lg="5" xl="5" class="leftText t-left">
             <p class="p1point5 c-4F9BC1" style="margin-bottom: 12px">SAVE, EFFORTLESSLY</p>
-            <h2 class="h2point8 c-254B77 f-weight-400 m-l-0 p-l-0" style="margin-bottom: 50px">Stop paying for expensive electricitye</h2>
+            <h2 class="h2point8 c-254B77 f-weight-400 m-l-0 p-l-0" style="margin-bottom: 50px">Stop paying surge rates for electricity</h2>
             <p class="p3 c-183B56 m-l-0 p-l-0">
               Our smart battery blipOne has the brains to save you money on your monthly electric bill by taking advantage of electricity prices that change throughout the day.
               <br><br>
@@ -74,7 +77,7 @@
             </button>
           </b-col>
           <b-col  xs="12" sm="12" md="7" lg="7" xl="7" class="rightImg p-l-0">
-            <img src="../../../assets/webPages/landing/Time-of-Use-Rate-Plans_v02.png" alt="" class="w-100p">
+            <img src="../../../assets/webPages/Landing/Time-of-Use-Rate-Plans_v02.png" alt="" class="w-100p">
           </b-col>
         </b-row>
       </section>
@@ -84,7 +87,7 @@
       <section class="fightClimate b-254B77 i-a-c">
         <b-row class="w-90p insider">
           <b-col  xs="12" sm="12" md="7" lg="7" xl="7" class="leftImg p-l-0">
-            <img src="../../../assets/webPages/landing/earth.png" alt="" class="w-90p">
+            <img src="../../../assets/webPages/Landing/earth.png" alt="" class="w-90p">
           </b-col>
           <b-col  xs="12" sm="12" md="5" lg="5" xl="5" class="rightText t-left">
             <p class="p1point5 c-DEF5FF" style="margin-bottom: 12px">SUSTAINABILITY</p>
@@ -116,12 +119,15 @@
 <!--            <button type="button" class="btn submit transparent c-4F9BC1" onclick="window.location.href='../articles'">-->
 <!--              blip Blog <font-awesome-icon icon="arrow-right" style="font-size: 16px"/>-->
 <!--            </button>-->
-            <router-link :to="{path: '/articles'}" class="c-4F9BC1 routerLink">
-              blip Blog <font-awesome-icon icon="arrow-right" style="font-size: 16px; margin-bottom: -1px;"/>
-            </router-link>
+<!--            <router-link :to="{path: '/articles'}" class="c-4F9BC1 routerLink f-weight-400">-->
+<!--              blip Blog <font-awesome-icon icon="arrow-right" style="font-size: 16px; margin-bottom: -1px;"/>-->
+<!--            </router-link>-->
+            <button type="button" class="btn submit" onclick="window.open('https://blipenergy.medium.com/')">
+              blip Blog
+            </button>
           </b-col>
           <b-col  xs="12" sm="12" md="7" lg="7" xl="7" class="rightImg">
-            <img src="../../../assets/webPages/landing/electrical-engineering_v02.png" alt="" class="w-100p">
+            <img src="../../../assets/webPages/Landing/electrical-engineering_v02.png" alt="" class="w-100p">
           </b-col>
         </b-row>
       </section>
@@ -148,11 +154,23 @@ export default {
     return {
     };
   },
+  head() {
+    return {
+      title: 'Home Page',
+      meta: [
+        // hid is used as unique identifier. Do not use `vmid` for it as it will not work
+        {
+          hid: 'home',
+          name: 'home',
+          content: 'Everyone deserves access to energy storage, so we’re building blipOne - the world’s most accessible smart home battery. Compact, portable and affordable with a modern design.'
+        }
+      ]
+    }
+  },
   mounted() {
     this.$ga.page('/');
     this.$ga.page('/home');
   },
-
   methods: {
     disableTracking: function() {
       this.$ga.disable();
