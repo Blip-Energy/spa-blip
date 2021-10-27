@@ -1,5 +1,18 @@
 <template>
   <div class="navbar-nav" style="background: #FFFFFF;">
+
+    <div class="klaviyo-form-WS8Ncp"></div>
+    <klaviyo-signup-form
+        endpoint="https://lambdafunction/klaviyo/signup"
+        klaviyoListId="XEbFhQ"
+        placeholder="you@awesome.com"
+        button-text="Get Notified"
+        :input-classes="['is-medium']"
+        :button-classes="['is-medium']"
+        @success="handleSuccess"
+        @error="handleError"
+    />
+
     <section class="DEF5FF launching"  id="sign-up">
       <div class="hero">
         <div class="container">
@@ -217,6 +230,7 @@
 // import GoogleLogin from "vue-google-login";
 
 import axios from "axios";
+import KlaviyoSignupForm from '@eucalyptusvc/klaviyo-signup-form';
 
 export default {
   name: "footer",
@@ -228,13 +242,13 @@ export default {
   watch: {
   },
   mounted() {
-    let recaptchaScript = document.createElement('script')
-    recaptchaScript.setAttribute('src', 'https://static.klaviyo.com/onsite/js/klaviyo.js?company_id=pk_a18e90d3ba442ab4adbfdd8da1cc0cf28b')
-    document.head.appendChild(recaptchaScript)
+    // let recaptchaScript = document.createElement('script')
+    // recaptchaScript.setAttribute('src', 'https://static.klaviyo.com/onsite/js/klaviyo.js?company_id=pk_a18e90d3ba442ab4adbfdd8da1cc0cf28b')
+    // document.head.appendChild(recaptchaScript)
   },
   methods: {
   },
-  components: {}
+  components: {KlaviyoSignupForm}
 };
 </script>
 
