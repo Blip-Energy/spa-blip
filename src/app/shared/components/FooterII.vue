@@ -1,6 +1,9 @@
 <template>
   <div class="navbar-nav" style="background: #FFFFFF;">
     <section class="DEF5FF launching"  id="sign-up">
+
+      <div class="klaviyo-form-WS8Ncp"></div>
+
       <div class="hero">
         <div class="container">
           <div class="row">
