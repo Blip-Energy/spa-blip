@@ -227,7 +227,11 @@ export default {
   created() {},
   watch: {
   },
-
+  mounted() {
+    let recaptchaScript = document.createElement('script')
+    recaptchaScript.setAttribute('src', 'https://static.klaviyo.com/onsite/js/klaviyo.js?company_id=pk_a18e90d3ba442ab4adbfdd8da1cc0cf28b')
+    document.head.appendChild(recaptchaScript)
+  },
   methods: {
   },
   components: {}
