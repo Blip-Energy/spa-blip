@@ -1,7 +1,7 @@
 <template>
   <div class="navbar-nav" style="background: #FFFFFF;">
 
-    <div class="klaviyo-form-WS8Ncp"></div>
+<!--    <div class="klaviyo-form-WS8Ncp"></div>-->
 <!--    <klaviyo-signup-form-->
 <!--        endpoint="https://lambdafunction/klaviyo/signup"-->
 <!--        klaviyoListId="XEbFhQ"-->
@@ -243,12 +243,12 @@ export default {
   },
   mounted() {
     let recaptchaScript = document.createElement('script')
-    recaptchaScript.setAttribute('src', 'https://static.klaviyo.com/onsite/js/klaviyo.js?company_id=pk_a18e90d3ba442ab4adbfdd8da1cc0cf28b')
+    recaptchaScript.setAttribute('src', 'https://static.klaviyo.com/onsite/js/klaviyo.js?company_id=RfJRGr')
     document.head.appendChild(recaptchaScript)
   },
   methods: {
   },
-  components: {KlaviyoSignupForm}
+  components: {}
 };
 </script>
 
