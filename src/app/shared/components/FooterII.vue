@@ -242,9 +242,12 @@ export default {
   watch: {
   },
   mounted() {
-    let recaptchaScript = document.createElement('script')
-    recaptchaScript.setAttribute('src', 'https://static.klaviyo.com/onsite/js/klaviyo.js?company_id=RfJRGr')
-    document.head.appendChild(recaptchaScript)
+    // <script async type="text/javascript" src="https://static.klaviyo.com/onsite/js/klaviyo.js?company_id=RfJRGr"></scrip...>
+    // let recaptchaScript = document.createElement('script')
+    // recaptchaScript.async = true
+    // recaptchaScript.setAttribute('type','text/javascript')
+    // recaptchaScript.setAttribute('src', 'https://static.klaviyo.com/onsite/js/klaviyo.js?company_id=RfJRGr')
+    // document.head.appendChild(recaptchaScript)
   },
   methods: {
   },
