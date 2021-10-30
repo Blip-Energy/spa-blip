@@ -1,169 +1,18 @@
 <template>
   <div class="navbar-nav" style="background: #FFFFFF;">
-
-<!--    <klaviyo-signup-form-->
-<!--        endpoint="https://lambdafunction/klaviyo/signup"-->
-<!--        klaviyoListId="XEbFhQ"-->
-<!--        placeholder="you@awesome.com"-->
-<!--        button-text="Get Notified"-->
-<!--        :input-classes="['is-medium']"-->
-<!--        :button-classes="['is-medium']"-->
-<!--        @success="handleSuccess"-->
-<!--        @error="handleError"-->
-<!--    />-->
-
     <section class="DEF5FF launching"  id="sign-up">
       <div class="hero">
         <div class="container">
           <div class="row">
             <div class="col-lg-8 offset-lg-2 col-md-12 col-sm-12">
               <div class="content text-center">
-<!--                <iframe src="http://eepurl.com/hBxMj5" height="650" width="600" title="Iframe Example" style="margin: auto; border: none"></iframe>-->
-                <!-- Begin Mailchimp Signup Form -->
-                <div id="mc_embed_signup" class="">
-                  <form action="https://blipenergy.us1.list-manage.com/subscribe/post?u=5618524eefbf8e805f268eaed&amp;id=5482850e7e" method="post" id="mc-embedded-subscribe-form" name="mc-embedded-subscribe-form" class="validate" target="_blank" novalidate>
-                    <div id="mc_embed_signup_scroll" class="">
-                      <h2 class="h2 two54B77 t-center" style="margin-bottom: 80px">blip is launching soon</h2>
-                      <b-row class="" style="">
-                        <b-col xs="6" sm="6" md="6" lg="6" xl="6" class="" style="height:100%; padding-left: 0; padding-right: 17px; ">
-                          <div class="mc-field-group">
-                            <label for="mce-FNAME" class="p3 two54B77 t-left w-100p">First Name<span class="asterisk">*</span></label>
-                            <input type="text" value="" name="FNAME" class="required w-100p" id="mce-FNAME">
-                          </div>
-                        </b-col>
-                        <b-col xs="6" sm="6" md="6" lg="6" xl="6"  class="" style="height:100%; padding-left: 17px; padding-right: 0; ">
-                          <div class="mc-field-group">
-                            <label for="mce-LNAME" class="p3 two54B77 t-left w-100p">Last Name<span class="asterisk">*</span></label>
-                            <input type="text" value="" name="LNAME" class="required w-100p" id="mce-LNAME">
-                          </div>
-                        </b-col>
-                      </b-row>
-
-                      <b-row class="" style="margin-bottom: 0px">
-                        <b-col xs="8" sm="8" md="8" lg="8" xl="8"  class="" style="height:100%; padding-left: 0; padding-right: 17px; ">
-                          <div class="mc-field-group">
-                            <label for="mce-EMAIL" class="p3 two54B77 t-left w-100p">Email<span class="asterisk">*</span></label>
-                            <input type="email" value="" name="EMAIL" class="required email w-100p" id="mce-EMAIL">
-                          </div>
-                        </b-col>
-                        <b-col xs="4" sm="4" md="4" lg="4" xl="4"  class="" style="height:100%; padding-left: 17px; padding-right: 0; ">
-                          <div class="mc-field-group">
-                            <label for="mce-MMERGE3" class="p3 two54B77 t-left w-100p">Zip Code<span class="asterisk">*</span></label>
-                            <input type="text" value="" name="MMERGE3" class="required w-100p" id="mce-MMERGE3">
-                          </div>
-                        </b-col>
-                      </b-row>
-
-                      <div id="mce-responses" class="clear">
-                        <div class="response" id="mce-error-response" style="display:none"></div>
-                        <div class="response" id="mce-success-response" style="display:none"></div>
-                      </div>
-                      <!-- real people should not fill this in and expect good things - do not remove this or risk form bot signups-->
-
-                      <div style="position: absolute; left: -5000px;" aria-hidden="true"><input type="text" name="b_5618524eefbf8e805f268eaed_5482850e7e" tabindex="-1" value=""></div>
-                      <div class="clear mb-0 mt-80 t-center" style="padding-top: 0">
-                        <button type="submit" value="Get Notified" name="subscribe" id="mc-embedded-subscribe" class="button btn btn-B0E7FF">Get Notified</button>
-                      </div>
-                    </div>
-                  </form>
-                </div>
-
-                <!--End mc_embed_signup-->
+                <div class="klaviyo-form-WS8Ncp" id="klaviyoForm" style="font-weight: 300"></div>
               </div>
             </div>
           </div>
         </div>
       </div>
     </section>
-
-    <!--start:blip is launching soon-->
-<!--    <section class="DEF5FF launching"  id="sign-up">-->
-<!--      <div class="hero">-->
-<!--        <div class="container">-->
-<!--          <div class="row">-->
-<!--            <div class="col-lg-8 offset-lg-2 col-md-12 col-sm-12">-->
-<!--              <div class="content text-center">-->
-<!--                <h2 class="h2 two54B77 t-center" style="margin-bottom: 80px">blip is launching soon</h2>-->
-<!--&lt;!&ndash;                <p class="p2 two54B77 t-center">get notified</p>&ndash;&gt;-->
-<!--                <form>-->
-<!--                  <div class="form-group">-->
-<!--                    <b-row class="form-row">-->
-<!--                      &lt;!&ndash;                      <div class="form-group col-md-6">&ndash;&gt;-->
-<!--                      <b-col xs="6" sm="6" md="6" lg="6" xl="6" style="padding-left: 0; padding-right: 17px; ">-->
-<!--                        <p class="p3 two54B77 t-left" style="margin-bottom: 8px">First Name*</p>-->
-<!--                        <b-form-input type="text"-->
-<!--                                      id="first"-->
-<!--                                      class="form-control-name-left"-->
-<!--                                      aria-describedby="int2"-->
-<!--                                      v-model="firstName"-->
-<!--                                      placeholder=""-->
-<!--                        ></b-form-input>-->
-<!--                      &lt;!&ndash;                        <p class="text-gray mt-8 mb-24">First Name</p>&ndash;&gt;-->
-<!--                      </b-col>-->
-<!--                      &lt;!&ndash;                      </div>&ndash;&gt;-->
-<!--                      &lt;!&ndash;                      <div class="form-group col-md-6">&ndash;&gt;-->
-<!--                      <b-col xs="6" sm="6" md="6" lg="6" xl="6" style="padding-left: 17px; padding-right: 0; ">-->
-<!--                        <p class="p3 two54B77 t-left" style="margin-bottom: 8px">Last Name*</p>-->
-<!--                        <b-form-input type="text"-->
-<!--                                      id="last"-->
-<!--                                      class="form-control-name-right"-->
-<!--                                      aria-describedby="int2"-->
-<!--                                      v-model="lastName"-->
-<!--                                      placeholder=""-->
-<!--                        ></b-form-input>-->
-<!--                      &lt;!&ndash;                        <p class="text-gray mt-8 mb-24">Last Name</p>&ndash;&gt;-->
-<!--                      </b-col>-->
-<!--                      &lt;!&ndash;                      </div>&ndash;&gt;-->
-<!--                    </b-row>-->
-<!--                  </div>-->
-
-<!--                  <b-row class="form-group">-->
-<!--                    <b-col xs="8" sm="8" md="8" lg="8" xl="8" class="leftEmail" style="padding-left: 0; padding-right: 17px; ">-->
-<!--                      <p class="p3 two54B77 t-left" style="margin-bottom: 8px">Email*</p>-->
-<!--                      <b-form-input type="email"-->
-<!--                                    id="email"-->
-<!--                                    class="form-control-email"-->
-<!--                                    aria-describedby="emailHelp"-->
-<!--                                    placeholder=""-->
-<!--                                    v-model="email"-->
-<!--                      ></b-form-input>-->
-<!--                    </b-col>-->
-
-<!--                    <b-col xs="4" sm="4" md="4" lg="4" xl="4" class="rightZipcode" style="padding-left: 17px; padding-right: 0; ">-->
-<!--                      <p class="p3 two54B77 t-left" style="margin-bottom: 8px">Zip Code*</p>-->
-<!--                      <b-form-input type="text"-->
-<!--                                    id="zipcode"-->
-<!--                                    class="form-control-zipcode"-->
-<!--                                    aria-describedby="areaCode"-->
-<!--                                    placeholder=""-->
-<!--                                    v-model="zipCode"-->
-<!--                                    @keyup.enter="submit()"-->
-<!--                      ></b-form-input>-->
-<!--                    </b-col>-->
-
-<!--                  </b-row>-->
-
-<!--&lt;!&ndash;                  <div class="form-group">&ndash;&gt;-->
-<!--&lt;!&ndash;&lt;!&ndash;                    <p id="areaCode">please</p>&ndash;&gt;&ndash;&gt;-->
-<!--&lt;!&ndash;                  </div>&ndash;&gt;-->
-
-<!--                  <div class="form-group mb-0 mt-80 t-center">-->
-<!--                    <b-button class="btn btn-B0E7FF takeTheSurvey"-->
-<!--                              v-on:click="submit()"-->
-<!--                              :disabled="!submitButton"-->
-<!--                    >{{submitButtonMsg}}</b-button>-->
-<!--                    <p id="submitMsg" class="c-FF0000 m-t-0">{{alertMsg}}</p>-->
-<!--                  </div>-->
-
-
-<!--                </form>-->
-<!--              </div>-->
-<!--            </div>-->
-<!--          </div>-->
-<!--        </div>-->
-<!--      </div>-->
-<!--    </section>-->
-    <!--end:blip is launching soon-->
 
     <!--start:Contact-->
     <div class="hero" style="">
@@ -227,9 +76,6 @@
 
 <script>
 // import GoogleLogin from "vue-google-login";
-
-import axios from "axios";
-import KlaviyoSignupForm from '@eucalyptusvc/klaviyo-signup-form';
 
 export default {
   name: "footer",
@@ -447,34 +293,6 @@ input::placeholder{
   line-height: 111%;
   color: #8E8E8E;
 }
-#mc-embedded-subscribe{
-  font-family: 'Montserrat', Avenir;
-  width: 215px;
-  height: 44px;
-  //left: 608px;
-  //top: 263px;
-
-  //border: 2px solid #B0E7FF;
-  //box-sizing: border-box;
-  //border-radius: 24px;
-  border: none;
-  border-radius: 30px;
-
-  text-align: center;
-  background-color: #B0E7FF;
-
-  font-family: 'Montserrat', Avenir;;
-  font-style: normal;
-  font-weight: 300;
-  font-size: 18px;
-  line-height: 22px;
-  color: #254B77;
-}
-#mc-embedded-subscribe:hover {
-  background-color: #254B77;
-  color: #B0E7FF;
-}
-
 //.full{width: 100%}
 
 .hero{
@@ -555,7 +373,9 @@ input::placeholder{
 }
 
 .launching{
-  height: 694px;
+  //height: 694px;
+  padding-top: 0;
+  padding-bottom: 0;
   display: flex;
   align-items: center;
   form{
@@ -613,6 +433,11 @@ input::placeholder{
 
 #submitMsg{
   margin-top: -40px;
+}
+.klaviyoForm{
+  input{
+    border-radius: 30px;
+  }
 }
 
 //.logo{
