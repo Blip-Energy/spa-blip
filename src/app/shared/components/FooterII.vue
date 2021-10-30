@@ -1,7 +1,6 @@
 <template>
   <div class="navbar-nav" style="background: #FFFFFF;">
 
-<!--    <div class="klaviyo-form-WS8Ncp"></div>-->
 <!--    <klaviyo-signup-form-->
 <!--        endpoint="https://lambdafunction/klaviyo/signup"-->
 <!--        klaviyoListId="XEbFhQ"-->
@@ -18,6 +17,9 @@
         <div class="container">
           <div class="row">
             <div class="col-lg-8 offset-lg-2 col-md-12 col-sm-12">
+              <div class="content text-center" style="background: #FFFFFF">
+                <div class="klaviyo-form-WS8Ncp"></div>
+              </div>
               <div class="content text-center">
 <!--                <iframe src="http://eepurl.com/hBxMj5" height="650" width="600" title="Iframe Example" style="margin: auto; border: none"></iframe>-->
                 <!-- Begin Mailchimp Signup Form -->
@@ -242,12 +244,6 @@ export default {
   watch: {
   },
   mounted() {
-    // <script async type="text/javascript" src="https://static.klaviyo.com/onsite/js/klaviyo.js?company_id=RfJRGr"></scrip...>
-    // let recaptchaScript = document.createElement('script')
-    // recaptchaScript.async = true
-    // recaptchaScript.setAttribute('type','text/javascript')
-    // recaptchaScript.setAttribute('src', 'https://static.klaviyo.com/onsite/js/klaviyo.js?company_id=RfJRGr')
-    // document.head.appendChild(recaptchaScript)
   },
   methods: {
   },
