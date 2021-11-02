@@ -145,7 +145,7 @@
 <script>
 import banner from "./banner.vue";
 // import transparentBanner from "@/app/shared/components/transparentBanner";
-import Footer from "./FooterII.vue";
+import Footer from "./FooterIII.vue";
 // import Footer from "./Footer.vue";
 
 export default {

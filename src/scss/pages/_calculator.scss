@@ -186,7 +186,7 @@ button.submit{
   //font-family: FF Mark Pro;
   font-family: 'Montserrat', Avenir;
   font-style: normal;
-  font-weight: 300;
+  font-weight: 400;
   color: #254B77;
 }
 button.submit:hover {
@@ -389,6 +389,7 @@ button.submit:hover {
       border-radius: 50px;
 
       font-size: 20px;
+      color: #254B77;
     }
     .zip-input::placeholder{
       width: 97%;
@@ -420,7 +421,7 @@ button.submit:hover {
     .validZipcodeError{
       width: 266px;
       margin-top: 11px;
-      margin-left: 3%;
+      margin-left: 0;
       margin-right: 10%;
     }
 
@@ -502,7 +503,7 @@ button.submit:hover {
 
         font-family: 'Montserrat', Avenir;
         font-style: normal;
-        font-weight: 300;
+        font-weight: 400;
         font-size: 18px;
         line-height: 20px;
         color: #254B77;
@@ -519,21 +520,21 @@ button.submit:hover {
         height: 50px;
         text-align: center;
 
-        font-weight: 500;
+        font-weight: 400;
         font-size: 18px;
         line-height: 20px;
       }
       .validZipcodeError{
-        width: 50%;
+        width: 60%;
         //margin-top: 10px;
-        margin-left: 0%;
-        margin-right: 0%;
-        padding: 0px;
+        margin-left: 0;
+        margin-right: 0;
+        padding: 0;
         //background: #C4C4C4;
         span{
           //margin: 0;
-          margin-left: -1%;
-          margin-right: 0%;
+          margin-left: -3%;
+          margin-right: 0;
         }
       }
     }
@@ -667,7 +668,7 @@ button.submit:hover {
       //.inIDont:hover{text-decoration: underline}
       .plan_select{
         //height: 80px;
-        //margin-top: 5px;
+        margin-top: 5px;
         padding-left: 0px;
         //background: #F2607B;
         .sdropdown{
@@ -727,7 +728,7 @@ button.submit:hover {
           margin-bottom: 37px;
 
           font-style: normal;
-          font-weight: 500;
+          font-weight: 400;
           font-size: 16px;
           line-height: 20px;
           /* identical to box height, or 125% */
