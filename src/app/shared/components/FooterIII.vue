@@ -6,6 +6,7 @@
           <div class="row">
             <div class="col-lg-8 offset-lg-2 col-md-12 col-sm-12">
               <div class="content text-center">
+                <h2 class="h2 two54B77 t-center" style="margin-bottom: 75px">blip is launching soon</h2>
                 <div class="klaviyo-form-WS8Ncp" id="klaviyoForm" style="font-weight: 300"></div>
               </div>
             </div>
