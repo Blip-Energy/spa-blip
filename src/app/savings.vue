@@ -140,10 +140,10 @@
 <!--                  :value="index"-->
 <!--              >{{plan.planName}}</option>-->
 <!--            </select>-->
-            <vue-dropdown
+            <VueDropdown
                 :config="config"
                 v-on:setSelectedOption = "setNewSelectedOption"
-            ></vue-dropdown>
+            ></VueDropdown>
             <!--            </b-col>-->
           </b-row>
           <b-row class="plan_select t-left w-100p m-l-0 p-l-0">
@@ -187,6 +187,7 @@
 <script>
 import axios from 'axios'; //add
 // import VueDropdown from 'vue-dynamic-dropdown'; //add
+import VueDropdown from "./calculator/dropdown"; //add
 
 export default {
   name: "savings",
@@ -567,7 +568,7 @@ export default {
 //End: add
   },
   components: {
-    // VueDropdown
+    VueDropdown
   }
 };
 </script>

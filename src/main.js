@@ -18,7 +18,7 @@ import 'vue-form-wizard/dist/vue-form-wizard.min.css'
 
 import router from '../src/app/router';
 
-import VueDropdown from 'vue-dynamic-dropdown'
+// import VueDynamicDropdown from 'vue-dynamic-dropdown'
 // var VueDropdown = require('vue-dynamic-dropdown');
 
 import * as VueGoogleMaps from "vue2-google-maps";
@@ -34,7 +34,7 @@ library.add(
     faLinkedin, faLinkedinIn ,faTwitter, faTwitterSquare, faFacebook, faFacebookF, faFacebookMessenger, faFacebookSquare, faInstagram, faMedium,
 )
 Vue.component('font-awesome-icon', FontAwesomeIcon)
-Vue.component('vue-dropdown', VueDropdown);
+// Vue.component('vue-dropdown', VueDynamicDropdown);
 
 Vue.config.productionTip = false
 Vue.use(BootstrapVue)
