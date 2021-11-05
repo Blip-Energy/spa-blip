@@ -1,6 +1,7 @@
 <template>
   <div>
     <banner></banner>
+    <bannerPreorder></bannerPreorder>
     <div class="main">
       <!--start: blip and the Grid-->
       <section class="blip b-FFFFFF i-a-c">
@@ -84,7 +85,8 @@
 
 <script>
 import banner from "./../shared/components/banner.vue";
-import Footer from "./../shared/components/FooterII.vue";
+import bannerPreorder from "./../shared/components/bannerPreorder.vue";
+import Footer from "./../shared/components/FooterIII.vue";
 // import Footer from "./Footer.vue";
 
 export default {
@@ -123,6 +125,7 @@ export default {
   },
   components: {
     banner,
+    bannerPreorder,
     Footer
   }
 };
