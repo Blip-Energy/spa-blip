@@ -4,7 +4,7 @@
       <a href="https://get.blipenergy.com/">Check us out on Kickstarter!</a> Pre-order blip today
     </div>
     <div class="closeX">
-      <button @click="close = true"><img src="src/assets/Union.png"></button>
+      <button @click="close = true"><img src="../../../assets/Union.png"></button>
 <!--      ×-->
 <!--      <div class="close" style="height: 100px; width: 100px; border: 1px solid black; position: relative;"></div>-->
 <!--      <font-awesome-icon icon="times" style="font-size: 16px; margin-bottom: -1px;"/>-->
