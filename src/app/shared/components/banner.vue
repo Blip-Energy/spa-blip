@@ -84,7 +84,7 @@ export default {
   height:
       //100px;
       4em !important;
-  box-shadow: 0px 2px 50px -5px rgba(0, 0, 0, 0.09);
+  //box-shadow: 0px 2px 50px -5px rgba(0, 0, 0, 0.09);
   //box-shadow: 0px 1px 4px rgba(0,0,0,0.3);, 0px 0px 20px rgba(0,0,0,0.1) inset;
   .bene-logo {
     margin-left: 30px;

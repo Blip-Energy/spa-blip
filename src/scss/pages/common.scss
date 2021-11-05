@@ -246,7 +246,7 @@ button.submit{
   //font-family: FF Mark Pro;
   font-family: 'Montserrat', Avenir;
   font-style: normal;
-  font-weight: 300;
+  font-weight: 400;
   color: #254B77;
 }
 button.submit:hover {
@@ -278,13 +278,30 @@ button.submit.b-4F9BC1{
   //font-family: FF Mark Pro;
   font-family: 'Montserrat', Avenir;
   font-style: normal;
-  font-weight: 300;
+  font-weight: 400;
   color: #FFFFFF;
 
 }
 button.submit.b-4F9BC1:hover {
   background: #FFFFFF;
   color: #4F9BC1;
+}
+
+button.submit.b-254B77{
+  background: #254B77;
+  border-radius: 30px;
+  border: none;
+
+  //font-family: FF Mark Pro;
+  font-family: 'Montserrat', Avenir;
+  font-style: normal;
+  font-weight: 400;
+  color: #FFFFFF;
+
+}
+button.submit.b-254B77:hover {
+  background: #FFFFFF;
+  color: #254B77;
 }
 
 button.btn.btn-outline-FFFFFF{
@@ -302,7 +319,7 @@ button.btn.btn-outline-FFFFFF{
   //font-family: "MarkPro-TestFont";
   font-family: 'Montserrat', Avenir;
   font-style: normal;
-  font-weight: 300;
+  font-weight: 400;
   color: #FFFFFF;
 }
 button.btn.btn-outline-FFFFFF:hover {
@@ -328,7 +345,7 @@ button.btn.btn-outline-254B77{
   //font-family: "MarkPro-TestFont";
   font-family: 'Montserrat', Avenir;
   font-style: normal;
-  font-weight: 300;
+  font-weight: 400;
   font-size: 21px;
   line-height: 30px;
   color: #254B77;

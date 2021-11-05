@@ -7,7 +7,20 @@ import 'vue-material-design-icons/styles.css'
 import VueLazyload from 'vue-lazyload'
 
 import { library } from '@fortawesome/fontawesome-svg-core'
-import { faPlus, faArrowRight, faCoffee, faMapMarkerAlt, faMapMarker, faSearch, faLink, faBolt, faInfoCircle, faEllipsisH, faEllipsisV, } from '@fortawesome/free-solid-svg-icons'
+import {
+  faPlus,
+  faTimes,
+  faArrowRight,
+  faCoffee,
+  faMapMarkerAlt,
+  faMapMarker,
+  faSearch,
+  faLink,
+  faBolt,
+  faInfoCircle,
+  faEllipsisH,
+  faEllipsisV,
+} from '@fortawesome/free-solid-svg-icons'
 import { FontAwesomeIcon } from '@fortawesome/vue-fontawesome'
 import { faLinkedin, faLinkedinIn, faTwitter, faTwitterSquare, faFacebook, faFacebookF, faFacebookMessenger, faFacebookSquare, faInstagram, faMedium } from "@fortawesome/free-brands-svg-icons"
 
@@ -30,7 +43,7 @@ import "vuescroll/dist/vuescroll.css";
 import VueAnalytics from 'vue-analytics';
 
 library.add(
-    faPlus, faArrowRight, faCoffee, faMapMarkerAlt, faMapMarker, faSearch, faLink, faBolt, faInfoCircle, faEllipsisH, faEllipsisV,
+    faPlus, faTimes, faArrowRight, faCoffee, faMapMarkerAlt, faMapMarker, faSearch, faLink, faBolt, faInfoCircle, faEllipsisH, faEllipsisV,
     faLinkedin, faLinkedinIn ,faTwitter, faTwitterSquare, faFacebook, faFacebookF, faFacebookMessenger, faFacebookSquare, faInstagram, faMedium,
 )
 Vue.component('font-awesome-icon', FontAwesomeIcon)

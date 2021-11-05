@@ -8,6 +8,9 @@
               <div class="content text-center">
                 <h2 class="h2 two54B77 t-center" style="margin-bottom: 75px">blip is launching soon</h2>
                 <div class="klaviyo-form-WS8Ncp" id="klaviyoForm" style="font-weight: 300"></div>
+                <p class="two54B77 t-center preOrder">
+                  blipOne is available on <a href="https://get.blipenergy.com/">our Kickstarter</a>. Pre-order now!
+                </p>
               </div>
             </div>
           </div>
@@ -367,7 +370,6 @@ input::placeholder{
       //}
       .content{
         //width: 940px;
-
       }
     }
   //}
@@ -438,6 +440,24 @@ input::placeholder{
 .klaviyoForm{
   input{
     border-radius: 30px;
+  }
+}
+.preOrder{
+  margin-top: 30px;
+
+  font-family: 'Montserrat', Avenir;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 30px;
+  a{
+    color: #254B77;
+    text-decoration: underline;
+  }
+  a:hover{
+    color: #254B77;
+    text-decoration: underline;
+    font-weight: 500;
   }
 }
 

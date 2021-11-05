@@ -85,7 +85,8 @@
 
 <script>
 import banner from "../shared/components/banner.vue";
-import Footer from "../shared/components/FooterII.vue";
+import bannerPreorder from "./../shared/components/bannerPreorder.vue";
+import Footer from "../shared/components/FooterIII.vue";
 
 export default {
   name: "contact-us",
@@ -300,6 +301,7 @@ export default {
   },
   components: {
     banner,
+    bannerPreorder,
     Footer
   }
 };
