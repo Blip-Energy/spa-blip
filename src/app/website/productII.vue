@@ -132,15 +132,15 @@
           </b-col>
           <b-col  xs="12" sm="12" md="6" lg="6" xl="6" class="rightUnit">
             <b-row>
-              <b-row class="noLine">
+              <b-row class="noLine" style="width: 100%;">
                 <b-col  xs="3" sm="3" md="3" lg="3" xl="3" class="leftNum t-left">
-                  <h2 class="h1point3 c-D3D3D3 m-l-0 p-l-0" style="">01</h2>
+                  <h2 class="h1point3 c-D3D3D3 f-weight-300 m-l-0 p-l-0" style="">01</h2>
                 </b-col>
                 <b-col  xs="9" sm="9" md="9" lg="9" xl="9" class="rightText t-left">
                   <p class="p1point5 c-4F9BC1 f-weight-300 m-l-0 p-l-0" style="">Plug blipOne into a standard outlet</p>
                 </b-col>
               </b-row>
-              <b-row class="doubleLine noLine">
+              <b-row class="doubleLine noLine" style="width: 100%;">
                 <b-col  xs="3" sm="3" md="3" lg="3" xl="3" class="leftNum t-left">
                   <h2 class="h1point3 c-D3D3D3 m-l-0 p-l-0" style="">02</h2>
                 </b-col>
@@ -148,7 +148,7 @@
                   <p class="p1point5 c-4F9BC1 f-weight-300 m-l-0 p-l-0" style="">Set up your account, and connect blipOne to your home Wifi</p>
                 </b-col>
               </b-row>
-              <b-row class="noLine">
+              <b-row class="noLine" style="width: 100%;">
                 <b-col  xs="3" sm="3" md="3" lg="3" xl="3" class="leftNum t-left">
                   <h2 class="h1point3 c-D3D3D3 m-l-0 p-l-0" style="">03</h2>
                 </b-col>
