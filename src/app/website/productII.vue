@@ -326,7 +326,7 @@
 <script>
 import banner from "./../shared/components/banner.vue";
 import bannerPreorder from "./../shared/components/bannerPreorder.vue";
-import Footer from "./../shared/components/FooterIII.vue";
+import Footer from "./../shared/components/FooterII.vue";
 // import Footer from "./Footer.vue";
 import echarts from "echarts";
 require('echarts/theme/shine');

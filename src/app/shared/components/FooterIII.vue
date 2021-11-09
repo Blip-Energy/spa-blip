@@ -9,7 +9,7 @@
                 <h2 class="h2 two54B77 t-center" style="margin-bottom: 75px">blip is launching soon</h2>
                 <div class="klaviyo-form-WS8Ncp" id="klaviyoForm" style="font-weight: 300"></div>
                 <p class="two54B77 t-center preOrder">
-                  blipOne is available on <a href="https://get.blipenergy.com/">our Kickstarter</a>. Pre-order now!
+                  blipOne is available on <a href="https://www.kickstarter.com/projects/blipone/blipone-the-greenest-and-most-affordable-smart-home-battery">our Kickstarter</a>. Pre-order now!
                 </p>
               </div>
             </div>
