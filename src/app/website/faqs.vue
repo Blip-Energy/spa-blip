@@ -61,7 +61,7 @@
 <script>
 import banner from "../shared/components/banner.vue";
 import bannerPreorder from "./../shared/components/bannerPreorder.vue";
-import Footer from "../shared/components/FooterIII.vue";
+import Footer from "../shared/components/FooterII.vue";
 
 export default {
   name: "faqs",

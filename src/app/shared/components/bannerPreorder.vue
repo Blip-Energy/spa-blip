@@ -1,7 +1,7 @@
 <template>
   <div class="main" v-if="close === false">
     <div class="inside">
-      <a href="https://get.blipenergy.com/">Check us out on Kickstarter!</a> Pre-order blip today
+      blipOne is available on <a href="https://www.kickstarter.com/projects/blipone/blipone-the-greenest-and-most-affordable-smart-home-battery">Kickstarter</a>. Pre-order now!
     </div>
     <div class="closeX">
       <button @click="close = true"><img src="../../../assets/Union.png"></button>

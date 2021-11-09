@@ -1,6 +1,7 @@
 <template>
   <div style="background: #FFFFFF; overflow:auto; clear:both;">
     <banner></banner>
+    <bannerPreorder></bannerPreorder>
     <div class="w-90p t-center m-t-0 insider">
 
       <b-row class="others w-100p t-center">
@@ -86,7 +87,7 @@
 <script>
 import banner from "../shared/components/banner.vue";
 import bannerPreorder from "./../shared/components/bannerPreorder.vue";
-import Footer from "../shared/components/FooterIII.vue";
+import Footer from "../shared/components/FooterII.vue";
 
 export default {
   name: "contact-us",

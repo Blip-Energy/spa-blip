@@ -62,8 +62,12 @@
 
                       <div style="position: absolute; left: -5000px;" aria-hidden="true"><input type="text" name="b_5618524eefbf8e805f268eaed_5482850e7e" tabindex="-1" value=""></div>
                       <div class="clear mb-0 mt-80 t-center" style="padding-top: 0">
-                        <button type="submit" value="Get Notified" name="subscribe" id="mc-embedded-subscribe" class="button btn btn-B0E7FF">Get Notified</button>
+                        <button type="submit" value="Get Notified" name="subscribe" id="mc-embedded-subscribe" class="button btn btn-B0E7FF">Sign Up for Updates</button>
                       </div>
+
+                      <p class="two54B77 t-center preOrder">
+                        blipOne is available on <a href="https://www.kickstarter.com/projects/blipone/blipone-the-greenest-and-most-affordable-smart-home-battery">our Kickstarter</a>. Pre-order now!
+                      </p>
                     </div>
                   </form>
                 </div>
@@ -613,6 +617,25 @@ input::placeholder{
 
 #submitMsg{
   margin-top: -40px;
+}
+
+.preOrder{
+  margin-top: 30px;
+
+  font-family: 'Montserrat', Avenir;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 30px;
+  a{
+    color: #254B77;
+    text-decoration: underline;
+  }
+  a:hover{
+    color: #254B77;
+    text-decoration: underline;
+    font-weight: 500;
+  }
 }
 
 //.logo{

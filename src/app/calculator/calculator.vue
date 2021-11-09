@@ -61,7 +61,7 @@
 import banner from "../shared/components/bannerSC.vue";
 import savings from "../savings.vue";
 import graph from "./graph.vue";
-import signUp from "@/app/shared/components/signupKlaviyo.vue";
+import signUp from "@/app/shared/components/signUpMailChimp.vue";
 import utility from "./utility.vue"
 import noneInputFooter from "@/app/shared/components/noneInputFooter";
 
