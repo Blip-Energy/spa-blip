@@ -1,6 +1,7 @@
 <template>
   <div>
     <banner></banner>
+    <bannerPreorder></bannerPreorder>
     <div class="main">
       <!--start: We believe everyone deserves access to energy storage-->
       <section class="weBelieve">
@@ -15,9 +16,9 @@
 <!--              <button type="button" class="btn submit" onclick="window.location.href='../product'">-->
 <!--                Learn more-->
 <!--              </button>-->
-                            <router-link :to="{path: '/product'}" class="c-4F9BC1 routerLink t-right">
-                              Learn More <font-awesome-icon icon="arrow-right" style="font-size: 16px; margin-bottom: -1px;"/>
-                            </router-link>
+                <router-link :to="{path: '/product'}" class="c-4F9BC1 routerLink t-right">
+                  Learn More <font-awesome-icon icon="arrow-right" style="font-size: 16px; margin-bottom: -1px;"/>
+                </router-link>
             </b-row>
           </b-col>
           <b-col xs="12" sm="12" md="6" lg="6" xl="6" class="right t-left b-254B77">
@@ -243,11 +244,12 @@
 
 <script>
 import banner from "./../shared/components/banner.vue";
+import bannerPreorder from "./../shared/components/bannerPreorder.vue";
 import Footer from "./../shared/components/FooterII.vue";
 // import Footer from "./Footer.vue";
 
 export default {
-  name: "home",
+  name: "about",
   data() {
     return {
     };
@@ -282,6 +284,7 @@ export default {
   components: {
     banner,
     // transparentBanner,
+    bannerPreorder,
     // FontAwesomeIcon,
     Footer
   }

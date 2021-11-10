@@ -1,6 +1,7 @@
 <template xmlns="http://www.w3.org/1999/html">
   <div>
     <banner></banner>
+    <bannerPreorder></bannerPreorder>
     <div class="main">
       <!--start:FAQs-->
       <section class="FAQs">
@@ -59,156 +60,22 @@
 
 <script>
 import banner from "../shared/components/banner.vue";
+import bannerPreorder from "./../shared/components/bannerPreorder.vue";
 import Footer from "../shared/components/FooterII.vue";
 
 export default {
   name: "faqs",
   data() {
     return {
-      chartOne: null,
-      chartTwo: null
     };
   },
   mounted() {
-    this.$nextTick(function() {
-      this.drawChartOne('chartOne')
-    })
-    this.$nextTick(function() {
-      this.drawChartTwo('chartTwo')
-    })
   },
-
   methods: {
-    drawChartOne(id){
-      this.charts = echarts.init(document.getElementById(id))
-      this.charts.setOption({
-        tooltip: {
-          // enabled: false,
-          // trigger: 'item',
-          trigger: 'axis',
-          show: false,
-          // axisPointer: {
-          //   type: 'cross'
-          // }
-        },
-        color:['#254B77'],
-        legend: {
-          data: ['Costs you would pay without blip'],
-          selectedMode: false,
-        },
-        grid: {
-          left: '3%',
-          right: '4%',
-          bottom: '3%',
-          containLabel: true
-        },
-        // toolbox: {
-        //   feature: {
-        //     saveAsImage: {}
-        //   }
-        // },
-        xAxis: {
-          type: 'category',
-          axisLine: {onZero: false},
-          boundaryGap: false,
-          data: ['3 AM', '6 AM', '9 AM', '12 PM', '3 PM', '6 PM', '9 PM', '12 AM']
-        },
-        yAxis: {
-          type: 'value'
-        },
-        series: [{
-          name: 'Costs you would pay without blip',
-          data: [1, 1, 2, 1.7, 2, 5, 2, 1],
-          type: 'line',
-          symbol: 'circle',
-          smooth: true,
-          itemStyle:{
-            normal:{
-              lineStyle:{
-                color:'#254B77'
-              }
-            }
-          }
-        }],
-        hover: {
-          filter: {
-            type: 'none',
-          }
-        },
-      })
-
-    },
-
-    drawChartTwo(id){
-      this.charts = echarts.init(document.getElementById(id))
-      // this.charts.setOption({
-      this.charts.setOption({
-        tooltip: {
-          // enabled: false,
-          // trigger: 'item',
-          trigger: 'axis',
-          show: false,
-        },
-        color:['#183B56','#4F9BC1'],
-        legend: {
-          data: ['Costs you would pay without blip', 'Costs you would pay with blip'],
-          selectedMode: false,
-        },
-        grid: {
-          left: '3%',
-          right: '4%',
-          bottom: '3%',
-          containLabel: true
-        },
-        // toolbox: {
-        //   feature: {
-        //     saveAsImage: {}
-        //   }
-        // },
-        xAxis: {
-          type: 'category',
-          boundaryGap: false,
-          data: ['3 AM', '6 AM', '9 AM', '12 PM', '3 PM', '6 PM', '9 PM', '12 AM']
-        },
-        yAxis: {
-          type: 'value'
-        },
-        series: [
-          {
-            name: 'Costs you would pay without blip',
-            data: [1, 1, 2, 1.7, 2, 5, 2, 1],
-            type: 'line',
-            symbol: 'circle',
-            smooth: true,
-            itemStyle:{
-              normal:{
-                lineStyle:{
-                  color: '#183B56'
-                }
-              }
-            }
-          },
-          {
-            name: 'Costs you would pay with blip',
-            data: [1.5, 1.5, 2, 1.7, 2, 2.5, 2, 1.5],
-            type: 'line',
-            symbol: 'circle',
-            smooth: true,
-            itemStyle:{
-              normal:{
-                lineStyle:{
-                  color: '#4F9BC1'
-                }
-              }
-            }
-          }
-        ]
-      })
-    }
-
   },
   components: {
     banner,
+    bannerPreorder,
     Footer
   }
 };

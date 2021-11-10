@@ -29,7 +29,7 @@
         </b-row>
         <b-row class = "w-100p m-l-0 p-l-0" >
           <b-col xs="12" sm="12" md="6" lg="6" xl="6" class="t-center m-tb-a p-l-0">
-          <p v-show="!showValidZipcodeError" class="validZipcodeError p4 c-FF0000 t-center">Please enter a valid zip code</p>
+            <p v-show="!showValidZipcodeError" class="validZipcodeError p4 c-FF0000 t-left">Please enter a valid zip code</p>
           </b-col>
         </b-row>
       </b-row>
@@ -131,17 +131,19 @@
             <p class="inIDont p4 c-4F9BC1 t-left">(I don’t know my rate plan)</p>
           </b-button> <!--!!!!!!!!!!!!!!!!!!!Empty!!!!!!!!!!!!!!!!!!-->
           <b-row class="plan_select t-left w-100p m-l-0 p-l-0">
-<!--            <vue-dropdown :config="config"></vue-dropdown>-->
-
-            <select name="planDropdown" class="m-l-0 sdropdown" v-model="model" v-on:change="planSelected($event)">
-<!--              <option selected>Click me to choose</option>-->
-              <option :value="''" disabled selected>Please select...</option>
-              <option
-                  class="dropdown-item"
-                  v-for="(plan, index) of utilityPicked.planList"
-                  :value="index"
-              >{{plan.planName}}</option>
-            </select>
+<!--            <select name="planDropdown" class="m-l-0 sdropdown" v-model="model" v-on:change="planSelected($event)">-->
+<!--&lt;!&ndash;              <option selected>Click me to choose</option>&ndash;&gt;-->
+<!--              <option :value="''" disabled selected>Please select...</option>-->
+<!--              <option-->
+<!--                  class="dropdown-item"-->
+<!--                  v-for="(plan, index) of utilityPicked.planList"-->
+<!--                  :value="index"-->
+<!--              >{{plan.planName}}</option>-->
+<!--            </select>-->
+            <VueDropdown
+                :config="config"
+                v-on:setSelectedOption = "setNewSelectedOption"
+            ></VueDropdown>
             <!--            </b-col>-->
           </b-row>
           <b-row class="plan_select t-left w-100p m-l-0 p-l-0">
@@ -179,14 +181,13 @@
     </div>
 
 
-
-
   </div>
 </template>
 
 <script>
 import axios from 'axios'; //add
 // import VueDropdown from 'vue-dynamic-dropdown'; //add
+import VueDropdown from "./calculator/dropdown"; //add
 
 export default {
   name: "savings",
@@ -223,18 +224,24 @@ export default {
       config: {
         options: [
           {
-            value: "Time of Use"
+            value: ""
           },
           {
-            value: "Default Residential"
-          },
-          {
-            value: "option 3"
+            value: ""
           },
         ],
+        placeholder: "Please select...",
         prefix: "",
-        backgroundColor: "#FFFFFF"
-      }
+        backgroundColor: "#FFFFFF",
+        backgroundExpandedColor: "#fff",
+        hoverBackgroundColor: "#B0E7FF",
+        border: "2px solid #D3D3D3",
+        borderRadius: "24px",
+        width: 296,
+        optionHeight: 50,
+        textColor: "#254B77",
+      },
+      setSelectedOption: "",
 //End: add
     };
   },
@@ -285,9 +292,9 @@ export default {
 
     displaySavings() {
       const data = this.dataHere;
-       this.$emit('display-savings', data)
-       // console.log('data', data);
-       this.numOfGraphLoaded = 1
+      this.$emit('display-savings', data)
+      // console.log('data', data);
+      this.numOfGraphLoaded = 1
     },
 
 //Start: add
@@ -404,7 +411,8 @@ export default {
       // $(utility).addClass("chosen")
       this.utilityPicked = utility
       this.planNum = this.utilityPicked.planList.length
-      this.model = ''
+      // this.model = '' ///////////////////////old Selection
+      this.config.placeholder = "Please select..."
       this.selectedPlan = ''
       this.noRatePlan = true
       this.sendPlan(this.selectedPlan)
@@ -412,6 +420,8 @@ export default {
       if (this.nonNYCA){
         this.doTOU()
       }
+      this.config.options[0].value = this.utilityPicked.planList[0].planName//////////////////////////vue-dynamic-dropdown
+      this.config.options[1].value = this.utilityPicked.planList[1].planName//////////////////////////vue-dynamic-dropdown
     },
 
     countOverallPlan(provider){
@@ -440,7 +450,8 @@ export default {
       // var plan = this.utilityPicked.planList[0]
       // console.log("I donnnnnnnnt", plan)
       this.selectedPlan = plan.planName;
-      this.model = i;
+      // this.model = i;///////////////////////old Selection
+      this.config.placeholder = plan.planName;//////////////////////////vue-dynamic-dropdown
       // console.log("I donnnnnnnnt", this.model)
       // this.pleaseSelect = plan.planName;
 
@@ -460,11 +471,23 @@ export default {
       this.$emit('pickedUtility', utility)
     },
 
-    planSelected(event){
-      this.selectedPlan = this.utilityPicked.planList[event.target.value].planName
+    // planSelected(event){ /////////////////////old Selection
+    //   this.selectedPlan = this.utilityPicked.planList[event.target.value].planName
+    //   this.$emit('iDontKnow', false)
+    //   this.countPlan(this.utilityPicked.planList[event.target.value]);
+    //   this.sendPlan(this.utilityPicked.planList[event.target.value]);
+    // },
+    setNewSelectedOption(selectedOption) { //////////////////////////vue-dynamic-dropdown
+      this.config.placeholder = selectedOption.value;
+      this.selectedPlan = this.config.placeholder;
       this.$emit('iDontKnow', false)
-      this.countPlan(this.utilityPicked.planList[event.target.value]);
-      this.sendPlan(this.utilityPicked.planList[event.target.value]);
+      if (selectedOption.value === this.utilityPicked.planList[0].planName){
+        this.countPlan(this.utilityPicked.planList[0]);
+        this.sendPlan(this.utilityPicked.planList[0]);
+      }else if(selectedOption.value === this.utilityPicked.planList[1].planName){
+        this.countPlan(this.utilityPicked.planList[1]);
+        this.sendPlan(this.utilityPicked.planList[1]);
+      }
     },
 
     disableButton(event){
@@ -545,7 +568,7 @@ export default {
 //End: add
   },
   components: {
-    // VueDropdown
+    VueDropdown
   }
 };
 </script>

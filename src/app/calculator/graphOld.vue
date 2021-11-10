@@ -681,5 +681,5 @@ export default {
 </script>
 
 <style lang="scss" scoped>
-@import "src/scss/pages/_calculatorI.scss";
+@import "src/scss/pages/calculatorOld";
 </style>

@@ -1,6 +1,7 @@
 <template>
   <div>
     <banner></banner>
+    <bannerPreorder></bannerPreorder>
     <div class="main">
       <!--start: Energy storage for anyone, anywhere-->
       <section class="SavingRentersMoney b-DEF5FF">
@@ -13,7 +14,7 @@
                 Everyone deserves access to energy storage, so we’re building blipOne, the world’s most accessible smart home battery.
                 <br>Compact, portable and affordable with a sleek, modern design.
               </p>
-              <button type="button" class="btn submit" onclick="window.location.href='../product'">
+              <button type="button" class="btn submit b-254B77" onclick="window.location.href='../product'">
                 Learn more
               </button>
             </b-row>
@@ -72,7 +73,7 @@
               <br><br>
               By storing energy overnight when the price is low, and using it to power your devices during the day when the price is highest, blip saves you money without having to turn anything off.
             </p>
-            <button type="button" class="btn submit" onclick="window.location.href='../product'">
+            <button type="button" class="btn submit" onclick="window.location.href='../calculator'">
               Savings Calculator
             </button>
           </b-col>
@@ -145,6 +146,7 @@
 <script>
 import banner from "./banner.vue";
 // import transparentBanner from "@/app/shared/components/transparentBanner";
+import bannerPreorder from "./bannerPreorder.vue"
 import Footer from "./FooterII.vue";
 // import Footer from "./Footer.vue";
 
@@ -185,6 +187,7 @@ export default {
   components: {
     banner,
     // transparentBanner,
+    bannerPreorder,
     // FontAwesomeIcon,
     Footer
   }
