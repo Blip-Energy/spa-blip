@@ -1,22 +1,24 @@
 <template>
   <div class="navbar-nav" style="background: #FFFFFF;">
-    <section class="DEF5FF launching"  id="sign-up">
-      <div class="hero">
-        <div class="container">
-          <div class="row">
-            <div class="col-lg-8 offset-lg-2 col-md-12 col-sm-12">
-              <div class="content text-center">
-                <h2 class="h2 two54B77 t-center" style="margin-bottom: 75px">blip is launching soon</h2>
-                <div class="klaviyo-form-WS8Ncp" id="klaviyoForm" style="font-weight: 300"></div>
-                <p class="two54B77 t-center preOrder">
-                  blipOne is available on <a href="https://www.kickstarter.com/projects/blipone/blipone-the-greenest-and-most-affordable-smart-home-battery">our Kickstarter</a>. Pre-order now!
-                </p>
-              </div>
-            </div>
-          </div>
-        </div>
-      </div>
-    </section>
+    <KlaviyoSignUp></KlaviyoSignUp>
+
+<!--    <section class="DEF5FF launching"  id="sign-up">-->
+<!--      <div class="hero">-->
+<!--        <div class="container">-->
+<!--          <div class="row">-->
+<!--            <div class="col-lg-8 offset-lg-2 col-md-12 col-sm-12">-->
+<!--              <div class="content text-center">-->
+<!--                <h2 class="h2 two54B77 t-center" style="margin-bottom: 75px">blip is launching soon</h2>-->
+<!--                <div class="klaviyo-form-WS8Ncp" id="klaviyoForm" style="font-weight: 300"></div>-->
+<!--                <p class="two54B77 t-center preOrder">-->
+<!--                  blipOne is available on <a href="https://www.kickstarter.com/projects/blipone/blipone-the-greenest-and-most-affordable-smart-home-battery">our Kickstarter</a>. Pre-order now!-->
+<!--                </p>-->
+<!--              </div>-->
+<!--            </div>-->
+<!--          </div>-->
+<!--        </div>-->
+<!--      </div>-->
+<!--    </section>-->
 
     <!--start:Contact-->
     <div class="hero" style="">
@@ -80,6 +82,7 @@
 
 <script>
 // import GoogleLogin from "vue-google-login";
+import KlaviyoSignUp from "./FooterIIISignUpKlaviyo.vue";
 
 export default {
   name: "footer",
@@ -94,7 +97,7 @@ export default {
   },
   methods: {
   },
-  components: {}
+  components: {KlaviyoSignUp}
 };
 </script>
 
@@ -437,11 +440,15 @@ input::placeholder{
 #submitMsg{
   margin-top: -40px;
 }
-.klaviyoForm{
-  input{
-    border-radius: 30px;
-  }
-}
+//.klaviyo-form{
+//  div{
+//    input{
+//      border: 2px solid #D3D3D3;
+//      box-sizing: border-box;
+//      border-radius: 30px;
+//    }
+//  }
+//}
 .preOrder{
   margin-top: 30px;
 

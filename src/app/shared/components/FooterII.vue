@@ -1,17 +1,5 @@
 <template>
   <div class="navbar-nav" style="background: #FFFFFF;">
-
-<!--    <klaviyo-signup-form-->
-<!--        endpoint="https://lambdafunction/klaviyo/signup"-->
-<!--        klaviyoListId="XEbFhQ"-->
-<!--        placeholder="you@awesome.com"-->
-<!--        button-text="Get Notified"-->
-<!--        :input-classes="['is-medium']"-->
-<!--        :button-classes="['is-medium']"-->
-<!--        @success="handleSuccess"-->
-<!--        @error="handleError"-->
-<!--    />-->
-
     <section class="DEF5FF launching"  id="sign-up">
       <div class="hero">
         <div class="container">
@@ -233,7 +221,6 @@
 // import GoogleLogin from "vue-google-login";
 
 import axios from "axios";
-import KlaviyoSignupForm from '@eucalyptusvc/klaviyo-signup-form';
 
 export default {
   name: "footer",
