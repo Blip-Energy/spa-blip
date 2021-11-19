@@ -26,7 +26,13 @@
                 $method_id: 'embed',
                 $consent_version: 'Embed default text'
             },
-            // extra_fields: ["$first_name", "$last_name", "zip_code"],
+            extra_fields: ["first_name", "last_name", "zip_code"],
+            // success: function ($form) {
+            //     // `$form` is a jQuery wrapper around the form that was submitted. This makes it easy to get the email address or form fields.
+            //     var email = $form.find('[name="email"]').val();
+            //     _learnq.push(['identify', { $email: email }]);
+            //     _learnq.push(['track', 'Signed Up for Newsletter']);
+            // }
         });
         // KlaviyoSubscribe.attachToForms('#k_id_embedded_subscription_form', {
         //     hide_form_on_success: false,
