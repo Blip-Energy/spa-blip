@@ -11,7 +11,7 @@
 <!--                <form id="email_signup" class="klaviyo_styling klaviyo_standard_embed_XEbFhQ klaviyo-form-WS8Ncp" action="//manage.kmail-lists.com/subscriptions/subscribe" data-ajax-submit="//manage.kmail-lists.com/ajax/subscriptions/subscribe" method="GET" target="_blank" novalidate="novalidate">-->
                 <form id="email_signup" class="klaviyo_styling klaviyo_standard_embed_XEbFhQ klaviyo-form-WS8Ncp" action="//manage.kmail-lists.com/subscriptions/subscribe" data-ajax-submit="//manage.kmail-lists.com/ajax/subscriptions/subscribe" method="GET" target="_blank" novalidate="novalidate">
                   <input type="hidden" name="g" value="XEbFhQ">
-                  <input type="hidden" name="$fields" value="$consent,first_name,last_name,zip_code"/>
+                  <input type="hidden" name="$fields" value="first_name,last_name,zip_code"/>
 <!--                  <input type="hidden" name="$fields" value="$consent">-->
 <!--                  <input type="hidden" name="$list_fields" value="$consent">-->
                   <div class="klaviyo_field_group">
