@@ -13,6 +13,27 @@
 <!--    <link rel="icon" href="<%=public%>favicon.ico">-->
     <title>blip energy</title>
     <script async type="text/javascript" src="https://static.klaviyo.com/onsite/js/klaviyo.js?company_id=RfJRGr"></script>
+    <script type="text/javascript" src="//www.klaviyo.com/media/js/public/klaviyo_subscribe.js"></script>
+    <script type="text/javascript">
+        KlaviyoSubscribe.attachToForms('#email_signup', {
+            // list: 'RXr5JW',
+            hide_form_on_success: false,
+            // custom_success_message: true,
+            success_message: "Thank you for signing up! Check your email for a confirmation message.",
+            extra_properties: {
+                $source: 'offical',
+                $method_type: "Klaviyo Form",
+                $method_id: 'embed',
+                $consent_version: 'Embed default text'
+            },
+            // extra_fields: ["$first_name", "$last_name", "zip_code"],
+        });
+        // KlaviyoSubscribe.attachToForms('#k_id_embedded_subscription_form', {
+        //     hide_form_on_success: false,
+        //     // success_message: "Thank you for signing up! Check your email for a confirmation message.",
+        //     custom_success_message: true
+        // });
+    </script>
 </head>
 <body>
     <div class="wrapper" id="app"></div>
