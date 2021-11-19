@@ -8,21 +8,22 @@
               <div class="content text-center">
 <!--                <iframe src="http://eepurl.com/hBxMj5" height="650" width="600" title="Iframe Example" style="margin: auto; border: none"></iframe>-->
                 <h2 class="h2 two54B77 t-center" style="margin-bottom: 80px">blip is launching soon</h2>
-                <form id="email_signup" class="klaviyo_styling klaviyo_standard_embed_XEbFhQ klaviyo-form-WS8Ncp" action="//manage.kmail-lists.com/subscriptions/subscribe" data-ajax-submit="//manage.kmail-lists.com/ajax/subscriptions/subscribe" method="GET" target="_blank" novalidate="novalidate">
+<!--                <form id="email_signup" class="klaviyo_styling klaviyo_standard_embed_XEbFhQ klaviyo-form-WS8Ncp" action="//manage.kmail-lists.com/subscriptions/subscribe" data-ajax-submit="//manage.kmail-lists.com/ajax/subscriptions/subscribe" method="GET" target="_blank" novalidate="novalidate">-->
+                <form id="email_signup" class="klaviyo_styling klaviyo_standard_embed_XEbFhQ" action="//manage.kmail-lists.com/subscriptions/subscribe" data-ajax-submit="//manage.kmail-lists.com/ajax/subscriptions/subscribe" method="GET" target="_blank" novalidate="novalidate">
                   <input type="hidden" name="g" value="XEbFhQ">
-                  <input type="hidden" name="$fields" value="$consent,$first_name,$last_name,zip_code"/>
+                  <input type="hidden" name="$fields" value="$consent,first_name,last_name,zip_code"/>
 <!--                  <input type="hidden" name="$fields" value="$consent">-->
 <!--                  <input type="hidden" name="$list_fields" value="$consent">-->
                   <div class="klaviyo_field_group">
                     <b-row>
                       <b-col xs="6" sm="6" md="6" lg="6" xl="6" class="" style="height:100%; padding-left: 0; padding-right: 17px;">
                         <label for="klaviyo_form_first_name" class="p3 two54B77 t-left w-100p">First Name*</label>
-                        <input id="klaviyo_form_first_name" type="text" name="$first_name" value="" class="w-100p"/>
+                        <input id="klaviyo_form_first_name" type="text" name="first_name" value="" class="w-100p"/>
                       </b-col>
 
                       <b-col xs="6" sm="6" md="6" lg="6" xl="6"  class="" style="height:100%; padding-left: 17px; padding-right: 0; ">
                         <label for="klaviyo_form_last_name" class="p3 two54B77 t-left w-100p">Last Name*</label>
-                        <input id="klaviyo_form_last_name" type="text" name="$last_name" value="" class="w-100p"/>
+                        <input id="klaviyo_form_last_name" type="text" name="last_name" value="" class="w-100p"/>
                       </b-col>
                     </b-row>
 
