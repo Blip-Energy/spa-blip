@@ -3,7 +3,7 @@ import Router from 'vue-router'
 
 import login from './shared/components/login.vue'
 import home from './shared/components/homeII.vue'
-import about from './website/aboutII.vue'
+import about from './website/aboutIII.vue'
 import product from './website/productII.vue'
 import faqs from './website/faqs.vue'
 import contactUs from './website/contact-usII.vue'

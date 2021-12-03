@@ -7,7 +7,8 @@
       <section class="noMatter b-FFFFFF i-a-c">
         <b-row class="insider">
           <b-col  xs="12" sm="12" md="7" lg="7" xl="7" class="leftImg p-l-0">
-            <img src="../../assets/webPages/product/blip-savings-calculator-graphic-F-05.png" alt="" class="">
+<!--            <img src="../../assets/webPages/product/blip-savings-calculator-graphic-F-05.png" alt="" class="">-->
+            <iframe class="leftVideo p-l-0" src="https://www.youtube.com/embed/dqPLsK35Fko" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
           </b-col>
           <b-col  xs="12" sm="12" md="5" lg="5" xl="5" class="rightText t-left">
             <p class="p1point5 c-4F9BC1" style="margin-bottom: 12px">BACKUP POWER</p>
@@ -214,8 +215,8 @@
       <section class="setItAnd b-EEF9FE i-a-c">
         <b-row class="insider w-85p">
           <b-col  xs="12" sm="12" md="7" lg="7" xl="7" class="leftImg p-l-0">
-            <img src="../../assets/webPages/product/Charge.png" alt="" class="">
-            <img src="../../assets/webPages/product/Discharge.png" alt="" class="">
+            <img src="../../assets/webPages/product/charge.png" alt="" class="">
+            <img src="../../assets/webPages/product/discharge.png" alt="" class="">
           </b-col>
           <b-col  xs="12" sm="12" md="5" lg="5" xl="5" class="rightText t-left">
             <p class="p1point5 c-4F9BC1" style="margin-bottom: 12px">SMART BATTERY</p>
@@ -238,7 +239,7 @@
       <section class="effortlessly b-FFFFFF i-a-c">
         <b-row class="insider w-85p">
           <b-col  xs="12" sm="12" md="7" lg="7" xl="7" class="leftImg p-l-0">
-            <img src="../../assets/webPages/product/PeakerWindmillAd.png" alt="" class="">
+            <img src="../../assets/webPages/product/reduce-emissions-graphic.png" alt="" class="">
           </b-col>
           <b-col  xs="12" sm="12" md="5" lg="5" xl="5" class="rightText t-left">
             <p class="p1point5 c-4F9BC1" style="margin-bottom: 12px">REDUCE EMISSIONS</p>
