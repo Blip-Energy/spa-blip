@@ -5,12 +5,8 @@
     <div class="main">
       <!--start: No matter where you live-->
       <section class="noMatter b-FFFFFF i-a-c">
-        <b-row class="insider">
-          <b-col  xs="12" sm="12" md="7" lg="7" xl="7" class="leftImg p-l-0">
-<!--            <img src="../../assets/webPages/product/blip-savings-calculator-graphic-F-05.png" alt="" class="">-->
-            <iframe class="leftVideo p-l-0" src="https://www.youtube.com/embed/dqPLsK35Fko" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-          </b-col>
-          <b-col  xs="12" sm="12" md="5" lg="5" xl="5" class="rightText t-left">
+        <b-row class="w-85p insider">
+          <b-col  xs="12" sm="12" md="6" lg="6" xl="6" class="leftText t-left p-l-0">
             <p class="p1point5 c-4F9BC1" style="margin-bottom: 12px">BACKUP POWER</p>
             <h2 class="h2point8 c-254B77 f-weight-400 m-l-0 p-l-0" style="margin-bottom: 50px">No matter where you live</h2>
             <p class="p3 c-183B56 m-l-0 p-l-0">
@@ -21,6 +17,12 @@
             <button type="button" class="btn submit" onclick="window.location.href='/product#sign-up'">
               Sign Up for Updates
             </button>
+          </b-col>
+          <b-col  xs="12" sm="12" md="6" lg="6" xl="6" class="rightImg p-l-0">
+            <!--            <img src="../../assets/webPages/product/blip-savings-calculator-graphic-F-05.png" alt="" class="">-->
+            <div class="inRightVideo">
+              <iframe class="leftVideo p-l-0" src="https://www.youtube.com/embed/a0svSyRffJY" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+            </div>
           </b-col>
         </b-row>
       </section>
@@ -357,7 +359,7 @@ export default {
     // this.print();
     this.$nextTick(function() {
       this.drawChartTwo('chartTwo')
-    })
+    });
   },
 
   methods: {
