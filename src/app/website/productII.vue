@@ -218,7 +218,7 @@
         <b-row class="insider w-85p">
           <b-col  xs="12" sm="12" md="7" lg="7" xl="7" class="leftImg p-l-0">
             <img src="../../assets/webPages/product/Charge.png" alt="" class="">
-            <img src="../../assets/webPages/product/disCharge.png" alt="" class="">
+            <img src="../../assets/webPages/product/Discharge.png" alt="" class="">
           </b-col>
           <b-col  xs="12" sm="12" md="5" lg="5" xl="5" class="rightText t-left">
             <p class="p1point5 c-4F9BC1" style="margin-bottom: 12px">SMART BATTERY</p>
