@@ -44,7 +44,7 @@
 
               <div class="content t-center">
                 <p class="p1point5 c-254B77 t-center wow fadeInUp">Have more questions?</p>
-                <button type="button" class="btn btn-B0E7FF" style="margin-top: 18px" data-toggle="modal" data-target="#modalSignup" onclick="window.location.href='./contact-us'">
+                <button type="button" class="btn btn-B0E7FF" style="margin-top: 18px" data-toggle="modal" data-target="#modalSignup" onclick="window.open('./contact-us')">
                   Contact Us
                 </button>
               </div>

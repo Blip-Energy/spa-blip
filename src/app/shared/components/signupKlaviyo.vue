@@ -1,14 +1,62 @@
 <template>
   <div class="navbar-nav" style="">
     <!--start:blip is launching soon-->
-    <section class="FFFFFF launching"  id="sign-upI">
+    <section class="FFFFFF launching">
       <div class="hero">
         <div class="container">
           <div class="row">
             <div class="col-lg-10 offset-lg-1 col-md-12 col-sm-12">
               <div class="content text-center">
-                <h2 class="h2 two54B77 t-center" style="width: 100%; margin-bottom: 20px; margin-left: 0px">blip is launching soon</h2>
-                <div class="klaviyo-form-U934Wg"></div>
+                <h2 class="h2 two54B77 t-center" style="width: 100%; margin-bottom: 60px; margin-left: 0px">blip is launching soon</h2>
+<!--                <div class="klaviyo-form-U934Wg"></div>-->
+                <form id="email_signup_savings_calculator" class="klaviyo_styling klaviyo_standard_embed_XEbFhQ klaviyo-form-WS8Ncp" action="//manage.kmail-lists.com/subscriptions/subscribe" data-ajax-submit="//manage.kmail-lists.com/ajax/subscriptions/subscribe" method="GET" target="_blank" novalidate="novalidate">
+                  <input type="hidden" name="g" value="XEbFhQ">
+                  <input type="hidden" name="$fields" value="first_name,last_name,zip_code"/>
+                  <!--                  <input type="hidden" name="$fields" value="$consent">-->
+                  <!--                  <input type="hidden" name="$list_fields" value="$consent">-->
+                  <div class="klaviyo_field_group">
+                    <b-row>
+                      <b-col xs="6" sm="6" md="6" lg="6" xl="6" class="" style="height:100%; padding-left: 0; padding-right: 17px;">
+                        <label for="klaviyo_form_first_name" class="p3 two54B77 t-left w-100p">First Name*</label>
+                        <input id="klaviyo_form_first_name" type="text" name="first_name" value="" class="w-100p"/>
+                      </b-col>
+
+                      <b-col xs="6" sm="6" md="6" lg="6" xl="6"  class="" style="height:100%; padding-left: 17px; padding-right: 0; ">
+                        <label for="klaviyo_form_last_name" class="p3 two54B77 t-left w-100p">Last Name*</label>
+                        <input id="klaviyo_form_last_name" type="text" name="last_name" value="" class="w-100p"/>
+                      </b-col>
+                    </b-row>
+
+                    <b-row>
+                      <b-col xs="8" sm="8" md="8" lg="8" xl="8" class="" style="height:100%; padding-left: 0; padding-right: 17px; ">
+                        <label for="k_id_email" class="p3 two54B77 t-left w-100p">Email*</label>
+                        <input class="w-100p" type="email" value="" name="email" id="k_id_email" placeholder="" />
+                      </b-col>
+
+                      <b-col xs="4" sm="4" md="4" lg="4" xl="4"  class="" style="height:100%; padding-left: 17px; padding-right: 0; ">
+                        <label for="klaviyo_form_zip_code" class="p3 two54B77 t-left w-100p">Zip Code*</label>
+                        <input id="klaviyo_form_zip_code" type="text" name="zip_code" value="" class="w-100p" />
+                      </b-col>
+                    </b-row>
+
+                    <div class="klaviyo_form_actions clear mb-0 mt-80 t-center" style="padding-top: 0">
+                      <button type="submit" class="klaviyo_submit_button button btn btn-B0E7FF">Sign Up for Updates</button>
+                    </div>
+
+                    <div class="klaviyo_messages">
+                      <div class="success_message" style="display:none;"></div>
+                      <div class="error_message" style="display:none;"></div>
+                    </div>
+
+                    <!--                        <p class="thank_you two54B77 m-t-0" >Thank you for signing up! Check your email for a confirmation message.</p>-->
+
+<!--                    <p class="two54B77 t-center preOrder">-->
+<!--                      blipOne is available on <a href="https://www.kickstarter.com/projects/blipone/blipone-the-greenest-and-most-affordable-smart-home-battery">our Kickstarter</a>. Pre-order now!-->
+<!--                    </p>-->
+
+                  </div>
+                </form>
+
               </div>
             </div>
           </div>
@@ -333,5 +381,149 @@ input::placeholder{
   border: 2px solid #E5E5E5;
   box-sizing: border-box;
   border-radius: 50px;
+
+  form {
+    text-align: left;
+
+    .form-group {
+      //background: #faad13;
+      //.leftEmail{
+      //  padding-left: 0;
+      //  padding-right: 17px;
+      //}
+      //.rightZipcode{
+      //  padding-left: 17px;
+      //  padding-right: 0;
+      //}
+      .form-row {
+        display: flex;
+        flex-direction: row;
+        padding: 0;
+        //background: #6f42c1;
+        margin-bottom: -18px;
+
+        .form-control-name-left {
+          //position: absolute;
+          width: 100%;
+          margin-left: 0;
+          margin-right: 0;
+        }
+
+        .form-control-name-right {
+          width: 100%;
+          margin-left: 0;
+          margin-right: 0;
+        }
+
+        .form-control-email {
+          //position: absolute;
+          width: 100%;
+          margin-left: 0px;
+          margin-right: 0px;
+        }
+      }
+
+      .form-control-zipcode {
+        width: 100%;
+      }
+
+      .mb-0 {
+        width: 100%;
+        text-align: center;
+      }
+    }
+  }
+}
+
+.klaviyo_styling{
+  max-width: 100%;
+
+  font-family: 'Montserrat', Avenir;
+
+  label{
+    margin: 0 0 8px;
+
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+  }
+  input{
+    height: 44px;
+    background: #FFFFFF;
+    border: 2px solid #D3D3D3;
+    box-sizing: border-box;
+    border-radius: 10px;
+    outline: none;
+    margin-top: 4px;
+    margin-right:0px;
+    margin-bottom: 25px;
+    padding-left: 20px;
+    padding-top: 2%;
+    padding-bottom: 2%;
+    color: #254B77;
+  }
+  input::placeholder{
+    font-style: normal;
+    font-weight: 300;
+    font-size: 18px;
+    line-height: 111%;
+    color: #8E8E8E;
+  }
+  .klaviyo_submit_button{
+    padding: 0 0;
+    margin-top: -30px;
+  }
+  .klaviyo_submit_button:hover {
+    background-color: #254B77;
+    color: #B0E7FF;
+  }
+  .success_message{
+    margin: 26px auto 10px auto;
+    text-align: center;
+
+    font-size: 16px;
+    font-weight: 300;
+    color: #254B77;
+  }
+  .error_message{
+    margin: 4px auto 10px auto;
+    text-align: center;
+
+    font-size: 16px;
+    font-weight: 300;
+    color: #FF0000;
+  }
+}
+.takeTheSurvey{
+  margin-bottom: 50px;
+}
+
+.thank_you{
+  //margin-top: -40px;
+
+  font-family: 'Montserrat', Avenir;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 21px;
+}
+
+.preOrder{
+  margin-top: 30px;
+
+  font-family: 'Montserrat', Avenir;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 30px;
+  a{
+    color: #254B77;
+    text-decoration: underline;
+  }
+  a:hover{
+    color: #254B77;
+    text-decoration: underline;
+    font-weight: 500;
+  }
 }
 </style>
