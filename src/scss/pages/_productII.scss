@@ -1,7 +1,12 @@
 .noMatter{
+  background: url("../../assets/webPages/product/Rectangle.png") #FFFFFF center no-repeat;
+  background-size: 96% 92%;
   //height: 740px;
-  padding-top: 35px;
-  padding-bottom: 15px;
+  padding-top:
+          8%;
+          //192px;
+  padding-bottom: 6%;
+          //120px;
   //display: flex;
   //align-items: center;
   .insider{
@@ -22,14 +27,21 @@
         }
       }
       button{
-        width: 298px;
+        width: 249px;
         height: 48px;
         margin-top: 50px;
         font-weight: 400;
+        a{
+          color: #FFFFFF;
+        }
+        a:hover{
+          color: #254B77;
+          text-decoration: none;
+        }
       }
     }
     .rightImg{
-      padding: 0 0 0 3%;
+      padding: 8% 0 0 3%;
       display: flex;
       align-items: center;
       //border: 1em solid #DEF5FF;
@@ -43,14 +55,13 @@
         margin: 0;
         padding-bottom: 100%;
         .leftVideo{
-          border: 1em solid #DEF5FF;
+          //border: 1em solid #DEF5FF;
           //margin-left: 10%;
-          width: 100%;
-          height: 100%;
+          width: 90%;
+          height: 90%;
           //459px;
           position: absolute;
           left: 0;
-
         }
       }
 
@@ -86,6 +97,9 @@
       .p1point5{
         height: 60px;
         margin-top: 30px;
+      }
+      .hoooover:hover{
+        text-decoration-style: initial;
       }
       .p3{height: 150px;}
     }
@@ -151,6 +165,7 @@
   //height: 820px;
   padding-top: 110px;
   padding-bottom: 100px;
+  padding-left: 2.5%;
   //display: flex;
   //align-items: center;
   .insider{
@@ -178,19 +193,21 @@
   //display: flex;
   //align-items: center;
   .insider{
-    width: 95%;
-    margin-left: 0;
+    //background: #D3D3D3;
+    //width: 95%;
+    //margin-left: 0;
     display: flex;
     align-items: center;
     .leftImg{
       //display: flex;
       //align-items: center;
+      left: 0;
       img{
-        width: 80%;
+        width: 100%;
       }
     }
     .rightText{
-      padding-left: 30px;
+      padding-left: 100px;
       padding-top: 55px;
       padding-bottom: 55px;
       .p2{margin-left: 0px}
@@ -256,6 +273,9 @@
       .p1point5{
         height: 60px;
         margin-top: 30px;
+      }
+      .p1point5:hover{
+        font-weight: 500;
       }
       .p3{
         padding: 0 4%;

@@ -16,7 +16,7 @@
 <!--              <button type="button" class="btn submit" onclick="window.location.href='../product'">-->
 <!--                Learn more-->
 <!--              </button>-->
-                <router-link :to="{path: '/product'}" class="c-4F9BC1 routerLink t-right">
+                <router-link :to="{path: '/product'}" class="c-4F9BC1 routerLink t-right" target="_blank">
                   Learn More <font-awesome-icon icon="arrow-right" style="font-size: 16px; margin-bottom: -1px;"/>
                 </router-link>
             </b-row>
@@ -67,11 +67,24 @@
       <section class="weVeBeen b-FFFFFF i-a-c">
         <b-row class="w-85p insider">
           <b-row class="topline" style="width: 100%">
+            <b-col xs="4" sm="4" md="4" lg="4" xl="4" class="leftImg t-center Forbes" style="">
+              <!--              <img src="../../assets/webPages/about/websiteTraction/ASUio.jpg" alt="" style="width: 30%">-->
+            </b-col>
+            <b-col xs="8" sm="8" md="8" lg="8" xl="8" class="rightTxt t-left">
+              <a href="https://www.forbes.com/30-under-30/2022/energy" target="_blank">
+                <p class="p1point5 c-254B77 t-left">Forbes 30 under 30</p>
+              </a>
+              <p class="p3 c-4F9BC1 t-left m-l-0">
+                Honoree of the 2022 Forbes 30 under 30 List for Energy
+              </p>
+            </b-col>
+          </b-row>
+          <b-row class="topline" style="width: 100%">
             <b-col xs="4" sm="4" md="4" lg="4" xl="4" class="leftImg t-center ASUio" style="">
 <!--              <img src="../../assets/webPages/about/websiteTraction/ASUio.jpg" alt="" style="width: 30%">-->
             </b-col>
             <b-col xs="8" sm="8" md="8" lg="8" xl="8" class="rightTxt t-left">
-              <a href="https://fullcircle.asu.edu/fulton-schools/imaginative-solutions-lead-the-way-at-asu-innovation-open/">
+              <a href="https://fullcircle.asu.edu/fulton-schools/imaginative-solutions-lead-the-way-at-asu-innovation-open/" target="_blank">
                 <p class="p1point5 c-254B77 t-left">ASUio</p>
               </a>
               <p class="p3 c-4F9BC1 t-left m-l-0">
@@ -84,7 +97,7 @@
 <!--              <img src="../../assets/webPages/about/websiteTraction/Venturecat.png" alt="" style="width: 80%; height: auto">-->
             </b-col>
             <b-col xs="8" sm="8" md="8" lg="8" xl="8" class="rightTxt t-left">
-              <a href="https://blogs.kellogg.northwestern.edu/inside/2021/05/21/venturecat-semi-finalist-post-two/">
+              <a href="https://blogs.kellogg.northwestern.edu/inside/2021/05/21/venturecat-semi-finalist-post-two/" target="_blank">
                 <p class="p1point5 c-254B77 t-left">VentureCat</p>
               </a>
               <p class="p3 c-4F9BC1 t-left m-l-0">
@@ -97,7 +110,7 @@
 <!--              <img src="../../assets/webPages/about/websiteTraction/RBPC.jpg" alt="" style="width: 70%;">-->
             </b-col>
             <b-col xs="8" sm="8" md="8" lg="8" xl="8" class="rightTxt t-left">
-              <a href="https://rbpc.rice.edu/2021-Competition/2021-startups">
+              <a href="https://rbpc.rice.edu/2021-Competition/2021-startups" target="_blank">
                 <p class="p1point5 c-254B77 t-left">Rice Business Plan Competition</p>
               </a>
               <p class="p3 c-4F9BC1 t-left m-l-0">
@@ -110,7 +123,7 @@
 <!--              <img src="../../assets/webPages/about/websiteTraction/AWS.png" alt="" style="width: 50%;">-->
             </b-col>
             <b-col xs="8" sm="8" md="8" lg="8" xl="8" class="rightTxt t-left">
-              <a href="https://aws.amazon.com/blogs/startups/meet-the-winners-of-the-2020-aws-u-s-university-startup-competition/">
+              <a href="https://aws.amazon.com/blogs/startups/meet-the-winners-of-the-2020-aws-u-s-university-startup-competition/" target="_blank">
                 <p class="p1point5 c-254B77 t-left">Amazon AWS Startup Challenge</p>
               </a>
               <p class="p3 c-4F9BC1 t-left m-l-0">
@@ -118,25 +131,25 @@
               </p>
             </b-col>
           </b-row>
-          <b-row class="topline" style="width: 100%">
-            <b-col xs="4" sm="4" md="4" lg="4" xl="4" class="leftImg t-center Baylor" style="">
-<!--              <img src="../../assets/webPages/about/websiteTraction/Baylor.png" alt="" style="width: 70%;">-->
-            </b-col>
-            <b-col xs="8" sm="8" md="8" lg="8" xl="8" class="rightTxt t-left">
-              <a href="">
-                <p class="p1point5 c-254B77 t-left">Baylor New Venture Competition</p>
-              </a>
-              <p class="p3 c-4F9BC1 t-left m-l-0">
-                SEMI-Finalist
-              </p>
-            </b-col>
-          </b-row>
-          <b-row class="topline" style="width: 100%">
+<!--          <b-row class="topline" style="width: 100%">-->
+<!--            <b-col xs="4" sm="4" md="4" lg="4" xl="4" class="leftImg t-center Baylor" style="">-->
+<!--&lt;!&ndash;              <img src="../../assets/webPages/about/websiteTraction/Baylor.png" alt="" style="width: 70%;">&ndash;&gt;-->
+<!--            </b-col>-->
+<!--            <b-col xs="8" sm="8" md="8" lg="8" xl="8" class="rightTxt t-left">-->
+<!--              <a href="">-->
+<!--                <p class="p1point5 c-254B77 t-left">Baylor New Venture Competition</p>-->
+<!--              </a>-->
+<!--              <p class="p3 c-4F9BC1 t-left m-l-0">-->
+<!--                SEMI-Finalist-->
+<!--              </p>-->
+<!--            </b-col>-->
+<!--          </b-row>-->
+          <b-row class="topline bottomLine" style="width: 100%">
             <b-col xs="4" sm="4" md="4" lg="4" xl="4" class="leftImg t-center Chicago" style="">
 <!--              <img src="../../assets/webPages/about/websiteTraction/CSW.png" alt="" style="width: 70%;">-->
             </b-col>
             <b-col xs="8" sm="8" md="8" lg="8" xl="8" class="rightTxt t-left">
-              <a href="https://www.technewsiit.com/chicago-startup-week-announces-return-2021">
+              <a href="https://www.technewsiit.com/chicago-startup-week-announces-return-2021" target="_blank">
                 <p class="p1point5 c-254B77 t-left">Chicago Startup Week Pitch Competition</p>
               </a>
               <p class="p3 c-4F9BC1 t-left m-l-0">
@@ -144,32 +157,32 @@
               </p>
             </b-col>
           </b-row>
-          <b-row class="topline" style="width: 100%">
-            <b-col xs="4" sm="4" md="4" lg="4" xl="4" class="leftImg t-center Alphagear" style="">
-<!--              <img src="../../assets/webPages/about/websiteTraction/AlphaLab_HardwareCup.png" alt="" style="width: 70%;">-->
-            </b-col>
-            <b-col xs="8" sm="8" md="8" lg="8" xl="8" class="rightTxt t-left">
-              <a href="">
-                <p class="p1point5 c-254B77 t-left">Alphagear Lab Hardware Cup</p>
-              </a>
-              <p class="p3 c-4F9BC1 t-left m-l-0">
-                Semi-finalist Smart Homes/Connected Devices
-              </p>
-            </b-col>
-          </b-row>
-          <b-row class="topline bottomLine" style="width: 100%">
-            <b-col xs="4" sm="4" md="4" lg="4" xl="4" class="leftImg t-center KelloggV" style="">
-<!--              <img src="../../assets/webPages/about/websiteTraction/KelloggVentureChallenge.png" alt="" style="width: 60%;">-->
-            </b-col>
-            <b-col xs="8" sm="8" md="8" lg="8" xl="8" class="rightTxt t-left">
-              <a href="">
-                <p class="p1point5 c-254B77 t-left">Kellogg Venture Challenge</p>
-              </a>
-              <p class="p3 c-4F9BC1 t-left m-l-0">
-                Finalist
-              </p>
-            </b-col>
-          </b-row>
+<!--          <b-row class="topline" style="width: 100%">-->
+<!--            <b-col xs="4" sm="4" md="4" lg="4" xl="4" class="leftImg t-center Alphagear" style="">-->
+<!--&lt;!&ndash;              <img src="../../assets/webPages/about/websiteTraction/AlphaLab_HardwareCup.png" alt="" style="width: 70%;">&ndash;&gt;-->
+<!--            </b-col>-->
+<!--            <b-col xs="8" sm="8" md="8" lg="8" xl="8" class="rightTxt t-left">-->
+<!--              <a href="">-->
+<!--                <p class="p1point5 c-254B77 t-left">Alphagear Lab Hardware Cup</p>-->
+<!--              </a>-->
+<!--              <p class="p3 c-4F9BC1 t-left m-l-0">-->
+<!--                Semi-finalist Smart Homes/Connected Devices-->
+<!--              </p>-->
+<!--            </b-col>-->
+<!--          </b-row>-->
+<!--          <b-row class="topline bottomLine" style="width: 100%">-->
+<!--            <b-col xs="4" sm="4" md="4" lg="4" xl="4" class="leftImg t-center KelloggV" style="">-->
+<!--&lt;!&ndash;              <img src="../../assets/webPages/about/websiteTraction/KelloggVentureChallenge.png" alt="" style="width: 60%;">&ndash;&gt;-->
+<!--            </b-col>-->
+<!--            <b-col xs="8" sm="8" md="8" lg="8" xl="8" class="rightTxt t-left">-->
+<!--              <a href="">-->
+<!--                <p class="p1point5 c-254B77 t-left">Kellogg Venture Challenge</p>-->
+<!--              </a>-->
+<!--              <p class="p3 c-4F9BC1 t-left m-l-0">-->
+<!--                Finalist-->
+<!--              </p>-->
+<!--            </b-col>-->
+<!--          </b-row>-->
         </b-row>
       </section>
       <!--end: We’ve been busy making waves with our big ideas-->
@@ -265,7 +278,7 @@
             </div>
           </div>
           <b-row class="t-center">
-            <button type="button" class="button submit" onclick="window.location.href='../contact-us'">
+            <button type="button" class="button submit" onclick="window.open('../contact-us')">
               <!--                      <a href="./contact-us" class="btn btn-primary">-->
               Contact Us
               <!--                        </a>-->
@@ -279,6 +292,7 @@
 <!--        Click <a href="#" @click.prevent="disableTracking">here</a>,-->
 <!--        to disable the tracking through Google Analytics.-->
 <!--      </p>-->
+      <KlaviyoSignUp :formID="formID"></KlaviyoSignUp>
       <Footer></Footer>
     </div>
   </div>
@@ -287,13 +301,15 @@
 <script>
 import banner from "./../shared/components/banner.vue";
 import bannerPreorder from "./../shared/components/bannerPreorder.vue";
-import Footer from "./../shared/components/FooterII.vue";
+import KlaviyoSignUp from "./../shared/components/FooterIIISignUpKlaviyo.vue";
+import Footer from "./../shared/components/FooterIIWOSignUp.vue";
 // import Footer from "./Footer.vue";
 
 export default {
   name: "about",
   data() {
     return {
+      formID: "email_signup_about",
     };
   },
   head() {
@@ -328,6 +344,7 @@ export default {
     // transparentBanner,
     bannerPreorder,
     // FontAwesomeIcon,
+    KlaviyoSignUp,
     Footer
   }
 };
