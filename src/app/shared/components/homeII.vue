@@ -138,7 +138,9 @@
 <!--        Click <a href="#" @click.prevent="disableTracking">here</a>,-->
 <!--        to disable the tracking through Google Analytics.-->
 <!--      </p>-->
-      <KlaviyoSignUp :formID="formID"></KlaviyoSignUp>
+
+<!--      <KlaviyoSignUp :formID="formID"></KlaviyoSignUp>-->
+<!--      <KlaviyoSignUp></KlaviyoSignUp>-->
       <Footer></Footer>
     </div>
   </div>
@@ -148,9 +150,9 @@
 import banner from "./banner.vue";
 // import transparentBanner from "@/app/shared/components/transparentBanner";
 import bannerPreorder from "./bannerPreorder.vue"
-import KlaviyoSignUp from "./FooterIIISignUpKlaviyo.vue";
-import Footer from "./FooterIIWOSignUp.vue";
-// import Footer from "./Footer.vue";
+import KlaviyoSignUp from "./FooterIIISignUpKlaviyoHome.vue";
+// import Footer from "./FooterIIWOSignUp.vue";
+import Footer from "./FooterII.vue";
 
 export default {
   name: "home",

@@ -54,7 +54,7 @@
                       </div>
 
                       <p class="two54B77 t-center preOrder">
-                        blipOne is available on <a href="https://www.kickstarter.com/projects/blipone/blipone-the-greenest-and-most-affordable-smart-home-battery">our Kickstarter</a>. Pre-order now!
+                        blipOne is available on <a href="https://www.indiegogo.com/project/preview/17de3d24" target="_blank">InDemand</a>. Pre-order now!
                       </p>
                     </div>
                   </form>
