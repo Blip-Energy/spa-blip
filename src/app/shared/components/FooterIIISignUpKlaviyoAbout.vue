@@ -9,7 +9,7 @@
 <!--                <iframe src="http://eepurl.com/hBxMj5" height="650" width="600" title="Iframe Example" style="margin: auto; border: none"></iframe>-->
                 <h2 class="h2 two54B77 t-center" style="margin-bottom: 80px">blip is launching soon</h2>
 <!--                <form id="email_signup" class="klaviyo_styling klaviyo_standard_embed_XEbFhQ klaviyo-form-WS8Ncp" action="//manage.kmail-lists.com/subscriptions/subscribe" data-ajax-submit="//manage.kmail-lists.com/ajax/subscriptions/subscribe" method="GET" target="_blank" novalidate="novalidate">-->
-                <form :id="formID" class="klaviyo_styling klaviyo_standard_embed_XEbFhQ klaviyo-form-WS8Ncp" action="//manage.kmail-lists.com/subscriptions/subscribe" data-ajax-submit="//manage.kmail-lists.com/ajax/subscriptions/subscribe" method="GET" target="_blank" novalidate="novalidate">
+                <form id="email_signup_about" class="klaviyo_styling klaviyo_standard_embed_XEbFhQ klaviyo-form-WS8Ncp" action="//manage.kmail-lists.com/subscriptions/subscribe" data-ajax-submit="//manage.kmail-lists.com/ajax/subscriptions/subscribe" method="GET" target="_blank" novalidate="novalidate">
                   <input type="hidden" name="g" value="XEbFhQ">
                   <input type="hidden" name="$fields" value="first_name,last_name,zip_code"/>
 <!--                  <input type="hidden" name="$fields" value="$consent">-->
@@ -51,7 +51,7 @@
 <!--                        <p class="thank_you two54B77 m-t-0" >Thank you for signing up! Check your email for a confirmation message.</p>-->
 
                     <p class="two54B77 t-center preOrder">
-                      blipOne is available on <a href="https://www.indiegogo.com/project/preview/17de3d24" target="_blank">InDemand</a>. Pre-order now!
+                      blipOne is available on <a href="https://www.kickstarter.com/projects/blipone/blipone-the-greenest-and-most-affordable-smart-home-battery">our Kickstarter</a>. Pre-order now!
                     </p>
 
                   </div>
@@ -75,7 +75,6 @@ import KlaviyoSignupForm from '@eucalyptusvc/klaviyo-signup-form';
 
 export default {
   name: "footerSignUpKlaviyo",
-  props:['formID'],
   data() {
     return {
       submitButtonMsg: "Sign Up for Updates",
