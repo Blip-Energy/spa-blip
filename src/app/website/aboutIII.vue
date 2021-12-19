@@ -293,7 +293,7 @@
 <!--        to disable the tracking through Google Analytics.-->
 <!--      </p>-->
 <!--      <KlaviyoSignUp :formID="formID"></KlaviyoSignUp>-->
-      <KlaviyoSignUp></KlaviyoSignUp>
+<!--      <KlaviyoSignUp></KlaviyoSignUp>-->
       <Footer></Footer>
     </div>
   </div>
