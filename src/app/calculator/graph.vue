@@ -224,7 +224,7 @@
       </b-row>
 
       <b-row v-else class="signUpForUpdates w-100p t-center">
-        <b-button class="submit outline" variant="outline-primary" onclick="window.location.href='../product'" style="width: 223px">
+        <b-button class="submit outline" variant="outline-primary" onclick="window.open('../product')" style="width: 223px">
           <a ref="">Learn more</a>
         </b-button>
       </b-row>

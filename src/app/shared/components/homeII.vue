@@ -14,7 +14,7 @@
                 Everyone deserves access to energy storage, so we’re building blipOne, the world’s most accessible smart home battery.
                 <br>Compact, portable and affordable with a sleek, modern design.
               </p>
-              <button type="button" class="btn submit b-254B77" onclick="window.location.href='../product'">
+              <button type="button" class="btn submit b-254B77" onclick="window.open('../product')">
                 Learn more
               </button>
             </b-row>
@@ -37,7 +37,7 @@
       <section class="Pioneering b-FFFFFF i-a-c">
         <b-row class="w-90p insider">
           <b-col  xs="12" sm="12" md="7" lg="7" xl="7" class="leftImg p-l-0">
-            <img src="../../../assets/webPages/Landing/BlipEnvironment-03.png" alt="" class="w-100p">
+            <img src="../../../assets/webPages/Landing/Blip-environment-updated-nov2021.png" alt="" class="w-100p">
           </b-col>
           <b-col  xs="12" sm="12" md="5" lg="5" xl="5" class="rightText t-left">
             <p class="p1point5 c-4F9BC1" style="margin-bottom: 12px">A NEW KIND OF BATTERY</p>
@@ -54,7 +54,7 @@
 <!--            <router-link :to="{path: '/product'}" class="c-4F9BC1 routerLink">-->
 <!--              Learn More about blipOne <font-awesome-icon icon="arrow-right" style="font-size: 16px; margin-bottom: -1px;"/>-->
 <!--            </router-link>-->
-            <button type="button" class="btn submit" onclick="window.location.href='../product'">
+            <button type="button" class="btn submit" onclick="window.open('../product')">
               Learn More about blipOne
             </button>
           </b-col>
@@ -73,7 +73,7 @@
               <br><br>
               By storing energy overnight when the price is low, and using it to power your devices during the day when the price is highest, blip saves you money without having to turn anything off.
             </p>
-            <button type="button" class="btn submit" onclick="window.location.href='../calculator'">
+            <button type="button" class="btn submit" onclick="window.open('../calculator')">
               Savings Calculator
             </button>
           </b-col>
@@ -138,6 +138,9 @@
 <!--        Click <a href="#" @click.prevent="disableTracking">here</a>,-->
 <!--        to disable the tracking through Google Analytics.-->
 <!--      </p>-->
+
+<!--      <KlaviyoSignUp :formID="formID"></KlaviyoSignUp>-->
+      <KlaviyoSignUp></KlaviyoSignUp>
       <Footer></Footer>
     </div>
   </div>
@@ -147,13 +150,15 @@
 import banner from "./banner.vue";
 // import transparentBanner from "@/app/shared/components/transparentBanner";
 import bannerPreorder from "./bannerPreorder.vue"
-import Footer from "./FooterII.vue";
-// import Footer from "./Footer.vue";
+import KlaviyoSignUp from "./FooterIIISignUpKlaviyoHome.vue";
+import Footer from "./FooterIIWOSignUp.vue";
+// import Footer from "./FooterII.vue";
 
 export default {
   name: "home",
   data() {
     return {
+      formID: "email_signup_home"
     };
   },
   head() {
@@ -189,6 +194,7 @@ export default {
     // transparentBanner,
     bannerPreorder,
     // FontAwesomeIcon,
+    KlaviyoSignUp,
     Footer
   }
 };
