@@ -140,7 +140,7 @@
 <!--      </p>-->
 
 <!--      <KlaviyoSignUp :formID="formID"></KlaviyoSignUp>-->
-<!--      <KlaviyoSignUp></KlaviyoSignUp>-->
+      <KlaviyoSignUp></KlaviyoSignUp>
       <Footer></Footer>
     </div>
   </div>
@@ -151,8 +151,8 @@ import banner from "./banner.vue";
 // import transparentBanner from "@/app/shared/components/transparentBanner";
 import bannerPreorder from "./bannerPreorder.vue"
 import KlaviyoSignUp from "./FooterIIISignUpKlaviyoHome.vue";
-// import Footer from "./FooterIIWOSignUp.vue";
-import Footer from "./FooterII.vue";
+import Footer from "./FooterIIWOSignUp.vue";
+// import Footer from "./FooterII.vue";
 
 export default {
   name: "home",

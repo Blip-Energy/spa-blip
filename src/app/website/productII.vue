@@ -14,7 +14,7 @@
               <br><br>
               Today, backup power products are expensive and often require permanent installation. We designed our product to work for anyone, even renters in apartments and those who live in condos or multi-unit buildings.
             </p>
-            <a href="https://www.kickstarter.com/projects/blipone/blipone-the-greenest-and-most-affordable-smart-home-battery" target="_blank">
+            <a href="https://www.indiegogo.com/project/preview/17de3d24" target="_blank">
               <button type="button" class="btn submit b-254B77">
                 Pre-order Now
               </button>
