@@ -202,3 +202,89 @@
     border: 2px solid #B0E7FF;
   }
 }
+.meetTheM{
+  padding-top: 60px;
+  padding-bottom: 110px;
+  .insider{
+    width: 100%;
+    //background: #D3D3D3;
+    .content{
+      //.col-lg-3.col-md-6.col-sm-12{
+      //  background: #3cb582;
+      //}
+      text-align: center;
+      margin-bottom: 40px;
+      .row{
+        //height: 479px;
+        //width: 95%;
+        margin-left: auto;
+        margin-right: auto;
+        margin-bottom: 134px;
+        //background: #D3D3D3;
+        background: #B0E7FF;
+        .card-f-heading{
+          width: 282px;
+          height: 322px;
+          padding: 0px 0px;
+          margin: 78.5px auto 36px;
+          .members{
+            height: 322px;
+          }
+        }
+        .card-f-body{
+          margin-top: 0;
+          margin-bottom: 80px;
+          p{
+            margin-left: auto;
+            margin-right: auto;
+            margin-bottom: 13px;
+          }
+          .bio{
+            margin-top: 60px;
+          }
+        }
+        .rightOval{
+          height: //100%;
+                  479px;
+          //background: #B0E7FF;
+          //border-top-left-radius: 300px;
+          //border-bottom-left-radius: 300px;
+          //display: flex;
+          //align-items: center;
+          .rightTxt{
+            width: 80%;
+            margin-left: 10%;
+            margin-top: 0;
+            //background: #D3D3D3;
+          }
+        }
+        .leftOval{
+          height: 479px;
+          background: #B0E7FF;
+          border-top-right-radius: 300px;
+          border-bottom-right-radius: 300px;
+          //display: flex;
+          //align-items: center;
+          .leftTxt{
+            width: 80%;
+            margin-left: 10%;
+            margin-top: 0;
+            //background: #D3D3D3;
+          }
+        }
+      }
+      //h4{width:240px;}
+    }
+  }
+  button{
+    width: 216px;
+    height: 48px;
+    //margin-top: 50px;
+    margin-bottom: 67px;
+    font-size: 18px;
+    line-height: 20px;
+  }
+  button:hover{
+    border: 2px solid #B0E7FF;
+  }
+}

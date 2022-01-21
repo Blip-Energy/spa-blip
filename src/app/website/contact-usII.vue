@@ -79,6 +79,7 @@
       </b-row>
     </div>
 
+<!--    <KlaviyoSignUp :formID="formID"></KlaviyoSignUp>-->
     <Footer></Footer>
 
   </div>
@@ -88,11 +89,14 @@
 import banner from "../shared/components/banner.vue";
 import bannerPreorder from "./../shared/components/bannerPreorder.vue";
 import Footer from "../shared/components/FooterII.vue";
+import KlaviyoSignUp from "./../shared/components/FooterIIISignUpKlaviyo.vue";
+// import Footer from "./../shared/components/FooterIIWOSignUp.vue";
 
 export default {
   name: "contact-us",
   data() {
     return {
+      formID: 'email_signup_contact_us',
       center: {lat: 42.056432, lng: -87.674835},
       markers: [{
         position: {lat: 42.056432, lng: -87.674835}
@@ -303,6 +307,7 @@ export default {
   components: {
     banner,
     bannerPreorder,
+    KlaviyoSignUp,
     Footer
   }
 };

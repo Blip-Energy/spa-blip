@@ -201,7 +201,7 @@
           </b-col>
         </b-row>
       </section>
-      <section class="meetThe b-254B77 i-a-c t-center">
+      <section class="meetThe b-254B77 i-a-c t-center"  v-if="ismOrpc === 'PCoperation'">
         <b-row class="w-90p insider t-center">
           <div class="content w-100p">
             <div class="row" style="width: 100%">
@@ -286,6 +286,103 @@
           </b-row>
         </b-row>
       </section>
+      <section class="meetTheM b-254B77 i-a-c t-center"  v-if="ismOrpc === 'Moperation'">
+        <b-row class="w-90p insider t-center">
+          <div class="content w-100p">
+            <div class="row" style="width: 100%">
+              <div class="col-lg-4 col-md-12 col-sm-12">
+                <div class="card-f flex text-center wow fadeInUp">
+                  <div class="card-f-heading">
+                    <img src="../../assets/webPages/about/team/ovalSophia.png" alt="" class="members">
+                  </div>
+                  <div class="card-f-body t-center">
+                    <p class="p2 c-254B77 t-center">Sophia Wennstedt</p>
+                    <p class="p3 c-254B77 t-center">Co-Founder & CEO</p>
+                    <p class="p2 c-254B77 t-left w-80p bio">
+                      Sophia brings a technical background and a vision to bring energy storage to anyone. After receiving a degree in Mechanical Engineering from Harvard University Sophia worked at iRobot as a Mech. Engineer on Roomba new product development and as a program manager for the Design and User Experience group before enrolling in Northwestern's MMM program to receive an MBA and MSDI. During the program, she worked as an Entrepreneurial Fellow at Exelon (summer 2020) and took an 8 month position as Product Manager at Tesla for digital energy products.
+                    </p>
+                  </div>
+                </div>
+              </div>
+<!--              <div class="col-lg-8 col-md-12 col-sm-12 rightOval b-B0E7FF t-left">-->
+<!--                <p class="rightTxt p2 c-254B77 absolute-mid i-a-c">-->
+<!--                  Sophia brings a technical background and a vision to bring energy storage to anyone. After receiving a degree in Mechanical Engineering from Harvard University Sophia worked at iRobot as a Mech. Engineer on Roomba new product development and as a program manager for the Design and User Experience group before enrolling in Northwestern's MMM program to receive an MBA and MSDI. During the program, she worked as an Entrepreneurial Fellow at Exelon (summer 2020) and took an 8 month position as Product Manager at Tesla for digital energy products.-->
+<!--                </p>-->
+<!--              </div>-->
+            </div>
+            <div class="row" style="width: 100%">
+              <div class="col-lg-4 col-md-12 col-sm-12">
+                <div class="card-f flex text-center wow fadeInUp">
+                  <div class="card-f-heading">
+                    <img src="../../assets/webPages/about/team/ovalChance.png" alt="" class="members">
+                  </div>
+                  <div class="card-f-body">
+                    <p class="p2 c-254B77 t-center">Chance Cobb</p>
+                    <p class="p3 c-254B77 t-center">Co-Founder & COO</p>
+                    <p class="p2 c-254B77 t-left w-80p bio">
+                      Chance is an accomplished Strategy and Operations Leader with over 14 years of experience in cross-functional leadership and operations management roles. He utilized his Lafayette College Political Science degree working for GE Federal Government Relations specializing in energy legislative and regulatory policy and advocacy. A UNC Kenan-Flagler MBA in Management Consulting & Sustainable Enterprise led to his work at ScottMadden specializing in energy and utility strategic project implementation. While at Northwestern University, in the MS in Leadership for Creative Enterprises & Entrepreneurship program, he met the co-founding team and launched the company.
+                    </p>
+                  </div>
+                </div>
+              </div>
+<!--              <div class="col-lg-8 col-md-12 col-sm-12 leftOval b-B0E7FF t-left">-->
+<!--                <p class="leftTxt p2 c-254B77 absolute-mid i-a-c">-->
+<!--                  Chance is an accomplished Strategy and Operations Leader with over 14 years of experience in cross-functional leadership and operations management roles. He utilized his Lafayette College Political Science degree working for GE Federal Government Relations specializing in energy legislative and regulatory policy and advocacy. A UNC Kenan-Flagler MBA in Management Consulting & Sustainable Enterprise led to his work at ScottMadden specializing in energy and utility strategic project implementation. While at Northwestern University, in the MS in Leadership for Creative Enterprises & Entrepreneurship program, he met the co-founding team and launched the company.-->
+<!--                </p>-->
+<!--              </div>-->
+            </div>
+            <div class="row" style="width: 100%">
+              <div class="col-lg-4 col-md-12 col-sm-12">
+                <div class="card-f flex text-center wow fadeInUp">
+                  <div class="card-f-heading">
+                    <img src="../../assets/webPages/about/team/ovalDennis.png" alt="" class="members">
+                  </div>
+                  <div class="card-f-body">
+                    <p class="p2 c-254B77 t-center">Dennis Kontorovich</p>
+                    <p class="p3 c-254B77 t-center">Co-Founder & Advisor</p>
+                    <p class="p2 c-254B77 t-left w-80p bio">
+                      As part of the original Cofounding team, Dennis was responsible for sculpting blip's business plan. Dennis built out blip's financial model, leveraging his undergraduate degree in Finance from Miami University and MBA from Northwestern's Kellogg School of Management. Dennis brings experience in management consulting at Bain, an externship at Engie Distributed Solar, and Entrepreneurial Fellow position at Exelon.
+                    </p>
+                  </div>
+                </div>
+              </div>
+<!--              <div class="col-lg-8 col-md-12 col-sm-12 rightOval b-B0E7FF t-left">-->
+<!--                <p class="rightTxt p2 c-254B77 absolute-mid i-a-c">-->
+<!--                  As part of the original Cofounding team, Dennis was responsible for sculpting blip's business plan. Dennis built out blip's financial model, leveraging his undergraduate degree in Finance from Miami University and MBA from Northwestern's Kellogg School of Management. Dennis brings experience in management consulting at Bain, an externship at Engie Distributed Solar, and Entrepreneurial Fellow position at Exelon.-->
+<!--                </p>-->
+<!--              </div>-->
+            </div>
+            <div class="row" style="width: 100%">
+              <div class="col-lg-4 col-md-12 col-sm-12">
+                <div class="card-f flex text-center wow fadeInUp">
+                  <div class="card-f-heading">
+                    <img src="../../assets/webPages/about/team/ovalThibaut.png" alt="" class="members">
+                  </div>
+                  <div class="card-f-body">
+                    <p class="p2 c-254B77 t-center">Thibaut Feremans</p>
+                    <p class="p3 c-254B77 t-center">Co-Founder & Advisor</p>
+                    <p class="p2 c-254B77 t-left w-80p bio">
+                      Part of the original cofounding team, Thibaut drove prototype development and technical specifications and brings a meticulous eye for detail. Thibaut earned a masters in Electrical engineering as well as an MBA from Northwestern, and has worked in energy consulting at BCG. Currently based in Belgium, Thibaut remains our electrical guru and sounding board on a part-time basis.
+                    </p>
+                  </div>
+                </div>
+              </div>
+<!--              <div class="col-lg-8 col-md-12 col-sm-12 leftOval b-B0E7FF t-left">-->
+<!--                <p class="leftTxt p2 c-254B77 absolute-mid i-a-c">-->
+<!--                  Part of the original cofounding team, Thibaut drove prototype development and technical specifications and brings a meticulous eye for detail. Thibaut earned a masters in Electrical engineering as well as an MBA from Northwestern, and has worked in energy consulting at BCG. Currently based in Belgium, Thibaut remains our electrical guru and sounding board on a part-time basis.-->
+<!--                </p>-->
+<!--              </div>-->
+            </div>
+          </div>
+          <b-row class="t-center">
+            <button type="button" class="button submit" onclick="window.open('../contact-us')">
+              <!--                      <a href="./contact-us" class="btn btn-primary">-->
+              Contact Us
+              <!--                        </a>-->
+            </button>
+          </b-row>
+        </b-row>
+      </section>
       <!--end: Meet the team-->
 
 <!--      <p>-->
@@ -302,7 +399,7 @@
 <script>
 import banner from "./../shared/components/banner.vue";
 import bannerPreorder from "./../shared/components/bannerPreorder.vue";
-import KlaviyoSignUp from "./../shared/components/FooterIIISignUpKlaviyoAbout.vue";
+import KlaviyoSignUp from "./../shared/components/FooterIIISignUpKlaviyo.vue";
 // import Footer from "./../shared/components/FooterIIWOSignUp.vue";
 import Footer from "./../shared/components/FooterII.vue";
 
@@ -311,6 +408,7 @@ export default {
   data() {
     return {
       formID: "email_signup_about",
+      ismOrpc: ''
     };
   },
   head() {
@@ -329,6 +427,22 @@ export default {
   mounted() {
     this.$ga.page('/about');
   },
+  created(){
+    if (this._isMobile()) {
+      //mobile
+      this.ismOrpc = 'Moperation'
+      //set rem
+      window.onload = function(){
+        this.getRem(750,100)
+      };
+      window.onresize = function(){
+        this.getRem(750,100)
+      };
+    } else {
+      //pc
+      this.ismOrpc = 'PCoperation'
+    }
+  },
   methods: {
     disableTracking: function() {
       this.$ga.disable();
@@ -336,6 +450,15 @@ export default {
     },
     click: function() {
       this.$ga.event('category', 'action', 'label', 123)
+    },
+    getRem(pwidth,prem){
+      var html = document.getElementsByTagName("html")[0];
+      var oWidth = document.body.clientWidth || document.documentElement.clientWidth;
+      html.style.fontSize = oWidth/pwidth*prem + "px";
+    },
+    _isMobile() {
+      let flag = navigator.userAgent.match(/(phone|pad|pod|iPhone|iPod|ios|iPad|Android|Mobile|BlackBerry|IEMobile|MQQBrowser|JUC|Fennec|wOSBrowser|BrowserNG|WebOS|Symbian|Windows Phone)/i)
+      return flag;
     }
   },
   computed: {

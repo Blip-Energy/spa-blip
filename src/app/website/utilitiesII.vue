@@ -78,6 +78,8 @@
 <!--        Click <a href="#" @click.prevent="disableTracking">here</a>,-->
 <!--        to disable the tracking through Google Analytics.-->
 <!--      </p>-->
+<!--      <KlaviyoSignUp :formID="formID"></KlaviyoSignUp>-->
+      <!--      <KlaviyoSignUp></KlaviyoSignUp>-->
       <Footer></Footer>
     </div>
   </div>
@@ -86,6 +88,8 @@
 <script>
 import banner from "./../shared/components/banner.vue";
 import bannerPreorder from "./../shared/components/bannerPreorder.vue";
+import KlaviyoSignUp from "./../shared/components/FooterIIISignUpKlaviyo.vue";
+// import Footer from "./../shared/components/FooterIIWOSignUp.vue";
 import Footer from "./../shared/components/FooterII.vue";
 // import Footer from "./Footer.vue";
 
@@ -93,6 +97,7 @@ export default {
   name: "utilities",
   data() {
     return {
+      formID: 'email_signup_utilites'
     };
   },
   head() {
@@ -126,6 +131,7 @@ export default {
   components: {
     banner,
     bannerPreorder,
+    KlaviyoSignUp,
     Footer
   }
 };

@@ -9,7 +9,7 @@
     <!-- Right aligned nav items -->
     <b-navbar-nav class="ml-auto">
       <b-nav-item class="navigation" right>
-        <router-link :to="'product'" :active='$route.name =="product"'>
+        <router-link :to="'product'" :active='$route.name =="product"' :target="_top">
           <div>Product</div>
         </router-link>
       </b-nav-item>
@@ -19,7 +19,7 @@
         </router-link>
       </b-nav-item>
       <b-nav-item class="navigation" right>
-        <router-link :to="'about'" :active='$route.name =="about"'>
+        <router-link :to="'about'" :active='$route.name =="about"' target="_top">
           <div>About</div>
         </router-link>
       </b-nav-item>

@@ -4,7 +4,7 @@ import Router from 'vue-router'
 import login from './shared/components/login.vue'
 import home from './shared/components/homeII.vue'
 import about from './website/aboutIII.vue'
-import product from './website/productII.vue'
+import product from './website/productIII.vue'
 import faqs from './website/faqs.vue'
 import contactUs from './website/contact-usII.vue'
 import calculator from './calculator/calculator.vue'
@@ -13,7 +13,7 @@ import articles from './website/articles'
 import myBlip from './onboarding/my-blip.vue'
 import privacyPolicy from './website/privacy-policy.vue'
 import coming from './onboarding/comingSoon.vue'
-
+import news from './website/news.vue'
 
 Vue.use(Router)
 
@@ -90,6 +90,17 @@ export default new Router({
       name: 'privacy-policy',
       component: privacyPolicy
     },
+    {
+      path: '/news',
+      name: 'news',
+      component: news
+    },
+    {
+      path: '/news/:post',
+      name: 'post',
+      props: true,
+      component: news
+    }
 
   ]
 })

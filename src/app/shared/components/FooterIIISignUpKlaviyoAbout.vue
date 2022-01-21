@@ -39,7 +39,7 @@
                       </b-col>
                     </b-row>
 
-                    <div class="klaviyo_form_actions clear mb-0 mt-80 t-center" style="padding-top: 0">
+                    <div class="klaviyo_form_actions clear mb-0 mt-80 t-center m-lr-a" style="padding-top: 0">
                       <button type="submit" class="klaviyo_submit_button button btn btn-B0E7FF">{{submitButtonMsg}}</button>
                     </div>
 
@@ -80,12 +80,31 @@ export default {
       submitButtonMsg: "Sign Up for Updates",
     };
   },
-  created() {},
+  created() {
+  },
   mounted() {
-    // let klaviyoScript = document.createElement('script')
-    // klaviyoScript.setAttribute('type', 'text/javascript')
-    // klaviyoScript.setAttribute('src', '//www.klaviyo.com/media/js/public/klaviyo_subscribe.js')
-    // document.head.appendChild(klaviyoScript)
+    //   let klaviyoScript = document.createElement('script')
+    //   klaviyoScript.setAttribute('type', 'text/javascript')
+    //   klaviyoScript.setAttribute('src', '//www.klaviyo.com/media/js/public/klaviyo_subscribe.js')
+    //   document.head.appendChild(klaviyoScript)
+    //
+    // window.onload = function(){
+    //   let klaviyoScript = document.createElement('script')
+    //   klaviyoScript.setAttribute('type', 'text/javascript')
+    //
+    //   KlaviyoSubscribe.attachToForms('#email_signup_about', {
+    //     // list: 'XEbFhQ',
+    //     hide_form_on_success: false,
+    //     // custom_success_message: true,
+    //     success_message: "Thank you for signing up! Check your email for a confirmation message.",
+    //     extra_properties: {
+    //       $source: 'about',
+    //       $method_type: "Klaviyo Form",
+    //       $method_id: 'embed',
+    //       $consent_version: 'Embed default text'
+    //     },
+    //     extra_fields: ["first_name", "last_name", "zip_code"],
+    //   });}
   },
   watch: {
   },
