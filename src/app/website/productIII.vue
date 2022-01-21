@@ -4,9 +4,9 @@
     <bannerPreorder></bannerPreorder>
     <div class="main">
       <!--start: No matter where you live-->
-      <section class="noMatter b-FFFFFF i-a-c">
+      <section class="noMatter b-FFFFFF i-a-c" v-if="ismOrpc === 'PCoperation'">
         <b-row class="w-80p insider">
-          <b-col  xs="12" sm="12" md="6" lg="6" xl="6" class="leftText t-left p-l-0">
+          <b-col  xs="12" sm="12" md="12" lg="12" xl="6" class="leftText t-left p-l-0">
             <p class="p1point5 c-4F9BC1" style="margin-bottom: 12px">BACKUP POWER</p>
             <h2 class="h2point8 c-254B77 f-weight-400 m-l-0 p-l-0" style="margin-bottom: 50px">No matter where you live</h2>
             <p class="p3 c-183B56 m-l-0 p-l-0">
@@ -20,9 +20,33 @@
               </button>
             </a>
           </b-col>
-          <b-col  xs="12" sm="12" md="6" lg="6" xl="6" class="rightImg p-l-0">
+          <b-col  xs="12" sm="12" md="12" lg="6" xl="6" class="rightImg p-l-0">
             <!--            <img src="../../assets/webPages/product/blip-savings-calculator-graphic-F-05.png" alt="" class="">-->
             <div class="inRightVideo">
+              <iframe class="leftVideo p-l-0" src="https://www.youtube.com/embed/a0svSyRffJY" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+            </div>
+          </b-col>
+        </b-row>
+      </section>
+      <section class="noMatterM i-a-c" v-if="ismOrpc === 'Moperation'">
+        <b-row class="w-80p insider">
+          <b-col  xs="12" sm="12" md="12" lg="12" xl="6" class="leftText t-left p-l-0">
+            <p class="p1point5 c-4F9BC1" style="margin-bottom: 12px">BACKUP POWER</p>
+            <h2 class="h2point8 c-254B77 f-weight-400 m-l-0 p-l-0" style="margin-bottom: 50px">No matter where you live</h2>
+            <p class="p3 c-183B56 m-l-0 p-l-0">
+              We’re on a mission to create the most accessible smart home battery. Our first product, blipOne, plugs straight into a standard outlet with no installation necessary and provides 2.2KWh of backup power in case of an outage - enough to keep your fridge running for 1-2 days or the Wi-fi up for weeks.
+              <br><br>
+              Today, backup power products are expensive and often require permanent installation. We designed our product to work for anyone, even renters in apartments and those who live in condos or multi-unit buildings.
+            </p>
+            <a href="https://www.indiegogo.com/project/preview/17de3d24" target="_blank">
+              <button type="button" class="btn submit b-254B77">
+                Pre-order Now
+              </button>
+            </a>
+          </b-col>
+          <b-col  xs="12" sm="12" md="12" lg="12" xl="6" class="rightImg">
+            <!--            <img src="../../assets/webPages/product/blip-savings-calculator-graphic-F-05.png" alt="" class="">-->
+            <div class="inRightVideo m-l-0">
               <iframe class="leftVideo p-l-0" src="https://www.youtube.com/embed/a0svSyRffJY" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
             </div>
           </b-col>
@@ -90,7 +114,7 @@
 <!--            </b-col>-->
 <!--          </b-row>-->
           <b-row class="whole w-100p">
-            <b-col xs="6" sm="6" md="6" lg="3" xl="3" class="t-center oneQuarter">
+            <b-col xs="12" sm="12" md="6" lg="6" xl="3" class="t-center oneQuarter">
               <img src="../../assets/webPages/product/Vector1.png" style="width: 44px; margin-left: -22px">
 <!--              <a href="/product#noInstallation">-->
               <p class="p1point5 c-4F9BC1 t-center hoooover" style="" onclick="window.location.href='product/#noInstallation'">No installation</p>
@@ -98,23 +122,24 @@
                 blipOne plugs right into a wall outlet. No electricians necessary.
               </p>
             </b-col>
-            <b-col xs="6" sm="6" md="6" lg="3" xl="3" class="t-center oneQuarter">
+            <b-col xs="12" sm="12" md="6" lg="6" xl="3" class="t-center oneQuarter">
               <img src="../../assets/webPages/product/Vector2.png" style="width: 70px; margin-left: -35px">
               <p class="p1point5 c-4F9BC1 t-center" style="" onclick="window.location.href='product/#backupPower'">Backup power</p>
               <p class="p3 c-183B56 m-l-0 p-l-0">
                 blipOne has 2.2KWh of backup power in case of an outage. Peace of mind doesn’t have to cost an arm and a leg.
               </p>
             </b-col>
-            <b-col xs="6" sm="6" md="6" lg="3" xl="3" class="t-center oneQuarter">
+            <b-col xs="12" sm="12" md="6" lg="6" xl="3" class="t-center oneQuarter">
               <img src="../../assets/webPages/product/Vector3.png" style="width: 86px; margin-left: -43px">
               <p class="p1point5 c-4F9BC1 t-center" style="" onclick="window.location.href='product/#costSavings'">Cost savings</p>
               <p class="p3 c-183B56 m-l-0 p-l-0">
                 blipOne uses price arbitrage (the fancy term for “buy low, sell high”) to save you money on your electric bill. On some rate plans, blip pays for itself in as little as 2 years.
               </p>
             </b-col>
-            <b-col xs="6" sm="6" md="6" lg="3" xl="3" class="t-center oneQuarter">
+            <b-col xs="12" sm="12" md="6" lg="6" xl="3" class="t-center oneQuarter">
               <img src="../../assets/webPages/product/Vector4.png" style="width: 58px; margin-left: -29px">
-              <p class="p1point5 c-4F9BC1 t-center" style="" onclick="window.location.href='product/#reduceEmissions'">Reduce emissions</p>
+              <p v-if="ismOrpc === 'PCoperation'" class="p1point5 c-4F9BC1 t-center" style="" onclick="window.location.href='product/#reduceEmissions'">Reduce emissions</p>
+              <p v-if="ismOrpc === 'Moperation'" class="p1point5 c-4F9BC1 t-center" style="" onclick="window.location.href='product/#reduceEmissionsM'">Reduce emissions</p>
               <p class="p3 c-183B56 m-l-0 p-l-0">
                 By charging overnight, blipOne shifts community energy usage and reduces our reliance on fuel-burning power plants that only turn on to meet peak demand.
               </p>
@@ -127,7 +152,7 @@
       <!--start: Three easy steps to saving you money, and saving the planet-->
       <section class="threeEasy b-FFFFFF i-a-c" id="noInstallation">
         <b-row class="w-80p insider">
-          <b-col  xs="12" sm="12" md="6" lg="6" xl="6" class="leftText t-left">
+          <b-col  xs="12" sm="12" md="12" lg="12" xl="6" class="leftText t-left m-l-0 p-l-0">
             <p class="p1point5 c-4F9BC1" style="margin-bottom: 12px">HOW IT WORKS</p>
             <h2 class="h2point8 c-254B77 f-weight-400 m-l-0 p-l-0" style="margin-bottom: 50px">Three easy steps to saving you money, and saving the planet</h2>
             <p class="p3 c-183B56 m-l-0 p-l-0">
@@ -136,7 +161,7 @@
               Just like that, you can fight climate change and accelerate the transition to renewable energy - without getting off the couch!
             </p>
           </b-col>
-          <b-col  xs="12" sm="12" md="6" lg="6" xl="6" class="rightUnit">
+          <b-col  xs="12" sm="12" md="12" lg="12" xl="6" class="rightUnit">
             <b-row>
               <b-row class="noLine" style="width: 100%;">
                 <b-col  xs="3" sm="3" md="3" lg="3" xl="3" class="leftNum t-left">
@@ -175,21 +200,144 @@
       <!--start: Always have a back-up plan-->
       <section class="always b-254B77 i-a-c t-center" id="backupPower">
         <b-row class="w-80p insider t-center">
-          <b-col  xs="12" sm="12" md="5" lg="5" xl="5" class="leftText t-left">
+          <b-col  xs="12" sm="12" md="12" lg="12" xl="5" class="leftText t-left">
             <p class="p1point5 c-B0E7FF" style="margin-bottom: 12px">OUTAGE PROTECTION</p>
             <h2 class="h2point8 c-FFFFFF f-weight-400 m-l-0 p-l-0" style="margin-bottom: 50px">Always have a back-up plan</h2>
             <p class="p3 c-FFFFFF m-l-0 p-l-0">
               Be prepared for the next blackout with blipOne. blipOne’s outage protection detects a power outage and provides power to your highest priority devices. When power is restored, blipOne reverts to Smart Mode to maximize savings.
             </p>
           </b-col>
-          <b-col  xs="12" sm="12" md="7" lg="7" xl="7" class="rightblc p-l-0">
+          <b-col  xs="0" sm="0" md="0" lg="0" xl="7" class="rightblc p-l-0 w-100p">
           </b-col>
 <!--          <img src="../../assets/webPages/product/LivingRoomOutline.png">-->
         </b-row>
       </section>
-      <section class="alwaysPic b-254B77 i-a-c t-center">
+      <section class="alwaysPic b-254B77 i-a-c t-center" v-if="ismOrpc === 'PCoperation'">
         <b-row class="w-100p insider t-center">
           <img src="../../assets/webPages/product/LivingRoomOutline.png">
+        </b-row>
+      </section>
+      <section class="alwaysBelow b-254B77 t-center" v-if="ismOrpc === 'Moperation'">
+        <b-row class="w-80p insider t-center">
+          <b-row class="w-80p t-center responsiveness">
+            <b-col xs="12" sm="6" md="6" lg="6" xl="6" class="leftText t-left p-l-0">
+            <!--            <p class="p1point5 c-B0E7FF" style="margin-bottom: 12px">OUTAGE PROTECTION</p>-->
+            <!--            <h2 class="h2point8 c-FFFFFF f-weight-400 m-l-0 p-l-0" style="margin-bottom: 50px">Always have a back-up plan</h2>-->
+            <b-row class="res w-100p t-center m-l-0 p-l-0">
+              <b-col xs="2" sm="0" md="2" lg="2" xl="2" class="leftImg t-center m-l-0 i-a-c p-l-0">
+                <img src="../../assets/webPages/product/refrigerator.png" class="m-lr-a" style="width: 40px">
+              </b-col>
+              <b-col xs="9" sm="12" md="9" lg="9" xl="9" class="rightText t-left">
+                <p class="p2 c-FFFFFF m-l-0 p-l-0">
+                  Refridgerator
+                </p>
+                <p class="p2 c-B0E7FF m-l-0 p-l-0">
+                  11-22 hours
+                </p>
+              </b-col>
+            </b-row>
+            <b-row class="res w-100p t-center m-l-0 p-l-0">
+              <b-col xs="2" sm="0" md="2" lg="2" xl="2" class="leftImg t-center m-l-0 i-a-c p-l-0">
+                <img src="../../assets/webPages/product/ice_cream.png" class="m-lr-a" style="width: 50px">
+              </b-col>
+              <b-col xs="9" sm="12" md="9" lg="9" xl="9" class="rightText t-left">
+                <p class="p2 c-FFFFFF m-l-0 p-l-0">
+                  Freezer
+                </p>
+                <p class="p2 c-B0E7FF m-l-0 p-l-0">
+                  1-3 days
+                </p>
+              </b-col>
+            </b-row>
+            <b-row class="res w-100p t-center m-l-0 p-l-0">
+              <b-col xs="2" sm="0" md="2" lg="2" xl="2" class="leftImg t-center m-l-0 i-a-c p-l-0">
+                <img src="../../assets/webPages/product/microwave.png" class="m-lr-a" style="width: 44px">
+              </b-col>
+              <b-col xs="9" sm="12" md="9" lg="9" xl="9" class="rightText t-left">
+                <p class="p2 c-FFFFFF m-l-0 p-l-0">
+                  Microwave
+                </p>
+                <p class="p2 c-B0E7FF m-l-0 p-l-0">
+                  1-4 hours
+                </p>
+              </b-col>
+            </b-row>
+            <b-row class="res w-100p t-center m-l-0 p-l-0">
+              <b-col xs="2" sm="0" md="2" lg="2" xl="2" class="leftImg t-center m-l-0 i-a-c p-l-0">
+                <img src="../../assets/webPages/product/iconoir_fire-flame.png" class="m-lr-a" style="width: 41px">
+              </b-col>
+              <b-col xs="9" sm="12" md="9" lg="9" xl="9" class="rightText t-left">
+                <p class="p2 c-FFFFFF m-l-0 p-l-0">
+                  Space heater
+                </p>
+                <p class="p2 c-B0E7FF m-l-0 p-l-0">
+                  1-3 hours
+                </p>
+              </b-col>
+            </b-row>
+          </b-col>
+            <b-col xs="12" sm="6" md="6" lg="6" xl="6" class="rightText p-l-0">
+              <b-row class="res w-100p t-center m-l-0 p-l-0">
+                <b-col xs="2" sm="0" md="2" lg="2" xl="2" class="leftImg t-center m-l-0 i-a-c p-l-0">
+                  <img src="../../assets/webPages/product/wind.png" class="m-lr-a" style="width: 41px">
+                </b-col>
+                <b-col xs="9" sm="12" md="9" lg="9" xl="9" class="rightText t-left">
+                  <p class="p2 c-FFFFFF m-l-0 p-l-0">
+                    Window A/C
+                  </p>
+                  <p class="p2 c-B0E7FF m-l-0 p-l-0">
+                    1-4 hours
+                  </p>
+                </b-col>
+              </b-row>
+              <b-row class="res w-100p t-center m-l-0 p-l-0">
+                <b-col xs="2" sm="0" md="2" lg="2" xl="2" class="leftImg t-center m-l-0 i-a-c p-l-0">
+                  <img src="../../assets/webPages/product/monitor.png" class="m-lr-a" style="width: 41px">
+                </b-col>
+                <b-col xs="9" sm="12" md="9" lg="9" xl="9" class="rightText t-left">
+                  <p class="p2 c-FFFFFF m-l-0 p-l-0">
+                    Computer
+                  </p>
+                  <p class="p2 c-B0E7FF m-l-0 p-l-0">
+                    1-2 days
+                  </p>
+                </b-col>
+              </b-row>
+              <b-row class="res w-100p t-center m-l-0 p-l-0">
+                <b-col xs="2" sm="0" md="2" lg="2" xl="2" class="leftImg t-center m-l-0 i-a-c p-l-0">
+                  <img src="../../assets/webPages/product/wifi.png" class="m-lr-a" style="width: 41px">
+                </b-col>
+                <b-col xs="9" sm="12" md="9" lg="9" xl="9" class="rightText t-left">
+                  <p class="p2 c-FFFFFF m-l-0 p-l-0">
+                    Internet router
+                  </p>
+                  <p class="p2 c-B0E7FF m-l-0 p-l-0">
+                    6-18 days
+                  </p>
+                </b-col>
+              </b-row>
+              <b-row class="res w-100p t-center m-l-0 p-l-0">
+                <b-col xs="2" sm="0" md="2" lg="2" xl="2" class="leftImg t-center m-l-0 i-a-c p-l-0">
+                  <img src="../../assets/webPages/product/tv.png" class="m-lr-a" style="width: 41px">
+                </b-col>
+                <b-col xs="9" sm="12" md="9" lg="9" xl="9" class="rightText t-left">
+                  <p class="p2 c-FFFFFF m-l-0 p-l-0">
+                    TV
+                  </p>
+                  <p class="p2 c-B0E7FF m-l-0 p-l-0">
+                    1-1.5 days
+                  </p>
+                </b-col>
+              </b-row>
+            </b-col>
+          </b-row>
+          <p class="p4 c-FFFFFF t-left">
+            Run times quoted are based on a blipOne full charge, appliance power consumption, and assume continuous use
+            <br><br>
+            Source: Silicon Valley Power
+          </p>
+<!--          <p class="p4 c-FFFFFF t-left"></p>-->
+          <!--          <img src="../../assets/webPages/product/LivingRoomOutline.png">-->
         </b-row>
       </section>
       <!--end: Always have a back-up plan-->
@@ -197,7 +345,7 @@
       <!--start: Save money on your electricity bills-->
       <section class="saveMoney b-EEF9FE i-a-c t-center" id="costSavings">
         <b-row class="w-85p insider t-center">
-          <b-col  xs="12" sm="12" md="5" lg="5" xl="5" class="leftText t-left">
+          <b-col xs="12" sm="12" md="12" lg="12" xl="5" class="leftText t-left">
             <p class="p1point5 c-4F9BC1" style="margin-bottom: 12px">COST SAVINGS</p>
             <h2 class="h2point8 c-254B77 f-weight-400 m-l-0 p-l-0" style="margin-bottom: 50px">Save money on your electric bills</h2>
             <p class="p3 c-183B56 m-l-0 p-l-0">
@@ -209,21 +357,21 @@
               See Your Savings
             </button>
           </b-col>
-          <b-col  xs="12" sm="12" md="7" lg="7" xl="7" class="rightChart p-l-0">
-            <div id="chartTwo" class="chart" style="width: 100%; height: 100%"></div>
+          <b-col xs="12" sm="12" md="12" lg="12" xl="7" class="rightChart p-l-0 i-a-c">
+            <div id="chartTwo" class="chart" style="width: 100%; height: 438px"></div>
           </b-col>
         </b-row>
       </section>
       <!--end: Save money on your electricity bills-->
 
       <!--start: Set it and forget it-->
-      <section class="setItAnd b-EEF9FE i-a-c">
+      <section class="setItAnd b-EEF9FE i-a-c" v-if="ismOrpc === 'PCoperation'">
         <b-row class="insider w-80p">
-          <b-col  xs="12" sm="12" md="6" lg="6" xl="6" class="leftImg p-l-0">
+          <b-col  xs="12" sm="12" md="12" lg="6" xl="6" class="leftImg p-l-0">
             <img src="../../assets/webPages/product/Charge.png" alt="" class="">
             <img src="../../assets/webPages/product/Discharge.png" alt="" class="">
           </b-col>
-          <b-col  xs="12" sm="12" md="6" lg="6" xl="6" class="rightText t-left">
+          <b-col  xs="12" sm="12" md="12" lg="6" xl="6" class="rightText t-left">
             <p class="p1point5 c-4F9BC1" style="margin-bottom: 12px">SMART BATTERY</p>
             <h2 class="h2point8 c-254B77 f-weight-400 m-l-0 p-l-0" style="margin-bottom: 50px">Set it and forget it</h2>
             <p class="p3 c-183B56 m-l-0 p-l-0">
@@ -238,15 +386,30 @@
           </b-col>
         </b-row>
       </section>
+      <section class="setItAnd b-EEF9FE i-a-c" v-if="ismOrpc === 'Moperation'">
+        <b-row class="insider w-80p">
+          <b-col  xs="12" sm="12" md="12" lg="12" xl="6" class="leftText t-left">
+            <p class="p1point5 c-4F9BC1" style="margin-bottom: 12px">SMART BATTERY</p>
+            <h2 class="h2point8 c-254B77 f-weight-400 m-l-0 p-l-0" style="margin-bottom: 50px">Set it and forget it</h2>
+            <p class="p3 c-183B56 m-l-0 p-l-0">
+              blipOne uses an algorithm that tells it when to charge and discharge to optimize your savings.
+            </p>
+          </b-col>
+          <b-col  xs="12" sm="12" md="12" lg="12" xl="6" class="rightImg t-center">
+            <img src="../../assets/webPages/product/Charge.png" alt="" class="">
+            <img src="../../assets/webPages/product/Discharge.png" alt="" class="">
+          </b-col>
+        </b-row>
+      </section>
       <!--end: Set it and forget it-->
 
       <!--start: Effortlessly help take peaker plants offline-->
-      <section class="effortlessly b-FFFFFF i-a-c" id="reduceEmissions">
+      <section class="effortlessly b-FFFFFF i-a-c" id="reduceEmissions" v-if="ismOrpc === 'PCoperation'">
         <b-row class="insider w-80p">
-          <b-col  xs="12" sm="12" md="7" lg="7" xl="7" class="leftImg p-l-0">
+          <b-col  xs="12" sm="12" md="12" lg="7" xl="7" class="leftImg p-l-0">
             <img src="../../assets/webPages/product/reduce-emissions-graphic.png" alt="" class="">
           </b-col>
-          <b-col  xs="12" sm="12" md="5" lg="5" xl="5" class="rightText t-left">
+          <b-col  xs="12" sm="12" md="12" lg="5" xl="5" class="rightText t-left">
             <p class="p1point5 c-4F9BC1" style="margin-bottom: 12px">REDUCE EMISSIONS</p>
             <h2 class="h2point8 c-254B77 f-weight-400 m-l-0 p-l-0" style="margin-bottom: 50px">Effortlessly help take peaker plants offline</h2>
             <p class="p3 c-183B56 m-l-0 p-l-0">
@@ -255,12 +418,26 @@
           </b-col>
         </b-row>
       </section>
+      <section class="effortlessly b-FFFFFF i-a-c" id="reduceEmissionsM" v-if="ismOrpc === 'Moperation'">
+        <b-row class="insider w-80p">
+          <b-col  xs="12" sm="12" md="12" lg="12" xl="7" class="leftText t-left">
+            <p class="p1point5 c-4F9BC1" style="margin-bottom: 12px">REDUCE EMISSIONS</p>
+            <h2 class="h2point8 c-254B77 f-weight-400 m-l-0 p-l-0" style="margin-bottom: 50px">Effortlessly help take peaker plants offline</h2>
+            <p class="p3 c-183B56 m-l-0 p-l-0">
+              Using blipOne will help reduce your carbon footprint without having to make any lifestyle changes.  Each blipOne eliminates 100kg of CO2 emissions per year. If we each help a little, we can accomplish a lot.
+            </p>
+          </b-col>
+          <b-col  xs="12" sm="12" md="12" lg="12" xl="5" class="rightImg t-center">
+            <img src="../../assets/webPages/product/reduce-emissions-graphic.png" alt="" class="">
+          </b-col>
+        </b-row>
+      </section>
       <!--end: Effortlessly help take peaker plants offline-->
 
       <!--start: Designed for you and your home-->
       <section class="always b-254B77 i-a-c t-center">
         <b-row class="w-80p insider t-center">
-          <b-col xs="12" sm="12" md="5" lg="5" xl="5" class="leftText t-left">
+          <b-col xs="12" sm="12" md="8" lg="7" xl="5" class="leftText t-left">
             <p class="p1point5 c-B0E7FF" style="margin-bottom: 12px">PRODUCT DETAILS</p>
             <h2 class="h2point8 c-FFFFFF f-weight-400 m-l-0 p-l-0" style="margin-bottom: 50px">Designed for you and your home</h2>
             <p class="p3 c-FFFFFF m-l-0 p-l-0">
@@ -274,21 +451,21 @@
       <section class="designedFor b-254B77 i-a-c">
         <b-row class="w-80p insider">
           <b-row class="whole w-100p">
-            <b-col xs="12" sm="12" md="12" lg="4" xl="4" class="t-center oneThird">
+            <b-col xs="12" sm="12" md="4" lg="4" xl="4" class="t-center oneThird">
               <img src="../../assets/webPages/product/SpaceConscious.png" style="width: 76px; margin-left: -38px">
               <p class="p1point5 c-DEF5FF t-center" style="">Space-conscious</p>
               <p class="p3 c-FFFFFF m-l-0 p-l-0">
                 Our compact design occupies less than one square foot
               </p>
             </b-col>
-            <b-col xs="12" sm="12" md="12" lg="4" xl="4" class="t-center oneThird">
+            <b-col xs="12" sm="12" md="4" lg="4" xl="4" class="t-center oneThird">
               <img src="../../assets/webPages/product/Frame.png" style="width: 72px; margin-left: -36px">
               <p class="p1point5 c-DEF5FF t-center" style="">Ergonomic + portable</p>
               <p class="p3 c-FFFFFF m-l-0 p-l-0">
                 blipOne’s ergonomic handle, wheels and lightweight design makes it easy to transport, so you can bring its benefits with you whenever you move
               </p>
             </b-col>
-            <b-col xs="12" sm="12" md="12" lg="4" xl="4" class="t-center oneThird">
+            <b-col xs="12" sm="12" md="4" lg="4" xl="4" class="t-center oneThird">
               <img src="../../assets/webPages/product/ModernDesign.png" style="width: 50px; margin-left: -25px">
               <p class="p1point5 c-DEF5FF t-center" style="">Modern design</p>
               <p class="p3 c-FFFFFF m-l-0 p-l-0">
@@ -324,7 +501,7 @@
 <!--        Click <a href="#" @click.prevent="disableTracking">here</a>,-->
 <!--        to disable the tracking through Google Analytics.-->
 <!--      </p>-->
-      <KlaviyoSignUp :formID="formID"></KlaviyoSignUp>
+<!--      <KlaviyoSignUp :formID="formID"></KlaviyoSignUp>-->
 <!--      <KlaviyoSignUp></KlaviyoSignUp>-->
       <Footer></Footer>
     </div>
@@ -335,8 +512,8 @@
 import banner from "./../shared/components/banner.vue";
 import bannerPreorder from "./../shared/components/bannerPreorder.vue";
 import KlaviyoSignUp from "./../shared/components/FooterIIISignUpKlaviyo.vue";
-import Footer from "./../shared/components/FooterIIWOSignUp.vue";
-// import Footer from "./../shared/components/FooterII.vue";
+// import Footer from "./../shared/components/FooterIIWOSignUp.vue";
+import Footer from "./../shared/components/FooterII.vue";
 import echarts from "echarts";
 require('echarts/theme/shine');
 
@@ -346,7 +523,14 @@ export default {
     return {
       formID: "email_signup_product",
       chartTwo: null,
+      ismOrpc: ''
     };
+  },
+  compute: {
+    // reduceE: function(){
+    //   if (this.ismOrpc === 'PCoperation') return 'reduceEmissions'
+    //   else if (this.ismOrpc === 'Moperation') return 'reduceEmissionsM'
+    // }
   },
   head() {
     return {
@@ -359,6 +543,22 @@ export default {
           content: 'The most accessible smart battery that works for anyone, anywhere. 2.2KWh capacity - blipOne can power a fridge for 1-2 days and the Wi-Fi for weeks.	'
         }
       ]
+    }
+  },
+  created() {
+    if (this._isMobile()) {
+      //mobile
+      this.ismOrpc = 'Moperation'
+      //set rem
+      window.onload = function(){
+        this.getRem(750,100)
+      };
+      window.onresize = function(){
+        this.getRem(750,100)
+      };
+    } else {
+      //pc
+      this.ismOrpc = 'PCoperation'
     }
   },
   mounted() {
@@ -377,6 +577,23 @@ export default {
     click: function() {
       this.$ga.event('category', 'action', 'label', 123)
     },
+    getRem(pwidth,prem){
+      var html = document.getElementsByTagName("html")[0];
+      var oWidth = document.body.clientWidth || document.documentElement.clientWidth;
+      html.style.fontSize = oWidth/pwidth*prem + "px";
+    },
+    _isMobile() {
+      let flag = navigator.userAgent.match(/(phone|pad|pod|iPhone|iPod|ios|iPad|Android|Mobile|BlackBerry|IEMobile|MQQBrowser|JUC|Fennec|wOSBrowser|BrowserNG|WebOS|Symbian|Windows Phone)/i)
+      return flag;
+    },
+    // reduceE(){
+    //   if (this.ismOrpc === 'PCoperation'){
+    //     window.location.href='product/#reduceEmissions'
+    //   }else if (this.ismOrpc === 'Moperation'){
+    //     window.location.href='product/#reduceEmissionsM'
+    //   }
+    //
+    // },
     drawChartTwo(id){
       this.charts = echarts.init(document.getElementById(id))
       // this.charts.setOption({
@@ -387,9 +604,11 @@ export default {
           trigger: 'axis',
           show: false,
         },
-        color:['#183B56','#4F9BC1'],
+        color:['#EB5757','#4F9BC1'],
         legend: {
+          icon: '',
           data: ['Costs you would pay without blip', 'Costs you would pay with blip'],
+          itemWidth: 20,
           selectedMode: false,
         },
         grid: {
@@ -421,7 +640,7 @@ export default {
             itemStyle:{
               normal:{
                 lineStyle:{
-                  color: '#183B56'
+                  color: '#EB5757'
                 }
               }
             }
@@ -435,7 +654,8 @@ export default {
             itemStyle:{
               normal:{
                 lineStyle:{
-                  color: '#4F9BC1'
+                  color: '#4F9BC1',
+                  type: 'dashed'
                 }
               }
             }
@@ -460,7 +680,7 @@ export default {
 
 <style lang="scss" scoped>
 @import "src/scss/pages/common";
-@import "src/scss/pages/productII";
+@import "src/scss/pages/productIII";
 </style>
 
 

@@ -140,7 +140,7 @@
 <!--      </p>-->
 
 <!--      <KlaviyoSignUp :formID="formID"></KlaviyoSignUp>-->
-      <KlaviyoSignUp></KlaviyoSignUp>
+<!--      <KlaviyoSignUp></KlaviyoSignUp>-->
       <Footer></Footer>
     </div>
   </div>
@@ -150,9 +150,9 @@
 import banner from "./banner.vue";
 // import transparentBanner from "@/app/shared/components/transparentBanner";
 import bannerPreorder from "./bannerPreorder.vue"
-import KlaviyoSignUp from "./FooterIIISignUpKlaviyoHome.vue";
-import Footer from "./FooterIIWOSignUp.vue";
-// import Footer from "./FooterII.vue";
+import KlaviyoSignUp from "./FooterIIISignUpKlaviyo.vue";
+// import Footer from "./FooterIIWOSignUp.vue";
+import Footer from "./FooterII.vue";
 
 export default {
   name: "home",
@@ -178,6 +178,22 @@ export default {
     this.$ga.page('/');
     this.$ga.page('/home');
   },
+  created(){
+    if (this._isMobile()) {
+      //手机端
+      this.ismOrpc = 'Moperation'
+      //设置rem
+      window.onload = function(){
+        this.getRem(750,100)
+      };
+      window.onresize = function(){
+        this.getRem(750,100)
+      };
+    } else {
+      //pc端
+      this.ismOrpc = 'PCoperation'
+    }
+  },
   methods: {
     disableTracking: function() {
       this.$ga.disable();
@@ -185,6 +201,15 @@ export default {
     },
     click: function() {
       this.$ga.event('category', 'action', 'label', 123)
+    },
+    getRem(pwidth,prem){
+      var html = document.getElementsByTagName("html")[0];
+      var oWidth = document.body.clientWidth || document.documentElement.clientWidth;
+      html.style.fontSize = oWidth/pwidth*prem + "px";
+    },
+    _isMobile() {
+      let flag = navigator.userAgent.match(/(phone|pad|pod|iPhone|iPod|ios|iPad|Android|Mobile|BlackBerry|IEMobile|MQQBrowser|JUC|Fennec|wOSBrowser|BrowserNG|WebOS|Symbian|Windows Phone)/i)
+      return flag;
     }
   },
   computed: {
