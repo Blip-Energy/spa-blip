@@ -9,7 +9,7 @@
     <!-- Right aligned nav items -->
     <b-navbar-nav class="ml-auto">
       <b-nav-item class="navigation" right>
-        <router-link :to="'product'" :active='$route.name =="product"' :target="_top">
+        <router-link :to="'product'" :active='$route.name =="product"'>
           <div>Product</div>
         </router-link>
       </b-nav-item>
@@ -19,7 +19,7 @@
         </router-link>
       </b-nav-item>
       <b-nav-item class="navigation" right>
-        <router-link :to="'about'" :active='$route.name =="about"' target="_top">
+        <router-link :to="'about'" :active='$route.name =="about"'>
           <div>About</div>
         </router-link>
       </b-nav-item>
@@ -28,6 +28,11 @@
 <!--          <div>Articles</div>-->
 <!--        </router-link>-->
 <!--      </b-nav-item>-->
+      <b-nav-item class="navigation" right>
+        <router-link :to="'news'" :active='$route.name =="news"'>
+          <div>News</div>
+        </router-link>
+      </b-nav-item>
       <b-nav-item class="navigation" right>
         <router-link :to="'contact-us'" :active='$route.name =="contact-us"'>
           <div>Contact Us</div>
