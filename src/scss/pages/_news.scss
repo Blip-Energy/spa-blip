@@ -4,14 +4,29 @@
   h2{margin-bottom: 17px}
   .topline{
     border-bottom: 1px solid #4F9BC1;
-    margin-top: 58px;
-    padding-bottom: 58px;
+    margin-top: 38px;
+    padding-bottom: 38px;
     //text-align: left;
     //background: #;
-    img{width: 75%}
-    p{
-      a{color: #254B77}
-      a:hover{color: #4F9BC1}
+    img{
+      margin: 37px auto;
+      //width: 75%
+    }
+    a{
+      //text-decoration: none;
+      color: #4F9BC1;
+      .p2{
+        margin: 0 0 0 0;
+      }
+      .p3{
+        margin-top: 8px;
+        margin-left: 0;
+      }
+    }
+    //.p2{margin-bottom: 8px}
+    .p3{
+      margin: 8px 0 0 0;
+      line-height: 30px;
     }
     .circleBorder{
       border-radius: 50px;
@@ -19,6 +34,10 @@
     .roundBorder{
       border-radius: 20px;
     }
+  }
+  .bottomline{
+    border-top: 1px solid #4F9BC1;
+    padding-top: 58px;
   }
 }
 
