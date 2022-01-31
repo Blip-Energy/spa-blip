@@ -71,7 +71,7 @@
 // import GoogleLogin from "vue-google-login";
 
 import axios from "axios";
-import KlaviyoSignupForm from '@eucalyptusvc/klaviyo-signup-form';
+// import KlaviyoSignupForm from '@eucalyptusvc/klaviyo-signup-form';
 
 export default {
   name: "footerSignUpKlaviyo",
@@ -92,7 +92,7 @@ export default {
 
   methods: {
   },
-  components: {KlaviyoSignupForm}
+  components: {}
 };
 </script>
 
