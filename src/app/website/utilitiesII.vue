@@ -12,7 +12,7 @@
             <p class="p3 c-183B56 m-l-0 p-l-0">
               At blip energy, we're on a mission to make energy storage accessible to everyone. At scale, this distributed resource will reduce the need for expensive (and dirty) peaker plant generation and accelerate the transition to renewable energy by flattening demand.
               <br><br>
-              With the blipOne platform, utilities can make the shift to a flexible, data-driven electric grid and reach all energy consumers, including high-density housing, renters, and apartment dwellers where solar is not a prerequisite. This can be achieved in an orderly and scalable fashion without the need to replace or rebuild the current grid infrastructure.
+              Leveraging blip units at scale, utilities and other grid stakeholders can reach a new endpoint for load balancing. Blip eliminates barriers to distributed energy storage adoption by creating the most accessible smart home, battery - one that doesn’t require professional installation or infrastructure upgrades.
             </p>
           </b-col>
           <b-col  xs="12" sm="12" md="7" lg="7" xl="7" class="rightImg">
