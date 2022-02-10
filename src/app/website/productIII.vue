@@ -523,7 +523,8 @@ export default {
     return {
       formID: "email_signup_product",
       chartTwo: null,
-      ismOrpc: ''
+      ismOrpc: '',
+      // screenWidth: document.body.clientWidth,
     };
   },
   compute: {
@@ -562,13 +563,24 @@ export default {
     }
   },
   mounted() {
-    // this.$ga.page('/product');
-    // this.print();
+    this.$ga.page('/product');
+    this.print();
     this.$nextTick(function() {
       this.drawChartTwo('chartTwo')
     });
+    // let that = this;
+    // window.onresize =() =>{
+    //   return (()=>{
+    //     window.clientWidth = document.body.clientWidth;
+    //     that.screenWidth = window.clientWidth;
+    //   })()
+    // };
   },
-
+  // watch:{
+  //   screenWidth(newVal,oldVal){
+  //     alert(newVal);//浏览器窗口变化时，打印宽度。
+  //   }
+  // },
   methods: {
     disableTracking: function() {
       this.$ga.disable();

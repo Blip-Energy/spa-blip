@@ -131,6 +131,31 @@ export default {
   mounted() {
     this.$ga.page('/utilities');
     this.print();
+    // this._isMobile();
+    if(this._isMobile) {
+      alert("移动端");
+      window.reload()
+    }else {
+      alert("pc端");
+      // this.$router.replace('/m_index');
+    }
+  },
+  watch:{
+    // ismOrpc:{
+    //   handler (newVal, oldVal){
+    //     if((newVal === 'Moperation' && oldVal === 'PCoperation') || (newVal === 'PCoperation' && oldVal === 'Moperation')){
+    //       window.reload()
+    //     }
+    //   },
+    // },
+    // _isMobile:{
+    //   handler (newVal, oldVal){
+    //     alert("jjj")
+    //     if((newVal === true && oldVal === false) || (newVal === false && oldVal === true)){
+    //       window.reload()
+    //     }
+    //   },
+    // },
   },
   created(){
     if (this._isMobile()) {
