@@ -224,10 +224,10 @@
             <!--            <p class="p1point5 c-B0E7FF" style="margin-bottom: 12px">OUTAGE PROTECTION</p>-->
             <!--            <h2 class="h2point8 c-FFFFFF f-weight-400 m-l-0 p-l-0" style="margin-bottom: 50px">Always have a back-up plan</h2>-->
             <b-row class="res w-100p t-center m-l-0 p-l-0">
-              <b-col xs="2" sm="0" md="2" lg="2" xl="2" class="leftImg t-center m-l-0 i-a-c p-l-0">
+              <b-col xs="2" sm="0" md="2" lg="2" xl="2" class="leftImg t-center m-l-0 i-a-c p-l-0 col-2">
                 <img src="../../assets/webPages/product/refrigerator.png" class="m-lr-a" style="width: 40px">
               </b-col>
-              <b-col xs="9" sm="12" md="9" lg="9" xl="9" class="rightText t-left">
+              <b-col xs="9" sm="12" md="9" lg="9" xl="9" class="rightText t-left col-9">
                 <p class="p2 c-FFFFFF m-l-0 p-l-0">
                   Refridgerator
                 </p>
@@ -237,10 +237,10 @@
               </b-col>
             </b-row>
             <b-row class="res w-100p t-center m-l-0 p-l-0">
-              <b-col xs="2" sm="0" md="2" lg="2" xl="2" class="leftImg t-center m-l-0 i-a-c p-l-0">
+              <b-col xs="2" sm="0" md="2" lg="2" xl="2" class="leftImg t-center m-l-0 i-a-c p-l-0 col-2">
                 <img src="../../assets/webPages/product/ice_cream.png" class="m-lr-a" style="width: 50px">
               </b-col>
-              <b-col xs="9" sm="12" md="9" lg="9" xl="9" class="rightText t-left">
+              <b-col xs="9" sm="12" md="9" lg="9" xl="9" class="rightText t-left col-9">
                 <p class="p2 c-FFFFFF m-l-0 p-l-0">
                   Freezer
                 </p>
@@ -250,10 +250,10 @@
               </b-col>
             </b-row>
             <b-row class="res w-100p t-center m-l-0 p-l-0">
-              <b-col xs="2" sm="0" md="2" lg="2" xl="2" class="leftImg t-center m-l-0 i-a-c p-l-0">
+              <b-col xs="2" sm="0" md="2" lg="2" xl="2" class="leftImg t-center m-l-0 i-a-c p-l-0 col-2">
                 <img src="../../assets/webPages/product/microwave.png" class="m-lr-a" style="width: 44px">
               </b-col>
-              <b-col xs="9" sm="12" md="9" lg="9" xl="9" class="rightText t-left">
+              <b-col xs="9" sm="12" md="9" lg="9" xl="9" class="rightText t-left col-9">
                 <p class="p2 c-FFFFFF m-l-0 p-l-0">
                   Microwave
                 </p>
@@ -263,10 +263,10 @@
               </b-col>
             </b-row>
             <b-row class="res w-100p t-center m-l-0 p-l-0">
-              <b-col xs="2" sm="0" md="2" lg="2" xl="2" class="leftImg t-center m-l-0 i-a-c p-l-0">
+              <b-col xs="2" sm="0" md="2" lg="2" xl="2" class="leftImg t-center m-l-0 i-a-c p-l-0 col-2">
                 <img src="../../assets/webPages/product/iconoir_fire-flame.png" class="m-lr-a" style="width: 41px">
               </b-col>
-              <b-col xs="9" sm="12" md="9" lg="9" xl="9" class="rightText t-left">
+              <b-col xs="9" sm="12" md="9" lg="9" xl="9" class="rightText t-left col-9">
                 <p class="p2 c-FFFFFF m-l-0 p-l-0">
                   Space heater
                 </p>
@@ -278,10 +278,10 @@
           </b-col>
             <b-col xs="12" sm="6" md="6" lg="6" xl="6" class="rightText p-l-0">
               <b-row class="res w-100p t-center m-l-0 p-l-0">
-                <b-col xs="2" sm="0" md="2" lg="2" xl="2" class="leftImg t-center m-l-0 i-a-c p-l-0">
+                <b-col xs="2" sm="0" md="2" lg="2" xl="2" class="leftImg t-center m-l-0 i-a-c p-l-0 col-2">
                   <img src="../../assets/webPages/product/wind.png" class="m-lr-a" style="width: 41px">
                 </b-col>
-                <b-col xs="9" sm="12" md="9" lg="9" xl="9" class="rightText t-left">
+                <b-col xs="9" sm="12" md="9" lg="9" xl="9" class="rightText t-left col-9">
                   <p class="p2 c-FFFFFF m-l-0 p-l-0">
                     Window A/C
                   </p>
@@ -291,10 +291,10 @@
                 </b-col>
               </b-row>
               <b-row class="res w-100p t-center m-l-0 p-l-0">
-                <b-col xs="2" sm="0" md="2" lg="2" xl="2" class="leftImg t-center m-l-0 i-a-c p-l-0">
+                <b-col xs="2" sm="0" md="2" lg="2" xl="2" class="leftImg t-center m-l-0 i-a-c p-l-0 col-2">
                   <img src="../../assets/webPages/product/monitor.png" class="m-lr-a" style="width: 41px">
                 </b-col>
-                <b-col xs="9" sm="12" md="9" lg="9" xl="9" class="rightText t-left">
+                <b-col xs="9" sm="12" md="9" lg="9" xl="9" class="rightText t-left col-9">
                   <p class="p2 c-FFFFFF m-l-0 p-l-0">
                     Computer
                   </p>
@@ -304,10 +304,10 @@
                 </b-col>
               </b-row>
               <b-row class="res w-100p t-center m-l-0 p-l-0">
-                <b-col xs="2" sm="0" md="2" lg="2" xl="2" class="leftImg t-center m-l-0 i-a-c p-l-0">
+                <b-col xs="2" sm="0" md="2" lg="2" xl="2" class="leftImg t-center m-l-0 i-a-c p-l-0 col-2">
                   <img src="../../assets/webPages/product/wifi.png" class="m-lr-a" style="width: 41px">
                 </b-col>
-                <b-col xs="9" sm="12" md="9" lg="9" xl="9" class="rightText t-left">
+                <b-col xs="9" sm="12" md="9" lg="9" xl="9" class="rightText t-left col-9">
                   <p class="p2 c-FFFFFF m-l-0 p-l-0">
                     Internet router
                   </p>
@@ -317,10 +317,10 @@
                 </b-col>
               </b-row>
               <b-row class="res w-100p t-center m-l-0 p-l-0">
-                <b-col xs="2" sm="0" md="2" lg="2" xl="2" class="leftImg t-center m-l-0 i-a-c p-l-0">
+                <b-col xs="2" sm="0" md="2" lg="2" xl="2" class="leftImg t-center m-l-0 i-a-c p-l-0 col-2">
                   <img src="../../assets/webPages/product/tv.png" class="m-lr-a" style="width: 41px">
                 </b-col>
-                <b-col xs="9" sm="12" md="9" lg="9" xl="9" class="rightText t-left">
+                <b-col xs="10" sm="12" md="9" lg="9" xl="9" class="rightText t-left col-9">
                   <p class="p2 c-FFFFFF m-l-0 p-l-0">
                     TV
                   </p>
@@ -563,8 +563,8 @@ export default {
     }
   },
   mounted() {
-    this.$ga.page('/product');
-    this.print();
+    // this.$ga.page('/product');
+    // this.print();
     this.$nextTick(function() {
       this.drawChartTwo('chartTwo')
     });
