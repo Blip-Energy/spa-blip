@@ -114,7 +114,7 @@
 </template>
 
 <script>
-import banner from "../shared/components/banner.vue";
+import banner from "../shared/components/bannerII.vue";
 import bannerPreorder from "./../shared/components/bannerPreorder.vue";
 import Footer from "../shared/components/FooterII.vue";
 

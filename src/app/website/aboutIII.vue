@@ -6,7 +6,7 @@
       <!--start: We believe everyone deserves access to energy storage-->
       <section class="weBelieve">
         <b-row class="w-100p t-left">
-          <b-col xs="12" sm="12" md="6" lg="6" xl="6" class="left t-left b-DEF5FF">
+          <b-col xs="12" sm="12" md="12" lg="6" xl="6" class="left t-left b-DEF5FF">
             <b-row class="w-90p insider t-left">
               <p class="p1point5 c-4F9BC1 t-left" style="margin-bottom: 12px">OUR MISSION</p>
               <h2 class="h2point8 c-254B77 f-weight-400 m-l-0 p-l-0 t-left" style="margin-bottom: 50px">We believe everyone deserves access to energy storage</h2>
@@ -21,7 +21,7 @@
                 </router-link>
             </b-row>
           </b-col>
-          <b-col xs="12" sm="12" md="6" lg="6" xl="6" class="right t-left b-254B77">
+          <b-col xs="12" sm="12" md="12" lg="6" xl="6" class="right t-left b-254B77">
             <b-row class="w-90p insider t-left">
               <p class="p1point5 c-B0E7FF t-left" style="margin-bottom: 12px">OUR GOAL</p>
               <h2 class="h2point8 c-FFFFFF f-weight-400 m-l-0 p-l-0 t-left" style="margin-bottom: 50px">To provide more accessible energy savings</h2>
@@ -56,11 +56,11 @@
       <!--start: We’ve been busy making waves with our big ideas-->
       <section class="weVe b-FFFFFF i-a-c">
         <b-row class="w-85p insider">
-          <b-col xs="12" sm="12" md="6" lg="6" xl="6" class="leftText t-left">
+          <b-col xs="12" sm="12" md="10" lg="8" xl="6" class="leftText t-left">
             <p class="p1point5 c-4F9BC1" style="margin-bottom: 12px">WHAT WE’VE BEEN UP TO</p>
             <h2 class="h2point8 c-254B77 f-weight-400 t-left m-l-0 p-l-0 w-100p" style="margin-bottom: 50px">We’ve been busy making waves with our big ideas</h2>
           </b-col>
-          <b-col xs="12" sm="12" md="6" lg="6" xl="6" class="rightBlc t-left">
+          <b-col xs="12" sm="12" md="2" lg="4" xl="6" class="rightBlc t-left">
           </b-col>
         </b-row>
       </section>
@@ -190,14 +190,14 @@
       <!--start: Meet the team-->
       <section class="meet b-254B77 i-a-c t-center">
         <b-row class="w-85p insider t-center">
-          <b-col  xs="12" sm="12" md="5" lg="5" xl="5" class="leftText t-left">
+          <b-col  xs="12" sm="12" md="8" lg="7" xl="6" class="leftText t-left">
             <p class="p1point5 c-B0E7FF" style="margin-bottom: 12px">WHO WE ARE</p>
             <h2 class="h2point8 c-FFFFFF f-weight-400 m-l-0 p-l-0" style="margin-bottom: 50px">Meet the team</h2>
             <p class="p2 c-FFFFFF m-l-0 p-l-0">
               We are passionate about limiting our collective impact on the environment.
             </p>
           </b-col>
-          <b-col  xs="12" sm="12" md="7" lg="7" xl="7" class="rightblc p-l-0">
+          <b-col  xs="12" sm="12" md="4" lg="5" xl="6" class="rightblc p-l-0">
           </b-col>
         </b-row>
       </section>
@@ -290,7 +290,7 @@
         <b-row class="w-90p insider t-center">
           <div class="content w-100p">
             <div class="row" style="width: 100%">
-              <div class="col-lg-4 col-md-12 col-sm-12">
+              <div class="col-xl-8 offset-xl-2 col-lg-10 offset-lg-1 col-md-12 col-sm-12">
                 <div class="card-f flex text-center wow fadeInUp">
                   <div class="card-f-heading">
                     <img src="../../assets/webPages/about/team/ovalSophia.png" alt="" class="members">
@@ -311,7 +311,7 @@
 <!--              </div>-->
             </div>
             <div class="row" style="width: 100%">
-              <div class="col-lg-4 col-md-12 col-sm-12">
+              <div class="col-xl-8 offset-xl-2 col-lg-10 offset-lg-1 col-md-12 col-sm-12">
                 <div class="card-f flex text-center wow fadeInUp">
                   <div class="card-f-heading">
                     <img src="../../assets/webPages/about/team/ovalChance.png" alt="" class="members">
@@ -332,7 +332,7 @@
 <!--              </div>-->
             </div>
             <div class="row" style="width: 100%">
-              <div class="col-lg-4 col-md-12 col-sm-12">
+              <div class="col-xl-8 offset-xl-2 col-lg-10 offset-lg-1  col-md-12 col-sm-12">
                 <div class="card-f flex text-center wow fadeInUp">
                   <div class="card-f-heading">
                     <img src="../../assets/webPages/about/team/ovalDennis.png" alt="" class="members">
@@ -353,7 +353,7 @@
 <!--              </div>-->
             </div>
             <div class="row" style="width: 100%">
-              <div class="col-lg-4 col-md-12 col-sm-12">
+              <div class="col-xl-8 offset-xl-2 col-lg-10 offset-lg-1 col-md-12 col-sm-12">
                 <div class="card-f flex text-center wow fadeInUp">
                   <div class="card-f-heading">
                     <img src="../../assets/webPages/about/team/ovalThibaut.png" alt="" class="members">
@@ -397,7 +397,7 @@
 </template>
 
 <script>
-import banner from "./../shared/components/banner.vue";
+import banner from "./../shared/components/bannerII.vue";
 import bannerPreorder from "./../shared/components/bannerPreorder.vue";
 import KlaviyoSignUp from "./../shared/components/FooterIIISignUpKlaviyo.vue";
 // import Footer from "./../shared/components/FooterIIWOSignUp.vue";
@@ -408,8 +408,15 @@ export default {
   data() {
     return {
       formID: "email_signup_about",
-      ismOrpc: ''
+      ismOrpc: '',
+      clientWidth:document.body.clientWidth,
+      isPC: true
     };
+  },
+  computed:{
+    // width: function(){
+    //   return document.body.clientWidth
+    // }
   },
   head() {
     return {
@@ -426,18 +433,44 @@ export default {
   },
   mounted() {
     this.$ga.page('/about');
+
+    // let that = this;
+    // window.onresize =() =>{
+    //   return (()=>{
+    //     window.clientWidth = document.body.clientWidth;
+    //     that.clientWidth = window.clientWidth;
+    //   })()
+    // };
+  },
+  watch:{
+    // clientWidth:{
+    //   handler (newVal, oldVal){
+    //     console.log('kkkkk',newVal)
+    //     if( (newVal >= 1100 && oldVal < 1100) ){
+    //       // alert('jjjj')
+    //       // this.reload()
+    //       // this.ismOrpc = 'PCoperation'
+    //       // this.$forceUpdate()
+    //       // this.$router.go(0);
+    //       // location.reload(true)
+    //       this.isPC = true
+    //     }else{
+    //       this.isPC = false
+    //     }
+    //   },
+    // },
   },
   created(){
-    if (this._isMobile()) {
+    if (this._isMobile() || this.isUnderXL()) {
       //mobile
       this.ismOrpc = 'Moperation'
       //set rem
-      window.onload = function(){
-        this.getRem(750,100)
-      };
-      window.onresize = function(){
-        this.getRem(750,100)
-      };
+      // window.onload = function(){
+      //   this.getRem(750,100)
+      // };
+      // window.onresize = function(){
+      //   this.getRem(750,100)
+      // };
     } else {
       //pc
       this.ismOrpc = 'PCoperation'
@@ -459,9 +492,13 @@ export default {
     _isMobile() {
       let flag = navigator.userAgent.match(/(phone|pad|pod|iPhone|iPod|ios|iPad|Android|Mobile|BlackBerry|IEMobile|MQQBrowser|JUC|Fennec|wOSBrowser|BrowserNG|WebOS|Symbian|Windows Phone)/i)
       return flag;
-    }
-  },
-  computed: {
+    },
+    isUnderXL(){
+      if (document.body.clientWidth < 1200){
+        return true
+      }
+      return false
+    },
   },
   components: {
     banner,

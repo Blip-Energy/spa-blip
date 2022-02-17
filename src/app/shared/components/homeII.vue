@@ -81,7 +81,7 @@
               Learn More about blipOne
             </button>
           </b-col>
-          <b-col  xs="12" sm="12" md="12" lg="12" xl="7" class="rightImg p-l-0">
+          <b-col  xs="12" sm="12" md="11" lg="10" xl="7" class="rightImg p-l-0">
             <img src="../../../assets/webPages/Landing/Blip-environment-updated-nov2021.png" alt="" class="w-80p">
           </b-col>
         </b-row>
@@ -113,10 +113,10 @@
       <!--start: Fight climate change from your couch-->
       <section class="fightClimate b-254B77 i-a-c" v-if="ismOrpc === 'PCoperation'">
         <b-row class="w-80p insider">
-          <b-col  xs="12" sm="12" md="7" lg="7" xl="7" class="leftImg p-l-0">
+          <b-col  xs="12" sm="12" md="12" lg="12" xl="7" class="leftImg p-l-0">
             <img src="../../../assets/webPages/Landing/earth.png" alt="" class="w-90p">
           </b-col>
-          <b-col  xs="12" sm="12" md="5" lg="5" xl="5" class="rightText t-left">
+          <b-col  xs="12" sm="12" md="12" lg="12" xl="5" class="rightText t-left">
             <p class="p1point5 c-DEF5FF" style="margin-bottom: 12px">SUSTAINABILITY</p>
             <h2 class="h2point8 c-FFFFFF f-weight-400 m-l-0 p-l-0" style="margin-bottom: 50px">Fight climate change from your couch</h2>
             <p class="p3 c-FFFFFF m-l-0 p-l-0">
@@ -148,7 +148,7 @@
               It’s true, one blip won’t change the world, but a community full of blips can work to decommission a dirty power plant one home at a time. If we each do a little, we can all do a lot
             </p>
           </b-col>
-          <b-col  xs="12" sm="12" md="12" lg="12" xl="7" class="leftImg p-l-0">
+          <b-col  xs="12" sm="12" md="12" lg="10" offset-lg="1" xl="7" offset-xl="0" class="leftImg p-l-0">
             <img src="../../../assets/webPages/Landing/earth.png" alt="" class="w-90p">
           </b-col>
         </b-row>
@@ -194,7 +194,7 @@
 </template>
 
 <script>
-import banner from "./banner.vue";
+import banner from "./bannerII.vue";
 // import transparentBanner from "@/app/shared/components/transparentBanner";
 import bannerPreorder from "./bannerPreorder.vue"
 import KlaviyoSignUp from "./FooterIIISignUpKlaviyo.vue";
@@ -227,16 +227,14 @@ export default {
     this.$ga.page('/home');
   },
   created(){
-    if (this._isMobile()) {
-      //手机端
+    if (this._isMobile() || this.isUnderXL()) {
       this.ismOrpc = 'Moperation'
-      //设置rem
-      window.onload = function(){
-        this.getRem(750,100)
-      };
-      window.onresize = function(){
-        this.getRem(750,100)
-      };
+      // window.onload = function(){
+      //   this.getRem(750,100)
+      // };
+      // window.onresize = function(){
+      //   this.getRem(750,100)
+      // };
     } else {
       //pc端
       this.ismOrpc = 'PCoperation'
@@ -258,6 +256,12 @@ export default {
     _isMobile() {
       let flag = navigator.userAgent.match(/(phone|pad|pod|iPhone|iPod|ios|iPad|Android|Mobile|BlackBerry|IEMobile|MQQBrowser|JUC|Fennec|wOSBrowser|BrowserNG|WebOS|Symbian|Windows Phone)/i)
       return flag;
+    },
+    isUnderXL(){
+      if (document.body.clientWidth < 1200){
+        return true
+      }
+      return false
     }
   },
   computed: {

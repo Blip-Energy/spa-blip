@@ -20,6 +20,7 @@ import {
   faInfoCircle,
   faEllipsisH,
   faEllipsisV,
+  faBars,
 } from '@fortawesome/free-solid-svg-icons'
 import { FontAwesomeIcon } from '@fortawesome/vue-fontawesome'
 import { faLinkedin, faLinkedinIn, faTwitter, faTwitterSquare, faFacebook, faFacebookF, faFacebookMessenger, faFacebookSquare, faInstagram, faMedium } from "@fortawesome/free-brands-svg-icons"
@@ -43,7 +44,7 @@ import "vuescroll/dist/vuescroll.css";
 import VueAnalytics from 'vue-analytics';
 
 library.add(
-    faPlus, faTimes, faArrowRight, faCoffee, faMapMarkerAlt, faMapMarker, faSearch, faLink, faBolt, faInfoCircle, faEllipsisH, faEllipsisV,
+    faPlus, faTimes, faArrowRight, faCoffee, faMapMarkerAlt, faMapMarker, faSearch, faLink, faBolt, faInfoCircle, faEllipsisH, faEllipsisV, faBars,
     faLinkedin, faLinkedinIn ,faTwitter, faTwitterSquare, faFacebook, faFacebookF, faFacebookMessenger, faFacebookSquare, faInstagram, faMedium,
 )
 Vue.component('font-awesome-icon', FontAwesomeIcon)

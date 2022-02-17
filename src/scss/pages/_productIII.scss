@@ -174,13 +174,15 @@
       .hoooover:hover{
         text-decoration-style: initial;
       }
-      .p3{height: 150px;}
+      .p3{
+        margin-bottom: 52px;
+      }
     }
   }
 }
 
 .threeEasy{
-  padding-top: 135px;
+  padding-top: 85px;
   padding-bottom: 113px;
   .insider{
     display: flex;
