@@ -58,7 +58,8 @@
 </template>
 
 <script>
-import banner from "../shared/components/bannerSC.vue";
+import banner from "../shared/components/bannerSCII.vue";
+// import bannerPreorder from "../shared/components/bannerPreorder.vue";
 import savings from "../savings.vue";
 import graph from "./graph.vue";
 import signUp from "@/app/shared/components/signUpMailChimp.vue";

@@ -5,17 +5,17 @@
     <div class="w-90p t-center m-t-0 insider">
 
       <b-row class="others w-100p t-center i-a-c">
-        <b-col xs="12" sm="12" md="12" lg="5" xl="5" class="left t-left m-l-0 p-l-0">
+        <b-col xs="12" sm="12" md="12" lg="12" xl="5" class="left t-left m-l-0 p-l-0">
           <img src="../../assets/webPages/contact/contact-illo-v02.png" style="width: 100%;" v-if="ismOrpc === 'PCoperation'">
           <img src="../../assets/webPages/contact/contact-illo-v02.png" style="width: 70%; margin-left:15%; margin-top: 40px" v-if="ismOrpc === 'Moperation'">
         </b-col>
 
-        <b-col xs="12" sm="12" md="12" lg="7" xl="7" class="right t-left m-r-0 p-l-0 p-r-0 i-a-c" style="padding: 0 0;">
+        <b-col xs="12" sm="12" md="12" lg="12" xl="7" class="right t-left m-r-0 p-l-0 p-r-0 i-a-c" style="padding: 0 0;">
           <b-row class="we t-center m-t-0 w-90p">
             <!--        <b-col xs="12" sm="12" md="6" lg="6" xl="6" class="right t-left m-l-0 p-l-0">-->
             <h2 class="h2 w-100p c-254B77 t-left wed">We’d love to hear from you</h2>
             <b-row class="w-100p m-l-0 p-l-0 names">
-              <b-col xs="12" sm="12" md="6" lg="6" xl="6" class="first m-l-0 m-r-0 p-l-0">
+              <b-col xs="12" sm="12" md="6" lg="6" xl="6" class="first m-l-0 m-r-0">
                 <p class="p4 t-left c-1F4065" style="margin-bottom: 8px;">First Name*</p>
                 <b-form-input
                     class="input"
@@ -24,7 +24,7 @@
                     placeholder=""
                 ></b-form-input>
               </b-col>
-              <b-col xs="12" sm="12" md="6" lg="6" xl="6" class="last m-l-0 m-r-0 p-r-0" style="padding-right: 0">
+              <b-col xs="12" sm="12" md="6" lg="6" xl="6" class="last m-l-0 m-r-0">
                 <p class="p4 t-left c-1F4065" style="margin-bottom: 8px;">Last Name*</p>
                 <b-form-input
                     class="input m-l-0"
@@ -35,7 +35,7 @@
               </b-col>
             </b-row>
 
-            <b-row class="w-100p m-l-0 m-b-32 m-l-0 m-r-0 p-l-0 p-r-0 email">
+            <b-row class="w-100p m-l-0 m-b-32 m-l-0 m-r-0 email">
               <p class="p4 t-left c-1F4065" style="margin-bottom: 8px;">Email*</p>
               <b-col xs="12" sm="12" md="12" lg="12" xl="12" class="p-l-0 p-r-0" style="padding-right: 0">
                 <b-form-input
@@ -47,7 +47,7 @@
               </b-col>
             </b-row>
 
-            <b-row class="w-100p m-l-0 m-r-0 p-l-0 p-r-0 message">
+            <b-row class="w-100p m-l-0 m-r-0 message">
               <p class="p4 t-left c-1F4065" style="margin-bottom: 8px;">Message*</p>
               <b-col xs="12" sm="12" md="12" lg="12" xl="12" class="p-l-0 p-r-0" style="padding-right: 0">
                 <b-form-textarea
@@ -87,7 +87,7 @@
 </template>
 
 <script>
-import banner from "../shared/components/banner.vue";
+import banner from "../shared/components/bannerII.vue";
 import bannerPreorder from "./../shared/components/bannerPreorder.vue";
 import Footer from "../shared/components/FooterII.vue";
 import KlaviyoSignUp from "./../shared/components/FooterIIISignUpKlaviyo.vue";
@@ -138,7 +138,7 @@ export default {
     // }
   },
   created(){
-    if (this._isMobile()) {
+    if (this._isMobile() || this.isUnderXL()) {
       //手机端
       this.ismOrpc = 'Moperation'
       //设置rem
@@ -328,7 +328,13 @@ export default {
     _isMobile() {
       let flag = navigator.userAgent.match(/(phone|pad|pod|iPhone|iPod|ios|iPad|Android|Mobile|BlackBerry|IEMobile|MQQBrowser|JUC|Fennec|wOSBrowser|BrowserNG|WebOS|Symbian|Windows Phone)/i)
       return flag;
-    }
+    },
+    isUnderXL(){
+      if (document.body.clientWidth < 1200){
+        return true
+      }
+      return false
+    },
   },
   components: {
     banner,

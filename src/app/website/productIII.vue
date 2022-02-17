@@ -163,34 +163,36 @@
           </b-col>
           <b-col  xs="12" sm="12" md="12" lg="12" xl="6" class="rightUnit">
             <b-row>
-              <b-row class="noLine" style="width: 100%;">
-                <b-col  xs="3" sm="3" md="3" lg="3" xl="3" class="leftNum t-left">
-                  <h2 class="h1point3 c-D3D3D3 f-weight-300 m-l-0 p-l-0" style="">01</h2>
-                </b-col>
-                <b-col  xs="9" sm="9" md="9" lg="9" xl="9" class="rightText t-left">
-                  <p class="p1point5 c-4F9BC1 f-weight-300 m-l-0 p-l-0" style="">Plug blipOne into a standard outlet</p>
-                </b-col>
-              </b-row>
-              <b-row class="doubleLine noLine" style="width: 100%;">
-                <b-col  xs="3" sm="3" md="3" lg="3" xl="3" class="leftNum t-left">
-                  <h2 class="h1point3 c-D3D3D3 m-l-0 p-l-0" style="">02</h2>
-                </b-col>
-                <b-col  xs="9" sm="9" md="9" lg="9" xl="9" class="rightText t-left">
-                  <p class="p1point5 c-4F9BC1 f-weight-300 m-l-0 p-l-0" style="">Set up your account, and connect blipOne to your home Wifi</p>
-                </b-col>
-              </b-row>
-              <b-row class="noLine" style="width: 100%;">
-                <b-col  xs="3" sm="3" md="3" lg="3" xl="3" class="leftNum t-left">
-                  <h2 class="h1point3 c-D3D3D3 m-l-0 p-l-0" style="">03</h2>
-                </b-col>
-                <b-col  xs="9" sm="9" md="9" lg="9" xl="9" class="rightText t-left">
-                  <p class="p1point5 c-4F9BC1 f-weight-300 m-l-0 p-l-0" style="">
-                    Plug appliances that use the most energy into blip
-                    <br>
-                    (Not sure what that is? We can help)
-                  </p>
-                </b-col>
-              </b-row>
+              <b-col sm="12" md="12" lg="10" offset-lg="1" xl="12">
+                <b-row class="noLine" style="width: 100%;">
+                  <b-col  xs="3" sm="3" md="3" lg="3" xl="3" class="leftNum t-left">
+                    <h2 class="h1point3 c-D3D3D3 f-weight-300 m-l-0 p-l-0" style="">01</h2>
+                  </b-col>
+                  <b-col  xs="9" sm="9" md="9" lg="9" xl="9" class="rightText t-left">
+                    <p class="p1point5 c-4F9BC1 f-weight-300 m-l-0 p-l-0" style="">Plug blipOne into a standard outlet</p>
+                  </b-col>
+                </b-row>
+                <b-row class="doubleLine noLine" style="width: 100%;">
+                  <b-col  xs="3" sm="3" md="3" lg="3" xl="3" class="leftNum t-left">
+                    <h2 class="h1point3 c-D3D3D3 m-l-0 p-l-0" style="">02</h2>
+                  </b-col>
+                  <b-col  xs="9" sm="9" md="9" lg="9" xl="9" class="rightText t-left">
+                    <p class="p1point5 c-4F9BC1 f-weight-300 m-l-0 p-l-0" style="">Set up your account, and connect blipOne to your home Wifi</p>
+                  </b-col>
+                </b-row>
+                <b-row class="noLine" style="width: 100%;">
+                  <b-col  xs="3" sm="3" md="3" lg="3" xl="3" class="leftNum t-left">
+                    <h2 class="h1point3 c-D3D3D3 m-l-0 p-l-0" style="">03</h2>
+                  </b-col>
+                  <b-col  xs="9" sm="9" md="9" lg="9" xl="9" class="rightText t-left">
+                    <p class="p1point5 c-4F9BC1 f-weight-300 m-l-0 p-l-0" style="">
+                      Plug appliances that use the most energy into blip
+                      <br>
+                      (Not sure what that is? We can help)
+                    </p>
+                  </b-col>
+                </b-row>
+              </b-col>
             </b-row>
           </b-col>
         </b-row>
@@ -219,118 +221,120 @@
       </section>
       <section class="alwaysBelow b-254B77 t-center" v-if="ismOrpc === 'Moperation'">
         <b-row class="w-80p insider t-center">
-          <b-row class="w-80p t-center responsiveness">
-            <b-col xs="12" sm="6" md="6" lg="6" xl="6" class="leftText t-left p-l-0">
-            <!--            <p class="p1point5 c-B0E7FF" style="margin-bottom: 12px">OUTAGE PROTECTION</p>-->
-            <!--            <h2 class="h2point8 c-FFFFFF f-weight-400 m-l-0 p-l-0" style="margin-bottom: 50px">Always have a back-up plan</h2>-->
-            <b-row class="res w-100p t-center m-l-0 p-l-0">
-              <b-col xs="2" sm="0" md="2" lg="2" xl="2" class="leftImg t-center m-l-0 i-a-c p-l-0 col-2">
-                <img src="../../assets/webPages/product/refrigerator.png" class="m-lr-a" style="width: 40px">
+          <b-col sm="12" md="12" lg="10" offset-lg="1" xl="8" offset-xl="2">
+            <b-row class="w-100p t-center responsiveness">
+              <b-col xs="12" sm="6" md="6" lg="6" xl="6" class="leftText t-left p-l-0">
+                <!--            <p class="p1point5 c-B0E7FF" style="margin-bottom: 12px">OUTAGE PROTECTION</p>-->
+                <!--            <h2 class="h2point8 c-FFFFFF f-weight-400 m-l-0 p-l-0" style="margin-bottom: 50px">Always have a back-up plan</h2>-->
+                <b-row class="res w-100p t-center m-l-0 p-l-0">
+                  <b-col xs="2" sm="0" md="2" lg="2" xl="2" class="leftImg t-center m-l-0 i-a-c p-l-0 col-2" v-if="!noIcon">
+                    <img src="../../assets/webPages/product/refrigerator.png" class="m-lr-a" style="width: 40px">
+                  </b-col>
+                  <b-col xs="9" sm="12" md="9" lg="9" xl="9" class="rightText t-left col-9">
+                    <p class="p2 c-FFFFFF m-l-0 p-l-0">
+                      Refridgerator
+                    </p>
+                    <p class="p2 c-B0E7FF m-l-0 p-l-0">
+                      11-22 hours
+                    </p>
+                  </b-col>
+                </b-row>
+                <b-row class="res w-100p t-center m-l-0 p-l-0">
+                  <b-col xs="2" sm="0" md="2" lg="2" xl="2" class="leftImg t-center m-l-0 i-a-c p-l-0 col-2" v-if="!noIcon">
+                    <img src="../../assets/webPages/product/ice_cream.png" class="m-lr-a" style="width: 50px">
+                  </b-col>
+                  <b-col xs="9" sm="12" md="9" lg="9" xl="9" class="rightText t-left col-9">
+                    <p class="p2 c-FFFFFF m-l-0 p-l-0">
+                      Freezer
+                    </p>
+                    <p class="p2 c-B0E7FF m-l-0 p-l-0">
+                      1-3 days
+                    </p>
+                  </b-col>
+                </b-row>
+                <b-row class="res w-100p t-center m-l-0 p-l-0">
+                  <b-col xs="2" sm="0" md="2" lg="2" xl="2" class="leftImg t-center m-l-0 i-a-c p-l-0 col-2" v-if="!noIcon">
+                    <img src="../../assets/webPages/product/microwave.png" class="m-lr-a" style="width: 44px">
+                  </b-col>
+                  <b-col xs="9" sm="12" md="9" lg="9" xl="9" class="rightText t-left col-9">
+                    <p class="p2 c-FFFFFF m-l-0 p-l-0">
+                      Microwave
+                    </p>
+                    <p class="p2 c-B0E7FF m-l-0 p-l-0">
+                      1-4 hours
+                    </p>
+                  </b-col>
+                </b-row>
+                <b-row class="res w-100p t-center m-l-0 p-l-0">
+                  <b-col xs="2" sm="0" md="2" lg="2" xl="2" class="leftImg t-center m-l-0 i-a-c p-l-0 col-2" v-if="!noIcon">
+                    <img src="../../assets/webPages/product/iconoir_fire-flame.png" class="m-lr-a" style="width: 41px">
+                  </b-col>
+                  <b-col xs="9" sm="12" md="9" lg="9" xl="9" class="rightText t-left col-9">
+                    <p class="p2 c-FFFFFF m-l-0 p-l-0">
+                      Space heater
+                    </p>
+                    <p class="p2 c-B0E7FF m-l-0 p-l-0">
+                      1-3 hours
+                    </p>
+                  </b-col>
+                </b-row>
               </b-col>
-              <b-col xs="9" sm="12" md="9" lg="9" xl="9" class="rightText t-left col-9">
-                <p class="p2 c-FFFFFF m-l-0 p-l-0">
-                  Refridgerator
-                </p>
-                <p class="p2 c-B0E7FF m-l-0 p-l-0">
-                  11-22 hours
-                </p>
-              </b-col>
-            </b-row>
-            <b-row class="res w-100p t-center m-l-0 p-l-0">
-              <b-col xs="2" sm="0" md="2" lg="2" xl="2" class="leftImg t-center m-l-0 i-a-c p-l-0 col-2">
-                <img src="../../assets/webPages/product/ice_cream.png" class="m-lr-a" style="width: 50px">
-              </b-col>
-              <b-col xs="9" sm="12" md="9" lg="9" xl="9" class="rightText t-left col-9">
-                <p class="p2 c-FFFFFF m-l-0 p-l-0">
-                  Freezer
-                </p>
-                <p class="p2 c-B0E7FF m-l-0 p-l-0">
-                  1-3 days
-                </p>
-              </b-col>
-            </b-row>
-            <b-row class="res w-100p t-center m-l-0 p-l-0">
-              <b-col xs="2" sm="0" md="2" lg="2" xl="2" class="leftImg t-center m-l-0 i-a-c p-l-0 col-2">
-                <img src="../../assets/webPages/product/microwave.png" class="m-lr-a" style="width: 44px">
-              </b-col>
-              <b-col xs="9" sm="12" md="9" lg="9" xl="9" class="rightText t-left col-9">
-                <p class="p2 c-FFFFFF m-l-0 p-l-0">
-                  Microwave
-                </p>
-                <p class="p2 c-B0E7FF m-l-0 p-l-0">
-                  1-4 hours
-                </p>
-              </b-col>
-            </b-row>
-            <b-row class="res w-100p t-center m-l-0 p-l-0">
-              <b-col xs="2" sm="0" md="2" lg="2" xl="2" class="leftImg t-center m-l-0 i-a-c p-l-0 col-2">
-                <img src="../../assets/webPages/product/iconoir_fire-flame.png" class="m-lr-a" style="width: 41px">
-              </b-col>
-              <b-col xs="9" sm="12" md="9" lg="9" xl="9" class="rightText t-left col-9">
-                <p class="p2 c-FFFFFF m-l-0 p-l-0">
-                  Space heater
-                </p>
-                <p class="p2 c-B0E7FF m-l-0 p-l-0">
-                  1-3 hours
-                </p>
+              <b-col xs="12" sm="6" md="6" lg="6" xl="6" class="rightText p-l-0">
+                <b-row class="res w-100p t-center m-l-0 p-l-0">
+                  <b-col xs="2" sm="0" md="2" lg="2" xl="2" class="leftImg t-center m-l-0 i-a-c p-l-0 col-2" v-if="!noIcon">
+                    <img src="../../assets/webPages/product/wind.png" class="m-lr-a" style="width: 41px">
+                  </b-col>
+                  <b-col xs="9" sm="12" md="9" lg="9" xl="9" class="rightText t-left col-9">
+                    <p class="p2 c-FFFFFF m-l-0 p-l-0">
+                      Window A/C
+                    </p>
+                    <p class="p2 c-B0E7FF m-l-0 p-l-0">
+                      1-4 hours
+                    </p>
+                  </b-col>
+                </b-row>
+                <b-row class="res w-100p t-center m-l-0 p-l-0">
+                  <b-col xs="2" sm="0" md="2" lg="2" xl="2" class="leftImg t-center m-l-0 i-a-c p-l-0 col-2" v-if="!noIcon">
+                    <img src="../../assets/webPages/product/monitor.png" class="m-lr-a" style="width: 41px">
+                  </b-col>
+                  <b-col xs="9" sm="12" md="9" lg="9" xl="9" class="rightText t-left col-9">
+                    <p class="p2 c-FFFFFF m-l-0 p-l-0">
+                      Computer
+                    </p>
+                    <p class="p2 c-B0E7FF m-l-0 p-l-0">
+                      1-2 days
+                    </p>
+                  </b-col>
+                </b-row>
+                <b-row class="res w-100p t-center m-l-0 p-l-0">
+                  <b-col xs="2" sm="0" md="2" lg="2" xl="2" class="leftImg t-center m-l-0 i-a-c p-l-0 col-2" v-if="!noIcon">
+                    <img src="../../assets/webPages/product/wifi.png" class="m-lr-a" style="width: 41px">
+                  </b-col>
+                  <b-col xs="9" sm="12" md="9" lg="9" xl="9" class="rightText t-left col-9">
+                    <p class="p2 c-FFFFFF m-l-0 p-l-0">
+                      Internet router
+                    </p>
+                    <p class="p2 c-B0E7FF m-l-0 p-l-0">
+                      6-18 days
+                    </p>
+                  </b-col>
+                </b-row>
+                <b-row class="res w-100p t-center m-l-0 p-l-0">
+                  <b-col xs="2" sm="0" md="2" lg="2" xl="2" class="leftImg t-center m-l-0 i-a-c p-l-0 col-2" v-if="!noIcon">
+                    <img src="../../assets/webPages/product/tv.png" class="m-lr-a" style="width: 41px">
+                  </b-col>
+                  <b-col xs="10" sm="12" md="9" lg="9" xl="9" class="rightText t-left col-9">
+                    <p class="p2 c-FFFFFF m-l-0 p-l-0">
+                      TV
+                    </p>
+                    <p class="p2 c-B0E7FF m-l-0 p-l-0">
+                      1-1.5 days
+                    </p>
+                  </b-col>
+                </b-row>
               </b-col>
             </b-row>
           </b-col>
-            <b-col xs="12" sm="6" md="6" lg="6" xl="6" class="rightText p-l-0">
-              <b-row class="res w-100p t-center m-l-0 p-l-0">
-                <b-col xs="2" sm="0" md="2" lg="2" xl="2" class="leftImg t-center m-l-0 i-a-c p-l-0 col-2">
-                  <img src="../../assets/webPages/product/wind.png" class="m-lr-a" style="width: 41px">
-                </b-col>
-                <b-col xs="9" sm="12" md="9" lg="9" xl="9" class="rightText t-left col-9">
-                  <p class="p2 c-FFFFFF m-l-0 p-l-0">
-                    Window A/C
-                  </p>
-                  <p class="p2 c-B0E7FF m-l-0 p-l-0">
-                    1-4 hours
-                  </p>
-                </b-col>
-              </b-row>
-              <b-row class="res w-100p t-center m-l-0 p-l-0">
-                <b-col xs="2" sm="0" md="2" lg="2" xl="2" class="leftImg t-center m-l-0 i-a-c p-l-0 col-2">
-                  <img src="../../assets/webPages/product/monitor.png" class="m-lr-a" style="width: 41px">
-                </b-col>
-                <b-col xs="9" sm="12" md="9" lg="9" xl="9" class="rightText t-left col-9">
-                  <p class="p2 c-FFFFFF m-l-0 p-l-0">
-                    Computer
-                  </p>
-                  <p class="p2 c-B0E7FF m-l-0 p-l-0">
-                    1-2 days
-                  </p>
-                </b-col>
-              </b-row>
-              <b-row class="res w-100p t-center m-l-0 p-l-0">
-                <b-col xs="2" sm="0" md="2" lg="2" xl="2" class="leftImg t-center m-l-0 i-a-c p-l-0 col-2">
-                  <img src="../../assets/webPages/product/wifi.png" class="m-lr-a" style="width: 41px">
-                </b-col>
-                <b-col xs="9" sm="12" md="9" lg="9" xl="9" class="rightText t-left col-9">
-                  <p class="p2 c-FFFFFF m-l-0 p-l-0">
-                    Internet router
-                  </p>
-                  <p class="p2 c-B0E7FF m-l-0 p-l-0">
-                    6-18 days
-                  </p>
-                </b-col>
-              </b-row>
-              <b-row class="res w-100p t-center m-l-0 p-l-0">
-                <b-col xs="2" sm="0" md="2" lg="2" xl="2" class="leftImg t-center m-l-0 i-a-c p-l-0 col-2">
-                  <img src="../../assets/webPages/product/tv.png" class="m-lr-a" style="width: 41px">
-                </b-col>
-                <b-col xs="10" sm="12" md="9" lg="9" xl="9" class="rightText t-left col-9">
-                  <p class="p2 c-FFFFFF m-l-0 p-l-0">
-                    TV
-                  </p>
-                  <p class="p2 c-B0E7FF m-l-0 p-l-0">
-                    1-1.5 days
-                  </p>
-                </b-col>
-              </b-row>
-            </b-col>
-          </b-row>
           <p class="p4 c-FFFFFF t-left">
             Run times quoted are based on a blipOne full charge, appliance power consumption, and assume continuous use
             <br><br>
@@ -358,7 +362,7 @@
             </button>
           </b-col>
           <b-col xs="12" sm="12" md="12" lg="12" xl="7" class="rightChart p-l-0 i-a-c">
-            <div id="chartTwo" class="chart" style="width: 100%; height: 438px"></div>
+            <div id="chartTwo" class="chart" style="width: 95%; height: 438px"></div>
           </b-col>
         </b-row>
       </section>
@@ -395,7 +399,7 @@
               blipOne uses an algorithm that tells it when to charge and discharge to optimize your savings.
             </p>
           </b-col>
-          <b-col  xs="12" sm="12" md="12" lg="12" xl="6" class="rightImg t-center">
+          <b-col  xs="12" sm="12" md="12" lg="10" offset-lg="1" xl="6" offset-xl="0" class="rightImg t-center">
             <img src="../../assets/webPages/product/Charge.png" alt="" class="">
             <img src="../../assets/webPages/product/Discharge.png" alt="" class="">
           </b-col>
@@ -451,21 +455,21 @@
       <section class="designedFor b-254B77 i-a-c">
         <b-row class="w-80p insider">
           <b-row class="whole w-100p">
-            <b-col xs="12" sm="12" md="4" lg="4" xl="4" class="t-center oneThird">
+            <b-col xs="12" sm="12" md="8" offset-md="2" lg="4" offset-lg="0" xl="4" offset-xl="0" class="t-center oneThird">
               <img src="../../assets/webPages/product/SpaceConscious.png" style="width: 76px; margin-left: -38px">
               <p class="p1point5 c-DEF5FF t-center" style="">Space-conscious</p>
               <p class="p3 c-FFFFFF m-l-0 p-l-0">
                 Our compact design occupies less than one square foot
               </p>
             </b-col>
-            <b-col xs="12" sm="12" md="4" lg="4" xl="4" class="t-center oneThird">
+            <b-col xs="12" sm="12" md="8" offset-md="2" lg="4" offset-lg="0" xl="4" offset-xl="0" class="t-center oneThird">
               <img src="../../assets/webPages/product/Frame.png" style="width: 72px; margin-left: -36px">
               <p class="p1point5 c-DEF5FF t-center" style="">Ergonomic + portable</p>
               <p class="p3 c-FFFFFF m-l-0 p-l-0">
                 blipOne’s ergonomic handle, wheels and lightweight design makes it easy to transport, so you can bring its benefits with you whenever you move
               </p>
             </b-col>
-            <b-col xs="12" sm="12" md="4" lg="4" xl="4" class="t-center oneThird">
+            <b-col xs="12" sm="12" md="8" offset-md="2" lg="4" offset-lg="0" xl="4" offset-xl="0" class="t-center oneThird">
               <img src="../../assets/webPages/product/ModernDesign.png" style="width: 50px; margin-left: -25px">
               <p class="p1point5 c-DEF5FF t-center" style="">Modern design</p>
               <p class="p3 c-FFFFFF m-l-0 p-l-0">
@@ -509,7 +513,7 @@
 </template>
 
 <script>
-import banner from "./../shared/components/banner.vue";
+import banner from "./../shared/components/bannerII.vue";
 import bannerPreorder from "./../shared/components/bannerPreorder.vue";
 import KlaviyoSignUp from "./../shared/components/FooterIIISignUpKlaviyo.vue";
 // import Footer from "./../shared/components/FooterIIWOSignUp.vue";
@@ -527,11 +531,15 @@ export default {
       // screenWidth: document.body.clientWidth,
     };
   },
-  compute: {
+  computed: {
     // reduceE: function(){
     //   if (this.ismOrpc === 'PCoperation') return 'reduceEmissions'
     //   else if (this.ismOrpc === 'Moperation') return 'reduceEmissionsM'
     // }
+    noIcon: function(){
+      if (document.body.clientWidth <= 768 && document.body.clientWidth > 576) return true
+      return false
+    }
   },
   head() {
     return {
@@ -547,16 +555,16 @@ export default {
     }
   },
   created() {
-    if (this._isMobile()) {
+    if (this._isMobile() || this.isUnderXL()) {
       //mobile
       this.ismOrpc = 'Moperation'
       //set rem
-      window.onload = function(){
-        this.getRem(750,100)
-      };
-      window.onresize = function(){
-        this.getRem(750,100)
-      };
+      // window.onload = function(){
+      //   this.getRem(750,100)
+      // };
+      // window.onresize = function(){
+      //   this.getRem(750,100)
+      // };
     } else {
       //pc
       this.ismOrpc = 'PCoperation'
@@ -597,6 +605,12 @@ export default {
     _isMobile() {
       let flag = navigator.userAgent.match(/(phone|pad|pod|iPhone|iPod|ios|iPad|Android|Mobile|BlackBerry|IEMobile|MQQBrowser|JUC|Fennec|wOSBrowser|BrowserNG|WebOS|Symbian|Windows Phone)/i)
       return flag;
+    },
+    isUnderXL(){
+      if (document.body.clientWidth < 1200){
+        return true
+      }
+      return false
     },
     // reduceE(){
     //   if (this.ismOrpc === 'PCoperation'){
@@ -676,8 +690,6 @@ export default {
         textStyle:{fontFamily: 'Montserrat'}
       })
     }
-  },
-  computed: {
   },
   components: {
     banner,

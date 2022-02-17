@@ -5,6 +5,7 @@
         <div class="container">
           <div class="row">
             <div class="col-lg-8 offset-lg-2 col-md-12 col-sm-12">
+<!--            <b-col sm="12" md="12" lg="10" xl="8" class="m-lr-a">-->
               <div class="content text-center">
 <!--                <iframe src="http://eepurl.com/hBxMj5" height="650" width="600" title="Iframe Example" style="margin: auto; border: none"></iframe>-->
                 <!-- Begin Mailchimp Signup Form -->
@@ -62,6 +63,7 @@
 
                 <!--End mc_embed_signup-->
               </div>
+<!--            </b-col>-->
             </div>
           </div>
         </div>
