@@ -10,7 +10,7 @@
           Fill in your zipcode to get started
         </p>
         <b-row class="zipcode_input t-left w-100p m-l-0">
-          <b-col xs="6" sm="6" md="6" lg="6" xl="6" class="t-left m-tb-a p-l-0">
+          <b-col xs="6" sm="6" md="6" lg="6" xl="6" class="t-left m-tb-a p-l-0 col-6">
             <b-form-input
                 class="zip-input absolute-mid"
                 v-model="zipcode"
@@ -18,7 +18,7 @@
                 @keyup.enter="checkZipcode()">
             </b-form-input>
           </b-col>
-          <b-col xs="6" sm="6" md="6" lg="6" xl="6" class="i-a-c p-0">
+          <b-col xs="6" sm="6" md="6" lg="6" xl="6" class="i-a-c p-0 col-6">
             <b-button
                 class = "submit search-button m-l-0"
                 variant="outline-primary"
@@ -60,7 +60,7 @@
       <b-row class="utility_container t-left m-l-0" v-if="!seen">
         <div class="h2point5 c-254B77 t-left m-l-0 seeAfterNotSeen">See how blip can save you money</div>
         <b-row class="zipcode_input t-left m-l-0 p-l-0">
-          <b-col xs="7" sm="7" md="7" lg="7" xl="7" class="h-52px t-left m-l-0 p-l-0">
+          <b-col xs="7" sm="7" md="7" lg="7" xl="7" class="h-52px t-left m-l-0 p-l-0 col-7">
             <b-form-input
                 v-model="zipcode"
                 class = "input_not_seen absolute-mid"
@@ -69,7 +69,7 @@
             ></b-form-input>
           </b-col>
 
-          <b-col xs="5" sm="5" md="5" lg="5" xl="5" class="t-center i-a-c">
+          <b-col xs="5" sm="5" md="5" lg="5" xl="5" class="t-center i-a-c col-5">
             <b-button variant="outline-primary" v-on:click="checkZipcodeAfter()" class="enter_button submit">
               Enter
               <!--            <font-awesome-icon icon="search"/>-->
@@ -77,12 +77,12 @@
           </b-col>
 
           <b-row class="t-left w-100p m-l-0 p-l-0">
-<!--            <b-col xs="12" sm="12" md="6" lg="6" xl="6" class="h-52px t-left m-l-0 p-l-0">-->
+            <!--            <b-col xs="12" sm="12" md="6" lg="6" xl="6" class="h-52px t-left m-l-0 p-l-0">-->
             <p v-show="!showValidZipcodeError" class="validZipcodeError p4 c-FF0000 t-center" style="">
               <span v-if="showErrorMsgExpNYCA">We'll be serving your area soon!</span>
               <span v-else>Please enter a valid zip code</span>
             </p>
-<!--            </b-col>-->
+            <!--            </b-col>-->
           </b-row>
         </b-row>
 
@@ -91,7 +91,7 @@
             <h4 class = "h-40px c-254B77">Choose your energy provider:</h4>
             <b-row class="utility_select w-100p m-l-0 p-l-0" v-if="posts && posts.length">
               <!--            Start: add-->
-              <b-col xs="4" sm="4" md="4" lg="4" xl="4" class="t-left p-l-0" v-for="post of posts">
+              <b-col xs="4" sm="4" md="4" lg="4" xl="4" class="t-left p-l-0 col-4" v-for="post of posts">
                 <div class="card" id="tooltip-target-1">
                   <img v-if="post.logo !== ''" :src= "'http://'+post.logo" class = "utilityLogo">
                   <b-button
@@ -102,7 +102,7 @@
                       v-on:click="disableButton($event); list(post); sendUtility(post); countOverallPlan(post); provider = true;"
                       v-b-tooltip.hover.bottom="{variant: 'light',customClass: 'myTooltipClass', title: post.utilityName}"
                   >
-<!--                    <img :src= "'http://'+post.logo" class = "utilityLogo">-->
+                    <!--                    <img :src= "'http://'+post.logo" class = "utilityLogo">-->
                   </b-button>
 
                   <b-button
@@ -131,15 +131,15 @@
             <p class="inIDont p4 c-4F9BC1 t-left">(I don’t know my rate plan)</p>
           </b-button> <!--!!!!!!!!!!!!!!!!!!!Empty!!!!!!!!!!!!!!!!!!-->
           <b-row class="plan_select t-left w-100p m-l-0 p-l-0">
-<!--            <select name="planDropdown" class="m-l-0 sdropdown" v-model="model" v-on:change="planSelected($event)">-->
-<!--&lt;!&ndash;              <option selected>Click me to choose</option>&ndash;&gt;-->
-<!--              <option :value="''" disabled selected>Please select...</option>-->
-<!--              <option-->
-<!--                  class="dropdown-item"-->
-<!--                  v-for="(plan, index) of utilityPicked.planList"-->
-<!--                  :value="index"-->
-<!--              >{{plan.planName}}</option>-->
-<!--            </select>-->
+            <!--            <select name="planDropdown" class="m-l-0 sdropdown" v-model="model" v-on:change="planSelected($event)">-->
+            <!--&lt;!&ndash;              <option selected>Click me to choose</option>&ndash;&gt;-->
+            <!--              <option :value="''" disabled selected>Please select...</option>-->
+            <!--              <option-->
+            <!--                  class="dropdown-item"-->
+            <!--                  v-for="(plan, index) of utilityPicked.planList"-->
+            <!--                  :value="index"-->
+            <!--              >{{plan.planName}}</option>-->
+            <!--            </select>-->
             <VueDropdown
                 :config="config"
                 v-on:setSelectedOption = "setNewSelectedOption"
@@ -188,6 +188,7 @@
 import axios from 'axios'; //add
 // import VueDropdown from 'vue-dynamic-dropdown'; //add
 import VueDropdown from "./calculator/dropdown"; //add
+import {list} from "./calculator/all.js"
 
 export default {
   name: "savings",
@@ -197,7 +198,7 @@ export default {
       dataHere:'display this!',
       seen: true,
       zipcode:
-          // '10009',
+      // '10009',
           "",
 //Start: add
       showValidZipcodeError: true,
@@ -211,7 +212,9 @@ export default {
       utilityPicked: [],
       planNum: 0,
       address: 'https://www.api.blipenergy.com/plan/get_savings_by_zip_code/',
-      localAddress: './src/assets/JSONforTesting/',
+      localAddress: 'https://res-json.s3.amazonaws.com/res/',
+      // './src/assets/JSONforTesting/res/',
+      jsonList: list,
       overallPlan:[],
       noRatePlan: true,
       selectedPlan: '',
@@ -337,21 +340,32 @@ export default {
         this.showValidZipcodeError = true;
         this.selectedPlan = '';
         // this.loadJSON();
-        var address = this.address + this.zipcode
-        axios.get(address)
-            .then(resp => {
-                  // JSON responses are automatically parsed.
-                  // console.log('hhhhhhhhhhhh', response.data.data)
-                  if (resp.data.data){
-                  this.loadJSON();
-                  }else{
-                    this.showErrorMsgExpNYCA = true;
-                    this.showValidZipcodeError = false;
-                  }
-            })
-            .catch(e => {
-              this.errors.push(e)
-            })
+
+        /////////////////////////////////////////////我是新来的//////////////////////////////////////////
+        if (this.jsonList[this.zipcode] && this.jsonList[this.zipcode].data){
+          this.loadJSON();
+        }else{
+          this.showErrorMsgExpNYCA = true;
+          this.showValidZipcodeError = false;
+        }
+        /////////////////////////////////////////////接口恢复再恢复我//////////////////////////////////////////
+        // var address = this.localAddress + this.zipcode + '.json'/////////////////////////////////////////////////////////HERE
+        // // console.log("after", address)
+        // axios.get(address)
+        //     .then(resp => {
+        //           // JSON responses are automatically parsed.
+        //           // console.log('hhhhhhhhhhhh', response.data.data)
+        //           if (resp.data.data){
+        //           this.loadJSON();
+        //           }else{
+        //             this.showErrorMsgExpNYCA = true;
+        //             this.showValidZipcodeError = false;
+        //           }
+        //     })
+        //     .catch(e => {
+        //       this.errors.push(e)
+        //     })
+        /////////////////////////////////////////////接口恢复再恢复我//////////////////////////////////////////
       }else{
         // alert('!!!');
         this.showErrorMsgExpNYCA = false
@@ -361,48 +375,76 @@ export default {
 
     loadJSON(){
       this.provider = false;
-      this.address = this.address + this.zipcode //un-command-out me to link to Zhen1///////////////////////////////////////////////////////
+      // this.address = this.address + this.zipcode //un-command-out me to link to Zhen1///////////////////////////////////////////////////////
       // const address = './src/assets/JSONforTesting/' /////////////////////////////////////////////////////////command-out me to run locally
-      // this.address = address + this.zipcode + '.json' /////////////////////////////////////////////////////////command-out me to run locally
-      axios.get(this.address)
-          .then(response => {
-            // JSON responses are automatically parsed.
-            this.posts = response.data.data
-            if (response.data.data){
-              this.sendNoData(false)
-              this.seen = false;//////////////////////////////////
-              this.showErrorMsgExpNYCA = false;
-              // for (var i = 0; i < response.data.data.length; i++){
-              //   // alert(response.data.data.logo)
-              //   if (response.data.data.logo !== undefined){
-              //     response.data.data[i].logo = "http://" + response.data.data[i].logo
-              //   }
-              // }
-              this.onlyOneProvider = "";
-              this.noRatePlan = true;
-              // console.log('hhhhhhhhhhhh', response.data.data)
-              if (response.data.data.length === 1){
-                this.onlyOneProvider = "chosen";
-                this.list(response.data.data[0]);
-                this.sendUtility(response.data.data[0]);
-                this.countOverallPlan(response.data.data[0]);
-                this.provider = true;
-              }else if (response.data.data.length === 0) {
-                this.showNoData = true
-                this.sendNoData(true)
-              }
-            }else{
-              // alert('!!!')
-              this.notNYorCA = true
-            }
-          })
-          .catch(e => {
-            this.errors.push(e)
-            // this.showValidZipcodeError = false;
-          })
-      this.address =
-          'https://www.api.blipenergy.com/plan/get_savings_by_zip_code/' //un-command-out me to link to Zhen////////////////////////////////////////
-          // './src/assets/JSONforTesting/' /////////////////////////////////////////////////////////command-out me to run locally
+      // this.address = this.localAddress + this.zipcode + '.json' /////////////////////////////////////////////////////////command-out me to run locally
+
+      /////////////////////////////////////////////我是新来的//////////////////////////////////////////
+      if (this.jsonList[this.zipcode] && this.jsonList[this.zipcode].data){
+        // console.log('hhhh', this.jsonList[this.zipcode].data)
+        this.posts = this.jsonList[this.zipcode].data
+        this.sendNoData(false)
+        this.seen = false;//////////////////////////////////
+        this.showErrorMsgExpNYCA = false;
+        this.onlyOneProvider = "";
+        this.noRatePlan = true;
+        if (this.jsonList[this.zipcode].data.length === 1){
+          this.onlyOneProvider = "chosen";
+          this.list(this.jsonList[this.zipcode].data[0]);
+          this.sendUtility(this.jsonList[this.zipcode].data[0]);
+          this.countOverallPlan(this.jsonList[this.zipcode].data[0]);
+          this.provider = true;
+        }else if (this.jsonList[this.zipcode].data.length === 0) {
+          this.showNoData = true
+          this.sendNoData(true)
+        }
+      }else{
+        this.notNYorCA = true
+      }
+
+      /////////////////////////////////////////////接口恢复再恢复我//////////////////////////////////////////
+      // axios.get(this.address)
+      //     .then(response => {
+      //       // JSON responses are automatically parsed.
+      //       this.posts = response.data.data
+      //       if (response.data.data){
+      //         // console.log(response.data.data)
+      //         this.sendNoData(false)
+      //         this.seen = false;//////////////////////////////////
+      //         this.showErrorMsgExpNYCA = false;
+      //         // for (var i = 0; i < response.data.data.length; i++){
+      //         //   // alert(response.data.data.logo)
+      //         //   if (response.data.data.logo !== undefined){
+      //         //     response.data.data[i].logo = "http://" + response.data.data[i].logo
+      //         //   }
+      //         // }
+      //         this.onlyOneProvider = "";
+      //         this.noRatePlan = true;
+      //         // console.log('hhhhhhhhhhhh', response.data.data)
+      //         if (response.data.data.length === 1){
+      //           this.onlyOneProvider = "chosen";
+      //           this.list(response.data.data[0]);
+      //           this.sendUtility(response.data.data[0]);
+      //           this.countOverallPlan(response.data.data[0]);
+      //           this.provider = true;
+      //         }else if (response.data.data.length === 0) {
+      //           this.showNoData = true
+      //           this.sendNoData(true)
+      //         }
+      //       }else{
+      //         // alert('!!!')
+      //         this.notNYorCA = true
+      //       }
+      //     })
+      //     .catch(e => {
+      //       this.errors.push(e)
+      //       // this.showValidZipcodeError = false;
+      //     })
+      // this.address =
+      //     // 'https://www.api.blipenergy.com/plan/get_savings_by_zip_code/' //un-command-out me to link to Zhen////////////////////////////////////////
+      //     './scr/assets/JSONforTesting/resSingleQuote/' /////////////////////////////////////////////////////////command-out me to run locally
+      //     // 'https://res-json.s3.amazonaws.com/res/'
+      /////////////////////////////////////////////接口恢复再恢复我//////////////////////////////////////////
     },
 
     list(utility) {
@@ -428,7 +470,7 @@ export default {
       this.overallPlan = [];
       for ( var i=0; i<provider.planList.length; i++ ){
         this.overallPlan.push(provider.planList[i].saving)
-            // ((provider.planList[i].highPrice - provider.planList[i].lowPrice)*this.capacity*365).toFixed(2))
+        // ((provider.planList[i].highPrice - provider.planList[i].lowPrice)*this.capacity*365).toFixed(2))
       }
       // console.log(this.overallPlan)
       this.$emit('overAllSavings', this.overallPlan)
