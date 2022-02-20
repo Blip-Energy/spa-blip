@@ -188,6 +188,7 @@
 import axios from 'axios'; //add
 // import VueDropdown from 'vue-dynamic-dropdown'; //add
 import VueDropdown from "./calculator/dropdown"; //add
+import {list} from "./calculator/all.js"
 
 export default {
   name: "savings",
@@ -211,7 +212,9 @@ export default {
       utilityPicked: [],
       planNum: 0,
       address: 'https://www.api.blipenergy.com/plan/get_savings_by_zip_code/',
-      localAddress: './src/assets/JSONforTesting/res/',
+      localAddress: 'https://res-json.s3.amazonaws.com/res/',
+          // './src/assets/JSONforTesting/res/',
+      jsonList: list,
       overallPlan:[],
       noRatePlan: true,
       selectedPlan: '',
@@ -337,22 +340,32 @@ export default {
         this.showValidZipcodeError = true;
         this.selectedPlan = '';
         // this.loadJSON();
-        var address = this.localAddress + this.zipcode + '.json'/////////////////////////////////////////////////////////HERE
-        console.log("after", address)
-        axios.get(address)
-            .then(resp => {
-                  // JSON responses are automatically parsed.
-                  // console.log('hhhhhhhhhhhh', response.data.data)
-                  if (resp.data.data){
-                  this.loadJSON();
-                  }else{
-                    this.showErrorMsgExpNYCA = true;
-                    this.showValidZipcodeError = false;
-                  }
-            })
-            .catch(e => {
-              this.errors.push(e)
-            })
+
+        /////////////////////////////////////////////我是新来的//////////////////////////////////////////
+        if (this.jsonList[this.zipcode] && this.jsonList[this.zipcode].data){
+          this.loadJSON();
+          }else{
+            this.showErrorMsgExpNYCA = true;
+            this.showValidZipcodeError = false;
+          }
+        /////////////////////////////////////////////接口恢复再恢复我//////////////////////////////////////////
+        // var address = this.localAddress + this.zipcode + '.json'/////////////////////////////////////////////////////////HERE
+        // // console.log("after", address)
+        // axios.get(address)
+        //     .then(resp => {
+        //           // JSON responses are automatically parsed.
+        //           // console.log('hhhhhhhhhhhh', response.data.data)
+        //           if (resp.data.data){
+        //           this.loadJSON();
+        //           }else{
+        //             this.showErrorMsgExpNYCA = true;
+        //             this.showValidZipcodeError = false;
+        //           }
+        //     })
+        //     .catch(e => {
+        //       this.errors.push(e)
+        //     })
+        /////////////////////////////////////////////接口恢复再恢复我//////////////////////////////////////////
       }else{
         // alert('!!!');
         this.showErrorMsgExpNYCA = false
@@ -364,48 +377,74 @@ export default {
       this.provider = false;
       // this.address = this.address + this.zipcode //un-command-out me to link to Zhen1///////////////////////////////////////////////////////
       // const address = './src/assets/JSONforTesting/' /////////////////////////////////////////////////////////command-out me to run locally
-      this.address = this.localAddress + this.zipcode + '.json' /////////////////////////////////////////////////////////command-out me to run locally
-      console.log("load", this.address)
-      axios.get(this.address)
-          .then(response => {
-            // JSON responses are automatically parsed.
-            this.posts = response.data.data
-            if (response.data.data){
-              console.log(response.data.data)
-              this.sendNoData(false)
-              this.seen = false;//////////////////////////////////
-              this.showErrorMsgExpNYCA = false;
-              // for (var i = 0; i < response.data.data.length; i++){
-              //   // alert(response.data.data.logo)
-              //   if (response.data.data.logo !== undefined){
-              //     response.data.data[i].logo = "http://" + response.data.data[i].logo
-              //   }
-              // }
-              this.onlyOneProvider = "";
-              this.noRatePlan = true;
-              // console.log('hhhhhhhhhhhh', response.data.data)
-              if (response.data.data.length === 1){
-                this.onlyOneProvider = "chosen";
-                this.list(response.data.data[0]);
-                this.sendUtility(response.data.data[0]);
-                this.countOverallPlan(response.data.data[0]);
-                this.provider = true;
-              }else if (response.data.data.length === 0) {
-                this.showNoData = true
-                this.sendNoData(true)
-              }
-            }else{
-              // alert('!!!')
-              this.notNYorCA = true
-            }
-          })
-          .catch(e => {
-            this.errors.push(e)
-            // this.showValidZipcodeError = false;
-          })
-      this.address =
-          // 'https://www.api.blipenergy.com/plan/get_savings_by_zip_code/' //un-command-out me to link to Zhen////////////////////////////////////////
-          './src/assets/JSONforTesting/res/' /////////////////////////////////////////////////////////command-out me to run locally
+      // this.address = this.localAddress + this.zipcode + '.json' /////////////////////////////////////////////////////////command-out me to run locally
+
+      /////////////////////////////////////////////我是新来的//////////////////////////////////////////
+      if (this.jsonList[this.zipcode] && this.jsonList[this.zipcode].data){
+        // console.log('hhhh', this.jsonList[this.zipcode].data)
+        this.posts = this.jsonList[this.zipcode].data
+        this.sendNoData(false)
+        this.seen = false;//////////////////////////////////
+        this.showErrorMsgExpNYCA = false;
+        this.onlyOneProvider = "";
+        this.noRatePlan = true;
+        if (this.jsonList[this.zipcode].data.length === 1){
+          this.onlyOneProvider = "chosen";
+          this.list(this.jsonList[this.zipcode].data[0]);
+          this.sendUtility(this.jsonList[this.zipcode].data[0]);
+          this.countOverallPlan(this.jsonList[this.zipcode].data[0]);
+          this.provider = true;
+        }else if (this.jsonList[this.zipcode].data.length === 0) {
+          this.showNoData = true
+          this.sendNoData(true)
+        }
+      }else{
+        this.notNYorCA = true
+      }
+
+      /////////////////////////////////////////////接口恢复再恢复我//////////////////////////////////////////
+      // axios.get(this.address)
+      //     .then(response => {
+      //       // JSON responses are automatically parsed.
+      //       this.posts = response.data.data
+      //       if (response.data.data){
+      //         // console.log(response.data.data)
+      //         this.sendNoData(false)
+      //         this.seen = false;//////////////////////////////////
+      //         this.showErrorMsgExpNYCA = false;
+      //         // for (var i = 0; i < response.data.data.length; i++){
+      //         //   // alert(response.data.data.logo)
+      //         //   if (response.data.data.logo !== undefined){
+      //         //     response.data.data[i].logo = "http://" + response.data.data[i].logo
+      //         //   }
+      //         // }
+      //         this.onlyOneProvider = "";
+      //         this.noRatePlan = true;
+      //         // console.log('hhhhhhhhhhhh', response.data.data)
+      //         if (response.data.data.length === 1){
+      //           this.onlyOneProvider = "chosen";
+      //           this.list(response.data.data[0]);
+      //           this.sendUtility(response.data.data[0]);
+      //           this.countOverallPlan(response.data.data[0]);
+      //           this.provider = true;
+      //         }else if (response.data.data.length === 0) {
+      //           this.showNoData = true
+      //           this.sendNoData(true)
+      //         }
+      //       }else{
+      //         // alert('!!!')
+      //         this.notNYorCA = true
+      //       }
+      //     })
+      //     .catch(e => {
+      //       this.errors.push(e)
+      //       // this.showValidZipcodeError = false;
+      //     })
+      // this.address =
+      //     // 'https://www.api.blipenergy.com/plan/get_savings_by_zip_code/' //un-command-out me to link to Zhen////////////////////////////////////////
+      //     './scr/assets/JSONforTesting/resSingleQuote/' /////////////////////////////////////////////////////////command-out me to run locally
+      //     // 'https://res-json.s3.amazonaws.com/res/'
+      /////////////////////////////////////////////接口恢复再恢复我//////////////////////////////////////////
     },
 
     list(utility) {
