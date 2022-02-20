@@ -10,7 +10,7 @@
           Fill in your zipcode to get started
         </p>
         <b-row class="zipcode_input t-left w-100p m-l-0">
-          <b-col xs="6" sm="6" md="6" lg="6" xl="6" class="t-left m-tb-a p-l-0 col-6">
+          <b-col xs="6" sm="6" md="4" lg="6" xl="6" class="t-left m-tb-a p-l-0 col-6">
             <b-form-input
                 class="zip-input absolute-mid"
                 v-model="zipcode"
