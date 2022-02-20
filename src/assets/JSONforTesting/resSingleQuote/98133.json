@@ -1,1 +1,0 @@
-{'status': 0, 'msg': 'SUCCESS', 'data': [{'utilityName': 'City of Seattle', 'logo': 'logo.clearbit.com/www.seattle.gov', 'website': 'www.seattle.gov', 'outage': {'saifi': 0.82, 'caidi': 216.96, 'saidi': 179.0}, 'planList': [{'planName': 'Default Residential', 'planType': 0, 'saving': 19.99, 'savingList': [1.7, 1.53, 1.7, 1.64, 1.7, 1.64, 1.7, 1.7, 1.64, 1.7, 1.64, 1.7]}]}]}
