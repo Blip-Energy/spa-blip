@@ -192,7 +192,7 @@
               </b-row>
               <b-row class="underLine">
                 <b-col xs="12" sm="5" md="6" lg="7" xl="8" class="t-left rightsOnLeft" style="padding-left: 0px;">
-                  <p class="h5 two54B77 t-left p-l-0 m-l-0"><strong>© blip, LLC. 2021</strong></p>
+                  <p class="h5 two54B77 t-left p-l-0 m-l-0"><strong>© blip, LLC. 2022</strong></p>
                 </b-col>
                 <b-col xs="12" sm="7" md="6" lg="5" xl="4" class = "logoOnRight">
                   <b-row style="padding: 0 0 0 0; margin-left: 0">
