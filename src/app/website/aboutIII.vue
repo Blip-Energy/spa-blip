@@ -37,7 +37,7 @@
       <!--end: We believe everyone deserves access to energy storage-->
 
       <!--start: We care deeply about our environment-->
-      <section class="weCare b-FFFFFF i-a-c">
+      <section class="weCare b-FFFFFF i-a-c" v-if="ismOrpc === 'PCoperation'">
         <b-row class="insider w-90p">
           <b-col  xs="12" sm="12" md="6" lg="6" xl="6" class="leftImg p-l-0">
             <img src="../../assets/webPages/about/SplitIllustration.png" alt="" class="">
@@ -48,6 +48,20 @@
             <p class="p3 c-183B56 m-l-0 p-l-0">
               blip is designed to keep dirty power plants offline by shifting your energy usage.
             </p>
+          </b-col>
+        </b-row>
+      </section>
+      <section class="weCare b-FFFFFF i-a-c"  v-if="ismOrpc === 'Moperation'">
+        <b-row class="insider w-90p">
+          <b-col  xs="12" sm="12" md="10" offset-md="1" lg="6" offset-lg="0" xl="6" offset-xl="0" class="rightText t-left">
+            <p class="p1point5 c-4F9BC1" style="margin-bottom: 12px">SUSTAINABILITY</p>
+            <h2 class="h2point8 c-254B77 f-weight-400 m-l-0 p-l-0" style="margin-bottom: 50px">We care deeply about our environment</h2>
+            <p class="p3 c-183B56 m-l-0 p-l-0">
+              blip is designed to keep dirty power plants offline by shifting your energy usage.
+            </p>
+          </b-col>
+          <b-col  xs="12" sm="12" md="8" offset-md="2" lg="6" offset-lg="0" xl="6" offset-xl="0" class="leftImg p-l-0">
+            <img src="../../assets/webPages/about/SplitIllustration.png" alt="" class="">
           </b-col>
         </b-row>
       </section>
@@ -201,7 +215,7 @@
           </b-col>
         </b-row>
       </section>
-      <section class="meetThe b-254B77 i-a-c t-center"  v-if="ismOrpc === 'PCoperation'">
+      <section class="meetThe b-254B77 i-a-c t-center" v-if="ismOrpc === 'PCoperation'">
         <b-row class="w-90p insider t-center">
           <div class="content w-100p">
             <div class="row" style="width: 100%">
