@@ -3,7 +3,7 @@
     <b-container class="saving_container t-center m-r-0 p-l-0" v-if="seen">
 
       <b-row id="topButtonBackground" class="topButton p-0" :style='dollarSignBackground'>
-        <b-col xs="6" sm="6" md="6" lg="6" xl="6" class="m-l-0 m-t-0 p-0">
+        <b-col xs="6" sm="6" md="6" lg="6" xl="6" class="m-l-0 m-t-0 p-0 col-6">
           <b-button
               class="buttonIn b-F9F9F9 c-254B77 m-l-0"
               v-on:click="showResiliency(); b254B77()"
@@ -12,7 +12,7 @@
             Bill Savings
           </b-button>
         </b-col>
-        <b-col xs="6" sm="6" md="6" lg="6" xl="6" class="m-l-0 m-t-0 p-0">
+        <b-col xs="6" sm="6" md="6" lg="6" xl="6" class="m-l-0 m-t-0 p-0 col-6">
           <b-button
               class="buttonIn b-254B77 c-FFFFFF m-r-0"
               v-on:click="showResiliency(); bF9F9F9()"
@@ -120,12 +120,12 @@
                 </b-row>
 
                 <b-row class="inBetween t-center" style="margin-bottom: 40px">
-                  <b-col xs="6" sm="6" md="6" lg="6" xl="6" class="t-right">
+                  <b-col xs="6" sm="6" md="6" lg="6" xl="6" class="t-right col-6">
                     <router-link :to="'/home'" class="logoInBtw">
                       <img src="../../assets/blip_logo.png"/>
                     </router-link>
                   </b-col>
-                  <b-col xs="6" sm="6" md="6" lg="6" xl="6" class="rightInBtw t-left m-tb-a">
+                  <b-col xs="6" sm="6" md="6" lg="6" xl="6" class="rightInBtw t-left m-tb-a col-6">
                     <p class="p4 c-254B77">Your savings with blip:</p>
                     <h4 class="c-4F9BC1">${{ninetyPercent}}-{{oneHundredAndTenPercent}}/year</h4>
                   </b-col>
@@ -156,7 +156,7 @@
         <b-container v-show="checkMaxSaving || askWhy">
           <b-row class="graph w-100p t-center">
             <b-row class="graphButton w-100p t-center p-0">
-              <b-col xs="6" sm="6" md="6" lg="6" xl="6" class="m-l-0 m-t-0 p-0">
+              <b-col xs="6" sm="6" md="6" lg="6" xl="6" class="m-l-0 m-t-0 p-0 col-6">
                 <b-button
                     variant="outline-primary"
                     v-on:click="drawSeasonalSavings('chartOne')"
@@ -164,7 +164,7 @@
                 >Monthly Savings
                 </b-button>
               </b-col>
-              <b-col xs="6" sm="6" md="6" lg="6" xl="6" class="m-l-0 m-t-0 p-0">
+              <b-col xs="6" sm="6" md="6" lg="6" xl="6" class="m-l-0 m-t-0 p-0 col-6">
                 <b-button
                     variant="outline-primary"
                     v-on:click="drawOverallSavings('chartOne')"
