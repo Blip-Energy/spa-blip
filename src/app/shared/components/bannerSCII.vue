@@ -7,7 +7,7 @@
     </b-navbar-brand>
 
     <!-- Right aligned nav items -->
-    <b-navbar-nav class="ml-auto">
+    <b-navbar-nav class="ml-auto" v-if="ismOrpc === 'PCoperation'">
       <b-nav-item class="navigation" right>
         <router-link :to="'product'" :active='$route.name =="product"'>
           <div>Product</div>
@@ -28,7 +28,7 @@
 <!--          <div>Articles</div>-->
 <!--        </router-link>-->
 <!--      </b-nav-item>-->
-      <b-nav-item class="navigation" right>
+      <b-nav-item class="navigation" right >
         <router-link :to="'news'" :active='$route.name =="news"'>
           <div>News</div>
         </router-link>
@@ -39,7 +39,7 @@
         </router-link>
       </b-nav-item>
     </b-navbar-nav>
-    <b-navbar-nav class="ml-auto">
+    <b-navbar-nav class="ml-auto" v-if="ismOrpc === 'PCoperation'">
 <!--      <b-nav-item class="navigation" right>-->
 <!--        <router-link :to="'my-blip'" :active='$route.name =="my-blip"'>-->
 <!--          <div>My account</div>-->
@@ -59,23 +59,59 @@
         <!-- </router-link> -->
       </b-nav-item>
     </b-navbar-nav>
+
+    <b-navbar-nav class="ml-auto" v-if="ismOrpc === 'Moperation'">
+      <dropdown/>
+      <!--      <font-awesome-icon icon="bars" style="font-size: 18px"/>-->
+    </b-navbar-nav>
   </b-navbar>
 </template>
 
 
 <script>
 // import logo from '../../../assets/images/blip_logo.png'
+import dropdown from './bannerDropdown.vue'
 
 export default {
   name: "banner",
   data() {
-    return {};
+    return {
+      ismOrpc: ''
+    };
   },
-  created() {},
+  created() {
+    if (this._isMobile() || this.isUnderXL()) {
+      this.ismOrpc = 'Moperation'
+      // window.onload = function(){
+      //   this.getRem(750,100)
+      // };
+      // window.onresize = function(){
+      //   this.getRem(750,100)
+      // };
+    } else {
+      //pc端
+      this.ismOrpc = 'PCoperation'
+    }
+  },
 
   methods: {
+    getRem(pwidth,prem){
+      var html = document.getElementsByTagName("html")[0];
+      var oWidth = document.body.clientWidth || document.documentElement.clientWidth;
+      html.style.fontSize = oWidth/pwidth*prem + "px";
+    },
+    _isMobile() {
+      let flag = navigator.userAgent.match(/(phone|pad|pod|iPhone|iPod|ios|iPad|Android|Mobile|BlackBerry|IEMobile|MQQBrowser|JUC|Fennec|wOSBrowser|BrowserNG|WebOS|Symbian|Windows Phone)/i)
+      return flag;
+    },
+    isUnderXL(){
+      if (document.body.clientWidth < 892){
+        return true
+      }
+      return false
+    }
   },
-  components: {}
+  components: {dropdown}
 };
 </script>
 
@@ -89,7 +125,7 @@ export default {
   height:
       //100px;
       4em !important;
-  //box-shadow: 0px 2px 50px -5px rgba(0, 0, 0, 0.09);
+  box-shadow: 0px 2px 50px -5px rgba(0, 0, 0, 0.09);///////////////////////////////////////!
   //box-shadow: 0px 1px 4px rgba(0,0,0,0.3);, 0px 0px 20px rgba(0,0,0,0.1) inset;
   .bene-logo {
     margin-left: 30px;
@@ -103,11 +139,8 @@ export default {
     //height: 60%;
     width:
         80px;
-        //50%;
+    //50%;
     margin-top: 3px;
-    //display: flex;
-    //align-items: center;
-
   }
   .navigation div {
     font-family: 'Montserrat', Avenir;
@@ -120,17 +153,15 @@ export default {
     //text-decoration: underline;
     //text-underline-offset: 3px;
     padding-bottom: 3px;
-    font-weight: 500;
+    font-weight: 700;
     //div{border-bottom: 1px solid #254B77;}
   }
-  ///////////////////////////////////////////////////////////////////////////////new-start
   a:hover{
     //text-decoration: underline;
     //text-underline-offset: 3px;
     text-decoration: none;
-    font-weight: 500;
+    font-weight: 700;
   }
-  ///////////////////////////////////////////////////////////////////////////////new-end
   .button{
     width: 200px;
     //height: 40px;
@@ -140,25 +171,17 @@ export default {
     //box-sizing: border-box;
     //border-radius: 25px;
     ///////////////////////////////////////////////////////////////////////////////new-start
-    background: #B0E7FF;
+    background: #FFFFFF;
     border-radius: 30px;
-    //border: 1px solid #B0E7FF;
+    border: 1px solid #254B77;
     ///////////////////////////////////////////////////////////////////////////////new-end
     color: #254B77;
   }
   /////////////////////////////////////////////////////////////////////////////////new-start
-  //.button:hover{
-  //  border: 1px solid #254B77;
-  //  //text-decoration:
-  //}
   .button:hover{
     background: #FFFFFF;
     border: 1px solid #254B77;
     //text-decoration:
-  }
-  .router-link-active.button{
-    background: #FFFFFF;
-    border: 1px solid #254B77;
   }
   /////////////////////////////////////////////////////////////////////////////////new-end
   .typewriter {

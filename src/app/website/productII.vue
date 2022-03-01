@@ -325,7 +325,7 @@
 <!--        Click <a href="#" @click.prevent="disableTracking">here</a>,-->
 <!--        to disable the tracking through Google Analytics.-->
 <!--      </p>-->
-<!--      <KlaviyoSignUp :formID="formID"></KlaviyoSignUp>-->
+      <KlaviyoSignUp :formID="formID"></KlaviyoSignUp>
 <!--      <KlaviyoSignUp></KlaviyoSignUp>-->
       <Footer></Footer>
     </div>
@@ -335,9 +335,9 @@
 <script>
 import banner from "./../shared/components/banner.vue";
 import bannerPreorder from "./../shared/components/bannerPreorder.vue";
-import KlaviyoSignUp from "./../shared/components/FooterIIISignUpKlaviyoProduct.vue";
-// import Footer from "./../shared/components/FooterIIWOSignUp.vue";
-import Footer from "./../shared/components/FooterII.vue";
+import KlaviyoSignUp from "./../shared/components/FooterIIISignUpKlaviyo.vue";
+import Footer from "./../shared/components/FooterIIWOSignUp.vue";
+// import Footer from "./../shared/components/FooterII.vue";
 import echarts from "echarts";
 require('echarts/theme/shine');
 

@@ -1,82 +1,61 @@
 <template>
-  <b-navbar class="navbar">
-    <b-navbar-brand class="bene-logo">
-      <router-link :to="'/'" :active='$route.name =="/"'>
-        <img src="../../../assets/blip_logo.png"/>
-      </router-link>
-    </b-navbar-brand>
-
-    <!-- Right aligned nav items -->
-    <b-navbar-nav class="ml-auto">
-      <b-nav-item class="navigation" right>
-        <router-link :to="'product'" :active='$route.name =="product"'>
-          <div>Product</div>
-        </router-link>
-      </b-nav-item>
-      <b-nav-item class="navigation" right>
-        <router-link :to="'utilities'" :active='$route.name =="utilities"'>
-          <div>Utilities</div>
-        </router-link>
-      </b-nav-item>
-      <b-nav-item class="navigation" right>
-        <router-link :to="'about'" :active='$route.name =="about"'>
-          <div>About</div>
-        </router-link>
-      </b-nav-item>
-<!--      <b-nav-item class="navigation" right>-->
-<!--        <router-link :to="'articles'" :active='$route.name =="articles"'>-->
-<!--          <div>Articles</div>-->
-<!--        </router-link>-->
-<!--      </b-nav-item>-->
-      <b-nav-item class="navigation" right>
-        <router-link :to="'news'" :active='$route.name =="news"'>
-          <div>News</div>
-        </router-link>
-      </b-nav-item>
-      <b-nav-item class="navigation" right>
-        <router-link :to="'contact-us'" :active='$route.name =="contact-us"'>
-          <div>Contact Us</div>
-        </router-link>
-      </b-nav-item>
-    </b-navbar-nav>
-    <b-navbar-nav class="ml-auto">
-<!--      <b-nav-item class="navigation" right>-->
-<!--        <router-link :to="'my-blip'" :active='$route.name =="my-blip"'>-->
-<!--          <div>My account</div>-->
-<!--        </router-link>-->
-<!--      </b-nav-item>-->
-      <b-nav-item class="navigation button" right>
-        <router-link :to="'calculator'" :active='$route.name =="calculator"'>
-          <div>Savings Calculator</div>
-        </router-link>
-      </b-nav-item>
-
-      <b-nav-item class="navigation" right>
-        <div class="google-logout">
-          <!-- <router-link :to="'keyPhrases'"> -->
-          <!-- <GoogleLogin :params="params" :logoutButton="true">Logout</GoogleLogin> -->
-        </div>
-        <!-- </router-link> -->
-      </b-nav-item>
-    </b-navbar-nav>
-  </b-navbar>
+  <div class="menu-item" @click="isOpen = !isOpen" >
+<!--    <a href ='#'>-->
+      <font-awesome-icon icon="bars" style="font-size: 18px; color: #254B77; cursor: pointer"/>
+<!--    </a>-->
+<!--    <svg viewBox="0 0 1030 638" width="10">-->
+<!--      <path d="M1017 68L541 626q-11 12-26 12t-26-12L13 68Q-3 49 6 24.5T39 0h952q24 0 33 24.5t-7 43.5z" fill="#FFF"></path>-->
+<!--    </svg>-->
+    <transition name="fade" apear>
+      <div class="sub-menu" v-if="isOpen">
+        <b-nav vertical class="w-30p t-left">
+          <b-nav-item class="navigation" right>
+            <router-link :to="'product'" :active='$route.name =="product"'>
+              <div>Product</div>
+            </router-link>
+          </b-nav-item>
+          <b-nav-item class="navigation" right>
+            <router-link :to="'utilities'" :active='$route.name =="utilities"'>
+              <div>Utilities</div>
+            </router-link>
+          </b-nav-item>
+          <!--        <b-nav-item class="navigation" right>Another Link</b-nav-item>-->
+          <b-nav-item class="navigation" right>
+            <router-link :to="'about'" :active='$route.name =="about"'>
+              <div>About</div>
+            </router-link>
+          </b-nav-item>
+          <b-nav-item class="navigation" right>
+            <router-link :to="'news'" :active='$route.name =="news"'>
+              <div>News</div>
+            </router-link>
+          </b-nav-item>
+          <b-nav-item class="navigation" right>
+            <router-link :to="'contact-us'" :active='$route.name =="contact-us"'>
+              <div>Contact Us</div>
+            </router-link>
+          </b-nav-item>
+          <b-nav-item class="navigation" right>
+            <router-link :to="'calculator'" :active='$route.name =="calculator"'>
+              <div>Savings Calculator</div>
+            </router-link>
+          </b-nav-item>
+        </b-nav>
+      </div>
+    </transition>
+  </div>
 </template>
 
-
 <script>
-// import logo from '../../../assets/images/blip_logo.png'
-
 export default {
-  name: "banner",
-  data() {
-    return {};
-  },
-  created() {},
-
-  methods: {
-  },
-  components: {}
-};
+  name: "bannerDropdown",
+  // props: ['title'],
+  data () {
+    return {
+      isOpen: false,
+    }
+  }
+}
 </script>
 
 <style lang="scss" scoped>
@@ -88,7 +67,7 @@ export default {
   background-color: #ffffff;
   height:
       //100px;
-      4em !important;
+      14em !important;
   //box-shadow: 0px 2px 50px -5px rgba(0, 0, 0, 0.09);
   //box-shadow: 0px 1px 4px rgba(0,0,0,0.3);, 0px 0px 20px rgba(0,0,0,0.1) inset;
   .bene-logo {
@@ -103,7 +82,7 @@ export default {
     //height: 60%;
     width:
         80px;
-        //50%;
+    //50%;
     margin-top: 3px;
     //display: flex;
     //align-items: center;
@@ -114,13 +93,14 @@ export default {
     color: #254B77;
     margin-left: 10px;
     margin-right: 10px;
+    text-align: left;
   }
   .router-link-active{
     color: #254B77;
     //text-decoration: underline;
     //text-underline-offset: 3px;
     padding-bottom: 3px;
-    font-weight: 500;
+    font-weight: 700;
     //div{border-bottom: 1px solid #254B77;}
   }
   ///////////////////////////////////////////////////////////////////////////////new-start
@@ -128,7 +108,7 @@ export default {
     //text-decoration: underline;
     //text-underline-offset: 3px;
     text-decoration: none;
-    font-weight: 500;
+    font-weight: 700;
   }
   ///////////////////////////////////////////////////////////////////////////////new-end
   .button{
@@ -227,5 +207,36 @@ export default {
       border: none !important;
     }
   }
+}
+
+nav .menu-item svg {
+  //width: 10px;
+  margin-left: 20px;
+  position: absolute;
+  top: 50%;
+  transform: translate(0, -50%);
+  right: 57px;
+}
+nav .menu-item .sub-menu {
+  position: absolute;
+  z-index:9999;
+  background-color: #FFFFFF;
+  top: calc(100%);
+  right: 0;
+  //transform: translateX(-50%);
+  width: max-content;
+  border-radius: 0;
+  padding: 18px 16px;
+}
+.fade-enter-active,
+.fade-leave-active {
+  transition: all .5s ease-out;
+}
+.fade-enter,
+.fade-leave-to {
+  opacity: 0;
+}
+.sub-menu {
+  cursor: pointer;
 }
 </style>

@@ -10,7 +10,7 @@
           Fill in your zipcode to get started
         </p>
         <b-row class="zipcode_input t-left w-100p m-l-0">
-          <b-col xs="6" sm="6" md="6" lg="6" xl="6" class="t-left m-tb-a p-l-0 col-6">
+          <b-col xs="6" sm="6" md="4" lg="6" xl="6" class="t-left m-tb-a p-l-0 col-6">
             <b-form-input
                 class="zip-input absolute-mid"
                 v-model="zipcode"
@@ -77,12 +77,12 @@
           </b-col>
 
           <b-row class="t-left w-100p m-l-0 p-l-0">
-<!--            <b-col xs="12" sm="12" md="6" lg="6" xl="6" class="h-52px t-left m-l-0 p-l-0">-->
+            <!--            <b-col xs="12" sm="12" md="6" lg="6" xl="6" class="h-52px t-left m-l-0 p-l-0">-->
             <p v-show="!showValidZipcodeError" class="validZipcodeError p4 c-FF0000 t-center" style="">
               <span v-if="showErrorMsgExpNYCA">We'll be serving your area soon!</span>
               <span v-else>Please enter a valid zip code</span>
             </p>
-<!--            </b-col>-->
+            <!--            </b-col>-->
           </b-row>
         </b-row>
 
@@ -102,7 +102,7 @@
                       v-on:click="disableButton($event); list(post); sendUtility(post); countOverallPlan(post); provider = true;"
                       v-b-tooltip.hover.bottom="{variant: 'light',customClass: 'myTooltipClass', title: post.utilityName}"
                   >
-<!--                    <img :src= "'http://'+post.logo" class = "utilityLogo">-->
+                    <!--                    <img :src= "'http://'+post.logo" class = "utilityLogo">-->
                   </b-button>
 
                   <b-button
@@ -131,15 +131,15 @@
             <p class="inIDont p4 c-4F9BC1 t-left">(I don’t know my rate plan)</p>
           </b-button> <!--!!!!!!!!!!!!!!!!!!!Empty!!!!!!!!!!!!!!!!!!-->
           <b-row class="plan_select t-left w-100p m-l-0 p-l-0">
-<!--            <select name="planDropdown" class="m-l-0 sdropdown" v-model="model" v-on:change="planSelected($event)">-->
-<!--&lt;!&ndash;              <option selected>Click me to choose</option>&ndash;&gt;-->
-<!--              <option :value="''" disabled selected>Please select...</option>-->
-<!--              <option-->
-<!--                  class="dropdown-item"-->
-<!--                  v-for="(plan, index) of utilityPicked.planList"-->
-<!--                  :value="index"-->
-<!--              >{{plan.planName}}</option>-->
-<!--            </select>-->
+            <!--            <select name="planDropdown" class="m-l-0 sdropdown" v-model="model" v-on:change="planSelected($event)">-->
+            <!--&lt;!&ndash;              <option selected>Click me to choose</option>&ndash;&gt;-->
+            <!--              <option :value="''" disabled selected>Please select...</option>-->
+            <!--              <option-->
+            <!--                  class="dropdown-item"-->
+            <!--                  v-for="(plan, index) of utilityPicked.planList"-->
+            <!--                  :value="index"-->
+            <!--              >{{plan.planName}}</option>-->
+            <!--            </select>-->
             <VueDropdown
                 :config="config"
                 v-on:setSelectedOption = "setNewSelectedOption"
@@ -198,7 +198,7 @@ export default {
       dataHere:'display this!',
       seen: true,
       zipcode:
-          // '10009',
+      // '10009',
           "",
 //Start: add
       showValidZipcodeError: true,
@@ -344,10 +344,10 @@ export default {
         /////////////////////////////////////////////我是新来的//////////////////////////////////////////
         if (this.jsonList[this.zipcode] && this.jsonList[this.zipcode].data){
           this.loadJSON();
-          }else{
-            this.showErrorMsgExpNYCA = true;
-            this.showValidZipcodeError = false;
-          }
+        }else{
+          this.showErrorMsgExpNYCA = true;
+          this.showValidZipcodeError = false;
+        }
         /////////////////////////////////////////////接口恢复再恢复我//////////////////////////////////////////
         // var address = this.localAddress + this.zipcode + '.json'/////////////////////////////////////////////////////////HERE
         // // console.log("after", address)
@@ -470,7 +470,7 @@ export default {
       this.overallPlan = [];
       for ( var i=0; i<provider.planList.length; i++ ){
         this.overallPlan.push(provider.planList[i].saving)
-            // ((provider.planList[i].highPrice - provider.planList[i].lowPrice)*this.capacity*365).toFixed(2))
+        // ((provider.planList[i].highPrice - provider.planList[i].lowPrice)*this.capacity*365).toFixed(2))
       }
       // console.log(this.overallPlan)
       this.$emit('overAllSavings', this.overallPlan)

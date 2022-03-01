@@ -5,6 +5,7 @@
         <div class="container">
           <div class="row">
             <div class="col-lg-8 offset-lg-2 col-md-12 col-sm-12">
+<!--            <b-col sm="12" md="12" lg="10" xl="8" class="m-lr-a">-->
               <div class="content text-center">
 <!--                <iframe src="http://eepurl.com/hBxMj5" height="650" width="600" title="Iframe Example" style="margin: auto; border: none"></iframe>-->
                 <!-- Begin Mailchimp Signup Form -->
@@ -13,13 +14,13 @@
                     <div id="mc_embed_signup_scroll" class="">
                       <h2 class="h2 two54B77 t-center" style="margin-bottom: 80px">blip is launching soon</h2>
                       <b-row class="" style="">
-                        <b-col xs="6" sm="6" md="6" lg="6" xl="6" class="" style="height:100%; padding-left: 0; padding-right: 17px; ">
+                        <b-col xs="12" sm="9" md="6" lg="6" xl="6" class="" style="height:100%; padding-left: 17px; padding-right: 17px; ">
                           <div class="mc-field-group">
                             <label for="mce-FNAME" class="p3 two54B77 t-left w-100p">First Name<span class="asterisk">*</span></label>
                             <input type="text" value="" name="FNAME" class="required w-100p" id="mce-FNAME">
                           </div>
                         </b-col>
-                        <b-col xs="6" sm="6" md="6" lg="6" xl="6"  class="" style="height:100%; padding-left: 17px; padding-right: 0; ">
+                        <b-col xs="12" sm="9" md="6" lg="6" xl="6"  class="" style="height:100%; padding-left: 17px; padding-right: 17px; ">
                           <div class="mc-field-group">
                             <label for="mce-LNAME" class="p3 two54B77 t-left w-100p">Last Name<span class="asterisk">*</span></label>
                             <input type="text" value="" name="LNAME" class="required w-100p" id="mce-LNAME">
@@ -28,13 +29,13 @@
                       </b-row>
 
                       <b-row class="" style="margin-bottom: 0px">
-                        <b-col xs="8" sm="8" md="8" lg="8" xl="8"  class="" style="height:100%; padding-left: 0; padding-right: 17px; ">
+                        <b-col xs="12" sm="12" md="8" lg="8" xl="8"  class="" style="height:100%; padding-left: 17px; padding-right: 17px; ">
                           <div class="mc-field-group">
                             <label for="mce-EMAIL" class="p3 two54B77 t-left w-100p">Email<span class="asterisk">*</span></label>
                             <input type="email" value="" name="EMAIL" class="required email w-100p" id="mce-EMAIL">
                           </div>
                         </b-col>
-                        <b-col xs="4" sm="4" md="4" lg="4" xl="4"  class="" style="height:100%; padding-left: 17px; padding-right: 0; ">
+                        <b-col xs="8" sm="6" md="4" lg="4" xl="4"  class="col-9" style="height:100%; padding-left: 17px; padding-right: 17px; ">
                           <div class="mc-field-group">
                             <label for="mce-MMERGE3" class="p3 two54B77 t-left w-100p">Zip Code<span class="asterisk">*</span></label>
                             <input type="text" value="" name="MMERGE3" class="required w-100p" id="mce-MMERGE3">
@@ -50,10 +51,10 @@
 
                       <div style="position: absolute; left: -5000px;" aria-hidden="true"><input type="text" name="b_5618524eefbf8e805f268eaed_5482850e7e" tabindex="-1" value=""></div>
                       <div class="clear mb-0 mt-80 t-center" style="padding-top: 0">
-                        <button type="submit" value="Get Notified" name="subscribe" id="mc-embedded-subscribe" class="button btn btn-B0E7FF">Sign Up for Updates</button>
+                        <button type="submit" value="Get Notified" name="subscribe" id="mc-embedded-subscribe" class="button btn btn-254B77">Sign Up for Updates</button>
                       </div>
 
-                      <p class="two54B77 t-center preOrder">
+                      <p class="two54B77 t-center preOrder w-80p">
                         blipOne is available on <a href="https://www.indiegogo.com/project/preview/17de3d24" target="_blank">InDemand</a>. Pre-order now!
                       </p>
                     </div>
@@ -62,6 +63,7 @@
 
                 <!--End mc_embed_signup-->
               </div>
+<!--            </b-col>-->
             </div>
           </div>
         </div>
@@ -164,24 +166,24 @@
           <div class="col-sm-12 col-md-12 col-lg-12 offset-lg-12 col-xl-12" >
             <div class="content text-center">
               <b-row class="onLine" style="">
-                <b-col xs="4" sm="5" md="6" lg="7" xl="7" class="t-left logoOnLeft" style="padding-left: 0px;">
+                <b-col xs="12" sm="3" md="6" lg="7" xl="7" class="t-left logoOnLeft i-a-c" style="padding-left: 0px;">
                   <img src="../../../assets/blip_logo.png" onclick="window.location.href='../'" class="logo"/>
                 </b-col>
-                <b-col xs="8" sm="7" md="6" lg="5" xl="5" class = "textOnRight" style="padding-right: 0px">
+                <b-col xs="12" sm="9" md="6" lg="5" xl="5" class = "textOnRight col-12" style="padding-right: 0px">
                   <b-row class="txt">
-                    <b-col xs="4" sm="4" md="4" lg="4" xl="4" class = "txtIn t-left p-l-0">
+                    <b-col xs="4" sm="4" md="4" lg="4" xl="4" class = "txtIn t-left p-l-0 col-4">
                       <p class="h5 two54B77 m-l-0 title ">Company</p>
                       <router-link class="h5 two54B77 link" :to="'../about'">About</router-link><br>
                       <router-link class="h5 two54B77 link" :to="'../contact-us'">Contact us</router-link><br>
                       <router-link class="h5 two54B77 link" :to="'../faqs'">FAQs</router-link><br>
                     </b-col>
-                    <b-col xs="4" sm="4" md="4" lg="4" xl="4" class = "txtIn t-left">
+                    <b-col xs="4" sm="4" md="4" lg="4" xl="4" class = "txtIn t-left col-4">
                       <p class="h5 two54B77 title ">blipOne</p>
 <!--                      <router-link class="h5 two54B77 link" :to="'../blip-one'">blip One</router-link><br>-->
                       <router-link class="h5 two54B77 link" :to="'../product'">Product</router-link><br>
                       <router-link class="h5 two54B77 link" :to="'../utilities'">Utilities</router-link><br>
                     </b-col>
-                    <b-col xs="4" sm="4" md="4" lg="4" xl="4" class = "txtIn t-left">
+                    <b-col xs="4" sm="4" md="4" lg="4" xl="4" class = "txtIn t-left col-4">
                       <p class="h5 two54B77 title">Legal</p>
                       <router-link class="h5 two54B77 link" :to="'privacy-policy'">Privacy Policy</router-link><br>
                     </b-col>
@@ -189,21 +191,21 @@
                 </b-col>
               </b-row>
               <b-row class="underLine">
-                <b-col xs="5" sm="6" md="7" lg="8" xl="8" class="t-left rightsOnLeft" style="padding-left: 0px;">
-                  <p class="h5 two54B77 t-left p-l-0 m-l-0"><strong>© blip, LLC. 2021</strong></p>
+                <b-col xs="12" sm="5" md="6" lg="7" xl="8" class="t-left rightsOnLeft" style="padding-left: 0px;">
+                  <p class="h5 two54B77 t-left p-l-0 m-l-0"><strong>© blip, LLC. 2022</strong></p>
                 </b-col>
-                <b-col xs="7" sm="6" md="5" lg="4" xl="4" class = "logoOnRight">
-                  <b-row style="padding: 0 0 0 0;">
-                    <b-col xs="4" sm="4" md="4" lg="4" xl="4" class="FFFFFF">
-                      <p class="h5 two54B77 t-left p-l-0 m-l-0 title">Follow us:</p>
-                    </b-col>
-
-                    <b-col xs="8" sm="8" md="8" lg="8" xl="8" class="FFFFFF t-right logosOnRight" style="padding: 0px; margin-right:0;">
-                      <a href="https://twitter.com/BlipEnergy" target="_blank"><img src="../../../assets/LogoinFooter/twitter.png" class="logos"/></a>
-                      <a href="https://www.facebook.com/blipenergy/" target="_blank"><img src="../../../assets/LogoinFooter/facebook.png" class="logos mar"/></a>
-                      <a href="https://www.linkedin.com/company/blip-energy" target="_blank"><img src="../../../assets/LogoinFooter/linkedin.png" class="logos mar"/></a>
-                      <a href="https://www.instagram.com/blipenergy/" target="_blank"><img src="../../../assets/LogoinFooter/instagram.png" class="logos mar"/></a>
-                    </b-col>
+                <b-col xs="12" sm="7" md="6" lg="5" xl="4" class = "logoOnRight">
+                  <b-row style="padding: 0 0 0 0; margin-left: 0">
+<!--                    <b-col xs="4" sm="4" md="3" lg="3" xl="3" class="FFFFFF col-4" style="padding: 0; background: #B0E7FF">-->
+<!--                      <p class="h5 two54B77 t-right p-l-0 m-l-0 title">Follow us:</p>-->
+<!--                    </b-col>-->
+                    <div  class="FFFFFF t-right logosOnRight i-a-c" style="padding: 0px; margin-right:0; text-align: right">
+                      <p class="h5 two54B77 t-left p-l-0 m-l-0 title" style="margin-right: 40px;">Follow us:</p>
+                      <a href="https://twitter.com/BlipEnergy" target="_blank" class="" style="margin-right: 0"><img src="../../../assets/LogoinFooter/twitter.png" class="logos"/></a>
+                      <a href="https://www.facebook.com/blipenergy/" target="_blank" class="mar"><img src="../../../assets/LogoinFooter/facebook.png" class="logos"/></a>
+                      <a href="https://www.linkedin.com/company/blip-energy" target="_blank" class="mar"><img src="../../../assets/LogoinFooter/linkedin.png" class="logos"/></a>
+                      <a href="https://www.instagram.com/blipenergy/" target="_blank" class="mar"><img src="../../../assets/LogoinFooter/instagram.png" class="logos"/></a>
+                    </div>
                   </b-row>
                 </b-col>
               </b-row>
@@ -267,6 +269,10 @@ section{
 .mt-80{margin-top: 70px;}
 .p-l-0{padding-left: 0px}
 .w-100p{width: 100%}
+.i-a-c{
+  display: flex;
+  align-items: center;
+}
 
 h2{
   font-family: 'Montserrat', Avenir;
@@ -289,7 +295,7 @@ h4{
   font-family: 'Montserrat', Avenir;
   font-style: normal;
   font-weight: 300;
-  font-size: 15px;
+  font-size: 16px;
   line-height: 24px;
   /* identical to box height, or 160% */
 
@@ -410,6 +416,34 @@ button.btn.btn-B0E7FF:hover {
   color: #B0E7FF;
 }
 
+button.btn.btn-254B77{
+  font-family: 'Montserrat', Avenir;
+  width: 215px;
+  height: 44px;
+  //left: 608px;
+  //top: 263px;
+
+  //border: 2px solid #B0E7FF;
+  //box-sizing: border-box;
+  //border-radius: 24px;
+  border: none;
+  border-radius: 30px;
+
+  text-align: center;
+  background-color: #254B77;
+
+  font-family: 'Montserrat', Avenir;;
+  font-style: normal;
+  font-weight: 300;
+  font-size: 18px;
+  line-height: 20px;
+  color: #FFFFFF;
+}
+button.btn.btn-254B77:hover {
+  background-color: #FFFFFF;
+  color: #254B77;
+}
+
 input{
   //width: ;
   height: 44px;
@@ -452,18 +486,19 @@ input::placeholder{
   border-radius: 30px;
 
   text-align: center;
-  background-color: #B0E7FF;
+  background-color: #254B77;
 
   font-family: 'Montserrat', Avenir;;
   font-style: normal;
-  font-weight: 300;
+  font-weight: 400;
   font-size: 18px;
   line-height: 22px;
-  color: #254B77;
+  color: #FFFFFF;
 }
 #mc-embedded-subscribe:hover {
-  background-color: #254B77;
-  color: #B0E7FF;
+  background-color: #FFFFFF;
+  color: #254B77;
+  border: #254B77 solid 2px;
 }
 
 //.full{width: 100%}
@@ -546,7 +581,7 @@ input::placeholder{
 }
 
 .launching{
-  height: 694px;
+  //height: 694px;
   display: flex;
   align-items: center;
   form{
@@ -632,29 +667,31 @@ input::placeholder{
 .onLine{
   //background: #faad13;
   width: 82%;
-  height: 172px;
+  //height: 172px;
   left: 130px;
   top: 292px;
 
   border-bottom: 1px solid #D3D3D3;
 
   .logoOnLeft{
-    height: 100%;
+    //height: 100%;
     .logo{
       height: 55px;
       width: 88px;
       //left: 129px;
       //top: 105px;
       margin-left: 0px;
+      margin-bottom: 28px;
       border-radius: 0px;
     }
   }
   .textOnRight{
-    height: 100%;
+    //height: 100%;
     .txt{
-      height: 100%;
+      //height: 100%;
       .txtIn{
         //margin-top: 0px;
+        margin-bottom: 28px;
         padding: 0;
         .title{
           margin-bottom: 16px;
@@ -673,6 +710,7 @@ input::placeholder{
 .underLine{
   padding-top: 43px;
   .rightsOnLeft{
+    margin-bottom: 18px;
   }
   .logoOnRight{
     //background: #7A7979;
@@ -681,16 +719,23 @@ input::placeholder{
     text-align: right;
     .title{font-weight: 500}
     .logosOnRight{
+      width: 100%;
       text-align: right;
-      margin-right: 0px;
-      .logos{
-        height: 20px;
-        //background: #FFFFFF;
-      }
+      margin-left: auto;
+      margin-right: auto;
+      .h5{width: 92px}
+      .logos{height: 24px;}
       .mar{
-        margin-left: 30px;
+        //margin-left: calc((100%) / 3);
+        //30px;
+        margin-left: calc((100% - 92px - 40px - 24px * 4) / 3);
         margin-right: 0;
+        .logos{
+          height: 24px;
+          //background: #FFFFFF;
+        }
       }
+
     }
   }
 }
