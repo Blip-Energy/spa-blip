@@ -101,11 +101,11 @@
     //align-items: center;
     margin-left: 0;
     .leftImg{
+      padding-right: 3%;
       display: flex;
       align-items: center;
-
       img{
-        width: 120%;
+        width: 100%;
       }
 
       //.crop{
@@ -117,7 +117,7 @@
       //}
     }
     .rightText{
-      padding-left: 80px;
+      padding-left: 3%;
       padding-top: 55px;
       padding-bottom: 55px;
       .p2{margin-left: 0px}
@@ -142,6 +142,41 @@
       }
       .routerLink:hover{color: #254B77;text-decoration: none;}
     }
+    .leftText{
+      padding-left: 10%;
+      padding-right: 5%;
+      padding-top: 55px;
+      padding-bottom: 55px;
+      .p2{margin-left: 0px}
+      button{
+        //position: absolute;
+        //right: 0;
+        height: 48px;
+        padding-left: 58px;
+        padding-right: 58px;
+        margin-top: 30px;
+      }
+      .routerLink{
+        position: absolute;
+        right: 0;
+        margin-top: 40px;
+        font-weight: 400;
+
+        img{
+          width: 24px;
+          margin-top: -3px;
+        }
+      }
+      .routerLink:hover{color: #254B77;text-decoration: none;}
+    }
+    .rightImg{
+      padding-right: 3%;
+      display: flex;
+      align-items: center;
+      img{
+        width: 80%;
+      }
+    }
   }
 
 }
@@ -149,7 +184,7 @@
 .stopPaying{
   //height: 820px;
   padding-top: 110px;
-  padding-bottom: 100px;
+  padding-bottom: 110px;
   //display: flex;
   //align-items: center;
   .insider{
@@ -163,6 +198,7 @@
         font-weight: 400;
       }
     }
+    .rightImg{margin-bottom: 100px}
   }
 }
 
