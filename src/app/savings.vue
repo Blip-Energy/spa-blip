@@ -213,7 +213,7 @@ export default {
       planNum: 0,
       address: 'https://www.api.blipenergy.com/plan/get_savings_by_zip_code/',
       localAddress: 'https://res-json.s3.amazonaws.com/res/',
-      // './src/assets/JSONforTesting/res/',
+          // './src/assets/JSONforTesting/res/',
       jsonList: list,
       overallPlan:[],
       noRatePlan: true,

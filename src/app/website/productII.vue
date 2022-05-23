@@ -189,7 +189,8 @@
       </section>
       <section class="alwaysPic b-254B77 i-a-c t-center">
         <b-row class="w-100p insider t-center">
-          <img src="../../assets/webPages/product/LivingRoomOutline.png">
+<!--          <img src="../../assets/webPages/product/LivingRoomOutline.png">-->
+          <img src="https://image-blip.s3.amazonaws.com/front-end/LivingRoomOutline.png">
         </b-row>
       </section>
       <!--end: Always have a back-up plan-->

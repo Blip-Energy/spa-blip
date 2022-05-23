@@ -202,201 +202,201 @@
       <!--end: We’ve been busy making waves with our big ideas-->
 
       <!--start: Meet the team-->
-      <section class="meet b-254B77 i-a-c t-center">
-        <b-row class="w-85p insider t-center">
-          <b-col  xs="12" sm="12" md="8" lg="7" xl="6" class="leftText t-left">
-            <p class="p1point5 c-B0E7FF" style="margin-bottom: 12px">WHO WE ARE</p>
-            <h2 class="h2point8 c-FFFFFF f-weight-400 m-l-0 p-l-0" style="margin-bottom: 50px">Meet the team</h2>
-            <p class="p2 c-FFFFFF m-l-0 p-l-0">
-              We are passionate about limiting our collective impact on the environment.
-            </p>
-          </b-col>
-          <b-col  xs="12" sm="12" md="4" lg="5" xl="6" class="rightblc p-l-0">
-          </b-col>
-        </b-row>
-      </section>
-      <section class="meetThe b-254B77 i-a-c t-center" v-if="ismOrpc === 'PCoperation'">
-        <b-row class="w-90p insider t-center">
-          <div class="content w-100p">
-            <div class="row" style="width: 100%">
-              <div class="col-lg-4 col-md-12 col-sm-12">
-                <div class="card-f flex text-center wow fadeInUp">
-                  <div class="card-f-heading">
-                    <img src="../../assets/webPages/about/team/ovalSophia.png" alt="" class="members">
-                  </div>
-                  <div class="card-f-body t-center">
-                    <p class="p2 c-FFFFFF t-center">Sophia Wennstedt</p>
-                    <p class="p3 c-FFFFFF t-center">Co-Founder & CEO</p>
-                  </div>
-                </div>
-              </div>
-              <div class="col-lg-8 col-md-12 col-sm-12 rightOval b-B0E7FF t-left">
-                <p class="rightTxt p2 c-254B77 absolute-mid i-a-c">
-                  Sophia brings a technical background and a vision to bring energy storage to anyone. After receiving a degree in Mechanical Engineering from Harvard University Sophia worked at iRobot as a Mech. Engineer on Roomba new product development and as a program manager for the Design and User Experience group before enrolling in Northwestern's MMM program to receive an MBA and MSDI. During the program, she worked as an Entrepreneurial Fellow at Exelon (summer 2020) and took an 8 month position as Product Manager at Tesla for digital energy products.
-                </p>
-              </div>
-            </div>
-            <div class="row" style="width: 100%">
-              <div class="col-lg-8 col-md-12 col-sm-12 leftOval b-B0E7FF t-left">
-                <p class="leftTxt p2 c-254B77 absolute-mid i-a-c">
-                  Chance is an accomplished Strategy and Operations Leader with over 14 years of experience in cross-functional leadership and operations management roles. He utilized his Lafayette College Political Science degree working for GE Federal Government Relations specializing in energy legislative and regulatory policy and advocacy. A UNC Kenan-Flagler MBA in Management Consulting & Sustainable Enterprise led to his work at ScottMadden specializing in energy and utility strategic project implementation. While at Northwestern University, in the MS in Leadership for Creative Enterprises & Entrepreneurship program, he met the co-founding team and launched the company.
-                </p>
-              </div>
-              <div class="col-lg-4 col-md-12 col-sm-12">
-                <div class="card-f flex text-center wow fadeInUp">
-                  <div class="card-f-heading">
-                    <img src="../../assets/webPages/about/team/ovalChance.png" alt="" class="members">
-                  </div>
-                  <div class="card-f-body">
-                    <p class="p2 c-FFFFFF t-center">Chance Cobb</p>
-                    <p class="p3 c-FFFFFF t-center">Co-Founder & COO</p>
-                  </div>
-                </div>
-              </div>
-            </div>
-            <div class="row" style="width: 100%">
-              <div class="col-lg-4 col-md-12 col-sm-12">
-                <div class="card-f flex text-center wow fadeInUp">
-                  <div class="card-f-heading">
-                    <img src="../../assets/webPages/about/team/ovalDennis.png" alt="" class="members">
-                  </div>
-                  <div class="card-f-body">
-                    <p class="p2 c-FFFFFF t-center">Dennis Kontorovich</p>
-                    <p class="p3 c-FFFFFF t-center">Co-Founder & Advisor</p>
-                  </div>
-                </div>
-              </div>
-              <div class="col-lg-8 col-md-12 col-sm-12 rightOval b-B0E7FF t-left">
-                <p class="rightTxt p2 c-254B77 absolute-mid i-a-c">
-                  As part of the original Cofounding team, Dennis was responsible for sculpting blip's business plan. Dennis built out blip's financial model, leveraging his undergraduate degree in Finance from Miami University and MBA from Northwestern's Kellogg School of Management. Dennis brings experience in management consulting at Bain, an externship at Engie Distributed Solar, and Entrepreneurial Fellow position at Exelon.
-                </p>
-              </div>
-            </div>
-            <div class="row" style="width: 100%">
-              <div class="col-lg-8 col-md-12 col-sm-12 leftOval b-B0E7FF t-left">
-                <p class="leftTxt p2 c-254B77 absolute-mid i-a-c">
-                  Part of the original cofounding team, Thibaut drove prototype development and technical specifications and brings a meticulous eye for detail. Thibaut earned a masters in Electrical engineering as well as an MBA from Northwestern, and has worked in energy consulting at BCG. Currently based in Belgium, Thibaut remains our electrical guru and sounding board on a part-time basis.
-                </p>
-              </div>
-              <div class="col-lg-4 col-md-12 col-sm-12">
-                <div class="card-f flex text-center wow fadeInUp">
-                  <div class="card-f-heading">
-                    <img src="../../assets/webPages/about/team/ovalThibaut.png" alt="" class="members">
-                  </div>
-                  <div class="card-f-body">
-                    <p class="p2 c-FFFFFF t-center">Thibaut Feremans</p>
-                    <p class="p3 c-FFFFFF t-center">Co-Founder & Advisor</p>
-                  </div>
-                </div>
-              </div>
-            </div>
-          </div>
-          <b-row class="t-center">
-            <button type="button" class="button submit" onclick="window.open('../contact-us')">
-              <!--                      <a href="./contact-us" class="btn btn-primary">-->
-              Contact Us
-              <!--                        </a>-->
-            </button>
-          </b-row>
-        </b-row>
-      </section>
-      <section class="meetTheM b-254B77 i-a-c t-center"  v-if="ismOrpc === 'Moperation'">
-        <b-row class="w-90p insider t-center">
-          <div class="content w-100p">
-            <div class="row" style="width: 100%">
-              <div class="col-xl-8 offset-xl-2 col-lg-10 offset-lg-1 col-md-12 col-sm-12">
-                <div class="card-f flex text-center wow fadeInUp">
-                  <div class="card-f-heading">
-                    <img src="../../assets/webPages/about/team/ovalSophia.png" alt="" class="members">
-                  </div>
-                  <div class="card-f-body t-center">
-                    <p class="p2 c-254B77 t-center">Sophia Wennstedt</p>
-                    <p class="p3 c-254B77 t-center">Co-Founder & CEO</p>
-                    <p class="p2 c-254B77 t-left w-80p bio">
-                      Sophia brings a technical background and a vision to bring energy storage to anyone. After receiving a degree in Mechanical Engineering from Harvard University Sophia worked at iRobot as a Mech. Engineer on Roomba new product development and as a program manager for the Design and User Experience group before enrolling in Northwestern's MMM program to receive an MBA and MSDI. During the program, she worked as an Entrepreneurial Fellow at Exelon (summer 2020) and took an 8 month position as Product Manager at Tesla for digital energy products.
-                    </p>
-                  </div>
-                </div>
-              </div>
+<!--      <section class="meet b-254B77 i-a-c t-center">-->
+<!--        <b-row class="w-85p insider t-center">-->
+<!--          <b-col  xs="12" sm="12" md="8" lg="7" xl="6" class="leftText t-left">-->
+<!--            <p class="p1point5 c-B0E7FF" style="margin-bottom: 12px">WHO WE ARE</p>-->
+<!--            <h2 class="h2point8 c-FFFFFF f-weight-400 m-l-0 p-l-0" style="margin-bottom: 50px">Meet the team</h2>-->
+<!--            <p class="p2 c-FFFFFF m-l-0 p-l-0">-->
+<!--              We are passionate about limiting our collective impact on the environment.-->
+<!--            </p>-->
+<!--          </b-col>-->
+<!--          <b-col  xs="12" sm="12" md="4" lg="5" xl="6" class="rightblc p-l-0">-->
+<!--          </b-col>-->
+<!--        </b-row>-->
+<!--      </section>-->
+<!--      <section class="meetThe b-254B77 i-a-c t-center" v-if="ismOrpc === 'PCoperation'">-->
+<!--        <b-row class="w-90p insider t-center">-->
+<!--          <div class="content w-100p">-->
+<!--            <div class="row" style="width: 100%">-->
+<!--              <div class="col-lg-4 col-md-12 col-sm-12">-->
+<!--                <div class="card-f flex text-center wow fadeInUp">-->
+<!--                  <div class="card-f-heading">-->
+<!--                    <img src="../../assets/webPages/about/team/ovalSophia.png" alt="" class="members">-->
+<!--                  </div>-->
+<!--                  <div class="card-f-body t-center">-->
+<!--                    <p class="p2 c-FFFFFF t-center">Sophia Wennstedt</p>-->
+<!--                    <p class="p3 c-FFFFFF t-center">Co-Founder & CEO</p>-->
+<!--                  </div>-->
+<!--                </div>-->
+<!--              </div>-->
 <!--              <div class="col-lg-8 col-md-12 col-sm-12 rightOval b-B0E7FF t-left">-->
 <!--                <p class="rightTxt p2 c-254B77 absolute-mid i-a-c">-->
 <!--                  Sophia brings a technical background and a vision to bring energy storage to anyone. After receiving a degree in Mechanical Engineering from Harvard University Sophia worked at iRobot as a Mech. Engineer on Roomba new product development and as a program manager for the Design and User Experience group before enrolling in Northwestern's MMM program to receive an MBA and MSDI. During the program, she worked as an Entrepreneurial Fellow at Exelon (summer 2020) and took an 8 month position as Product Manager at Tesla for digital energy products.-->
 <!--                </p>-->
 <!--              </div>-->
-            </div>
-            <div class="row" style="width: 100%">
-              <div class="col-xl-8 offset-xl-2 col-lg-10 offset-lg-1 col-md-12 col-sm-12">
-                <div class="card-f flex text-center wow fadeInUp">
-                  <div class="card-f-heading">
-                    <img src="../../assets/webPages/about/team/ovalChance.png" alt="" class="members">
-                  </div>
-                  <div class="card-f-body">
-                    <p class="p2 c-254B77 t-center">Chance Cobb</p>
-                    <p class="p3 c-254B77 t-center">Co-Founder & COO</p>
-                    <p class="p2 c-254B77 t-left w-80p bio">
-                      Chance is an accomplished Strategy and Operations Leader with over 14 years of experience in cross-functional leadership and operations management roles. He utilized his Lafayette College Political Science degree working for GE Federal Government Relations specializing in energy legislative and regulatory policy and advocacy. A UNC Kenan-Flagler MBA in Management Consulting & Sustainable Enterprise led to his work at ScottMadden specializing in energy and utility strategic project implementation. While at Northwestern University, in the MS in Leadership for Creative Enterprises & Entrepreneurship program, he met the co-founding team and launched the company.
-                    </p>
-                  </div>
-                </div>
-              </div>
+<!--            </div>-->
+<!--            <div class="row" style="width: 100%">-->
 <!--              <div class="col-lg-8 col-md-12 col-sm-12 leftOval b-B0E7FF t-left">-->
 <!--                <p class="leftTxt p2 c-254B77 absolute-mid i-a-c">-->
 <!--                  Chance is an accomplished Strategy and Operations Leader with over 14 years of experience in cross-functional leadership and operations management roles. He utilized his Lafayette College Political Science degree working for GE Federal Government Relations specializing in energy legislative and regulatory policy and advocacy. A UNC Kenan-Flagler MBA in Management Consulting & Sustainable Enterprise led to his work at ScottMadden specializing in energy and utility strategic project implementation. While at Northwestern University, in the MS in Leadership for Creative Enterprises & Entrepreneurship program, he met the co-founding team and launched the company.-->
 <!--                </p>-->
 <!--              </div>-->
-            </div>
-            <div class="row" style="width: 100%">
-              <div class="col-xl-8 offset-xl-2 col-lg-10 offset-lg-1  col-md-12 col-sm-12">
-                <div class="card-f flex text-center wow fadeInUp">
-                  <div class="card-f-heading">
-                    <img src="../../assets/webPages/about/team/ovalDennis.png" alt="" class="members">
-                  </div>
-                  <div class="card-f-body">
-                    <p class="p2 c-254B77 t-center">Dennis Kontorovich</p>
-                    <p class="p3 c-254B77 t-center">Co-Founder & Advisor</p>
-                    <p class="p2 c-254B77 t-left w-80p bio">
-                      As part of the original Cofounding team, Dennis was responsible for sculpting blip's business plan. Dennis built out blip's financial model, leveraging his undergraduate degree in Finance from Miami University and MBA from Northwestern's Kellogg School of Management. Dennis brings experience in management consulting at Bain, an externship at Engie Distributed Solar, and Entrepreneurial Fellow position at Exelon.
-                    </p>
-                  </div>
-                </div>
-              </div>
+<!--              <div class="col-lg-4 col-md-12 col-sm-12">-->
+<!--                <div class="card-f flex text-center wow fadeInUp">-->
+<!--                  <div class="card-f-heading">-->
+<!--                    <img src="../../assets/webPages/about/team/ovalChance.png" alt="" class="members">-->
+<!--                  </div>-->
+<!--                  <div class="card-f-body">-->
+<!--                    <p class="p2 c-FFFFFF t-center">Chance Cobb</p>-->
+<!--                    <p class="p3 c-FFFFFF t-center">Co-Founder & COO</p>-->
+<!--                  </div>-->
+<!--                </div>-->
+<!--              </div>-->
+<!--            </div>-->
+<!--            <div class="row" style="width: 100%">-->
+<!--              <div class="col-lg-4 col-md-12 col-sm-12">-->
+<!--                <div class="card-f flex text-center wow fadeInUp">-->
+<!--                  <div class="card-f-heading">-->
+<!--                    <img src="../../assets/webPages/about/team/ovalDennis.png" alt="" class="members">-->
+<!--                  </div>-->
+<!--                  <div class="card-f-body">-->
+<!--                    <p class="p2 c-FFFFFF t-center">Dennis Kontorovich</p>-->
+<!--                    <p class="p3 c-FFFFFF t-center">Co-Founder & Advisor</p>-->
+<!--                  </div>-->
+<!--                </div>-->
+<!--              </div>-->
 <!--              <div class="col-lg-8 col-md-12 col-sm-12 rightOval b-B0E7FF t-left">-->
 <!--                <p class="rightTxt p2 c-254B77 absolute-mid i-a-c">-->
 <!--                  As part of the original Cofounding team, Dennis was responsible for sculpting blip's business plan. Dennis built out blip's financial model, leveraging his undergraduate degree in Finance from Miami University and MBA from Northwestern's Kellogg School of Management. Dennis brings experience in management consulting at Bain, an externship at Engie Distributed Solar, and Entrepreneurial Fellow position at Exelon.-->
 <!--                </p>-->
 <!--              </div>-->
-            </div>
-            <div class="row" style="width: 100%">
-              <div class="col-xl-8 offset-xl-2 col-lg-10 offset-lg-1 col-md-12 col-sm-12">
-                <div class="card-f flex text-center wow fadeInUp">
-                  <div class="card-f-heading">
-                    <img src="../../assets/webPages/about/team/ovalThibaut.png" alt="" class="members">
-                  </div>
-                  <div class="card-f-body">
-                    <p class="p2 c-254B77 t-center">Thibaut Feremans</p>
-                    <p class="p3 c-254B77 t-center">Co-Founder & Advisor</p>
-                    <p class="p2 c-254B77 t-left w-80p bio">
-                      Part of the original cofounding team, Thibaut drove prototype development and technical specifications and brings a meticulous eye for detail. Thibaut earned a masters in Electrical engineering as well as an MBA from Northwestern, and has worked in energy consulting at BCG. Currently based in Belgium, Thibaut remains our electrical guru and sounding board on a part-time basis.
-                    </p>
-                  </div>
-                </div>
-              </div>
+<!--            </div>-->
+<!--            <div class="row" style="width: 100%">-->
 <!--              <div class="col-lg-8 col-md-12 col-sm-12 leftOval b-B0E7FF t-left">-->
 <!--                <p class="leftTxt p2 c-254B77 absolute-mid i-a-c">-->
 <!--                  Part of the original cofounding team, Thibaut drove prototype development and technical specifications and brings a meticulous eye for detail. Thibaut earned a masters in Electrical engineering as well as an MBA from Northwestern, and has worked in energy consulting at BCG. Currently based in Belgium, Thibaut remains our electrical guru and sounding board on a part-time basis.-->
 <!--                </p>-->
 <!--              </div>-->
-            </div>
-          </div>
-          <b-row class="t-center">
-            <button type="button" class="button submit" onclick="window.open('../contact-us')">
-              <!--                      <a href="./contact-us" class="btn btn-primary">-->
-              Contact Us
-              <!--                        </a>-->
-            </button>
-          </b-row>
-        </b-row>
-      </section>
+<!--              <div class="col-lg-4 col-md-12 col-sm-12">-->
+<!--                <div class="card-f flex text-center wow fadeInUp">-->
+<!--                  <div class="card-f-heading">-->
+<!--                    <img src="../../assets/webPages/about/team/ovalThibaut.png" alt="" class="members">-->
+<!--                  </div>-->
+<!--                  <div class="card-f-body">-->
+<!--                    <p class="p2 c-FFFFFF t-center">Thibaut Feremans</p>-->
+<!--                    <p class="p3 c-FFFFFF t-center">Co-Founder & Advisor</p>-->
+<!--                  </div>-->
+<!--                </div>-->
+<!--              </div>-->
+<!--            </div>-->
+<!--          </div>-->
+<!--          <b-row class="t-center">-->
+<!--            <button type="button" class="button submit" onclick="window.open('../contact-us')">-->
+<!--              &lt;!&ndash;                      <a href="./contact-us" class="btn btn-primary">&ndash;&gt;-->
+<!--              Contact Us-->
+<!--              &lt;!&ndash;                        </a>&ndash;&gt;-->
+<!--            </button>-->
+<!--          </b-row>-->
+<!--        </b-row>-->
+<!--      </section>-->
+<!--      <section class="meetTheM b-254B77 i-a-c t-center"  v-if="ismOrpc === 'Moperation'">-->
+<!--        <b-row class="w-90p insider t-center">-->
+<!--          <div class="content w-100p">-->
+<!--            <div class="row" style="width: 100%">-->
+<!--              <div class="col-xl-8 offset-xl-2 col-lg-10 offset-lg-1 col-md-12 col-sm-12">-->
+<!--                <div class="card-f flex text-center wow fadeInUp">-->
+<!--                  <div class="card-f-heading">-->
+<!--                    <img src="../../assets/webPages/about/team/ovalSophia.png" alt="" class="members">-->
+<!--                  </div>-->
+<!--                  <div class="card-f-body t-center">-->
+<!--                    <p class="p2 c-254B77 t-center">Sophia Wennstedt</p>-->
+<!--                    <p class="p3 c-254B77 t-center">Co-Founder & CEO</p>-->
+<!--                    <p class="p2 c-254B77 t-left w-80p bio">-->
+<!--                      Sophia brings a technical background and a vision to bring energy storage to anyone. After receiving a degree in Mechanical Engineering from Harvard University Sophia worked at iRobot as a Mech. Engineer on Roomba new product development and as a program manager for the Design and User Experience group before enrolling in Northwestern's MMM program to receive an MBA and MSDI. During the program, she worked as an Entrepreneurial Fellow at Exelon (summer 2020) and took an 8 month position as Product Manager at Tesla for digital energy products.-->
+<!--                    </p>-->
+<!--                  </div>-->
+<!--                </div>-->
+<!--              </div>-->
+<!--&lt;!&ndash;              <div class="col-lg-8 col-md-12 col-sm-12 rightOval b-B0E7FF t-left">&ndash;&gt;-->
+<!--&lt;!&ndash;                <p class="rightTxt p2 c-254B77 absolute-mid i-a-c">&ndash;&gt;-->
+<!--&lt;!&ndash;                  Sophia brings a technical background and a vision to bring energy storage to anyone. After receiving a degree in Mechanical Engineering from Harvard University Sophia worked at iRobot as a Mech. Engineer on Roomba new product development and as a program manager for the Design and User Experience group before enrolling in Northwestern's MMM program to receive an MBA and MSDI. During the program, she worked as an Entrepreneurial Fellow at Exelon (summer 2020) and took an 8 month position as Product Manager at Tesla for digital energy products.&ndash;&gt;-->
+<!--&lt;!&ndash;                </p>&ndash;&gt;-->
+<!--&lt;!&ndash;              </div>&ndash;&gt;-->
+<!--            </div>-->
+<!--            <div class="row" style="width: 100%">-->
+<!--              <div class="col-xl-8 offset-xl-2 col-lg-10 offset-lg-1 col-md-12 col-sm-12">-->
+<!--                <div class="card-f flex text-center wow fadeInUp">-->
+<!--                  <div class="card-f-heading">-->
+<!--                    <img src="../../assets/webPages/about/team/ovalChance.png" alt="" class="members">-->
+<!--                  </div>-->
+<!--                  <div class="card-f-body">-->
+<!--                    <p class="p2 c-254B77 t-center">Chance Cobb</p>-->
+<!--                    <p class="p3 c-254B77 t-center">Co-Founder & COO</p>-->
+<!--                    <p class="p2 c-254B77 t-left w-80p bio">-->
+<!--                      Chance is an accomplished Strategy and Operations Leader with over 14 years of experience in cross-functional leadership and operations management roles. He utilized his Lafayette College Political Science degree working for GE Federal Government Relations specializing in energy legislative and regulatory policy and advocacy. A UNC Kenan-Flagler MBA in Management Consulting & Sustainable Enterprise led to his work at ScottMadden specializing in energy and utility strategic project implementation. While at Northwestern University, in the MS in Leadership for Creative Enterprises & Entrepreneurship program, he met the co-founding team and launched the company.-->
+<!--                    </p>-->
+<!--                  </div>-->
+<!--                </div>-->
+<!--              </div>-->
+<!--&lt;!&ndash;              <div class="col-lg-8 col-md-12 col-sm-12 leftOval b-B0E7FF t-left">&ndash;&gt;-->
+<!--&lt;!&ndash;                <p class="leftTxt p2 c-254B77 absolute-mid i-a-c">&ndash;&gt;-->
+<!--&lt;!&ndash;                  Chance is an accomplished Strategy and Operations Leader with over 14 years of experience in cross-functional leadership and operations management roles. He utilized his Lafayette College Political Science degree working for GE Federal Government Relations specializing in energy legislative and regulatory policy and advocacy. A UNC Kenan-Flagler MBA in Management Consulting & Sustainable Enterprise led to his work at ScottMadden specializing in energy and utility strategic project implementation. While at Northwestern University, in the MS in Leadership for Creative Enterprises & Entrepreneurship program, he met the co-founding team and launched the company.&ndash;&gt;-->
+<!--&lt;!&ndash;                </p>&ndash;&gt;-->
+<!--&lt;!&ndash;              </div>&ndash;&gt;-->
+<!--            </div>-->
+<!--            <div class="row" style="width: 100%">-->
+<!--              <div class="col-xl-8 offset-xl-2 col-lg-10 offset-lg-1  col-md-12 col-sm-12">-->
+<!--                <div class="card-f flex text-center wow fadeInUp">-->
+<!--                  <div class="card-f-heading">-->
+<!--                    <img src="../../assets/webPages/about/team/ovalDennis.png" alt="" class="members">-->
+<!--                  </div>-->
+<!--                  <div class="card-f-body">-->
+<!--                    <p class="p2 c-254B77 t-center">Dennis Kontorovich</p>-->
+<!--                    <p class="p3 c-254B77 t-center">Co-Founder & Advisor</p>-->
+<!--                    <p class="p2 c-254B77 t-left w-80p bio">-->
+<!--                      As part of the original Cofounding team, Dennis was responsible for sculpting blip's business plan. Dennis built out blip's financial model, leveraging his undergraduate degree in Finance from Miami University and MBA from Northwestern's Kellogg School of Management. Dennis brings experience in management consulting at Bain, an externship at Engie Distributed Solar, and Entrepreneurial Fellow position at Exelon.-->
+<!--                    </p>-->
+<!--                  </div>-->
+<!--                </div>-->
+<!--              </div>-->
+<!--&lt;!&ndash;              <div class="col-lg-8 col-md-12 col-sm-12 rightOval b-B0E7FF t-left">&ndash;&gt;-->
+<!--&lt;!&ndash;                <p class="rightTxt p2 c-254B77 absolute-mid i-a-c">&ndash;&gt;-->
+<!--&lt;!&ndash;                  As part of the original Cofounding team, Dennis was responsible for sculpting blip's business plan. Dennis built out blip's financial model, leveraging his undergraduate degree in Finance from Miami University and MBA from Northwestern's Kellogg School of Management. Dennis brings experience in management consulting at Bain, an externship at Engie Distributed Solar, and Entrepreneurial Fellow position at Exelon.&ndash;&gt;-->
+<!--&lt;!&ndash;                </p>&ndash;&gt;-->
+<!--&lt;!&ndash;              </div>&ndash;&gt;-->
+<!--            </div>-->
+<!--            <div class="row" style="width: 100%">-->
+<!--              <div class="col-xl-8 offset-xl-2 col-lg-10 offset-lg-1 col-md-12 col-sm-12">-->
+<!--                <div class="card-f flex text-center wow fadeInUp">-->
+<!--                  <div class="card-f-heading">-->
+<!--                    <img src="../../assets/webPages/about/team/ovalThibaut.png" alt="" class="members">-->
+<!--                  </div>-->
+<!--                  <div class="card-f-body">-->
+<!--                    <p class="p2 c-254B77 t-center">Thibaut Feremans</p>-->
+<!--                    <p class="p3 c-254B77 t-center">Co-Founder & Advisor</p>-->
+<!--                    <p class="p2 c-254B77 t-left w-80p bio">-->
+<!--                      Part of the original cofounding team, Thibaut drove prototype development and technical specifications and brings a meticulous eye for detail. Thibaut earned a masters in Electrical engineering as well as an MBA from Northwestern, and has worked in energy consulting at BCG. Currently based in Belgium, Thibaut remains our electrical guru and sounding board on a part-time basis.-->
+<!--                    </p>-->
+<!--                  </div>-->
+<!--                </div>-->
+<!--              </div>-->
+<!--&lt;!&ndash;              <div class="col-lg-8 col-md-12 col-sm-12 leftOval b-B0E7FF t-left">&ndash;&gt;-->
+<!--&lt;!&ndash;                <p class="leftTxt p2 c-254B77 absolute-mid i-a-c">&ndash;&gt;-->
+<!--&lt;!&ndash;                  Part of the original cofounding team, Thibaut drove prototype development and technical specifications and brings a meticulous eye for detail. Thibaut earned a masters in Electrical engineering as well as an MBA from Northwestern, and has worked in energy consulting at BCG. Currently based in Belgium, Thibaut remains our electrical guru and sounding board on a part-time basis.&ndash;&gt;-->
+<!--&lt;!&ndash;                </p>&ndash;&gt;-->
+<!--&lt;!&ndash;              </div>&ndash;&gt;-->
+<!--            </div>-->
+<!--          </div>-->
+<!--          <b-row class="t-center">-->
+<!--            <button type="button" class="button submit" onclick="window.open('../contact-us')">-->
+<!--              &lt;!&ndash;                      <a href="./contact-us" class="btn btn-primary">&ndash;&gt;-->
+<!--              Contact Us-->
+<!--              &lt;!&ndash;                        </a>&ndash;&gt;-->
+<!--            </button>-->
+<!--          </b-row>-->
+<!--        </b-row>-->
+<!--      </section>-->
       <!--end: Meet the team-->
 
 <!--      <p>-->
