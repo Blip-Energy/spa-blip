@@ -1,7 +1,7 @@
 <template>
   <div style="background: #FFFFFF; overflow:auto; clear:both;">
     <banner></banner>
-    <bannerPreorder></bannerPreorder>
+    
     <div class="w-90p t-center m-t-0 insider">
 
       <b-row class="others w-100p t-center i-a-c">

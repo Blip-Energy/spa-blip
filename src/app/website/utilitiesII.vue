@@ -1,7 +1,7 @@
 <template>
   <div>
     <banner></banner>
-    <bannerPreorder></bannerPreorder>
+    
     <div class="main">
       <!--start: blip and the Grid-->
       <section class="blip b-FFFFFF i-a-c">

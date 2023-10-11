@@ -1,7 +1,7 @@
 <template xmlns="http://www.w3.org/1999/html">
   <div>
     <banner></banner>
-    <bannerPreorder></bannerPreorder>
+    
     <div class="main">
       <!--start:FAQs-->
       <section class="FAQs">

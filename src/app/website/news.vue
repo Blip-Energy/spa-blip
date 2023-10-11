@@ -1,7 +1,7 @@
 <template>
   <div class="">
     <banner></banner>
-    <bannerPreorder></bannerPreorder>
+    
     <div class="b-FFFFFF">
       <section class="news b-F9F9F9">
         <div class="w-80p m-lr-a">

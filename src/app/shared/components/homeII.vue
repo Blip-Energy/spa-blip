@@ -1,7 +1,7 @@
 <template>
   <div>
     <banner></banner>
-    <bannerPreorder></bannerPreorder>
+    
     <div class="main">
       <!--start: Energy storage for anyone, anywhere-->
       <section class="SavingRentersMoney b-DEF5FF">
