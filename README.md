@@ -1,23 +1,51 @@
-# Welcome to blip!!!
+# Welcome to Blip!!!
 
+## Local Development
 
+If you feel adventurous and want to set up the project:
 
-## In case you decided to be adventurous and do a little project setup
+### Setup
 
-### if you are inclined to do so, you can also clone this repo to your desktop and run the following commands to run it locally
+To clone this repo to your desktop and run it locally, execute the following:
+
 ```
 npm install
 ```
 
-### Compiles and hot-reloads for development
+### Development
+Create a new branch or develop in `non-prod`
+```
+git checkout new-branch
+```
+
+To compile and hot-reload for development:
+
+
 ```
 npm run dev
 ```
+Running the above command will open a new browser tab pointing to `https://localhost:8000`.
 
-#### running the previous command will open a new tab on your browser pointing to https://localhost:8000
+### Production Build
 
-### Compiles and minifies for production
+To compile and minify for production:
 ```
 npm run build
 ```
-#### the previous command ensures that all assets and files have bundled and minified correctly
+This command ensures all assets and files are bundled and minified correctly.
+
+## Release Process
+
+### 1. Automatic Deployment to `non-prod`
+
+Upon updating the `non-prod` branch, an automatic deployment to the non-production environment is triggered. This usually completes within a few minutes.
+
+### 2. Merging to `master` Branch
+
+If all goes well in the non-production environment, you can merge the changes from `non-prod` into the `master` branch.
+
+> **Note:** Always test in the `non-prod` environment before merging to `master` to ensure stable production releases.
+
+## Troubleshooting Release Issues
+
+For build logs, refer to AWS Amplify in the `us-east2` region.
