@@ -1,7 +1,7 @@
 <template>
   <div>
     <banner></banner>
-    <bannerPreorder></bannerPreorder>
+    
     <div class="main">
       <!--start: We believe everyone deserves access to energy storage-->
       <section class="weBelieve">

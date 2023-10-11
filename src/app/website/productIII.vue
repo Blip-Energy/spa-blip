@@ -1,7 +1,7 @@
 <template>
   <div  style="background: #FFFFFF">
     <banner></banner>
-    <bannerPreorder></bannerPreorder>
+    
     <div class="main">
       <!--start: No matter where you live-->
       <section class="noMatter b-FFFFFF i-a-c" v-if="ismOrpc === 'PCoperation'">
