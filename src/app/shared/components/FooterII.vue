@@ -54,9 +54,9 @@
                         <button type="submit" value="Get Notified" name="subscribe" id="mc-embedded-subscribe" class="button btn btn-254B77">Sign Up for Updates</button>
                       </div>
 
-                      <p class="two54B77 t-center preOrder w-80p">
+                      <!-- <p class="two54B77 t-center preOrder w-80p">
                         blipOne is available on <a href="https://www.indiegogo.com/project/preview/17de3d24" target="_blank">InDemand</a>. Pre-order now!
-                      </p>
+                      </p> -->
                     </div>
                   </form>
                 </div>
